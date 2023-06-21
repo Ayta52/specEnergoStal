@@ -1,0 +1,15 @@
+.navbar {
+  max-width: 500px;
+}
+
+.navList {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.listItem {
+  color: var(--white);
+}

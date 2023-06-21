@@ -5,6 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const NODE_ENV = process.env.NODE_ENV;
 const IS_DEV = NODE_ENV === 'development';
 const IS_PROD = NODE_ENV === 'production';
+const GLOBAL_CSS_REGEXP = /\.global\.css/;
 
 function setupDevtool() {
   if (IS_DEV) return 'eval';
@@ -48,6 +49,15 @@ module.exports = {
           },
         ],
         exclude: GLOBAL_CSS_REGEXP,
+      },
+      {
+        test: /\.(jpg|png|gif|woff|eot|ttf|svg)/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 50000,
+          },
+        },
       },
       {
         test: GLOBAL_CSS_REGEXP,

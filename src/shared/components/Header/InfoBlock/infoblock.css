@@ -1,0 +1,6 @@
+.infoBlock {
+  max-width: 340px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
