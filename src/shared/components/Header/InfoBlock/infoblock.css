@@ -1,6 +1,17 @@
 .infoBlock {
-  max-width: 340px;
+  width: 320px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+}
+
+.links {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'SansPro', sans-serif;
+}
+
+.links:hover {
+  color: var(--blue);
 }

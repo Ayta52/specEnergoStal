@@ -6,20 +6,28 @@ export function NavBar() {
     <div className={styles.navbar}>
       <ul className={styles.navList}>
         <li className={styles.listItem}>
-          <span>Главная</span>
-          <span className={styles.underLine}></span>
+          <a href="#" className={styles.navLink}>
+            Главная
+          </a>
+          <div className={styles.underLine} />
         </li>
         <li className={styles.listItem}>
-          <span>Продукция</span>
-          <span className={styles.underLine}></span>
+          <a href="#" className={styles.navLink}>
+            Продукция
+          </a>
+          <div className={styles.underLine} />
         </li>
         <li className={styles.listItem}>
-          <span>Сертификаты</span>
-          <span className={styles.underLine}></span>
+          <a href="#" className={styles.navLink}>
+            Сертификаты
+          </a>
+          <div className={styles.underLine} />
         </li>
         <li className={styles.listItem}>
-          <span>Контакты</span>
-          <span className={styles.underLine}></span>
+          <a href="#" className={styles.navLink}>
+            Контакты
+          </a>
+          <div className={styles.underLine} />
         </li>
       </ul>
     </div>

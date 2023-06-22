@@ -1,9 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 300;
+  src: local('BebasNeue-Light'),
+    url('./fonts/BebasNeue-Light.woff2') format('woff2'),
+    url('./fonts/BebasNeue-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 400;
+  src: local('BebasNeue-Regular'),
+    url('./fonts/BebasNeue-Regular.woff2') format('woff2'),
+    url('./fonts/BebasNeue-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  font-style: normal;
+  font-weight: 600;
+  src: local('BebasNeue-Bold'),
+    url('./fonts/BebasNeue-Bold.woff2') format('woff2'),
+    url('./fonts/BebasNeue-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SansPro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('SourceSansPro-Bold'),
+    url('./fonts/SourceSansPro-Bold.woff2') format('woff2'),
+    url('./fonts/SourceSansPro-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SansPro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('SourceSansPro-Light'),
+    url('./fonts/SourceSansPro-Light.woff2') format('woff2'),
+    url('./fonts/SourceSansPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SansPro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SourceSansPro-Regular'),
+    url('./fonts/SourceSansPro-Regular.woff2') format('woff2'),
+    url('./fonts/SourceSansPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SansPro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('SourceSansPro-SemiBold'),
+    url('./fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+    url('./fonts/SourceSansPro-SemiBold.woff') format('woff');
+}
 
 :root {
   --black: #333333;
-  --orange: #cc6633;
-  --green: #a4cc33;
+  --blue: #008fff;
   --whiteLightness: 100%;
   --white: hsl(0, 0%, var(--whiteLightness));
   --grayF4: hsl(0, 0%, calc(var(--whiteLightness) - 4%));
@@ -13,11 +73,12 @@
   --greyC4: hsl(0, 0%, calc(var(--whiteLightness) - 23%));
   --grey99: hsl(0, 0%, calc(var(--whiteLightness) - 40%));
   --grey66: hsl(0, 0%, calc(var(--whiteLightness) - 60%));
+  --maxWidth: 1300px;
 }
 
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   background-color: var(--black);
   font-size: 14px;
   line-height: 16px;
@@ -46,4 +107,14 @@ button {
   border: 0;
   background: transparent;
   cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }

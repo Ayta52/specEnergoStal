@@ -1,5 +1,6 @@
 .header {
-  max-width: 1920px;
+  max-width: var(--maxWidth);
+  margin-bottom: 100px;
 }
 
 @media all and (min-width: 1024px) {

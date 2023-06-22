@@ -10,6 +10,23 @@
   width: 500px;
 }
 
-.listItem {
+.navLink {
   color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'SansPro', sans-serif;
+}
+
+.navLink:hover {
+  color: var(--blue);
+}
+
+.navLink:hover + .underLine {
+  display: block;
+}
+
+.underLine {
+  display: none;
+  width: 100%;
+  border: 0.5px solid var(--blue);
 }

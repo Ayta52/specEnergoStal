@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  max-width: var(--maxWidth);
+  justify-content: space-between;
+}
+
+.title {
+  white-space: pre-line;
+  color: var(--white);
+  font-size: 80px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 100px;
+  text-transform: uppercase;
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-stretch: ultra-condensed;
+}
+
+.titleBlue {
+  color: var(--blue);
+}
+
+.rightBlok {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.downloadBtn {
+  position: relative;
+}
+
+.downloadBtnText {
+  color: var(--blue);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.downloadBtn:hover {
+  .downloadBtnText {
+    color: var(--white);
+  }
+  .downloadBtnIcon {
+    fill: var(--blue);
+  }
+}
+
+.rightDescr {
+  color: var(--white);
+  white-space: pre-line;
+  font-family: 'SansPro', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: right;
+  line-height: 30px;
+}

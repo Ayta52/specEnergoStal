@@ -63,6 +63,13 @@ module.exports = {
         test: GLOBAL_CSS_REGEXP,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(woff(2))(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
+      },
     ],
   },
   devtool: setupDevtool(),
