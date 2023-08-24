@@ -11,7 +11,7 @@
 
 .sliderElement img {
   min-width: 0px;
-  max-width: 1300px;
-  height: 100%;
+  width: 1920px;
+  height: 900px;
   margin-right: 20px;
 }
