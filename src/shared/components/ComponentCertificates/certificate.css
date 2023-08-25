@@ -1,65 +1,31 @@
-.container {
-  display: flex;
-  max-width: var(--maxWidth);
-  justify-content: space-between;
+.certificate {
+  padding: 100px 0 100px 0;
 }
 
-.title {
-  white-space: pre-line;
-  color: var(--white);
-  font-size: 80px;
-  font-weight: 700;
-  text-align: left;
-  line-height: 100px;
-  text-transform: uppercase;
+.certificateTitle {
+  padding-bottom: 50px;
+}
+
+.certificateTitle h2 {
   font-family: 'Bebas', 'SansPro', sans-serif;
-  font-stretch: ultra-condensed;
-}
-
-.titleBlue {
-  color: var(--blue);
-}
-
-.rightBlok {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-
-.downloadBtn {
-  position: relative;
-}
-
-.downloadBtnText {
-  color: var(--blue);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-style: normal;
   font-weight: 700;
-  text-transform: uppercase;
-}
-
-.downloadBtn:hover {
-  .downloadBtnText {
-    color: var(--white);
-  }
-  .downloadBtnIcon {
-    fill: var(--blue);
-  }
-}
-
-.rightDescr {
+  font-size: 50px;
+  line-height: 50px;
   color: var(--white);
-  white-space: pre-line;
+}
+
+.certificateTitleDescription {
+  padding-top: 30px;
+  width: 746px;
   font-family: 'SansPro', sans-serif;
-  font-size: 25px;
+  font-style: normal;
   font-weight: 400;
-  text-align: right;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 31px;
+  color: var(--white);
+}
+
+.descriptionBlue {
+  color: var(--blue);
 }
