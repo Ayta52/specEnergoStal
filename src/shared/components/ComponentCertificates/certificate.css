@@ -16,7 +16,7 @@
 }
 
 .certificateTitleDescription {
-  padding-top: 30px;
+  padding: 30px 0 50px 0;
   width: 746px;
   font-family: 'SansPro', sans-serif;
   font-style: normal;
@@ -28,4 +28,79 @@
 
 .descriptionBlue {
   color: var(--blue);
+}
+
+.certificateSlider {
+  width: 100%;
+  position: relative;
+}
+
+.certificateSliderPrevArrow {
+  position: absolute;
+  left: -40px;
+  top: 40%;
+}
+
+.certificateSliderPrevArrow img {
+  width: 30px;
+}
+.certificateSliderPrevArrow img:hover {
+  scale: 1.1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.certificateSliderNextArrow {
+  position: absolute;
+  right: -40px;
+  top: 40%;
+}
+
+.certificateSliderNextArrow img {
+  width: 30px;
+}
+
+.certificateSliderNextArrow img:hover {
+  scale: 1.1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.certificateSliderWrapper{
+  width: 100%;
+  display: flex;
+  max-width: var(--maxWidth);
+  overflow: hidden;
+  animation: scroll 10s infinite linear;
+}
+.certificateSliderWrapper span{
+  width: 100%;
+  display: flex;
+  max-width: var(--maxWidth);
+  overflow: hidden;
+  
+}
+
+.certificateSliderElement {
+  padding: 10px;
+}
+
+.certificateSliderElement img {
+  width: 210px;
+  height: 297px;
+}
+
+.tikerCertificate img {
+  width: 210px;
+  height: 297px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-50%, 0);
+  }
 }

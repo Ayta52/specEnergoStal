@@ -1,7 +1,24 @@
 import React from 'react';
 import prevArrow from '../../../icons/leftArrow.svg';
 import nextArrow from '../../../icons/rightArrow.svg';
+import certificate1 from '../../../img/certificates/1.jpg';
+import certificate2 from '../../../img/certificates/2.jpg';
 import styles from './certificate.css';
+
+const imgList = [
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+  <img key={certificate1} src={certificate1} />,
+  <img key={certificate2} src={certificate2} />,
+];
 
 export function Certificate() {
   return (
@@ -18,7 +35,13 @@ export function Certificate() {
           <div className={styles.certificateSliderPrevArrow}>
             <img src={prevArrow} alt="prev" />
           </div>
-          {/* сделать сам слайдер  */}
+
+          <div className={styles.certificateSliderWrapper}>
+              {imgList.map((item, index) => (
+                <div key={index} className={styles.certificateSliderElement}>{item}</div>
+              ))}
+          </div>
+
           <div className={styles.certificateSliderNextArrow}>
             <img src={nextArrow} alt="next" />
           </div>
