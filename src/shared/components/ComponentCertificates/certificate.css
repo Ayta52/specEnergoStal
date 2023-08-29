@@ -31,54 +31,64 @@
 }
 
 .certificateSlider {
-  width: 100%;
+  max-width: var(--maxWidth);
+  overflow: hidden;
   position: relative;
+}
+
+.certificateSliderContainer {
+  width: 200%;
+  display: flex;
+  animation: scroll 10s ease linear;
 }
 
 .certificateSliderPrevArrow {
   position: absolute;
-  left: -40px;
+  left: 0;
   top: 40%;
+  background-color: gray;
+  padding: 10px;
+  opacity: 0.4;
+  border-radius: 30%;
+  z-index: 999;
 }
 
 .certificateSliderPrevArrow img {
   width: 30px;
 }
-.certificateSliderPrevArrow img:hover {
+
+.certificateSliderPrevArrow:hover {
   scale: 1.1;
   transition: 0.3s;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .certificateSliderNextArrow {
   position: absolute;
-  right: -40px;
+  right: 10px;
   top: 40%;
+  background-color: gray;
+  padding: 10px;
+  opacity: 0.4;
+  border-radius: 30%;
 }
 
 .certificateSliderNextArrow img {
   width: 30px;
 }
 
-.certificateSliderNextArrow img:hover {
+.certificateSliderNextArrow:hover {
   scale: 1.1;
   transition: 0.3s;
   cursor: pointer;
+  opacity: 0.8;
 }
 
-.certificateSliderWrapper{
-  width: 100%;
+.certificateSliderContainer {
+  width: 210%;
   display: flex;
-  max-width: var(--maxWidth);
-  overflow: hidden;
-  animation: scroll 10s infinite linear;
-}
-.certificateSliderWrapper span{
-  width: 100%;
-  display: flex;
-  max-width: var(--maxWidth);
-  overflow: hidden;
-  
+  animation: wobble 10s infinite linear;
 }
 
 .certificateSliderElement {
@@ -90,12 +100,19 @@
   height: 297px;
 }
 
+.tikerCertificate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
 .tikerCertificate img {
   width: 210px;
   height: 297px;
 }
 
-@keyframes scroll {
+@keyframes wobble {
   0% {
     transform: translate(0, 0);
   }

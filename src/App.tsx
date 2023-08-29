@@ -7,6 +7,7 @@ import { PreHeader } from './shared/components/PreHeader';
 import { Ticker } from './shared/components/Ticker';
 import { Slider } from './shared/components/Slider';
 import { Certificate } from './shared/components/ComponentCertificates/Certificate';
+import { PreFooter } from './shared/components/PreFoot';
 
 function AppComponent() {
   return (
@@ -16,6 +17,7 @@ function AppComponent() {
       <Slider />
       <Ticker />
       <Certificate />
+      <PreFooter />
     </Layout>
   );
 }

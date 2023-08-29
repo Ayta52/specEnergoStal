@@ -21,30 +21,47 @@ const imgList = [
 ];
 
 export function Certificate() {
+  const [wobble , setWobble] = React.useState(0);
+  
   return (
     <div className={styles.certificate}>
-
       <div className={styles.certificateTitle}>
         <h2>СЕРТИФИКАТЫ</h2>
         <div className={styles.certificateTitleDescription}>
-          Основным направлением компании является <span className={styles.descriptionBlue}>производство и комплектация трубопроводных систем</span> для газовой, нефтяной, атомной и нефтехимической промышленности
+          Основным направлением компании является{" "}
+          <span className={styles.descriptionBlue}>
+            производство и комплектация трубопроводных систем
+          </span>{" "}
+          для газовой, нефтяной, атомной и нефтехимической промышленности
         </div>
       </div>
 
       <div className={styles.certificateSlider}>
-          <div className={styles.certificateSliderPrevArrow}>
-            <img src={prevArrow} alt="prev" />
-          </div>
+        <div className={styles.certificateSliderPrevArrow}>
+          <img src={prevArrow} alt="prev" />
+        </div>
 
-          <div className={styles.certificateSliderWrapper}>
-              {imgList.map((item, index) => (
-                <div key={index} className={styles.certificateSliderElement}>{item}</div>
-              ))}
-          </div>
+        <div className={styles.certificateSliderContainer}>
+          <span className={styles.tikerCertificate}>
+            {imgList.map((item, index) => (
+              <div key={index} className={styles.certificateSliderElement}>
+                {item}
+              </div>
+            ))}
+          </span>
 
-          <div className={styles.certificateSliderNextArrow}>
-            <img src={nextArrow} alt="next" />
-          </div>
+          <span className={styles.tikerCertificate}>
+            {imgList.map((item, index) => (
+              <div key={index} className={styles.certificateSliderElement}>
+                {item}
+              </div>
+            ))}
+          </span>
+        </div>
+
+        <div className={styles.certificateSliderNextArrow}>
+          <img src={nextArrow} alt="next" />
+        </div>
       </div>
     </div>
   );
