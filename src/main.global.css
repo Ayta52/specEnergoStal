@@ -118,3 +118,10 @@ h6,
 p {
   margin: 0;
 }
+
+.border_bottom {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #FFFFFF4D;
+}

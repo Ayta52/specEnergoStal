@@ -8,6 +8,7 @@ import { Ticker } from './shared/components/Ticker';
 import { Slider } from './shared/components/Slider';
 import { Certificate } from './shared/components/ComponentCertificates/Certificate';
 import { PreFooter } from './shared/components/PreFoot';
+import { Footer } from './shared/components/Footer';
 
 function AppComponent() {
   return (
@@ -18,6 +19,8 @@ function AppComponent() {
       <Ticker />
       <Certificate />
       <PreFooter />
+      <div className="border_bottom"></div>
+      <Footer />
     </Layout>
   );
 }
