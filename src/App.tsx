@@ -12,16 +12,16 @@ import { Footer } from './shared/components/Footer';
 
 function AppComponent() {
   return (
-    <Layout>
-      <Header />
-      <PreHeader />
-      <Slider />
-      <Ticker />
-      <Certificate />
-      <PreFooter />
-      <div className="border_bottom"></div>
-      <Footer />
-    </Layout>
+      <Layout>
+        <Header />
+        <PreHeader />
+        <Slider />
+        <Ticker />
+        <Certificate />
+        <PreFooter />
+        <div className="border_bottom"></div>
+        <Footer />
+      </Layout>
   );
 }
 

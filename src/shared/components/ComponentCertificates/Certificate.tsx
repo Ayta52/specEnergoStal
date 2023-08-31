@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import prevArrow from '../../../icons/leftArrow.svg';
 import nextArrow from '../../../icons/rightArrow.svg';
+import allCertificate from '../../../icons/allCertificate.svg';
 import certificate1 from '../../../img/certificates/1.jpg';
 import certificate2 from '../../../img/certificates/2.jpg';
 import styles from './certificate.css';
@@ -93,6 +94,12 @@ export function Certificate() {
         >
           <img src={nextArrow} alt="next" />
         </div>
+      </div>
+
+      <div className={styles.certificateButton}>
+        <span>смотреть все</span>
+        
+        <img src={allCertificate} alt="allCertificate" />
       </div>
     </div>
   );

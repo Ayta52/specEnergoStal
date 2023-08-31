@@ -1,5 +1,7 @@
 .certificate {
   padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .certificateTitle {
@@ -111,9 +113,11 @@
   width: 100%;
   display: flex;
 }
+
 .tikerCertificateRight {
   transform: translate(30%, 0);
 }
+
 .tikerCertificateLeft {
   transform: translate(-30%, 0);
 }
@@ -142,6 +146,34 @@
   visibility: visible;
 }
 
+.certificateButton {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificateButton span{
+  font-family: 'SansPro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  padding-right: 6px;
+}
+
+.certificateButton span:hover {
+  color: var(--blue);
+  text-decoration: underline;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.certificateButton img {
+  width: 12px;
+  height: 12px;
+}
 
 @keyframes left {
   0% {
@@ -152,6 +184,7 @@
     transform: translate(-50%, 0);
   }
 }
+
 @keyframes right {
   0% {
     transform: translate(0, 0);
