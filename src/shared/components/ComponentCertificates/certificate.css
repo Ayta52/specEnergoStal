@@ -36,12 +36,6 @@
   position: relative;
 }
 
-.certificateSliderContainer {
-  width: 200%;
-  display: flex;
-  animation: scroll 10s ease linear;
-}
-
 .certificateSliderPrevArrow {
   position: absolute;
   left: 0;
@@ -51,6 +45,7 @@
   opacity: 0.4;
   border-radius: 30%;
   z-index: 999;
+  /* transform: translateX(-100%); */
 }
 
 .certificateSliderPrevArrow img {
@@ -72,6 +67,7 @@
   padding: 10px;
   opacity: 0.4;
   border-radius: 30%;
+  /* transform: translateX(100%); */
 }
 
 .certificateSliderNextArrow img {
@@ -88,7 +84,18 @@
 .certificateSliderContainer {
   width: 210%;
   display: flex;
-  animation: wobble 10s infinite linear;
+}
+
+.certificateSliderContainerClickLeft {
+  width: 210%;
+  display: flex;
+  animation: left 10s infinite linear;
+}
+
+.certificateSliderContainerClickRight {
+  width: 210%;
+  display: flex;
+  animation: right 10s infinite linear;
 }
 
 .certificateSliderElement {
@@ -103,6 +110,17 @@
 .tikerCertificate {
   width: 100%;
   display: flex;
+}
+.tikerCertificateRight {
+  transform: translate(30%, 0);
+}
+.tikerCertificateLeft {
+  transform: translate(-30%, 0);
+}
+
+.tikerCertificate.active {
+  width: 100%;
+  display: flex;
   justify-content: space-around;
   align-items: end;
 }
@@ -112,12 +130,34 @@
   height: 297px;
 }
 
-@keyframes wobble {
+.slide {
+  flex: 0 0 100%;
+  transition: transform 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slide.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+@keyframes left {
   0% {
     transform: translate(0, 0);
   }
 
   100% {
     transform: translate(-50%, 0);
+  }
+}
+@keyframes right {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(50%, 0);
   }
 }

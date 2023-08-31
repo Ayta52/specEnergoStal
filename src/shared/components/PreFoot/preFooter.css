@@ -46,6 +46,9 @@
     color: var(--white);
     padding-right: 40px;
 }
+.rightPreFooterLinks a:hover {
+    color: var(--blue);
+}
 
 .rightBlok {
     display: flex;
