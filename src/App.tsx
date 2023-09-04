@@ -1,15 +1,15 @@
-import { hot } from 'react-hot-loader/root';
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { hot } from 'react-hot-loader/root';
 import { Layout } from './shared/Layout';
-import './main.global.css';
-import { Header } from './shared/components/Header';
-import { PreHeader } from './shared/components/PreHeader';
-import { Ticker } from './shared/components/Ticker';
-import { Slider } from './shared/components/Slider';
 import { Certificate } from './shared/components/ComponentCertificates/Certificate';
-import { PreFooter } from './shared/components/PreFoot';
 import { Footer } from './shared/components/Footer';
+import { Header } from './shared/components/Header';
+import { PreFooter } from './shared/components/PreFoot';
+import { PreHeader } from './shared/components/PreHeader';
+import { Slider } from './shared/components/Slider';
+import { Ticker } from './shared/components/Ticker';
+import './main.global.css';
+import Router from './shared/components/ui/Router';
 
 function AppComponent() {
   return (
@@ -27,7 +27,5 @@ function AppComponent() {
 }
 
 export const App = hot(() => (
-  <BrowserRouter>
     <AppComponent />
-  </BrowserRouter>
 ));
