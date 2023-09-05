@@ -1,0 +1,95 @@
+h1 {
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 113.2%;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.map {
+    position: relative;
+}
+
+.map iframe{
+    width: 100%;
+	filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+    mix-blend-mode: difference;
+}
+
+.difference {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.contactInfo {
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.contactInfo_text {
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.contactInfo_title {
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #707070;
+}
+
+.contactInfo_btn {
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #008FFF;
+}
+
+.leftBlock div{
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.leftBlock button{
+   display: flex;
+   align-items: flex-start;
+   gap: 6px;
+   padding-top: 12px;
+}
+
+.centerBlock div{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.rightBlock div{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}

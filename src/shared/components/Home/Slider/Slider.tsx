@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
-import slide1 from '../../../img/main1.png';
-import slide2 from '../../../img/main2.jpg';
+import slide1 from '../../../../img/main1.png';
+import slide2 from '../../../../img/main2.jpg';
 import styles from './slider.css';
 
 const img = [
