@@ -9,6 +9,7 @@ import { Home } from "./shared/components/Home";
 import { Contact } from "./shared/components/Contact";
 import { PreFooter } from "./shared/components/PreFoot";
 import { CertificateList } from "./shared/components/CertificateList";
+import { NotFound } from "./shared/components/NotFound";
 
 function AppComponent() {
   return (
@@ -17,7 +18,8 @@ function AppComponent() {
       {/* <Router />  использовать после правильного подключения роутинга */}
       {/* <Home /> */}
       {/* <Contact /> */}
-      <CertificateList />
+      {/* <CertificateList /> */}
+      <NotFound />
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />

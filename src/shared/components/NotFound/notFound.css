@@ -1,0 +1,4 @@
+.container {
+    max-width: var(--maxWidth);
+    margin-bottom: 100px;
+}
