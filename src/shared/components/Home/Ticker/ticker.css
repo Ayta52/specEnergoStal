@@ -1,0 +1,26 @@
+.container {
+  max-width: var(--maxWidth);
+  overflow: hidden;
+}
+
+.tickerContainer {
+  width: 200%;
+  display: flex;
+  animation: scroll 10s infinite linear;
+}
+
+.ticker {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

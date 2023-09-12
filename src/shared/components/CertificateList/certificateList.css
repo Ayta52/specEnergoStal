@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.certificate_list_text h1{
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 113.2%;
+    color: #FFFFFF;
+}
+
+.certificate_list_text p{
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.certificate_list_text span{
+    color: #008FFF;
+}
+
+img {
+    width: 310px;
+    height: 438px;
+}
+
+img:hover {
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.certificate_list_text {
+    display: flex;
+    flex-direction: column;
+    width: 532px;
+}
+
+.certificate_list_upBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+.certificate_list_upBlock_img {
+    display: flex;
+    gap: 21px;
+}
+
+.certificate_list_centerBlock, .certificate_list_downBlock {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+}
+
+
+

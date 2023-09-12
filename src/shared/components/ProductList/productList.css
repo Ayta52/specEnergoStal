@@ -1,0 +1,45 @@
+.container {
+    max-width: var(--maxWidth);
+}
+
+.container h1 {
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 113.2%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.productItem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productItemFlex {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    border: 1px solid #999999;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.productItemFlex img{
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 113.2%;
+    color: #FFFFFF;
+    text-align: center;
+}

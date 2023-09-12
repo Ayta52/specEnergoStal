@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './header.css';
 import { IconLogo } from './IconLogo';
-import { NavBar } from './NavBar';
 import { InfoBlock } from './InfoBlock';
+import { NavBar } from './NavBar';
+import styles from './header.css';
 
 export function Header() {
   return (
