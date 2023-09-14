@@ -1,5 +1,7 @@
 import React from "react";
+import { useWindowSize } from "../../../utils/react/useWindowWidth";
 import styles from "./productInfo.css";
+
 
 // ТУТ ПОКА ЧТО ПРОСТО ЗАГЛУШКА, НУЖНО ПОДКЛЮЧАТЬ РЕДАКС
 export function ProductInfo() {

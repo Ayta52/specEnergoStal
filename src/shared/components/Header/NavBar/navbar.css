@@ -30,3 +30,38 @@
   width: 100%;
   border: 0.5px solid var(--blue);
 }
+
+/* write css code for the mobile version 1000px */
+
+@media all and (max-width: 1000px) {
+  .navbar {
+    max-width: 422px;
+  }
+  .navList {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 422px;
+  }
+  .navLink {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'SansPro', sans-serif;
+  }
+  .navLink:hover {
+    color: var(--blue);
+  }
+  .navLink:hover + .underLine {
+    display: block;
+  }
+  .underLine {
+    display: none;
+    width: 100%;
+    border: 0.5px solid var(--blue);
+  }
+}
+
+

@@ -84,3 +84,31 @@
         fill: var(--blue);
     }
 }
+
+/* write css code for the mobile version 1000px */
+
+@media screen and (max-width: 1000px) {
+    .preFooterContainer {
+        flex-direction: row;
+        width: 960px;
+        padding: 40px;
+    }
+    .leftPreFooter {
+        width: 499px;
+    }
+}
+
+/* write css code for the mobile version 768px */
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+    .preFooterContainer {
+        display: none;
+    }
+
+    .rightPreFooter {
+        width: 371px;
+    }
+}
