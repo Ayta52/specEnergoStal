@@ -15,3 +15,11 @@
 .links:hover {
   color: var(--blue);
 }
+
+@media all and (max-width: 1000px) {
+  .infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

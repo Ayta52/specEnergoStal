@@ -3,7 +3,7 @@
   margin-bottom: 100px;
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1000px) {
   .header {
     display: flex;
     flex-flow: row nowrap;
@@ -16,5 +16,21 @@
 @media all and (min-width: 1540px) {
   .header {
     padding: 67px 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .header {
+    width: 960px;
+    padding: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media all and (max-width: 768px) {
+  .header {
+    display: none;
   }
 }

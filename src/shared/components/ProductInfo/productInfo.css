@@ -1,0 +1,130 @@
+.container {
+    max-width: var(--maxWidth);
+}
+
+.container h1{
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 113.2%;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.productInfoLinks {
+    width: 334px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.productInfoLinks a{
+    color: #707070;
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.productInfoTabs {
+    width: 838px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #008FFF;
+    padding-bottom: 70px;
+}
+
+.productInfoTabs a{
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 5px 17px;
+}
+
+.productInfoTabs .activeLinks {
+    background-color: #008FFF;
+}
+
+.productInfoTabs a:hover{
+    background-color: #008FFF;
+    transition: 0.3s;
+}
+
+.productInfoContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.productInfoContentLeft {
+    width: 751px;
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.productInfoContentLeft ul{
+    position: relative;
+    left: 30px;
+}
+
+.productInfoContentRight {
+    width: 508px;
+    height: 411px;
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.productInfoContentRight ul{
+    border: 1px solid #707070;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+.productInfoContentRight li {
+    padding-bottom: 10px;
+}
+
+.productInfoContentRight li:hover {
+    color: #008FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.productInfoContentRight li:hover::before {
+    display: inline-block;
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.productInfoContentLeft li {
+    list-style: outside;
+}
+
+.productInfoContentRight ul {
+    list-style:none;
+}
+
+.productInfoContentRight li {
+    list-style:none;
+}
+
+.productInfoContentRight li:before {
+    content: url(../../../icons/productInfoIIcons.svg);
+    position: relative;
+    left: -5px;
+    top: 3px;
+}

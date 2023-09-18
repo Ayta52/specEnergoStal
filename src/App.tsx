@@ -1,7 +1,8 @@
 import React from "react";
 import { hot } from "react-hot-loader/root";
-import { Layout } from "./shared/Layout";
+import { BrowserRouter } from "react-router-dom";
 import Router from "./shared/components/ui/Router";
+import { Layout } from "./shared/Layout";
 import { Footer } from "./shared/components/Footer";
 import { Header } from "./shared/components/Header";
 import { Home } from "./shared/components/Home";
@@ -16,17 +17,18 @@ import "./main.global.css";
 function AppComponent() {
   return (
     <Layout>
-      <Header />
-      {/* <Router />  использовать после правильного подключения роутинга */}
-      {/* <Home /> */}
-      {/* <Contact /> */}
-      {/* <CertificateList /> */}
-      {/* <NotFound /> */}
-      {/* <ProductList /> */}
-      <ProductInfo />
-      <PreFooter />
-      <div className="border_bottom"></div>
-      <Footer />
+        <Header />
+        {/* использовать после правильного подключения роутинга */}
+        {/* <Router />   */}
+        {/* <Home /> */}
+        {/* <Contact /> */}
+        {/* <CertificateList /> */}
+        {/* <NotFound /> */}
+        {/* <ProductList /> */}
+        {/* <ProductInfo /> */}
+        <PreFooter />
+        <div className="border_bottom"></div>
+        <Footer />
     </Layout>
   );
 }
