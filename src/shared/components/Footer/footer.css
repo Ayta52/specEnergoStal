@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 120px;
+    padding: 40px;
 }
 
 .logo {
@@ -61,4 +62,32 @@
     padding-right: 0;
 }
 
-  
+
+@media all and (max-width: 1000px) {
+    .footerContainer {
+        max-width: 1000px;
+    }
+    .footerRightLinksProducts a{
+        padding-right: 15px;
+    }
+    .footerRightLinksProducts {
+        text-align: right;
+    }
+}
+@media all and (max-width: 768px) {
+    .footerContainer {
+        max-width: 768px;
+    }
+    .footerRightLinksProducts a{
+        padding-right: 15px;
+    }
+    .footerLinks {
+        width: 369px;
+    }
+    .footerRightLinksProducts {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
