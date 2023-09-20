@@ -20,8 +20,8 @@ function AppComponent() {
         <Header />
         {/* использовать после правильного подключения роутинга */}
         {/* <Router />   */}
-        <Home />
-        {/* <Contact /> */}
+        {/* <Home /> */}
+        <Contact />
         {/* <CertificateList /> */}
         {/* <NotFound /> */}
         {/* <ProductList /> */}
