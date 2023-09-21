@@ -63,4 +63,40 @@ img:hover {
 }
 
 
+@media all and (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .certificate_list_text h1{
+        font-size: 50px;
+    }
+    
+    .certificate_list_text p{
+        font-size: 18px;
+    }
+    img {
+        width: 228px;
+        height: 332px;
+    }
+    .certificate_list_centerBlock, .certificate_list_downBlock {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .certificate_list_upBlock {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .certificate_list_upBlock_img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
 

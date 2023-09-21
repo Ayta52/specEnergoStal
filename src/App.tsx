@@ -21,8 +21,8 @@ function AppComponent() {
         {/* использовать после правильного подключения роутинга */}
         {/* <Router />   */}
         {/* <Home /> */}
-        <Contact />
-        {/* <CertificateList /> */}
+        {/* <Contact /> */}
+        <CertificateList />
         {/* <NotFound /> */}
         {/* <ProductList /> */}
         {/* <ProductInfo /> */}
