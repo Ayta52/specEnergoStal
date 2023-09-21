@@ -21,7 +21,7 @@
 
 @media all and (max-width: 1000px) {
   .header {
-    max-width: 1000px;
+    max-width: 940px;
     padding: 40px;
     display: flex;
     flex-flow: row nowrap;

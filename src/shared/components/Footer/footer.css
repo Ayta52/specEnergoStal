@@ -65,7 +65,7 @@
 
 @media all and (max-width: 1000px) {
     .footerContainer {
-        max-width: 1000px;
+        max-width: 940px;
     }
     .footerRightLinksProducts a{
         padding-right: 15px;
@@ -76,7 +76,7 @@
 }
 @media all and (max-width: 768px) {
     .footerContainer {
-        max-width: 768px;
+        max-width: 700px;
     }
     .footerRightLinksProducts a{
         padding-right: 15px;
@@ -89,5 +89,10 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 8px;
+    }
+}
+@media all and (max-width: 480px) {
+    .footerContainer {
+        display: none;
     }
 }

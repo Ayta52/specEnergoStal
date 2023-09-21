@@ -27,7 +27,7 @@ function AppComponent() {
         {/* <ProductList /> */}
         {/* <ProductInfo /> */}
         {/* <PreFooter /> */}
-        <div className="border_bottom"></div>
+        {/* <div className="border_bottom"></div> */}
         <Footer />
     </Layout>
   );
