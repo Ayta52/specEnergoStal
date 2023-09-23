@@ -20,14 +20,14 @@ function AppComponent() {
         <Header />
         {/* использовать после правильного подключения роутинга */}
         {/* <Router />   */}
-        {/* <Home /> */}
+        <Home />
         {/* <Contact /> */}
-        <CertificateList />
+        {/* <CertificateList /> */}
         {/* <NotFound /> */}
         {/* <ProductList /> */}
         {/* <ProductInfo /> */}
-        {/* <PreFooter /> */}
-        {/* <div className="border_bottom"></div> */}
+        <PreFooter />
+        <div className="border_bottom"></div>
         <Footer />
     </Layout>
   );
