@@ -2,3 +2,6 @@
   width: 175px;
   height: 60px;
 }
+.logo:hover {
+  cursor: pointer;
+}

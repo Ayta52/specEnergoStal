@@ -18,8 +18,10 @@
 
 @media all and (max-width: 1000px) {
   .infoBlock {
+    width: auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     gap: 10px;
   }
 }

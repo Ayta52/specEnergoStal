@@ -93,3 +93,105 @@ h1 {
     flex-direction: column;
     padding-bottom: 20px;
 }
+
+@media all and (max-width: 1000px) {
+    .contact_main {
+        width: 940px;
+        padding: 20px;
+    }
+    .contactInfo {
+        width: 865px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+}
+@media all and (max-width: 768px) {
+    .contact_main {
+        width: 700px;
+        padding: 20px;
+    }
+    .contactInfo {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    h1 {
+        font-family: 'Bebas', 'SansPro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 113.2%;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+    }
+}
+@media all and (max-width: 480px) {
+    .contact_main {
+        width: 440px;
+        padding: 20px;
+    }
+    .contactInfo {
+        width: 440px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .map {
+        width: 440px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .contactInfo_text {
+        font-size: 16px;
+    }
+    
+    .contactInfo_title {
+        font-size: 14px;
+    }
+    .rightBlock {
+        display: flex;
+        justify-content: space-between;
+        /* потом удалить после добавления хука на расширение экрана */
+        display: none;
+    }
+}
+@media all and (max-width: 360px) {
+    .contact_main {
+        width: 320px;
+        padding: 20px;
+    }
+    .contactInfo {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    .map {
+        width: 360px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .contactInfo_text {
+        font-size: 14px;
+    }
+    
+    .contactInfo_title {
+        font-size: 14px;
+    }
+    .leftBlock div{
+        width: 163px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .rightBlock {
+        display: flex;
+        justify-content: space-between;
+        /* потом удалить после добавления хука на расширение экрана */
+        display: none;
+    }
+}

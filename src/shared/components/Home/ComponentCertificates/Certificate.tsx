@@ -46,6 +46,7 @@ export function Certificate() {
 
   return (
     <div className={styles.certificate}>
+      
       <div className={styles.certificateTitle}>
         <h2>СЕРТИФИКАТЫ</h2>
         <div className={styles.certificateTitleDescription}>
