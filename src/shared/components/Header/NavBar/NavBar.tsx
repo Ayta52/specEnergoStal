@@ -1,35 +1,39 @@
-import React from 'react';
-import styles from './navbar.css';
+// import React from 'react';
+import styles from './navbar.module.css';
+import { Link, Outlet } from 'react-router-dom';
 
 export function NavBar() {
   return (
+    <>
       <div className={styles.navbar}>
         <ul className={styles.navList}>
           <li className={styles.listItem}>
-            <a href="#" className={styles.navLink}>
+            <Link to="/" className={styles.navLink}>
               Главная
-            </a>
+            </Link>
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>
-            <a href="#" className={styles.navLink}>
+            <Link to="/productlist" className={styles.navLink}>
               Продукция
-            </a>
+            </Link>
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>
-            <a href='#' className={styles.navLink}>
+            <Link to="/certificatelist" className={styles.navLink}>
               Сертификаты
-            </a>
+            </Link>
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>
-            <a href="#" className={styles.navLink}>
+            <Link to="/contact" className={styles.navLink}>
               Контакты
-            </a>
+            </Link>
             <div className={styles.underLine} />
           </li>
         </ul>
       </div>
+      <Outlet />
+    </>
   );
 }

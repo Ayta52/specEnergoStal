@@ -1,7 +1,6 @@
-import React from "react";
-import { useWindowSize } from "../../../utils/react/useWindowWidth";
-import styles from "./productInfo.css";
-
+/* eslint-disable jsx-a11y/anchor-is-valid */
+// import React from 'react';
+import styles from './productInfo.module.css';
 
 // ТУТ ПОКА ЧТО ПРОСТО ЗАГЛУШКА, НУЖНО ПОДКЛЮЧАТЬ РЕДАКС
 export function ProductInfo() {
@@ -19,13 +18,14 @@ export function ProductInfo() {
       <div className={styles.productInfoTabs}>
         <a href="#">краны шаровые</a>
         <a href="#">задвижки</a>
-        <a className={styles.activeLinks} href="#">затворы</a>
+        <a className={styles.activeLinks} href="#">
+          затворы
+        </a>
         <a href="#">клапаны</a>
         <a href="#">электронасосы</a>
       </div>
 
       <div className={styles.productInfoContent}>
-
         <div className={styles.productInfoContentLeft}>
           <p className={styles.productInfoText}>
             Шаровой кран — разновидность запорной арматуры, элемент которого
@@ -44,7 +44,7 @@ export function ProductInfo() {
             позволили обеспечить плотность закрытия и существенно снизить
             усилия, необходимые для управления краном.
           </p>
-          <br/>
+          <br />
           <p>
             Кроме вышесказанного шаровые краны имеют ряд других достоинств,
             среди которых:
@@ -59,8 +59,9 @@ export function ProductInfo() {
             </li>
             <li>удобное управление;</li>
             <li>малое время, затрачиваемое на поворот;</li>
-            <li>применимость для вязких и
-              загрязнённых сред, суспензий, пульп и шламов.
+            <li>
+              применимость для вязких и загрязнённых сред, суспензий, пульп и
+              шламов.
             </li>
           </ul>
 
@@ -71,7 +72,7 @@ export function ProductInfo() {
             возможность использовать в качестве управляющей среды пневмопривода
             рабочую среду, транспортируемую по трубопроводу.
           </p>
-          <br/>
+          <br />
           <p>
             Подвижным элементом (затвором) таких кранов служит пробка
             сферической формы — шар, по оси которой выполнено сквозное круглое
@@ -91,7 +92,6 @@ export function ProductInfo() {
         </div>
 
         <div className={styles.productInfoContentRight}>
-
           <ul>
             <li className={styles.listItem}>
               Кран шаровой нержавеющий фланцевый
@@ -122,9 +122,7 @@ export function ProductInfo() {
               штуцерный)
             </li>
           </ul>
-
         </div>
-
       </div>
     </div>
   );

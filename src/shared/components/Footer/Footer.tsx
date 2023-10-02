@@ -1,7 +1,7 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+// import { Link, NavLink } from 'react-router-dom';
 import Logo from '../../../icons/iconLogo.svg';
-import styles from "./footer.css";
+import styles from './footer.module.css';
 
 export function Footer() {
   return (

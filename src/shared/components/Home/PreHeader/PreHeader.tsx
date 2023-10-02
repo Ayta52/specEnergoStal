@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './preheader.css';
+// import React from 'react';
+import styles from './preheader.module.css';
 
 export function PreHeader() {
   return (

@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./contact.css";
+// import React from 'react';
+import styles from './contact.module.css';
 
 export function Contact() {
   return (
@@ -100,10 +100,10 @@ export function Contact() {
 
       <div className={styles.map}>
         <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a671160ed0f0fa7e65a15c6574e877ba86d7ade85c6c587d258a161c0b352c0&amp;source=constructor"
+          src="https://yandex.ru/map-widget/v1/?um=constructor:0a671160ed0f0fa7e65a15c6574e877ba86d7ade85c6c587d258a161c0b352c0&amp;source=constructor"
           width="1920"
           height="600"
-          frameBorder="0"
+          title="Map Widget"
         ></iframe>
         <div className={styles.difference}></div>
       </div>

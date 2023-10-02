@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './iconlogo.css';
+// import React from 'react';
+import styles from './iconlogo.module.css';
 import Logo from '../../../../icons/iconLogo.svg';
 
 export function IconLogo() {
