@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+// import React from 'react';
 import notFound from '../../../img/notFound.svg';
 import styles from './notFound.module.css';
 export function NotFound() {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import certificate1 from '../../../img/certificates/1.jpg';
 import certificate2 from '../../../img/certificates/2.jpg';
 import styles from './certificateList.module.css';

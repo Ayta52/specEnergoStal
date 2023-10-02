@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import gazprom from '../../../../icons/gazprom.svg';
 import lukoil from '../../../../icons/lukoil.svg';
 import sibur from '../../../../icons/sibur.svg';

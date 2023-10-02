@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Otvod from '../../../img/productImg/Otvod.svg';
 import Perehod from '../../../img/productImg/Perehod.svg';
 import Troynik from '../../../img/productImg/Troynik.svg';

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import slide1 from '../../../../img/main1.png';

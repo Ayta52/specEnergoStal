@@ -126,7 +126,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .tikerCertificate img {
@@ -153,7 +153,7 @@
   align-items: center;
 }
 
-.certificateButton span{
+.certificateButton span {
   font-family: 'SansPro', sans-serif;
   font-style: normal;
   font-weight: 400;

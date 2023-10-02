@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Router from './shared/components/ui/Router';
 import { Layout } from './shared/Layout';
 import { Footer } from './shared/components/Footer';
 import { Header } from './shared/components/Header';
@@ -11,7 +10,7 @@ import { CertificateList } from './shared/components/CertificateList';
 import { NotFound } from './shared/components/NotFound';
 import { ProductList } from './shared/components/ProductList';
 import { ProductInfo } from './shared/components/ProductInfo';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './main.global.css';
 
 function App() {
