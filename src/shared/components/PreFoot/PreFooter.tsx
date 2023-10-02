@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from './preFooter.css';
+import styles from './preFooter.module.css';
 
 export function PreFooter() {
-  
   return (
     <div className={styles.preFooterContainer}>
       <div className={styles.leftPreFooter}>
@@ -10,7 +9,7 @@ export function PreFooter() {
           <span> Юр.адрес:</span> 606107, Нижегородская обл., г.Павлово,
           ул.Пионерская, д.1г
         </div>
-        
+
         <div>
           <span> Факт.адрес:</span> 603105, г.Нижний Новгород, ул.Ванеева, д.34
           офис 504

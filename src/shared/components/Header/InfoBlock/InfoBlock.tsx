@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './infoblock.css';
+import styles from './infoblock.module.css';
 
 export function InfoBlock() {
   return (

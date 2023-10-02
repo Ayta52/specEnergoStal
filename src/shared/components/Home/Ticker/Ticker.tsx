@@ -3,7 +3,7 @@ import gazprom from '../../../../icons/gazprom.svg';
 import lukoil from '../../../../icons/lukoil.svg';
 import sibur from '../../../../icons/sibur.svg';
 import rosneft from '../../../../icons/rosneft.svg';
-import styles from './ticker.css';
+import styles from './ticker.module.css';
 
 export function Ticker() {
   return (
