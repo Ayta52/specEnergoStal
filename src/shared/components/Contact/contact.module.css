@@ -7,6 +7,14 @@ h1 {
     color: #FFFFFF;
     padding-bottom: 30px;
 }
+
+.text_width {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .map {
     position: relative;
 }
@@ -33,7 +41,6 @@ h1 {
 }
 
 .contactInfo {
-    width: 1010px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
@@ -46,6 +53,7 @@ h1 {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .contactInfo_title {

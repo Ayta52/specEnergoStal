@@ -1,4 +1,5 @@
 // import React from 'react';
+import { Link } from 'react-router-dom';
 import Otvod from '../../../img/productImg/Otvod.svg';
 import Perehod from '../../../img/productImg/Perehod.svg';
 import Troynik from '../../../img/productImg/Troynik.svg';
@@ -16,46 +17,55 @@ const productListMass = [
     id: 1,
     name: 'Отводы',
     image: Otvod,
+    src: '/otvod'
   },
   {
     id: 2,
     name: 'переходы',
     image: Perehod,
+    src: '/perehod'
   },
   {
     id: 3,
     name: 'тройники',
     image: Troynik,
+    src: '/troynik'
   },
   {
     id: 4,
     name: 'фланцы',
     image: Flanec,
+    src: '/flanec'
   },
   {
     id: 5,
     name: 'днища',
     image: Dno,
+    src: '/dno'
   },
   {
     id: 6,
     name: 'заглушки',
     image: Zaglushka,
+    src: '/zaglushka'
   },
   {
     id: 7,
     name: 'опоры',
     image: Opora,
+    src: '/opora'
   },
   {
     id: 8,
     name: 'штуцеры',
     image: Shtucer,
+    src: '/shtucer'
   },
   {
     id: 9,
     name: 'запорная арматура',
     image: ZapornayaArmatura,
+    src: '/zapornayaArmatura'
   },
 ];
 
@@ -67,10 +77,10 @@ export function ProductList() {
         <div className={styles.productItem}>
           {productListMass.map((item, index) => {
             return (
-              <div className={styles.productItemFlex} key={index}>
+              <Link to={item.src} className={styles.productItemFlex} key={index}>
                 <img src={item.image} alt={item.name} />
                 <p>{item.name}</p>
-              </div>
+              </Link>
             );
           })}
           <div className={styles.backgroundImg}>

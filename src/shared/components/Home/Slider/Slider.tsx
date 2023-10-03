@@ -42,7 +42,6 @@ export function Slider() {
       <div
         className={classNames(
           styles.sliderElement,
-          styles.sliderImg,
           styles.sliderImg
         )}
         key={activeIndex}

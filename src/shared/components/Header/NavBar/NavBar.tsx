@@ -1,6 +1,6 @@
 // import React from 'react';
-import styles from './navbar.module.css';
 import { Link, Outlet } from 'react-router-dom';
+import styles from './navbar.module.css';
 
 export function NavBar() {
   return (
@@ -33,7 +33,7 @@ export function NavBar() {
           </li>
         </ul>
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
     </>
   );
 }

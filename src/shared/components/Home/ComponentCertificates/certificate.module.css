@@ -6,6 +6,9 @@
 
 .certificateTitle {
   padding-bottom: 50px;
+  width: 1300px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .certificateTitle h2 {
@@ -33,7 +36,7 @@
 }
 
 .certificateSlider {
-  max-width: var(--maxWidth);
+  max-width: 100%;
   overflow: hidden;
   position: relative;
 }
