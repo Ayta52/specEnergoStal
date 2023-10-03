@@ -14,6 +14,8 @@ export function NavBar() {
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>
+
+            
             <Link to="/productlist" className={styles.navLink}>
               Продукция
             </Link>
@@ -33,7 +35,7 @@ export function NavBar() {
           </li>
         </ul>
       </div>
-      {/* <Outlet /> */}
+      <Outlet />
     </>
   );
 }
