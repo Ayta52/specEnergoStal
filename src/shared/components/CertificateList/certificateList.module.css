@@ -1,12 +1,12 @@
 .container {
   max-width: 1300px;
-  margin: 0 auto;  
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 21px;
 }
 
-img {
+.certificate_list_img {
   width: 210px;
   height: 297px;
 }
