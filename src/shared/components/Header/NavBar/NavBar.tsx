@@ -1,6 +1,7 @@
 // import React from 'react';
-import styles from './navbar.module.css';
 import { Link, Outlet } from 'react-router-dom';
+import styles from './navbar.module.css';
+import { DropDown } from '../DropDown';
 
 export function NavBar() {
   return (
@@ -14,9 +15,7 @@ export function NavBar() {
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>
-            <Link to="/productlist" className={styles.navLink}>
-              Продукция
-            </Link>
+            <DropDown />
             <div className={styles.underLine} />
           </li>
           <li className={styles.listItem}>

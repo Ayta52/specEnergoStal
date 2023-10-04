@@ -1,31 +1,34 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 // import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../../../icons/iconLogo.svg';
 import styles from './footer.module.css';
 
 export function Footer() {
   return (
     <div className={styles.footerContainer}>
-      <img src={Logo} alt="Logo" className={styles.logo} />
+      <Link to={"/"}>
+        <img src={Logo} alt="Logo" className={styles.logo} />
+      </Link>
 
       <div className={styles.footerLinks}>
         <div className={styles.footerRightLinksRouting}>
-          <a href="#">Главная</a>
-          <a href="#">Продукция</a>
-          <a href="#">Сертификаты</a>
-          <a href="#">Контакты</a>
+          <Link to="/">Главная</Link>
+          <Link to="/productlist">Продукция</Link>
+          <Link to="/certificatelist">Сертификаты</Link>
+          <Link to="/contact">Контакты</Link>
         </div>
 
         <div className={styles.footerRightLinksProducts}>
-          <a href="#">Отводы</a>
-          <a href="#">Перехиоды</a>
-          <a href="#">Тройники</a>
-          <a href="#">Фланцы</a>
-          <a href="#">Заглушки</a>
-          <a href="#">Днища</a>
-          <a href="#">Опоры</a>
-          <a href="#">Штуцеры</a>
-          <a href="#">Запорная арматура</a>
+          <Link to="/otvod">Отводы</Link>
+          <Link to="/perehod">Переходы</Link>
+          <Link to="/troynik">Тройники</Link>
+          <Link to="/flanec">Фланцы</Link>
+          <Link to="/zaglushka">Заглушки</Link>
+          <Link to="/dno">Днища</Link>
+          <Link to="/opora">Опоры</Link>
+          <Link to="/shtucer">Штуцеры</Link>
+          <Link to="/zapornayaArmatura">Запорная арматура</Link>
         </div>
       </div>
     </div>

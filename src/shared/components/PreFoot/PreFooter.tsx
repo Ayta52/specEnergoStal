@@ -39,7 +39,7 @@ export function PreFooter() {
                 strokeMiterlimit="10"
               />
             </svg>
-            <p className={styles.downloadBtnText}>скачать каталог</p>
+            <p className={styles.downloadBtnText}>скачать буклет</p>
           </button>
         </div>
       </div>
