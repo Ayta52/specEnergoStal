@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 // import React from 'react';
+import { Link } from 'react-router-dom';
 import notFound from '../../../img/notFound.svg';
 import styles from './notFound.module.css';
 export function NotFound() {
@@ -13,7 +14,7 @@ export function NotFound() {
         <p>
           вы можете вернуться на{' '}
           <span>
-            <a href="#">главную</a>
+            <Link to={'/'}>главную</Link>
           </span>
         </p>
       </div>

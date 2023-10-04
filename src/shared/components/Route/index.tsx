@@ -20,7 +20,7 @@ export default function Router() {
   return (
     <>
       <Routes>
-        <Route element={<Home />} path="*" />
+        <Route element={<Home />} path="/" />
         <Route element={<Contact />} path="/contact" />
         <Route element={<CertificateList />} path="/certificatelist" />
         <Route element={<ProductList />} path="/productlist" />
