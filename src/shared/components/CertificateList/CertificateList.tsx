@@ -1,16 +1,20 @@
 // import React, { useState } from 'react';
 import certificate1 from '../../../img/certificates/1.jpg';
 import certificate2 from '../../../img/certificates/2.jpg';
+import DC from '../../../img/certificates/DC.jpg'
+import ISO from '../../../img/certificates/ISO.jpg'
+import TCTP1 from '../../../img/certificates/TCTP1.jpg'
+import TCTP2 from '../../../img/certificates/TCTP2.jpg'
 import styles from './certificateList.module.css';
 
-// ТУТ ОШИБКА ПРИ ДОБАВЛЕНИИ ХУКА useState, НУЖНО ЕЁ РЕШИТЬ ДЛЯ ДОБАВЛЕНИЯ ПОПАППА
-
-const certificateListMass = [certificate1, certificate2];
-// const [popup, setPopup] = useState(false);
-// const certficateActive = (e:any) => {
-//   console.log(e.target);
-//   setPopup(!popup);
-// };
+const certificateListMass = [
+  certificate1,
+  certificate2,
+  DC,
+  ISO,
+  TCTP1,
+  TCTP2
+];
 
 export function CertificateList() {
   return (
@@ -27,44 +31,9 @@ export function CertificateList() {
             целом.
           </p>
         </div>
-
-        <div className={styles.certificate_list_upBlock_img}>
           {certificateListMass.map((item, index) => {
             return <img key={index} src={item} alt="certificate" />;
           })}
-        </div>
-      </div>
-
-      <div className={styles.certificate_list_centerBlock}>
-        {certificateListMass.map((item, index) => {
-          return (
-            <img
-              key={index}
-              src={item}
-              className={styles.certificate_list_img}
-              alt="certificate"
-            />
-          );
-        })}
-        {certificateListMass.map((item, index) => {
-          return (
-            <img
-              key={index}
-              src={item}
-              className={styles.certificate_list_img}
-              alt="certificate"
-            />
-          );
-        })}
-      </div>
-
-      <div className={styles.certificate_list_downBlock}>
-        {certificateListMass.map((item, index) => {
-          return <img key={index} src={item} alt="certificate" />;
-        })}
-        {certificateListMass.map((item, index) => {
-          return <img key={index} src={item} alt="certificate" />;
-        })}
       </div>
     </div>
   );
