@@ -17,16 +17,14 @@ export function Slider() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((current) => {
-        const res = current === img.length - 1 ? 0 : current + 1;
-        return res;
-      });
+      setActiveIndex((current) => (current + 1) % img.length);
     }, 3000);
     return () => clearInterval(interval);
   }, []);
 
-  const prevImgIndex = activeIndex ? activeIndex - 1 : img.length - 1;
-  const nextImgIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1;
+  const prevImgIndex = (activeIndex + img.length - 1) % img.length;
+  const nextImgIndex = (activeIndex + 1) % img.length;
+
   return (
     <div className={styles.slider}>
       <div
@@ -40,10 +38,7 @@ export function Slider() {
         {img[prevImgIndex]}
       </div>
       <div
-        className={classNames(
-          styles.sliderElement,
-          styles.sliderImg
-        )}
+        className={classNames(styles.sliderElement, styles.sliderImg)}
         key={activeIndex}
       >
         {img[activeIndex]}
