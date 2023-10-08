@@ -34,14 +34,12 @@
 .productItemFlex img{
     padding-bottom: 30px;
 }
-/* .svg rect:hover{
-    fill: red; 
-} */
+
 .productItemFlex:hover {
    background-color: var(--blue);
 }
 
-p {
+.productItemFlex p {
     font-family: 'Bebas', 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;

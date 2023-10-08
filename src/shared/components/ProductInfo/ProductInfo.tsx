@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import React from 'react';
+import React from 'react';
 import styles from './productInfo.module.css';
 
-// ТУТ ПОКА ЧТО ПРОСТО ЗАГЛУШКА, НУЖНО ПОДКЛЮЧАТЬ РЕДАКС
 export function ProductInfo() {
   return (
     <div className={styles.container}>
@@ -16,13 +15,13 @@ export function ProductInfo() {
       <h1>Запорная арматура</h1>
 
       <div className={styles.productInfoTabs}>
-        <a href="#">краны шаровые</a>
-        <a href="#">задвижки</a>
-        <a className={styles.activeLinks} href="#">
+        <button>краны шаровые</button>
+        <button>задвижки</button>
+        <button className={styles.activeLinks}>
           затворы
-        </a>
-        <a href="#">клапаны</a>
-        <a href="#">электронасосы</a>
+        </button>
+        <button>клапаны</button>
+        <button>электронасосы</button>
       </div>
 
       <div className={styles.productInfoContent}>
@@ -124,6 +123,7 @@ export function ProductInfo() {
           </ul>
         </div>
       </div>
+
     </div>
   );
 }

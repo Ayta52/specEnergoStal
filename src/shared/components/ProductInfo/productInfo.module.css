@@ -1,5 +1,6 @@
 .container {
-    max-width: var(--maxWidth);
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .container h1{
@@ -36,7 +37,7 @@
     padding-bottom: 70px;
 }
 
-.productInfoTabs a{
+.productInfoTabs button{
     font-family: 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -50,7 +51,7 @@
     background-color: #008FFF;
 }
 
-.productInfoTabs a:hover{
+.productInfoTabs button:hover{
     background-color: #008FFF;
     transition: 0.3s;
 }
