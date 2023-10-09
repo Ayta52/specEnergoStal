@@ -16,7 +16,7 @@ export function Contact() {
               <p className={styles.contactInfo_text}>
                 606107, Нижегородская обл., г.Павлово, ул.Пионерская, д.1г
               </p>
-              <button className={styles.contactInfo_btn}>
+              <a href='#mapWidget' className={styles.contactInfo_btn}>
                 смотреть на карте
                 <span>
                   <svg
@@ -34,7 +34,7 @@ export function Contact() {
                     />
                   </svg>
                 </span>
-              </button>
+              </a>
             </div>
 
             <div>
@@ -44,7 +44,7 @@ export function Contact() {
               <p className={styles.contactInfo_text}>
                 603105, г.Нижний Новгород, ул.Ванеева, д.34 офис 504
               </p>
-              <button className={styles.contactInfo_btn}>
+              <a href='#mapWidget' className={styles.contactInfo_btn}>
                 смотреть на карте
                 <span>
                   <svg
@@ -62,7 +62,7 @@ export function Contact() {
                     />
                   </svg>
                 </span>
-              </button>
+              </a>
             </div>
           </div>
 
@@ -108,10 +108,11 @@ export function Contact() {
 
       <div className={styles.map}>
         <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor:0a671160ed0f0fa7e65a15c6574e877ba86d7ade85c6c587d258a161c0b352c0&amp;source=constructor"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a671160ed0f0fa7e65a15c6574e877ba86d7ade85c6c587d258a161c0b352c0&amp;source=constructor"
           width="1920"
           height="600"
           title="Map Widget"
+          id='mapWidget'
         ></iframe>
         <div className={styles.difference}></div>
       </div>

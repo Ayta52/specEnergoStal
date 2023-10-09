@@ -1,0 +1,24 @@
+.breadСrumbs {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.breadСrumbs a{
+    color: #707070;
+    font-family: 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.breadСrumbs ol {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.breadСrumbs ol span{
+    color: #707070;
+}

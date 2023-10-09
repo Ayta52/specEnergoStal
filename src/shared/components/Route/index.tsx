@@ -34,7 +34,7 @@ export default function Router() {
         <Route element={<Zaglushka />} path="/zaglushka" />
         <Route element={<Opora />} path="/opora" />
         <Route element={<Shtucer />} path="/shtucer" />
-        <Route element={<ZapornayaArmatura />} path="/zapornayaArmatura" />
+        <Route element={<ZapornayaArmatura />} path="/productinfo" />
       </Routes>
     </>
   );

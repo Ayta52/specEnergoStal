@@ -34,7 +34,7 @@ export function DropDown() {
             <Link to="/shtucer">Штуцеры</Link>
           </li>
           <li className={styles.dropdownItem}>
-            <Link to="/zapornayaArmatura">Запорная арматура</Link>
+            <Link to="/productinfo">Запорная арматура</Link>
           </li>
         </ul>
       </div>

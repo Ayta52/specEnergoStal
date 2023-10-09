@@ -65,7 +65,7 @@ const productListMass = [
     id: 9,
     name: 'запорная арматура',
     image: ZapornayaArmatura,
-    src: '/zapornayaArmatura'
+    src: '/productinfo'
   },
 ];
 

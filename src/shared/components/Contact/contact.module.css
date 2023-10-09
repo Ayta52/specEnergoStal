@@ -81,7 +81,7 @@ h1 {
     padding-bottom: 20px;
 }
 
-.leftBlock button{
+.leftBlock a{
    display: flex;
    align-items: flex-start;
    gap: 6px;
