@@ -12,7 +12,6 @@ function App() {
     <Layout>
       <Header />
       <Router />
-      {/* <ProductInfo /> */}
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />
