@@ -4,17 +4,16 @@ import { Layout } from './shared/Layout';
 import { Footer } from './shared/components/Footer';
 import { Header } from './shared/components/Header';
 import { PreFooter } from './shared/components/PreFoot';
-import { ProductInfo } from './shared/components/ProductInfo';
 import './main.global.css';
 
 function App() {
   return (
     <Layout>
       <Header />
-      <Router />
+      {/* <Router />
       <PreFooter />
       <div className="border_bottom"></div>
-      <Footer />
+      <Footer /> */}
     </Layout>
   );
 }
