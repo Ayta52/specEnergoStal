@@ -3,6 +3,21 @@
   margin: 0 auto;
   margin-bottom: 100px;
 }
+.mainDesctop {
+  width: 100%;
+}
+
+.mainScreenLG {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phoneSms {
+ display: inline-flex;
+ gap: 25px;
+}
 
 @media all and (min-width: 1000px) {
   .header {
@@ -11,6 +26,9 @@
     align-items: center;
     padding: 40px;
     justify-content: space-between;
+  }
+  .mainScreenLG {
+    display: none;
   }
 }
 
@@ -28,10 +46,5 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-  }
-}
-@media all and (max-width: 768px) {
-  .header {
-    display: none;
   }
 }

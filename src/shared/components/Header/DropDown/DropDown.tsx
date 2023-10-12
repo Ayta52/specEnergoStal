@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./dropDown.module.css";
+import { useResize } from "../../common/UseResize";
+import humb from "../../../../icons/humburger.svg";
 
 export function DropDown() {
+  const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <>
       <div className={styles.dropdown}>
