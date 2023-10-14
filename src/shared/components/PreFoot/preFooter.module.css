@@ -62,7 +62,10 @@
 .downloadBtn {
     position: relative;
 }
-
+.downloadBtnisScreenFOOT {
+    width: 100%;
+    position: relative;
+}
 .downloadBtnText {
     color: var(--blue);
     position: absolute;
@@ -86,30 +89,70 @@
     }
 }
 
-/* write css code for the mobile version 1000px */
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) and (min-width: 768px){
     .preFooterContainer {
         flex-direction: row;
-        width: 960px;
+        gap: 10px;
+        max-width: 960px;
         padding: 40px;
     }
     .leftPreFooter {
-        width: 499px;
+        max-width: 499px;
+    }
+    .leftPreFooter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        line-height: 30px;
+    }
+    .leftPreFooter div{
+        width: 100%;
+        font-weight: 400;
+    }
+    .leftPreFooter div:nth-child(2) {
+        padding-top: 30px;
     }
 }
 
-/* write css code for the mobile version 768px */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     * {
         font-size: 14px;
     }
-    .preFooterContainer {
-        display: none;
-    }
 
     .rightPreFooter {
-        width: 371px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        max-width: 371px;
+        text-align: right;
     }
+    
+    .rightPreFooterImg button{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items:center;
+    }
+    .rightPreFooterImg button span{
+        font-family: 'Bebas', 'SansPro', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 111.2%;
+        color : var(--blue);
+    }
+}
+@media screen and (max-width: 480px){
+    .preFooterContainer {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+   .leftPreFooter {
+    display: none;
+   }
+   .logo {
+    width: 8em;
+    height: 3.125em;
+   }
 }

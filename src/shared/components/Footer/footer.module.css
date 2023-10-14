@@ -10,6 +10,7 @@
 .logo {
     width: 175px;
     height: 60px;
+    margin-right: 10px;
 }
 
 .footerLinks {
@@ -84,7 +85,7 @@
         padding-right: 15px;
     }
     .footerLinks {
-        width: 369px;
+        max-width: 369px;
     }
     .footerRightLinksProducts {
         display: flex;
@@ -92,9 +93,17 @@
         flex-wrap: wrap;
         gap: 8px;
     }
+    .footerLinks a {
+        font-size: 1em;
+    }
+    .footerRightLinksRouting {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 @media all and (max-width: 480px) {
-    .footerContainer {
+    .logo {
         display: none;
     }
 }

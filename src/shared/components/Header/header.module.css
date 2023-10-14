@@ -5,6 +5,9 @@
 }
 .mainDesctop {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .mainScreenLG {
@@ -27,18 +30,18 @@
     padding: 40px;
     justify-content: space-between;
   }
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    padding: 67px 0;
+  }
   .mainScreenLG {
     display: none;
   }
 }
 
-@media all and (min-width: 1540px) {
-  .header {
-    padding: 67px 0;
-  }
-}
-
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1023px) {
   .header {
     max-width: 940px;
     padding: 40px;
@@ -46,5 +49,8 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+  }
+  .mainDesctop {
+    display: none;
   }
 }

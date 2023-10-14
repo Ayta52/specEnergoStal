@@ -1,20 +1,27 @@
-// import React from 'react';
+import React from 'react';
+import { useResize } from '../common/UseResize';
+import Logo from "../../../icons/iconLogo.svg";
 import styles from './preFooter.module.css';
 
 export function PreFooter() {
+  const { width, isScreenFOOT, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <div className={styles.preFooterContainer}>
-      <div className={styles.leftPreFooter}>
-        <div>
-          <span> Юр.адрес:</span> 606107, Нижегородская обл., г.Павлово,
-          ул.Пионерская, д.1г
-        </div>
+      {isScreenMd ? (
+        <img src={Logo} alt="Logo" className={styles.logo} />
+      ) : (
+        <div className={styles.leftPreFooter}>
+          <div>
+            <span> Юр.адрес:</span> 606107, Нижегородская обл., г.Павлово,
+            ул.Пионерская, д.1г
+          </div>
 
-        <div>
-          <span> Факт.адрес:</span> 603105, г.Нижний Новгород, ул.Ванеева, д.34
-          офис 504
+          <div>
+            <span> Факт.адрес:</span> 603105, г.Нижний Новгород, ул.Ванеева,
+            д.34 офис 504
+          </div>
         </div>
-      </div>
+      )}
 
       <div className={styles.rightPreFooter}>
         <div className={styles.rightPreFooterLinks}>
@@ -23,24 +30,30 @@ export function PreFooter() {
         </div>
 
         <div className={styles.rightPreFooterImg}>
-          <button className={styles.downloadBtn}>
-            <svg
-              className={styles.downloadBtnIcon}
-              width="192"
-              height="58"
-              viewBox="0 0 192 58"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M96 56L4 29L96 2L188 29L96 56Z"
-                stroke="#008FFF"
-                strokeWidth="2"
-                strokeMiterlimit="10"
-              />
-            </svg>
-            <p className={styles.downloadBtnText}>скачать буклет</p>
-          </button>
+          {isScreenFOOT ? (
+            <button className={styles.downloadBtnisScreenFOOT}>
+              <span>скачать буклет</span>
+            </button>
+          ) : (
+            <button className={styles.downloadBtn}>
+              <svg
+                className={styles.downloadBtnIcon}
+                width="192"
+                height="58"
+                viewBox="0 0 192 58"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 56L4 29L96 2L188 29L96 56Z"
+                  stroke="#008FFF"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
+                />
+              </svg>
+              <p className={styles.downloadBtnText}>скачать буклет</p>
+            </button>
+          )}
         </div>
       </div>
     </div>

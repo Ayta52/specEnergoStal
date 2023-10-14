@@ -9,25 +9,30 @@ import sms from "../../../icons/sms.svg";
 import styles from './header.module.css';
 
 export function Header() {
-  const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
+  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <header className={styles.header}>
-      {isScreenLg ? (
+      {isScreenHEAD && 
         <div className={styles.mainScreenLG}>
           <DropDownNavBar />
           <IconLogo />
           <div className={styles.phoneSms}>
-            <a href="tel:+78312100108"><img src={phone} alt="phone" /></a>
-            <a href="mailto:senergostal.ru"><img src={sms} alt="sms" /></a>
+            <a href="tel:+78312100108">
+              <img src={phone} alt="phone" />
+            </a>
+            <a href="mailto:senergostal.ru">
+              <img src={sms} alt="sms" />
+            </a>
           </div>
         </div>
-      ) : (
+      }
+      {isScreenXl && 
         <div className={styles.mainDesctop}>
           <IconLogo />
           <NavBar />
           <InfoBlock />
         </div>
-      )}
+      }
     </header>
   );
 }
