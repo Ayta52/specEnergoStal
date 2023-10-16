@@ -1,6 +1,8 @@
+import { useResize } from '../common/UseResize';
 import styles from './contact.module.css';
 
 export function Contact() {
+  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <div className={styles.contact_main}>
       <div className={styles.text_width}>
@@ -16,7 +18,7 @@ export function Contact() {
               <p className={styles.contactInfo_text}>
                 606107, Нижегородская обл., г.Павлово, ул.Пионерская, д.1г
               </p>
-              <a href='#mapWidget' className={styles.contactInfo_btn}>
+              <a href="#mapWidget" className={styles.contactInfo_btn}>
                 смотреть на карте
                 <span>
                   <svg
@@ -44,7 +46,7 @@ export function Contact() {
               <p className={styles.contactInfo_text}>
                 603105, г.Нижний Новгород, ул.Ванеева, д.34 офис 504
               </p>
-              <a href='#mapWidget' className={styles.contactInfo_btn}>
+              <a href="#mapWidget" className={styles.contactInfo_btn}>
                 смотреть на карте
                 <span>
                   <svg
@@ -102,6 +104,27 @@ export function Contact() {
               <span className={styles.contactInfo_title}>ОГРН</span>
               <p className={styles.contactInfo_text}>1135252003743</p>
             </div>
+            {isScreenXl && (
+              <a href="#mapWidget" className={styles.contactInfo_btn}>
+                смотреть реквизиты
+                <span>
+                  <svg
+                    width="10"
+                    height="16"
+                    viewBox="0 0 10 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 2L8 8L2 14"
+                      stroke="#008FFF"
+                      stroke-width="2"
+                      stroke-linecap="square"
+                    />
+                  </svg>
+                </span>
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -112,10 +135,49 @@ export function Contact() {
           width="1920"
           height="600"
           title="Map Widget"
-          id='mapWidget'
+          id="mapWidget"
         ></iframe>
         <div className={styles.difference}></div>
       </div>
+
+      {isScreenMd && (
+        <div className={styles.rightBlockMobile}>
+          <div>
+            <div>
+              <span className={styles.contactInfo_title}>ИНН</span>
+              <p className={styles.contactInfo_text}>5252033490</p>
+            </div>
+            <div>
+              <span className={styles.contactInfo_title}>КПП</span>
+              <p className={styles.contactInfo_text}>525201001</p>
+            </div>
+            <div>
+              <span className={styles.contactInfo_title}>ОГРН</span>
+              <p className={styles.contactInfo_text}>1135252003743</p>
+            </div>
+          </div>
+
+          <a href="#mapWidget" className={styles.contactInfo_btn}>
+            смотреть реквизиты
+            <span>
+              <svg
+                width="10"
+                height="16"
+                viewBox="0 0 10 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2L8 8L2 14"
+                  stroke="#008FFF"
+                  stroke-width="2"
+                  stroke-linecap="square"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+      )}
     </div>
   );
 }

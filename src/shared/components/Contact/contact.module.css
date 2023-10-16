@@ -82,10 +82,13 @@ h1 {
 }
 
 .leftBlock a{
-   display: flex;
-   align-items: flex-start;
-   gap: 6px;
    padding-top: 12px;
+}
+
+.contactInfo_btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;  
 }
 
 .centerBlock div{
@@ -102,10 +105,17 @@ h1 {
     padding-bottom: 20px;
 }
 
-@media all and (max-width: 1000px) {
-    .contact_main {
-        width: 940px;
+.rightBlockMobile{
+    display: none;
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    .contact_main { 
         padding: 20px;
+    }
+    .text_width {
+        max-width: 940px;
+        margin: 0 auto;
     }
     .contactInfo {
         width: 865px;
@@ -113,14 +123,20 @@ h1 {
         justify-content: space-between;
         padding-bottom: 30px;
     }
+    .map {
+        width: 100%;
+    }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) and (min-width: 480px) {
     .contact_main {
-        width: 700px;
         padding: 20px;
     }
+    .text_width {
+        max-width: 700px;
+        margin: 0 auto;
+    }
     .contactInfo {
-        width: 700px;
+        max-width: 700px;
         display: flex;
         justify-content: space-between;
         padding-bottom: 30px;
@@ -135,10 +151,13 @@ h1 {
         padding-bottom: 30px;
     }
 }
-@media all and (max-width: 480px) {
-    .contact_main {
-        width: 440px;
+@media all and (max-width: 480px) and (min-width: 360px) {
+    .contact_main {  
         padding: 20px;
+    }
+    .text_width {
+        width: 440px;
+        margin: 0 auto;
     }
     .contactInfo {
         width: 440px;
@@ -160,10 +179,19 @@ h1 {
         font-size: 14px;
     }
     .rightBlock {
-        display: flex;
-        justify-content: space-between;
-        /* потом удалить после добавления хука на расширение экрана */
         display: none;
+    }
+
+    .rightBlockMobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .rightBlockMobile:first-child{
+        width: 100%;
+        display: flex;
+        gap: 10px;
     }
 }
 @media all and (max-width: 360px) {

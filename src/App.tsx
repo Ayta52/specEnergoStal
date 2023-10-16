@@ -27,8 +27,8 @@ function App() {
     <Layout>
       <Header />
       {/* <Router /> */}
-      <Routes>
-        {/* <Route element={<Home />} path="/" /> */}
+      {/* <Routes> */}
+        {/* <Route element={<Home />} path="/" />
         <Route element={<Contact />} path="/contact" />
         <Route element={<CertificateList />} path="/certificatelist" />
         <Route element={<ProductList />} path="/productlist" />
@@ -42,8 +42,9 @@ function App() {
         <Route element={<Zaglushka />} path="/zaglushka" />
         <Route element={<Opora />} path="/opora" />
         <Route element={<Shtucer />} path="/shtucer" />
-        <Route element={<ZapornayaArmatura />} path="/productinfo" />
-      </Routes>
+        <Route element={<ZapornayaArmatura />} path="/productinfo" /> */}
+      {/* </Routes> */}
+      <Contact />
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />

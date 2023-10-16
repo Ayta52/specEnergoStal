@@ -45,6 +45,7 @@
   .header {
     max-width: 940px;
     padding: 40px;
+    margin-bottom: 0;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
