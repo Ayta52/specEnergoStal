@@ -64,10 +64,15 @@
   gap: 21px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) and (min-width: 768px){
   .container {
+    max-width: 1024px;
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+  }
+  .certificate_list_text {
+    width: 50%;
   }
   .certificate_list_text h1 {
     font-size: 50px;
@@ -76,14 +81,101 @@
   .certificate_list_text p {
     font-size: 18px;
   }
-  img {
-    width: 228px;
-    height: 332px;
+  .certificate_list_upBlock img {
+    width: 230px;
+    height: 330px;
   }
 
   .certificate_list_upBlock {
     display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 480px){
+  .container {
+    max-width: 768px;
+    display: flex;
     flex-wrap: wrap;
+    padding: 20px;
+  }
+  .certificate_list_text {
+    width: 100%;
+  }
+  .certificate_list_text h1 {
+    font-size: 40px;
+  }
+
+  .certificate_list_text p {
+    font-size: 16px;
+  }
+  .certificate_list_upBlock img {
+    width: 170px;
+    height: 245px;
+  }
+
+  .certificate_list_upBlock {
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+@media all and (max-width: 480px) and (min-width: 360px){
+  .container {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .certificate_list_text {
+    width: 100%;
+  }
+  .certificate_list_text h1 {
+    font-size: 30px;
+  }
+
+  .certificate_list_text p {
+    font-size: 16px;
+  }
+  .certificate_list_upBlock img {
+    width: 48%;
+    height: auto;
+  }
+
+  .certificate_list_upBlock {
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+@media all and (max-width: 360px) {
+  .container {
+    max-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .certificate_list_text {
+    width: 100%;
+  }
+  .certificate_list_text h1 {
+    font-size: 20px;
+  }
+
+  .certificate_list_text p {
+    font-size: 14px;
+  }
+  .certificate_list_upBlock img {
+    width: 48%;
+    height: auto;
+  }
+
+  .certificate_list_upBlock {
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
     gap: 10px;
   }
 }

@@ -132,8 +132,8 @@ export function Contact() {
       <div className={styles.map}>
         <iframe
           src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a671160ed0f0fa7e65a15c6574e877ba86d7ade85c6c587d258a161c0b352c0&amp;source=constructor"
-          width="1920"
-          height="600"
+          width={isScreenMd ? 440 : 1920}
+          height={isScreenMd ? 450 : 600}
           title="Map Widget"
           id="mapWidget"
         ></iframe>
@@ -141,8 +141,9 @@ export function Contact() {
       </div>
 
       {isScreenMd && (
+
         <div className={styles.rightBlockMobile}>
-          <div>
+          <div className={styles.rightBlockMobileRecvisit}>
             <div>
               <span className={styles.contactInfo_title}>ИНН</span>
               <p className={styles.contactInfo_text}>5252033490</p>
@@ -159,22 +160,6 @@ export function Contact() {
 
           <a href="#mapWidget" className={styles.contactInfo_btn}>
             смотреть реквизиты
-            <span>
-              <svg
-                width="10"
-                height="16"
-                viewBox="0 0 10 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 2L8 8L2 14"
-                  stroke="#008FFF"
-                  stroke-width="2"
-                  stroke-linecap="square"
-                />
-              </svg>
-            </span>
           </a>
         </div>
       )}

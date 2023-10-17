@@ -21,7 +21,7 @@ export const useResize = () => {
     isScreenSm: width >= SCREEN_SM,
     isScreenMd: width <= SCREEN_MD,
     isScreenLg: width >= SCREEN_LG,
-    isScreenXl: width <= SCREEN_XL,
+    isScreenXl: width >= SCREEN_XL,
     isScreenHEAD: width <= SCREEN_HEAD,
     isScreenFOOT: width <= SCREEN_FOOT
   };

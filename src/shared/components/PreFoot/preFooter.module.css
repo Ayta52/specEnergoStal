@@ -145,7 +145,7 @@
 }
 @media screen and (max-width: 480px){
     .preFooterContainer {
-        max-width: 400px;
+        max-width: 480px;
         margin: 0 auto;
     }
    .leftPreFooter {
@@ -155,4 +155,12 @@
     width: 8em;
     height: 3.125em;
    }
+   .preFooterContainer {
+    max-width: 440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 89px 0 20px 0;
+}
 }

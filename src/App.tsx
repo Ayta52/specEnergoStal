@@ -44,7 +44,8 @@ function App() {
         <Route element={<Shtucer />} path="/shtucer" />
         <Route element={<ZapornayaArmatura />} path="/productinfo" /> */}
       {/* </Routes> */}
-      <Contact />
+      {/* <Contact /> */}
+      <CertificateList />
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />

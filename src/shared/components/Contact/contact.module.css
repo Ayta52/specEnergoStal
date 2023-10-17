@@ -151,22 +151,27 @@ h1 {
         padding-bottom: 30px;
     }
 }
-@media all and (max-width: 480px) and (min-width: 360px) {
+@media all and (max-width: 480px) {
     .contact_main {  
+        max-width: 440px;
         padding: 20px;
     }
     .text_width {
-        width: 440px;
+        max-width: 440px;
         margin: 0 auto;
     }
     .contactInfo {
-        width: 440px;
+        max-width: 440px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        gap: 30px;
         padding-bottom: 30px;
     }
+    .contactInfo .contactInfo_btn{
+        align-self: flex-start;
+    }
     .map {
-        width: 440px;
+        max-width: 440px;
     }
     h1 {
         font-size: 30px;
@@ -188,25 +193,39 @@ h1 {
         flex-direction: column;
         gap: 10px;
     }
-    .rightBlockMobile:first-child{
+    .rightBlockMobileRecvisit {
         width: 100%;
         display: flex;
+        justify-content: flex-end;
         gap: 10px;
+    }
+    .rightBlockMobileRecvisit div{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightBlockMobileRecvisit div span{
+        align-self: flex-end;
+    }
+    .contactInfo_btn {
+        align-self: flex-end;
+    }
+    .leftBlock div {
+        max-width: 220px;
     }
 }
 @media all and (max-width: 360px) {
     .contact_main {
-        width: 320px;
+        max-width: 320px;
         padding: 20px;
     }
     .contactInfo {
-        width: 320px;
+        max-width: 320px;
         display: flex;
         justify-content: space-between;
         padding-bottom: 30px;
     }
     .map {
-        width: 360px;
+        max-width: 360px;
     }
     h1 {
         font-size: 20px;
@@ -219,15 +238,9 @@ h1 {
         font-size: 14px;
     }
     .leftBlock div{
-        width: 163px;
+        max-width: 163px;
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
-    }
-    .rightBlock {
-        display: flex;
-        justify-content: space-between;
-        /* потом удалить после добавления хука на расширение экрана */
-        display: none;
     }
 }

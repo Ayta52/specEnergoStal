@@ -3,8 +3,23 @@
   margin: 0 auto;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) and (min-width: 768) {
   .layout {
-    max-width: 1000px;
+    max-width: 1024px;
+  }
+}
+@media all and (max-width: 768) and (min-width: 480) {
+  .layout {
+    max-width: 768px;
+  }
+}
+@media all and (max-width: 480) and (min-width: 360) {
+  .layout {
+    max-width: 480px;
+  }
+}
+@media all and (max-width: 360) {
+  .layout {
+    max-width: 360px;
   }
 }
