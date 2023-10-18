@@ -45,7 +45,9 @@ function App() {
         <Route element={<ZapornayaArmatura />} path="/productinfo" /> */}
       {/* </Routes> */}
       {/* <Contact /> */}
-      <CertificateList />
+      {/* <CertificateList /> */}
+      <NotFound />
+      {/* <ProductList /> */}
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />

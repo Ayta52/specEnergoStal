@@ -115,8 +115,17 @@
 }
 
 @media screen and (max-width: 768px){
+    .preFooterContainer {
+        max-width: 768px;
+        margin: 0 auto;
+    }
     * {
         font-size: 14px;
+    }
+
+    .leftPreFooter {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .rightPreFooter {
@@ -126,6 +135,7 @@
         justify-content: center;
         max-width: 371px;
         text-align: right;
+
     }
     
     .rightPreFooterImg button{
@@ -154,6 +164,28 @@
    .logo {
     width: 8em;
     height: 3.125em;
+   }
+   .preFooterContainer {
+    max-width: 440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 89px 0 20px 0;
+}
+}
+@media screen and (max-width: 360px){
+    .preFooterContainer {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+   .leftPreFooter {
+    display: none;
+   }
+   .logo {
+    width: 8em;
+    height: 3.125em;
+    margin-left: 20px;
    }
    .preFooterContainer {
     max-width: 440px;

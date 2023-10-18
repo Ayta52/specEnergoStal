@@ -22,19 +22,15 @@
  gap: 25px;
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1024px) {
   .header {
+    max-width: 1024px;
+    margin: 0 auto;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 40px;
+    padding: 67px 20px 20px 20px;
     justify-content: space-between;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  .header {
-    padding: 67px 0;
   }
   .mainScreenLG {
     display: none;
@@ -43,8 +39,8 @@
 
 @media all and (max-width: 1023px) {
   .header {
-    max-width: 10230px;
-    padding: 40px;
+    max-width: 1023px;
+    padding: 20px;
     margin-bottom: 0;
     display: flex;
     flex-flow: row nowrap;
@@ -58,6 +54,23 @@
 @media all and (max-width: 480px) and (min-width: 360px){
   .header {
     max-width: 480px;
+    padding: 20px;
+    padding-left: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .mainDesctop {
+    display: none;
+  }
+}
+@media all and (max-width: 360px) {
+  .header {
+    max-width: 360px;
     padding: 20px;
     padding-left: 0;
     margin-left: 20px;
