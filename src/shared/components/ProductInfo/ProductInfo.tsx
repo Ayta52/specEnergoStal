@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Breadcrumbs } from './Breadcrumbs';
 import styles from './productInfo.module.css';
 import classNames from 'classnames';
 import { useResize } from '../common/UseResize';
+import { DropDownInfo } from './DropDownInfo';
 
 // Переделать потом, когда будет информация по остальной продукции!
 // В общем на "запорную арматуру" я поставил роут productInfo (в хедере и продукт листе),
@@ -281,34 +282,33 @@ export function ProductInfo() {
   ];
 
   const {
-    width,
-    isScreenFOOT,
-    isScreenHEAD,
-    isScreenSm,
-    isScreenMd,
-    isScreenLg,
-    isScreenXl,
-    // isScreenXl - выбрать его!!! 
+    isScreenMd
   } = useResize();
-
+  
   return (
     <div className={styles.container}>
-
-      <Breadcrumbs paths={paths}/>
+      <Breadcrumbs paths={paths} />
 
       <div className={styles.productInfoTabs}>
         <h1>Запорная арматура</h1>
-        <div className={styles.tabContent}>
-          {tabs.map((tab, index) => (
-            <button
-              key={index}
-              className={classNames(styles.styleTab, index === activeTab ? styles.activeLinks : "")}
-              onClick={() => handleTabClick(index)}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+        {isScreenMd ? (
+          <DropDownInfo activeTab={activeTab} setActiveTab={setActiveTab} handleTabClick={handleTabClick} tabs={tabs}/>
+        ) : (
+          <div className={styles.tabContent}>
+            {tabs.map((tab, index) => (
+              <button
+                key={index}
+                className={classNames(
+                  styles.styleTab,
+                  index === activeTab ? styles.activeLinks : ""
+                )}
+                onClick={() => handleTabClick(index)}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className={styles.productInfoContent}>
           <div className={styles.infoTab}> {tabs[activeTab].content}</div>
