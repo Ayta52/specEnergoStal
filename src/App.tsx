@@ -46,8 +46,9 @@ function App() {
       {/* </Routes> */}
       {/* <Contact /> */}
       {/* <CertificateList /> */}
-      <NotFound />
+      {/* <NotFound /> */}
       {/* <ProductList /> */}
+      <ProductInfo />
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer />

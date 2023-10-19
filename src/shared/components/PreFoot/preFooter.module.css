@@ -8,7 +8,10 @@
 }
 
 .leftPreFooter {
-    width: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .leftPreFooter div:nth-child(2) {
@@ -16,7 +19,7 @@
 }
 
 .leftPreFooter div{
-    width: 700px;
+    max-width: 700px;
     height: 20px;
     font-family: 'SansPro', sans-serif;
     font-style: normal;
@@ -92,21 +95,21 @@
 @media screen and (max-width: 1024px) and (min-width: 768px){
     .preFooterContainer {
         flex-direction: row;
+        justify-content: center;
         gap: 10px;
         max-width: 960px;
-        padding: 40px;
+        margin: 0 auto;
+        padding: 20px;
     }
+
     .leftPreFooter {
         max-width: 499px;
-    }
-    .leftPreFooter {
         display: flex;
         flex-direction: column;
-        width: 100%;
         line-height: 30px;
     }
     .leftPreFooter div{
-        width: 100%;
+        max-width: 700px;
         font-weight: 400;
     }
     .leftPreFooter div:nth-child(2) {
@@ -118,6 +121,7 @@
     .preFooterContainer {
         max-width: 768px;
         margin: 0 auto;
+        padding: 20px;
     }
     * {
         font-size: 14px;
@@ -125,7 +129,11 @@
 
     .leftPreFooter {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 499px;
+        display: flex;
+        gap: 20px;
+        line-height: 30px;
     }
 
     .rightPreFooter {
@@ -157,6 +165,7 @@
     .preFooterContainer {
         max-width: 480px;
         margin: 0 auto;
+        padding: 20px;
     }
    .leftPreFooter {
     display: none;
@@ -164,6 +173,7 @@
    .logo {
     width: 8em;
     height: 3.125em;
+    margin-left: 20px;
    }
    .preFooterContainer {
     max-width: 440px;
@@ -177,7 +187,8 @@
 @media screen and (max-width: 360px){
     .preFooterContainer {
         max-width: 360px;
-        margin: 0 auto;
+        margin: 0 auto; 
+        padding: 20px;
     }
    .leftPreFooter {
     display: none;

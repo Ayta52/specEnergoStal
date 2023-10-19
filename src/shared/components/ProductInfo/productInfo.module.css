@@ -154,3 +154,25 @@
     left: -5px;
     top: 3px;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .infoTab {
+        flex-direction: column;
+    }
+    .productInfoContentLeft {
+        width: 100%;
+    }
+    .productInfoContentRight {
+        width: 100%;
+    }
+
+    .tabContent {
+        display: flex;
+        justify-content: space-between;
+    }
+}

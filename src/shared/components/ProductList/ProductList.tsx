@@ -11,66 +11,75 @@ import Shtucer from "../../../img/productImg/Shtucer.svg";
 import ZapornayaArmatura from "../../../img/productImg/ZapornayaArmatura.svg";
 import backgroundImg from "../../../img/productImg/BackgroundProductList.svg";
 import styles from "./productList.module.css";
+import { useResize } from "../common/UseResize";
 
 const productListMass = [
   {
     id: 1,
-    name: 'Отводы',
+    name: "Отводы",
     image: Otvod,
-    src: '/otvod'
+    src: "/otvod",
   },
   {
     id: 2,
-    name: 'переходы',
+    name: "переходы",
     image: Perehod,
-    src: '/perehod'
+    src: "/perehod",
   },
   {
     id: 3,
-    name: 'тройники',
+    name: "тройники",
     image: Troynik,
-    src: '/troynik'
+    src: "/troynik",
   },
   {
     id: 4,
-    name: 'фланцы',
+    name: "фланцы",
     image: Flanec,
-    src: '/flanec'
+    src: "/flanec",
   },
   {
     id: 5,
-    name: 'днища',
+    name: "днища",
     image: Dno,
-    src: '/dno'
+    src: "/dno",
   },
   {
     id: 6,
-    name: 'заглушки',
+    name: "заглушки",
     image: Zaglushka,
-    src: '/zaglushka'
+    src: "/zaglushka",
   },
   {
     id: 7,
-    name: 'опоры',
+    name: "опоры",
     image: Opora,
-    src: '/opora'
+    src: "/opora",
   },
   {
     id: 8,
-    name: 'штуцеры',
+    name: "штуцеры",
     image: Shtucer,
-    src: '/shtucer'
+    src: "/shtucer",
   },
   {
     id: 9,
-    name: 'запорная арматура',
+    name: "запорная арматура",
     image: ZapornayaArmatura,
-    src: '/productinfo'
+    src: "/productinfo",
   },
 ];
 
-
 export function ProductList() {
+  const {
+    width,
+    isScreenFOOT,
+    isScreenHEAD,
+    isScreenSm,
+    isScreenMd,
+    isScreenLg,
+    isScreenXl,
+  } = useResize();
   return (
     <div className={styles.container}>
       <h1>Продукция</h1>
@@ -81,12 +90,9 @@ export function ProductList() {
               <Link
                 to={item.src}
                 className={styles.productItemFlex}
-                key={index}>
+                key={index}
+              >
                 <img src={item.image} alt={item.name} />
-                {/* <div className={styles.svg}>
-                  {item.image}
-                </div> */}
-                
                 <p>{item.name}</p>
               </Link>
             );

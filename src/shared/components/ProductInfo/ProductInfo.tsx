@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Breadcrumbs } from './Breadcrumbs';
 import styles from './productInfo.module.css';
 import classNames from 'classnames';
+import { useResize } from '../common/UseResize';
 
 // Переделать потом, когда будет информация по остальной продукции!
 // В общем на "запорную арматуру" я поставил роут productInfo (в хедере и продукт листе),
@@ -279,14 +280,19 @@ export function ProductInfo() {
     { name: `${tabs[activeTab].label}`, url: '#' },
   ];
 
+  const {
+    width,
+    isScreenFOOT,
+    isScreenHEAD,
+    isScreenSm,
+    isScreenMd,
+    isScreenLg,
+    isScreenXl,
+    // isScreenXl - выбрать его!!! 
+  } = useResize();
+
   return (
     <div className={styles.container}>
-      {/* <div className={styles.breadСrumbs}>
-        <a href="#">главная&nbsp; /</a>
-        <a href="#">&nbsp;продукция&nbsp; /</a>
-        <a href="#">&nbsp;запорная арматура&nbsp; /</a>
-        <a href="#">&nbsp;{tabs[activeTab].label}</a>
-      </div> */}
 
       <Breadcrumbs paths={paths}/>
 
