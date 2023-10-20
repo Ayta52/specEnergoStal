@@ -194,6 +194,15 @@
     .productInfoContentLeft {
         font-size: 14px;
     } 
+    .infoTab {
+        flex-direction: column;
+    }
+    .productInfoContentLeft {
+        width: 100%;
+    }
+    .productInfoContentRight {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 360px) {
     .container h1{
@@ -202,4 +211,13 @@
     .productInfoContentLeft {
         font-size: 14px;
     } 
+    .infoTab {
+        flex-direction: column;
+    }
+    .productInfoContentLeft {
+        width: 100%;
+    }
+    .productInfoContentRight {
+        width: 100%;
+    }
 }

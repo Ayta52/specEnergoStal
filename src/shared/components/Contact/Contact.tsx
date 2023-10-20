@@ -44,7 +44,7 @@ export function Contact() {
                 фактический адрес
               </span>
               <p className={styles.contactInfo_text}>
-                603105, г.Нижний Новгород, ул.Ванеева, д.34 офис 504
+                603105, г.Нижний Новгород, ул.Ванеева, д.34 офис 413-416
               </p>
               <a href="#mapWidget" className={styles.contactInfo_btn}>
                 смотреть на карте

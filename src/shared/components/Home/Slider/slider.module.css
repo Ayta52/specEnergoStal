@@ -26,15 +26,17 @@
   position: absolute;
   width: 100%;
   height: 900px;
-  transition: all 0.5s;
+  transition: all 1.1s;
 }
 
 .sliderImgPrev {
   transform: translateX(-100%);
+  transition: 0.3s;
 }
 
 .sliderImgNext {
   transform: translateX(100%);
+  transition: 0.3s;
 }
 
 @media all and (max-width: 1000px) {

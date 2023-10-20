@@ -4,4 +4,4 @@ export const SCREEN_LG = 768;
 export const SCREEN_XL = 1024;
 export const SCREEN_HEAD = 1024;
 export const SCREEN_FOOT = 768;
-// export const SCREEN_XXL = 1400;
+export const SCREEN_BIG_MD = 480;

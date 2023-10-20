@@ -5,7 +5,6 @@ import styles from './dropDownInfo.module.css';
 import classNames from 'classnames';
 
 export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
-  console.log(tabs)
 
   return (
     <div className={styles.container}>

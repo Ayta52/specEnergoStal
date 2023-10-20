@@ -1,8 +1,6 @@
 // import React, { useEffect, useState } from 'react';
 
 import allCertificate from '../../../../icons/allCertificate.svg';
-import certificate1 from '../../../../img/certificates/1.jpg';
-import certificate2 from '../../../../img/certificates/2.jpg';
 import DC from '../../../../img/certificates/DC.jpg';
 import ISO from '../../../../img/certificates/ISO.jpg';
 import TCTP1 from '../../../../img/certificates/TCTP1.jpg';
@@ -14,35 +12,35 @@ import { Link } from 'react-router-dom';
 const imgList = [
   {
     id: 1,
-    content: <img key={generateRandomIndex()} src={certificate2} alt="sert" />,
-  },
-  {
-    id: 2,
-    content: <img key={generateRandomIndex()} src={certificate1} alt="sert" />,
-  },
-  {
-    id: 3,
     content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
   },
   {
-    id: 4,
+    id: 2,
     content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
   },
   {
-    id: 5,
+    id: 3,
     content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
-    id: 6,
+    id: 4,
     content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
   {
+    id: 5,
+    content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
+  },
+  {
+    id: 6,
+    content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
+  },
+  {
     id: 7,
-    content: <img key={generateRandomIndex()} src={certificate2} alt="sert" />,
+    content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
     id: 8,
-    content: <img key={generateRandomIndex()} src={certificate1} alt="sert" />,
+    content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
   {
     id: 9,
@@ -59,7 +57,7 @@ const imgList = [
   {
     id: 12,
     content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
-  },
+  }
 ];
 
 export function Certificate() {

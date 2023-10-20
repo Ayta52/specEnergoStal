@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import {
-  SCREEN_SM, SCREEN_MD, SCREEN_LG, SCREEN_XL, SCREEN_HEAD, SCREEN_FOOT
+  SCREEN_SM, SCREEN_MD, SCREEN_LG, SCREEN_XL, SCREEN_HEAD, SCREEN_FOOT, SCREEN_BIG_MD
 } from './Breakpoints';
 
 export const useResize = () => {
@@ -14,8 +14,9 @@ export const useResize = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
+   
   }, []);
-
+  console.log(width)
   return {
     width,
     isScreenSm: width >= SCREEN_SM,
@@ -23,6 +24,7 @@ export const useResize = () => {
     isScreenLg: width >= SCREEN_LG,
     isScreenXl: width >= SCREEN_XL,
     isScreenHEAD: width <= SCREEN_HEAD,
-    isScreenFOOT: width <= SCREEN_FOOT
+    isScreenFOOT: width <= SCREEN_FOOT,
+    isScreenBigMd: width >= SCREEN_BIG_MD,
   };
 };

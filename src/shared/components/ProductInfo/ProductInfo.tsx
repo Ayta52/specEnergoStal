@@ -282,7 +282,8 @@ export function ProductInfo() {
   ];
 
   const {
-    isScreenMd
+    isScreenMd,
+    isScreenBigMd
   } = useResize();
   
   return (
@@ -291,9 +292,15 @@ export function ProductInfo() {
 
       <div className={styles.productInfoTabs}>
         <h1>Запорная арматура</h1>
-        {isScreenMd ? (
-          <DropDownInfo activeTab={activeTab} setActiveTab={setActiveTab} handleTabClick={handleTabClick} tabs={tabs}/>
-        ) : (
+        {isScreenMd && (
+          <DropDownInfo
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            handleTabClick={handleTabClick}
+            tabs={tabs}
+          />
+        )}
+        {isScreenBigMd && (
           <div className={styles.tabContent}>
             {tabs.map((tab, index) => (
               <button
