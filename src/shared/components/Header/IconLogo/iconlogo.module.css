@@ -1,6 +1,11 @@
+a {
+  display: flex;
+  justify-content: center;
+}
 .logo {
-  width: 175px;
-  height: 60px;
+  /* width: 10.938em; */
+  width: 80%;
+  height: 3.75em;
 }
 .logo:hover {
   cursor: pointer;

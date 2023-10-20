@@ -34,14 +34,12 @@
 .productItemFlex img{
     padding-bottom: 30px;
 }
-/* .svg rect:hover{
-    fill: red; 
-} */
+
 .productItemFlex:hover {
    background-color: var(--blue);
 }
 
-p {
+.productItemFlex p {
     font-family: 'Bebas', 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -49,4 +47,88 @@ p {
     line-height: 113.2%;
     color: #FFFFFF;
     text-align: center;
+}
+.backgroundImg img{
+    width: auto;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container h1 {
+        align-self: flex-start;
+    }
+    .productList {
+        width: 100%;
+    }
+    .productItem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 480px){
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container h1 {
+        align-self: flex-start;
+    }
+    .productList {
+        width: 100%;
+    }
+    .productItem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .backgroundImg {
+        width: 100%;
+    } 
+    .backgroundImg img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container h1 {
+        align-self: flex-start;
+    }
+    .productList {
+        width: 100%;
+    }
+    .productItem {
+        width: 100%;
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 0.5fr 0.5fr; 
+        gap: 10px;
+    }
+    .backgroundImg {
+        display: none;
+    }
+
 }

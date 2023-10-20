@@ -38,3 +38,9 @@
     background-color: #4CAF50;
     color: white;
 }
+
+@media all and (max-width: 768px) {
+    .dropdownList {
+        right: -182px;
+    }
+  }

@@ -1,5 +1,5 @@
 .certificate {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 0 0;
   display: flex;
   flex-direction: column;
 }
@@ -154,19 +154,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 40px;
+  padding-top: 20px;
 }
 
-.certificateButton span {
+.certificateButtonLink {
   font-family: 'SansPro', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 18px;
   color: var(--white);
   padding-right: 6px;
 }
 
-.certificateButton span:hover {
+.certificateButtonLink:hover {
   color: var(--blue);
   text-decoration: underline;
   transition: 0.2s;
@@ -178,24 +180,11 @@
   height: 12px;
 }
 
-@keyframes left {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(-50%, 0);
-  }
-}
-
-@keyframes right {
-  0% {
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(50%, 0);
-  }
+.certificateSliderElements {
+  width: 200%;
+  display: flex;
+  align-items: flex-end;
+  animation: scroll 20s infinite linear;
 }
 
 @media all and (max-width: 1000px) {
@@ -261,5 +250,14 @@
   .certificateTitleDescription {
     font-size: 14px;
     width: 100%;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }

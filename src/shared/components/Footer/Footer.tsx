@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import { Link, NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { useResize } from '../common/UseResize';
 import Logo from '../../../icons/iconLogo.svg';
 import styles from './footer.module.css';
 
 export function Footer() {
+  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <div className={styles.footerContainer}>
       <Link to={"/"}>
