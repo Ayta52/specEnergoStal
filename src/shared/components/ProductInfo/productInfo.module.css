@@ -163,6 +163,7 @@
     }
     .infoTab {
         flex-direction: column;
+        gap: 10px;
     }
     .productInfoContentLeft {
         width: 100%;
@@ -196,6 +197,7 @@
     } 
     .infoTab {
         flex-direction: column;
+        gap: 10px;
     }
     .productInfoContentLeft {
         width: 100%;
@@ -213,6 +215,7 @@
     } 
     .infoTab {
         flex-direction: column;
+        gap: 10px;
     }
     .productInfoContentLeft {
         width: 100%;

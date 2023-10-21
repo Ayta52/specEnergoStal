@@ -37,3 +37,24 @@
   width: 500px;
   height: 700px;
 }
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+  .popup-content-img {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media all and (max-width: 480px) and (min-width: 360px) {
+  .popup-content-img {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .popup-content-img {
+    width: 100px;
+    height: 200px;
+  }
+}

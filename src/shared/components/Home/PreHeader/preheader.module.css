@@ -66,9 +66,9 @@
 }
 
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) and (min-width: 768px) {
   .container {
-    max-width: 1000px;
+    max-width: 1024px;
     padding: 20px;
   }
   .title {
@@ -76,7 +76,7 @@
     line-height: 56.6px;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) and (min-width: 480px) {
   .container {
     max-width: 768px;
     padding: 20px;
@@ -89,7 +89,7 @@
     font-size: 16px;
   }
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 480px) and (min-width: 360px) {
   .container {
     max-width: 480px;
     padding: 20px;

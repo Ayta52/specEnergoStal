@@ -8,6 +8,7 @@ import TCTP2 from '../../../../img/certificates/TCTP2.jpg';
 import styles from './certificate.module.css';
 import generateRandomIndex from '../../../../utils/js/generateRandomIndex';
 import { Link } from 'react-router-dom';
+import CertificateTitle from '../CertificateTitle/CertificateTitle';
 
 const imgList = [
   {
@@ -63,16 +64,7 @@ const imgList = [
 export function Certificate() {
   return (
     <div className={styles.certificate}>
-      <div className={styles.certificateTitle}>
-        <h2>СЕРТИФИКАТЫ</h2>
-        <div className={styles.certificateTitleDescription}>
-          Основным направлением компании является{' '}
-          <span className={styles.descriptionBlue}>
-            производство и комплектация трубопроводных систем
-          </span>{' '}
-          для газовой, нефтяной, атомной и нефтехимической промышленности
-        </div>
-      </div>
+      <CertificateTitle />
 
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>

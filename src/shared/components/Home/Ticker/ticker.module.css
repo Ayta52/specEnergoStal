@@ -8,6 +8,7 @@
   width: 200%;
   display: flex;
   align-items: flex-end;
+  gap: 50px;
   animation: scroll 10s infinite linear;
 }
 
@@ -24,5 +25,27 @@
   }
   100% {
     transform: translate(-50%, 0);
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+}
+
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+  .ticker {
+    gap: 50px;
+  }
+}
+
+@media all and (max-width: 480px) and (min-width: 360px) {
+  .ticker {
+    gap: 50px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .ticker {
+    gap: 50px;
   }
 }
