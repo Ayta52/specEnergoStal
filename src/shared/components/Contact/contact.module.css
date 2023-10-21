@@ -43,6 +43,8 @@ h1 {
 .contactInfo {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
     padding-bottom: 30px;
 }
 
@@ -118,7 +120,7 @@ h1 {
         margin: 0 auto;
     }
     .contactInfo {
-        width: 865px;
+        max-width: 865px;
         display: flex;
         justify-content: space-between;
         padding-bottom: 30px;
