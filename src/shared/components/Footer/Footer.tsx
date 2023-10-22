@@ -29,7 +29,7 @@ export function Footer() {
           <Link to="/dno">Днища</Link>
           <Link to="/opora">Опоры</Link>
           <Link to="/shtucer">Штуцеры</Link>
-          <Link to="/zapornayaArmatura">Запорная арматура</Link>
+          <Link to="/productinfo">Запорная арматура</Link>
         </div>
       </div>
     </div>
