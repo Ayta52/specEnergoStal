@@ -17,8 +17,6 @@ export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
         
         <ul className={styles.dropdownList}>
           <li className={styles.dropdownItem}>
-            {/* <button>Гавная</button> */}
-
             {tabs.map((tab, index) => (
               <button
                 key={index}
@@ -32,12 +30,6 @@ export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
               </button>
             ))}
           </li>
-          {/* <li className={styles.dropdownItem}>
-            <button>Сертификаты</button>
-          </li>
-          <li className={styles.dropdownItem}>
-            <button>Контакты</button>
-          </li> */}
         </ul>
       </div>
     </>

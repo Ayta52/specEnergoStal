@@ -1,11 +1,12 @@
 a {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .logo {
   /* width: 10.938em; */
   width: 80%;
   height: 3.75em;
+  
 }
 .logo:hover {
   cursor: pointer;

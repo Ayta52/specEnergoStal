@@ -1,7 +1,7 @@
 .certificateContainer {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     justify-content: space-between;
 }
@@ -10,7 +10,7 @@
     width: 1300px;
     padding-bottom: 50px;
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: left;
 }
 
@@ -48,7 +48,7 @@
     }
     .certificateTitle {
       max-width: 1024px;
-      margin-left: 20px;
+      /* margin-left: 20px; */
       width: auto;
       text-align: left;
       padding-bottom: 40px;
@@ -69,7 +69,7 @@
     }
     .certificateTitle {
       max-width: 768px;
-      margin-left: 20px;
+      /* margin-left: 20px; */
       width: auto;
       text-align: left;
       padding-bottom: 20px;
