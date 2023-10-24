@@ -5,11 +5,14 @@ export function PreHeader() {
   return (
     <>
       <div className={styles.container}>
-        <h1 className={styles.title}>
-          Производство и комплектация{'\n'}{' '}
-          <span className={styles.titleBlue}>трубопроводных систем</span>
-          {'\n'} для промышленности
-        </h1>
+        <div className={styles.title}>
+          <h1 className={styles.title}>
+            Производство и комплектация{'\n'}{' '}
+            <span className={styles.titleBlue}>трубопроводных систем</span>
+            {'\n'} для промышленности
+          </h1>
+        </div>
+        
         <div className={styles.rightBlok}>
           <button className={styles.downloadBtn}>
             <svg
