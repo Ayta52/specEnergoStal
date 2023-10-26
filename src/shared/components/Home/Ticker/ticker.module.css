@@ -8,15 +8,17 @@
   width: 200%;
   display: flex;
   align-items: flex-end;
-  gap: 50px;
-  animation: scroll 10s infinite linear;
+  gap: 70px;
+  /* animation: scroll 10s infinite linear; */
+  animation: scroll 15s infinite linear;
 }
 
 .ticker {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
+  gap: 70px;
 }
 
 @keyframes scroll {
