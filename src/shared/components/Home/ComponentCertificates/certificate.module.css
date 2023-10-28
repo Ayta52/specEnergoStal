@@ -88,7 +88,6 @@
 }
 
 .certificateSliderContainer {
-  width: 210%;
   display: flex;
 }
 
@@ -116,6 +115,7 @@
 .tikerCertificate {
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .tikerCertificateRight {
@@ -134,8 +134,8 @@
 }
 
 .tikerCertificate img {
-  width: 210px;
-  height: 297px;
+  width: 100%;
+  height: auto;
 }
 
 .slide {
@@ -182,17 +182,19 @@
 }
 
 .certificateSliderElements {
-  width: 200%;
+  /* width: 200%; */
   display: flex;
   align-items: flex-end;
-  animation: scroll 30s infinite linear;
+  /* animation: scroll 30s infinite linear; */
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
   .certificate {
     max-width: 1024px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
   }
   h2 {
     font-size: 50px;
@@ -212,7 +214,21 @@
   .certificate {
     max-width: 768px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
+    
   }
   h2 {
     font-size: 40px;
@@ -232,7 +248,20 @@
   .certificate {
     max-width: 480px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
   }
   h2 {
     font-size: 30px;
@@ -252,7 +281,21 @@
   .certificate {
     max-width: 360px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
+    
   }
   h2 {
     font-size: 20px;

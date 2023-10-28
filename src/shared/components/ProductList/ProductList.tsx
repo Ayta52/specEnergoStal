@@ -71,15 +71,7 @@ const productListMass = [
 ];
 
 export function ProductList() {
-  const {
-    width,
-    isScreenFOOT,
-    isScreenHEAD,
-    isScreenSm,
-    isScreenMd,
-    isScreenLg,
-    isScreenXl,
-  } = useResize();
+  
   return (
     <div className={styles.container}>
       <h1>Продукция</h1>

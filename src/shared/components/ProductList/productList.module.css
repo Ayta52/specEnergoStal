@@ -104,6 +104,10 @@
         width: 100%;
         height: auto;
     }
+    .productItemFlex {
+        width: 175px;
+        height: 300px;
+    }
 }
 @media screen and (max-width: 480px) {
     .container {
@@ -129,6 +133,14 @@
     }
     .backgroundImg {
         display: none;
+    }
+    .productItemFlex {
+        width: 100%;
+        height: auto;
+    }
+    .productItemFlex img{
+        width: 90%;
+        height: auto;
     }
 
 }

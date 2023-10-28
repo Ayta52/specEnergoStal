@@ -43,22 +43,22 @@ const imgList = [
     id: 8,
     content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
-  {
-    id: 9,
-    content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
-  },
-  {
-    id: 10,
-    content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
-  },
-  {
-    id: 11,
-    content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
-  },
-  {
-    id: 12,
-    content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
-  }
+  // {
+  //   id: 9,
+  //   content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
+  // },
+  // {
+  //   id: 10,
+  //   content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
+  // },
+  // {
+  //   id: 11,
+  //   content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
+  // },
+  // {
+  //   id: 12,
+  //   content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
+  // }
 ];
 
 export function Certificate() {
@@ -68,20 +68,6 @@ export function Certificate() {
 
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>
-          <span className={styles.tikerCertificate}>
-            {imgList.map((item) => (
-              <div key={item.id} className={styles.certificateSliderElement}>
-                {item.content}
-              </div>
-            ))}
-          </span>
-          <span className={styles.tikerCertificate}>
-            {imgList.map((item) => (
-              <div key={item.id} className={styles.certificateSliderElement}>
-                {item.content}
-              </div>
-            ))}
-          </span>
           <span className={styles.tikerCertificate}>
             {imgList.map((item) => (
               <div key={item.id} className={styles.certificateSliderElement}>

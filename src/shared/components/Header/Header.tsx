@@ -1,4 +1,3 @@
-import React from 'react';
 import { useResize } from '../common/UseResize';
 import { DropDownNavBar } from './DropDownNavBar/DropDownNavBar';
 import { IconLogo } from './IconLogo';
@@ -9,7 +8,12 @@ import sms from "../../../icons/sms.svg";
 import styles from './header.module.css';
 
 export function Header() {
-  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
+  
+  const {
+    isScreenHEAD,
+    isScreenXl,
+  } = useResize();
+
   return (
     <header className={styles.header}>
       {isScreenHEAD && 
