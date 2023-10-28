@@ -2,14 +2,15 @@
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import slide1 from '../../../../img/main1.png';
-import slide2 from '../../../../img/main2.jpg';
+// import slide2 from '../../../../img/main2.jpg';
+import slide3 from '../../../../img/main3.png';
 import styles from './slider.module.css';
 
 const img = [
   <img key={slide1} src={slide1} />,
-  <img key={slide2} src={slide2} />,
+  <img key={slide3} src={slide3} />,
   <img key={slide1} src={slide1} />,
-  <img key={slide2} src={slide2} />,
+  <img key={slide3} src={slide3} />,
 ];
 
 export function Slider() {

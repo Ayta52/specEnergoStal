@@ -7,7 +7,8 @@
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  width: 500px;
+  max-width: 500px;
+  gap: 5%;
 }
 
 .navList a {
@@ -26,7 +27,7 @@
   border-bottom: solid 3px var(--blue);
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   .navbar {
     max-width: 422px;
   }

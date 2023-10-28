@@ -192,7 +192,9 @@
   .certificate {
     max-width: 1024px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
   }
   h2 {
     font-size: 50px;
@@ -212,7 +214,21 @@
   .certificate {
     max-width: 768px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
+    
   }
   h2 {
     font-size: 40px;
@@ -232,7 +248,20 @@
   .certificate {
     max-width: 480px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
   }
   h2 {
     font-size: 30px;
@@ -252,7 +281,21 @@
   .certificate {
     max-width: 360px;
     padding: 20px;
-    padding-top: 87px;
+  }
+  .certificateTitle {
+    padding: 20px;
+  }
+  .tikerCertificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+  }
+  .certificateSliderElement {
+    width: 30%;
+    height: 30%;
+    
   }
   h2 {
     font-size: 20px;

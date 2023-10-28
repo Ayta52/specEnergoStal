@@ -103,7 +103,7 @@
     }
 
     .leftPreFooter {
-        max-width: 499px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         line-height: 30px;

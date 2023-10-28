@@ -38,12 +38,18 @@
     display: none;
   }
 }
+@media all and (max-width: 1024px) {
+  .header {
+    margin-bottom: 20px;
+  }
+}
 
 @media all and (max-width: 1023px) {
   .header {
     max-width: 1023px;
     padding: 20px;
     margin-bottom: 0;
+    margin-top: 20px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
