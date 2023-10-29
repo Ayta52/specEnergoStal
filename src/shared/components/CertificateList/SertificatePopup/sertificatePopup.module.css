@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 
 .popup-overlay {
@@ -36,6 +37,7 @@
 .popup-content-img {
   width: 500px;
   height: 700px;
+  z-index: 999;
 }
 
 @media all and (max-width: 768px) and (min-width: 480px) {

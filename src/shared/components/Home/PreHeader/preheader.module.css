@@ -76,6 +76,7 @@
   .title {
     font-size: 50px;
     line-height: 56.6px;
+    padding: 0;
   }
   .titleBlue {
     font-size: 50px;
@@ -89,6 +90,7 @@
   .title {
     font-size: 30px;
     line-height: 45.2px;
+    padding: 0;
   }
   .titleBlue {
     font-size: 30px;
@@ -111,6 +113,7 @@
   .title {
     font-size: 25px;
     line-height: 28.3px;
+    padding: 0;
   }
   .titleBlue {
     font-size: 25px;
@@ -122,7 +125,7 @@
     font-size: 12px;
     line-height: 15px;
   }
-  svg {
+  .downloadBtn svg {
     width: 136px;
     height: 40px;
   }
@@ -142,6 +145,13 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+  }
+  .rightDescr {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .downloadBtnIcon {
+    width: 160px;
   }
   .title {
     width: 100%;
