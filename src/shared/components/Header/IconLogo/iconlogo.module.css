@@ -1,6 +1,7 @@
 .logoLink {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 12.938em;
   height: 4.75em;
   
