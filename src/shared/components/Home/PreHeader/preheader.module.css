@@ -3,6 +3,8 @@
   max-width: 1300px;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
 }
 
 .title {
@@ -15,7 +17,7 @@
   text-transform: uppercase;
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-stretch: ultra-condensed;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .titleBlue {
@@ -29,6 +31,11 @@
   justify-content: flex-start;
   /* gap: 15px;
   padding-top: 20px; */
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: -59px;
 }
 
 .downloadBtn {
@@ -65,6 +72,7 @@
   font-weight: 400;
   text-align: right;
   line-height: 30px;
+  margin-top: 100px;
 }
 
 
@@ -80,6 +88,11 @@
   }
   .titleBlue {
     font-size: 50px;
+  }
+  .rightDescr {
+    font-size: 18px;
+    width: calc(300px + (100vw - 1024px) * (15 - 30) / (1024 - 1000));
+    margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (1024 - 1000));
   }
 }
 @media all and (max-width: 768px) and (min-width: 480px) {
