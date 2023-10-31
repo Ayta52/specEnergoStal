@@ -10,12 +10,12 @@ import { PreHeader } from './shared/components/Home/PreHeader';
 function App() {
   return (
     <Layout>
-      <Header />
+      {/* <Header />
       <Router />
       <PreFooter />
       <div className="border_bottom"></div>
-      <Footer />
-      {/* <PreHeader /> */}
+      <Footer /> */}
+      <PreHeader />
     </Layout>
   );
 }
