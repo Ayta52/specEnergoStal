@@ -2,15 +2,20 @@
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import slide1 from '../../../../img/main1.png';
-// import slide2 from '../../../../img/main2.jpg';
 import slide3 from '../../../../img/main3.png';
 import styles from './slider.module.css';
 
+// const img = [
+//   <img key={slide1} src={slide1} />,
+//   <img key={slide3} src={slide3} />,
+//   <img key={slide1} src={slide1} />,
+//   <img key={slide3} src={slide3} />,
+// ];
 const img = [
-  <img key={slide1} src={slide1} />,
-  <img key={slide3} src={slide3} />,
-  <img key={slide1} src={slide1} />,
-  <img key={slide3} src={slide3} />,
+  <div className={styles.slider1} key={slide1}></div>,
+  <div className={styles.slider3} key={slide3}></div>,
+  <div className={styles.slider1} key={slide1}></div>,
+  <div className={styles.slider3} key={slide3}></div>,
 ];
 
 export function Slider() {
@@ -28,7 +33,11 @@ export function Slider() {
 
   return (
     <div className={styles.slider}>
-      <div
+      <div className={styles.slider3}></div>
+
+
+
+      {/* <div
         className={classNames(
           styles.sliderElement,
           styles.sliderImg,
@@ -53,7 +62,7 @@ export function Slider() {
         key={nextImgIndex}
       >
         {img[nextImgIndex]}
-      </div>
+      </div> */}
     </div>
   );
 }

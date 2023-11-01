@@ -6,11 +6,11 @@ export function PreHeader() {
     <>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h1 className={styles.title}>
+          <h2 className={styles.title}>
             Производство и комплектация{'\n'}{' '}
             <span className={styles.titleBlue}>трубопроводных систем</span>
             {'\n'} для промышленности
-          </h1>
+          </h2>
         </div>
         
         <div className={styles.rightBlok}>

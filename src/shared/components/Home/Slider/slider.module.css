@@ -4,10 +4,26 @@
   overflow: hidden;
 }
 
+.slider1 {
+  background-image: url('../../../../img/main1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.slider3 {
+  background: url('../../../../img/main3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
 .sliderElement img {
   min-width: 0px;
   width: 100%;
-  /* height: 700px; */
+  height: 700px;
   margin-right: 20px;
 }
 
