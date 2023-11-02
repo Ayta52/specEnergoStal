@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
 import main1 from '../../../../img/main1.png';
 import main3 from '../../../../img/main3.png';
-import styles from './slider.module.css';
+import styles from './sliderTest.module.css';
 
-export function Slider() {
+export function SliderTest() {
   const slides = [main1, main3, main1, main3];
   const [activeIndex, setActiveIndex] = useState(0);
 
