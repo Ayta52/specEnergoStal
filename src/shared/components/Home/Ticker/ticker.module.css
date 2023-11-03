@@ -8,6 +8,9 @@
   max-width: 1300px;
   margin: 0 auto;
   padding-bottom: 40px;
+}
+
+.tickerTitleText {
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-style: normal;
   font-weight: 700;

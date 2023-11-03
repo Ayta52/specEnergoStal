@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import DC from '../../../img/certificates/DC.jpg';
-import ISO from '../../../img/certificates/ISO.jpg';
-import TCTP1 from '../../../img/certificates/TCTP1.jpg';
-import TCTP2 from '../../../img/certificates/TCTP2.jpg';
+import DC from '../../../img/certificates/DC.png';
+import ISO from '../../../img/certificates/ISO.png';
+import TCTP1 from '../../../img/certificates/TCTP1.png';
+import TCTP2 from '../../../img/certificates/TCTP2.png';
 import styles from './certificateList.module.css';
 import { SertificatePopup } from './SertificatePopup/SertificatePopup';
 

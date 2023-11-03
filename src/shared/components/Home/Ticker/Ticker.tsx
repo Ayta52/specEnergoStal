@@ -20,7 +20,7 @@ export function Ticker() {
   return (
     <div className={styles.container}>
       <div className={styles.tickerTitle}>
-        <h2>
+        <h2 className={styles.tickerTitleText}>
           Наши партнеры
         </h2>
       </div>
