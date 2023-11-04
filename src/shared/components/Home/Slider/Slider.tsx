@@ -1,59 +1,35 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames';
-import slide1 from '../../../../img/main1.png';
-// import slide2 from '../../../../img/main2.jpg';
-import slide3 from '../../../../img/main3.png';
+import main1 from '../../../../img/main1.png';
+import main2 from '../../../../img/main2.png';
+import main3 from '../../../../img/main3.png';
+import main4 from '../../../../img/main4.png';
+import main5 from '../../../../img/main5.png';
 import styles from './slider.module.css';
 
-const img = [
-  <img key={slide1} src={slide1} />,
-  <img key={slide3} src={slide3} />,
-  <img key={slide1} src={slide1} />,
-  <img key={slide3} src={slide3} />,
-];
-
 export function Slider() {
+  const slides = [main1, main2, main3, main4, main5];
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((current) => (current + 1) % img.length);
+      setActiveIndex((current) => (current + 1) % slides.length);
     }, 3000);
     return () => clearInterval(interval);
   }, []);
 
-  const prevImgIndex = (activeIndex + img.length - 1) % img.length;
-  const nextImgIndex = (activeIndex + 1) % img.length;
-
   return (
     <div className={styles.slider}>
-      <div
-        className={classNames(
-          styles.sliderElement,
-          styles.sliderImg,
-          styles.sliderImgPrev
-        )}
-        key={prevImgIndex}
-      >
-        {img[prevImgIndex]}
-      </div>
-      <div
-        className={classNames(styles.sliderElement, styles.sliderImg)}
-        key={activeIndex}
-      >
-        {img[activeIndex]}
-      </div>
-      <div
-        className={classNames(
-          styles.sliderElement,
-          styles.sliderImg,
-          styles.sliderImgNext
-        )}
-        key={nextImgIndex}
-      >
-        {img[nextImgIndex]}
-      </div>
+      {slides.map((slide, index) => (
+        <div
+          className={classNames(styles.slide, {
+            [styles.active]: index === activeIndex,
+          })}
+          key={index}
+          style={{ backgroundImage: `url(${slide})` }}
+        />
+      ))}
     </div>
   );
 }

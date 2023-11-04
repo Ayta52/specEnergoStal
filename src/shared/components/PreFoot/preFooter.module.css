@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 200px 0 53px 0;
+    padding: 100px 0 50px 0;
 }
 
 .leftPreFooter {
@@ -95,9 +95,9 @@
 @media screen and (max-width: 1024px) and (min-width: 768px){
     .preFooterContainer {
         flex-direction: row;
-        justify-content: center;
+        /* justify-content: center; */
         gap: 10px;
-        max-width: 960px;
+        max-width: 100%;
         margin: 0 auto;
         padding: 20px;
     }
@@ -107,14 +107,27 @@
         display: flex;
         flex-direction: column;
         line-height: 30px;
+        white-space: nowrap;
     }
     .leftPreFooter div{
         max-width: 700px;
         font-weight: 400;
     }
-    .leftPreFooter div:nth-child(2) {
-        padding-top: 30px;
+    .rightPreFooter {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 15%;
     }
+    .rightPreFooterLinks {
+        display: flex;
+        justify-content: center;
+        margin-left: 46px;
+    }
+    /* .leftPreFooter div:nth-child(2) {
+        padding-top: 30px;
+    } */
 }
 
 @media screen and (max-width: 768px){
@@ -122,6 +135,7 @@
         max-width: 768px;
         margin: 0 auto;
         padding: 20px;
+        padding-bottom: 40px;
     }
     * {
         font-size: 14px;
@@ -181,7 +195,7 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 89px 0 20px 0;
+    padding: 49px 0 20px 0;
 }
 }
 @media screen and (max-width: 360px){
@@ -204,6 +218,6 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 89px 0 20px 0;
+    padding: 49px 0 20px 0;
 }
 }

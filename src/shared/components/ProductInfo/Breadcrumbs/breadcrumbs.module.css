@@ -17,6 +17,7 @@
 .breadСrumbs ol {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
     padding: 0;
 }
 .breadСrumbs ol span{

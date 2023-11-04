@@ -5,7 +5,12 @@
   padding: 20px;
 }
 .tickerTitle {
+  max-width: 1300px;
+  margin: 0 auto;
   padding-bottom: 40px;
+}
+
+.tickerTitleText {
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -28,15 +33,37 @@
   justify-content: space-around;
   align-items: center; */
   /* width: 100%; */
+  max-width: 1300px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 35px;
 }
 .ticker img{
-  width: 20%;
+  width: 10%;
 }
+
+.tatneft {
+  padding-bottom: 10px;
+}
+.mosenergo {
+  padding-bottom: 17px;
+}
+.rusneft {
+  padding-bottom: 5px;
+}
+.group {
+  padding-bottom: 26px;
+}
+.mondi {
+  padding-bottom: 7px;
+}
+.rusal {
+  padding-top: 6px;
+}
+
+
 
 @keyframes scroll {
   0% {
@@ -48,18 +75,26 @@
 }
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
+  .tickerTitleText {
+    font-size: 50px;
+  }
 }
-
 
 @media all and (max-width: 768px) and (min-width: 480px) {
   .ticker {
     gap: 50px;
+  }
+  .tickerTitleText {
+    font-size: 40px;
   }
 }
 
 @media all and (max-width: 480px) and (min-width: 360px) {
   .ticker {
     gap: 50px;
+  }
+  .tickerTitleText {
+    font-size: 30px;
   }
 }
 
@@ -71,6 +106,14 @@
     align-items: flex-end;
     gap: 70px;
     animation: none;
+  }
+
+  .tickerTitleText {
+    font-size: 20px;
+  }
+
+  .tickerTitle {
+    padding-bottom: 0;
   }
   
   .ticker {
