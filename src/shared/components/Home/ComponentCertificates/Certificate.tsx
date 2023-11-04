@@ -32,7 +32,7 @@ const imgList = [
 export function Certificate() {
   return (
     <div className={styles.certificate}>
-      <CertificateTitle />
+      {/* <CertificateTitle /> */}
 
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>
