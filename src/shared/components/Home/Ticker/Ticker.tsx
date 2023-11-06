@@ -1,4 +1,5 @@
 // import React from 'react';
+import classNames from 'classnames';
 import CertificateTitle from '../CertificateTitle/CertificateTitle';
 import transneft from '../../../../icons/transneft.svg';
 import rosatom from '../../../../icons/rosatom.svg';
@@ -31,17 +32,17 @@ export function Ticker() {
           {/* <img className={styles.sibur} src={sibur} alt="sibur" /> */}
           {/* <img className={styles.rosneft} src={rosneft} alt="rosneft" /> */}
           {/* <img className={styles.lukoil} src={lukoil} alt="lukoil" /> */}
-          <img className={styles.tatneft} src={tatneft} alt="tatneft" />
-          <img className={styles.novatek} src={novatek} alt="novatek" />
-          <img className={styles.rosatom} src={rosatom} alt="rosatom" />
-          <img className={styles.transneft} src={transneft} alt="transneft" />
-          <img className={styles.mosenergo} src={mosenergo} alt="mosenergo" />
-          <img className={styles.rusneft} src={rusneft} alt="rusneft" />
-          <img className={styles.group} src={group} alt="group" />
-          <img className={styles.nornikel} src={nornikel} alt="nornikel" />
-          <img className={styles.mondi} src={mondi} alt="mondi" />
-          <img className={styles.arctickgaz} src={arctickgaz} alt="arctickgaz" />
-          <img className={styles.rusal} src={rusal} alt="rusal" />
+          <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
+          <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
+          <img className={classNames(styles.rosatom, styles.tickerImg)} src={rosatom} alt="rosatom" />
+          <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
+          <img className={classNames(styles.mosenergo, styles.tickerImg)} src={mosenergo} alt="mosenergo" />
+          <img className={classNames(styles.rusneft, styles.tickerImg)} src={rusneft} alt="rusneft" />
+          <img className={classNames(styles.group, styles.tickerImg)} src={group} alt="group" />
+          <img className={classNames(styles.nornikel, styles.tickerImg)} src={nornikel} alt="nornikel" />
+          <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
+          <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
+          <img className={classNames(styles.rusal, styles.tickerImg)} src={rusal} alt="rusal" />
         </span>
       </div>
 

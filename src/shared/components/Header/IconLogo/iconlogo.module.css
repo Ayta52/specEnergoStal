@@ -7,9 +7,12 @@
   
 }
 .logo {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 175px;
+  height: 70px;
 }
+
 .logo:hover {
   cursor: pointer;
 }
@@ -32,21 +35,31 @@
     height: 90%;
   }
 }
+@media all and (max-width: 768px) {
+  .logoLink {
+    justify-content: center;
+  }
+  .logo {
+    width: 90%;
+    height: 90%;
+  }
+}
 @media all and (max-width: 480px) and (min-width: 360px){
   .logoLink {
     margin-left: 10%;
   }
   .logo {
-    width: 80%;
-    height: 80%;
+    /* width: 80%;
+    height: 80%; */
+    width: 165px;
+    height: 56px;
   }
 }
 @media all and (max-width: 360px) {
-  .logoLink {
-    /* margin-left: 10%; */
-  }
   .logo {
-    width: 60%;
-    height: 60%;
+    /* width: 60%;
+    height: 60%; */
+    width: 110px;
+    height: 38px;
   }
 }

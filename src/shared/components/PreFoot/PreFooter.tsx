@@ -32,7 +32,7 @@ export function PreFooter() {
         <div className={styles.rightPreFooterImg}>
           {isScreenFOOT ? (
             <button className={styles.downloadBtnisScreenFOOT}>
-              <span>скачать буклет</span>
+              <span className={styles.downloadBtnText}>скачать буклет</span>
             </button>
           ) : (
             <button className={styles.downloadBtn}>

@@ -24,6 +24,7 @@
   display: flex;
   align-items: flex-end;
   gap: 50px;
+  margin-bottom: 30px;
   /* animation: scroll 15s infinite linear; */
 }
 
@@ -40,7 +41,7 @@
   flex-wrap: wrap;
   gap: 35px;
 }
-.ticker img{
+.tickerImg img{
   width: 10%;
 }
 
@@ -96,6 +97,9 @@
   .tickerTitleText {
     font-size: 30px;
   }
+  .tickerImg{
+    width: 40%;
+  }
 }
 
 @media all and (max-width: 360px) {
@@ -123,7 +127,7 @@
     flex-wrap: wrap;
     gap: 40px;
   }
-  .ticker img{
+  .tickerImg{
     width: 40%;
   }
 }
