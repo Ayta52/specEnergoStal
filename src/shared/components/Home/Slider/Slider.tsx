@@ -20,14 +20,29 @@ export function Slider() {
   }, []);
 
   return (
+    // <div className={styles.slider}>
+    //   {slides.map((slide, index) => (
+    //     <div
+    //       className={classNames(styles.slide, {
+    //         [styles.active]: index === activeIndex,
+    //       })}
+    //       key={index}
+    //       style={{ backgroundImage: `url(${slide})` }}
+    //     />
+    //   ))}
+    // </div>
+
     <div className={styles.slider}>
-      {slides.map((slide, index) => (
+      {slides.map((image, index) => (
         <div
-          className={classNames(styles.slide, {
-            [styles.active]: index === activeIndex,
-          })}
           key={index}
-          style={{ backgroundImage: `url(${slide})` }}
+          className={styles.slide [index === activeIndex ? styles.active : ""]}
+          style={{
+            backgroundImage: `url(${image})`,
+            transform: `translateX(${
+              index === activeIndex ? "0" : "100%"
+            })`,
+          }}
         />
       ))}
     </div>

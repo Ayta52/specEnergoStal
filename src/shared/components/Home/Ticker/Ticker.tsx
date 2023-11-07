@@ -12,10 +12,10 @@ import rusneft from '../../../../icons/russNeft.svg';
 import group from '../../../../icons/group.svg';
 import nornikel from '../../../../icons/nornickel.svg';
 import rusal from '../../../../icons/rusal.svg';
-// import gazprom from '../../../../icons/gazprom.svg';
-// import lukoil from '../../../../icons/lukoil.svg';
-// import sibur from '../../../../icons/sibur.svg';
-// import rosneft from '../../../../icons/rosneft.svg';
+import gazprom from '../../../../icons/gazprom.svg';
+import lukoil from '../../../../icons/lukoil.svg';
+import sibur from '../../../../icons/sibur.svg';
+import rosneft from '../../../../icons/rosneft.svg';
 import styles from './ticker.module.css';
 
 export function Ticker() {
@@ -28,10 +28,10 @@ export function Ticker() {
       </div>
       <div className={styles.tickerContainer}>
         <span className={styles.ticker}>
-          {/* <img className={styles.gazprom} src={gazprom} alt="gazprom" /> */}
-          {/* <img className={styles.sibur} src={sibur} alt="sibur" /> */}
-          {/* <img className={styles.rosneft} src={rosneft} alt="rosneft" /> */}
-          {/* <img className={styles.lukoil} src={lukoil} alt="lukoil" /> */}
+          <img className={classNames(styles.gazprom, styles.ticekImg)} src={gazprom} alt="gazprom" />
+          <img className={classNames(styles.sibur, styles.ticekImg)} src={sibur} alt="sibur" />
+          <img className={classNames(styles.rosneft, styles.ticekImg)} src={rosneft} alt="rosneft" />
+          <img className={classNames(styles.lukoil, styles.ticekImg)} src={lukoil} alt="lukoil" />
           <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
           <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
           <img className={classNames(styles.rosatom, styles.tickerImg)} src={rosatom} alt="rosatom" />
