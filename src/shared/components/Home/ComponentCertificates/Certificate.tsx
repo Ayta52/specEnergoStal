@@ -26,21 +26,36 @@ const imgList = [
   {
     id: 4,
     content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
+  },
+  {
+    id: 5,
+    content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
+  },
+  {
+    id: 6,
+    content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
+  },
+  {
+    id: 7,
+    content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
+  },
+  {
+    id: 8,
+    content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   }
 ];
+const shuffledPhotos = [imgList].sort(() => Math.random() - 0.5);
 
 export function Certificate() {
   return (
     <div className={styles.certificate}>
-      {/* <CertificateTitle /> */}
-
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>
           <span className={styles.tikerCertificate}>
             {imgList.map((item) => (
-              <div key={item.id} className={styles.certificateSliderElement}>
+              <Link to={'/certificatelist'}  key={item.id} className={styles.certificateSliderElement}>
                 {item.content}
-              </div>
+              </Link>
             ))}
           </span>
         </div>
