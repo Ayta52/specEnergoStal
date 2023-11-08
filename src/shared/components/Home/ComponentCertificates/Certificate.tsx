@@ -1,7 +1,6 @@
 // import React, { useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
-import CertificateTitle from '../CertificateTitle/CertificateTitle';
 import allCertificate from '../../../../icons/allCertificate.svg';
 import DC from '../../../../img/certificates/DC.png';
 import ISO from '../../../../img/certificates/ISO.png';
@@ -44,7 +43,8 @@ const imgList = [
     content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   }
 ];
-const shuffledPhotos = [imgList].sort(() => Math.random() - 0.5);
+const shuffledPhotos = [...imgList].sort(() => Math.random() - 0.5);
+
 
 export function Certificate() {
   return (
@@ -52,8 +52,8 @@ export function Certificate() {
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>
           <span className={styles.tikerCertificate}>
-            {imgList.map((item) => (
-              <Link to={'/certificatelist'}  key={item.id} className={styles.certificateSliderElement}>
+            {shuffledPhotos.map((item) => (
+              <Link to={'/certificatelist'} key={item.id} className={styles.certificateSliderElement}>
                 {item.content}
               </Link>
             ))}

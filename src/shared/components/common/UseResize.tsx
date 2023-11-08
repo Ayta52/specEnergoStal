@@ -16,7 +16,6 @@ export const useResize = () => {
     };
    
   }, []);
-  console.log(width)
   return {
     width,
     isScreenSm: width >= SCREEN_SM,
