@@ -21,20 +21,20 @@
 
 .tickerContainer {
   /* статика */
-  width: 100%;   
+  /* width: 100%;    */
   
   /* Динамика */
-  /* width: 200%; */
+  width: 200%;
 
   display: flex;
   align-items: flex-end;
   gap: 50px;
   margin-bottom: 30px;
 
-  /* margin-left: -1170px; */
+  /* margin-left: -2500px; */
 
   /* Динамика  */
-  /* animation: scroll 20s infinite linear; */
+  animation: scroll 20s infinite linear;
 }
 
 .ticker {
@@ -47,46 +47,47 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-
+  gap: 80px;
   /* статика */
-  flex-wrap: wrap;
-  gap: 35px;
+  /* flex-wrap: wrap;
+  gap: 35px; */
 }
 .tickerImg img{
   width: 10%;
 }
 
 .tatneft {
-  padding-bottom: 10px;
-  /* padding-bottom: 21px; */
+  /* padding-bottom: 10px; */
+  padding-bottom: 46px;
 }
 .mosenergo {
-  padding-bottom: 17px;
-  /* padding-bottom: 38px; */
+  /* padding-bottom: 17px; */
+  padding-bottom: 51px;
 }
 .rusneft {
-  padding-bottom: 5px;
+  padding-bottom: 14px;
 }
 
 .rosneft {
-  padding-bottom: 34px;
+  padding-bottom: 32px;
+  height: 8em;
 }
 .group {
-  padding-bottom: 26px;
+  padding-bottom: 51px;
 }
 .mondi {
-  padding-bottom: 7px;
-  /* padding-bottom: 12px; */
+  /* padding-bottom: 7px; */
+  padding-bottom: 29px;
 }
 .rusal {
-  padding-top: 6px;
+  padding-bottom: 8px;
 }
 .sibur {
   width: 165px;
   height: 30px;
 
-  margin-top: 55px;
-  /* margin-top: 53px; */
+  /* margin-top: 55px; */
+  margin-top: 53px;
 }
 .lukoil {
   width: 184px;
@@ -94,7 +95,13 @@
   margin-top: 40px;
 }
 .gazprom {
-  padding-bottom: 22px;
+  padding-bottom: 45px;
+}
+.nornickel {
+  padding-bottom: 3px;
+}
+.arctickgaz {
+  padding-bottom: 25px;
 }
 
 

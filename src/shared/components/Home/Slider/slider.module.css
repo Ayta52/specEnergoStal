@@ -21,36 +21,40 @@
   background-position: center;
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
-  /* transform: translateX(-100%); */
-  /* transform: translateX(100%); */
   animation: slideFade 1.5s ease-in-out;
-  /* transition: 3s; */
 }
 
 .slide.active {
   opacity: 1;
-  /* transform: translateX(0); */
   animation: slideIn 1.5s ease-in-out;
-  /* transition: 3s; */
 }
 
 @keyframes slideIn {
-  from {
-    transform: translateX(-100%);;
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-@keyframes slideFade {
-  from {
-    transform: translateX(0);
-  }
-  to {
+  0% {
     transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
+@keyframes opacitiAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideFade {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
   .slider {

@@ -32,13 +32,13 @@ export function Ticker() {
           <img className={classNames(styles.sibur, styles.ticekImg)} src={sibur} alt="sibur" />
           <img className={classNames(styles.rosneft, styles.ticekImg)} src={rosneft} alt="rosneft" />
           <img className={classNames(styles.lukoil, styles.ticekImg)} src={lukoil} alt="lukoil" />
+          <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
           <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
           <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
+          <img className={classNames(styles.group, styles.tickerImg)} src={group} alt="group" />
           <img className={classNames(styles.rosatom, styles.tickerImg)} src={rosatom} alt="rosatom" />
-          <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
           <img className={classNames(styles.mosenergo, styles.tickerImg)} src={mosenergo} alt="mosenergo" />
           <img className={classNames(styles.rusneft, styles.tickerImg)} src={rusneft} alt="rusneft" />
-          <img className={classNames(styles.group, styles.tickerImg)} src={group} alt="group" />
           <img className={classNames(styles.nornikel, styles.tickerImg)} src={nornikel} alt="nornikel" />
           <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
           <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
