@@ -11,7 +11,8 @@
 .dropdownList {
     display: none;
     position: absolute;
-    right: -82px;
+    right: -218px;
+    top: 0px;
     background-color: #333333;
     min-width: 218px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -43,4 +44,26 @@
     .dropdownList {
         right: -182px;
     }
-  }
+}
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+    .dropdownList {
+        padding: 11px 0px 16px 15px;
+    }
+
+    .dropdownList a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .dropdownList {
+        padding: 11px 0px 16px 15px;
+    }
+
+    .dropdownList a {
+        padding: 4px 16px;
+        font-size: 14px;
+    }
+}

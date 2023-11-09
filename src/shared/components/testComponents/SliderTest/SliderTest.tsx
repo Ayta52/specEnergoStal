@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import main1 from '../../../img/main1.png';
-import main2 from '../../../img/main2.png';
-import main3 from '../../../img/main3.png';
-import main4 from '../../../img/main4.png';
-import main5 from '../../../img/main5.png';
+import main1 from '../../../../img/main1.png';
+import main2 from '../../../../img/main2.png';
+import main3 from '../../../../img/main3.png';
+import main4 from '../../../../img/main4.png';
+import main5 from '../../../../img/main5.png';
 import styles from './sliderTest.module.css';
 
 export const SliderTest = () => {

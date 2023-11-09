@@ -1,13 +1,11 @@
-
-import { useEffect, useState, useRef } from 'react';
-import { Link } from "react-router-dom";
-import { DropDown } from "../DropDown/DropDown";
+import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import humb from "../../../../icons/humburger.svg";
-import styles from "./dropDownNavBar.module.css";
+import styles from './dropDownTest.module.css';
+import { DropDown } from '../../Header/DropDown';
 
-export function DropDownNavBar() {
-
-  const [isOpen, setIsOpen] = useState(false);
+export function DropDownTest() {
+    const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef(null);
   
     const handleLinkClick = () => {
@@ -42,9 +40,9 @@ export function DropDownNavBar() {
                 Гавная
               </Link>
             </li>
-            <li className={styles.dropdownItem}>
-              <DropDown isOpen={isOpen} handleLinkClick={handleLinkClick}/>
-            </li>
+            {/* <li className={styles.dropdownItem}>
+              <DropDown />
+            </li> */}
             <li className={styles.dropdownItem}>
               <Link to="/certificatelist" onClick={handleLinkClick}>
                 Сертификаты
