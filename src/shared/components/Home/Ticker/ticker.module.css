@@ -115,6 +115,85 @@
   }
 }
 
+@media all and (max-width: 1000px) {
+  .tickerImg{
+    width: 12em;
+  }
+
+  .tickerContainer {
+    width: 100%;   
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    margin-bottom: 30px;
+    animation: none;
+  }
+  
+  .ticker { 
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .tickerImg img{
+    width: 10%;
+  }
+  
+  .tatneft {
+    padding-bottom: 0;
+  }
+  .mosenergo {
+    padding-bottom: 41px;
+  }
+  .novatek {
+    padding-top: 19px;
+  }
+  .rusneft {
+    padding-bottom: 0;
+  }
+  .transneft {
+    padding-top: 27px;
+  }
+  .rosneft {
+    padding-bottom: 32px;
+    height: 8em;
+  }
+  .rosatom {
+    padding-top: 16px;
+  }
+  .group {
+    padding-bottom: 51px;
+  }
+  .mondi {
+    padding-bottom: 23px;
+  }
+  .rusal {
+    padding-bottom: 8px;
+  }
+  .sibur {
+    width: 165px;
+    height: 30px;
+  
+    margin-top: 55px;
+  }
+  .lukoil {
+    width: 184px;
+    height: 49px;
+    margin-top: 40px;
+  }
+  .gazprom {
+    padding-bottom: 27px;
+  }
+  .nornickel {
+    padding-bottom: 3px;
+  }
+  .arctickgaz {
+    padding-bottom: 25px;
+  }
+}
+
 @media all and (max-width: 1024px) and (min-width: 768px) {
   .tickerTitleText {
     font-size: 50px;

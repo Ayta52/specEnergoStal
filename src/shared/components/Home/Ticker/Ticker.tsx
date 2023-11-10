@@ -28,10 +28,9 @@ export function Ticker() {
       </div>
       <div className={styles.tickerContainer}>
         <span className={styles.ticker}>
-          <img className={classNames(styles.gazprom, styles.ticekImg)} src={gazprom} alt="gazprom" />
-          <img className={classNames(styles.sibur, styles.ticekImg)} src={sibur} alt="sibur" />
-          <img className={classNames(styles.rosneft, styles.ticekImg)} src={rosneft} alt="rosneft" />
-          <img className={classNames(styles.lukoil, styles.ticekImg)} src={lukoil} alt="lukoil" />
+          <img className={classNames(styles.gazprom, styles.tickerImg)} src={gazprom} alt="rosneft" />
+          <img className={classNames(styles.rosneft, styles.tickerImg)} src={rosneft} alt="rosneft" />
+          <img className={classNames(styles.lukoil, styles.tickerImg)} src={lukoil} alt="lukoil" />
           <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
           <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
           <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
