@@ -72,16 +72,20 @@
   padding-bottom: 32px;
   height: 8em;
 }
+
 .group {
   padding-bottom: 51px;
 }
+
 .mondi {
   /* padding-bottom: 7px; */
   padding-bottom: 29px;
 }
+
 .rusal {
   padding-bottom: 8px;
 }
+
 .sibur {
   width: 165px;
   height: 30px;
@@ -89,29 +93,37 @@
   /* margin-top: 55px; */
   margin-top: 53px;
 }
+
 .lukoil {
   width: 184px;
   height: 49px;
   margin-top: 40px;
 }
+
 .gazprom {
   padding-bottom: 45px;
 }
+
 .nornickel {
   padding-bottom: 3px;
 }
+
 .arctickgaz {
   padding-bottom: 25px;
 }
 
-
-
 @keyframes scroll {
-  0% {
+  /* 0% {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-60%, 0);
+    transform: translate(-100%, 0);
+  } */
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-110%);
   }
 }
 
