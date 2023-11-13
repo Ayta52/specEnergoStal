@@ -135,7 +135,7 @@
   .rightDescr {
     font-size: 12px;
     line-height: 15px;
-    width: calc(300px + (100vw - 768px) * (15 - 30) / (768 - 1000));
+    width: calc(200px + (100vw - 768px) * (15 - 30) / (768 - 1000));
     margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (768 - 1000));
   }
   .downloadBtn svg {
