@@ -20,20 +20,12 @@
 }
 
 .tickerContainer {
-  /* Рабочее
-  width: 200%;
+  width: 250%;
   display: flex;
   align-items: flex-end;
   gap: 50px;
   margin-bottom: 30px;
-  animation: scroll 20s infinite linear; */
-
-  width: 200%;
-  display: flex;
-  align-items: flex-end;
-  gap: 50px;
-  margin-bottom: 30px;
-  animation: scroll 10s infinite linear;
+  animation: scroll 20s infinite linear;
 }
 
 .ticker {
@@ -46,19 +38,11 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(70%);
   }
   100% {
-    transform: translateX(90%);
+    transform: translateX(-120%);
   }
-
-  /* Рабочее
-  0% {
-    transform: translateX(50%);
-  }
-  100% {
-    transform: translateX(-110%);
-  } */
 }
 
 .tickerImg img{
@@ -227,6 +211,29 @@
   }
   .tickerImg{
     width: 40%;
+  }
+  .mosenergo {
+    padding-bottom: 0;
+  }
+  .group {
+    padding-bottom: 0;
+  }
+  .lukoil {
+    margin-top: 0;
+  }
+  .transneft {
+    padding-top: 0;
+  }
+  .gazprom {
+    padding-bottom: 0;
+    padding-top: 35px;
+  }
+  .rosneft {
+    padding-bottom: 0;
+    padding-top: 35px;
+  }
+  .tickerTitle {
+    padding-bottom: 0;
   }
 }
 
