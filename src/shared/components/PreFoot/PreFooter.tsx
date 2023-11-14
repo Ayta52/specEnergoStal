@@ -4,7 +4,10 @@ import Logo from "../../../icons/iconLogo.svg";
 import styles from './preFooter.module.css';
 
 export function PreFooter() {
-  const { width, isScreenFOOT, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
+  const {
+    isScreenFOOT,
+    isScreenMd
+  } = useResize();
   return (
     <div className={styles.preFooterContainer}>
       {isScreenMd ? (

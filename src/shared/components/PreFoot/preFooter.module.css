@@ -80,6 +80,7 @@
     font-family: 'Bebas', 'SansPro', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .downloadBtn:hover {
@@ -157,7 +158,7 @@
         justify-content: center;
         max-width: 371px;
         text-align: right;
-
+        margin-top: 10px;
     }
     
     .rightPreFooterImg {
@@ -174,7 +175,7 @@
         font-weight: 700;
         font-size: 16px;
         color : var(--blue);
-
+        margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 480px) {
