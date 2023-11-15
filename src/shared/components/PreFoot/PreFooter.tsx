@@ -32,7 +32,36 @@ export function PreFooter() {
           <a href="mailto:info@senergostal.ru">info@senergostal.ru</a>
         </div>
 
-        <div className={styles.rightPreFooterImg}>
+        {isScreenFOOT ? (
+          <div className={styles.rightPreFooterImgColumnReverse}>
+            <span className={styles.downloadBtnTextColumnReverse}>
+              скачать буклет
+            </span>
+          </div>
+        ) : (
+          <div className={styles.rightPreFooterImg}>
+            <button className={styles.downloadBtn}>
+              <svg
+                className={styles.downloadBtnIcon}
+                width="192"
+                height="58"
+                viewBox="0 0 192 58"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M96 56L4 29L96 2L188 29L96 56Z"
+                  stroke="#008FFF"
+                  strokeWidth="2"
+                  strokeMiterlimit="10"
+                />
+              </svg>
+              <p className={styles.downloadBtnText}>скачать буклет</p>
+            </button>
+          </div>
+        )}
+
+        {/* <div className={styles.rightPreFooterImg}>
           {isScreenFOOT ? (
             <button className={styles.downloadBtnisScreenFOOT}>
               <span className={styles.downloadBtnText}>скачать буклет</span>
@@ -57,7 +86,7 @@ export function PreFooter() {
               <p className={styles.downloadBtnText}>скачать буклет</p>
             </button>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   );
