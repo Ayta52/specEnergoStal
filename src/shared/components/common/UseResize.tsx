@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import {
-  SCREEN_SM, SCREEN_MD, SCREEN_LG, SCREEN_XL, SCREEN_HEAD, SCREEN_FOOT, SCREEN_BIG_MD
+  SCREEN_SM, SCREEN_MD, SCREEN_LG, SCREEN_XL, SCREEN_HEAD, SCREEN_FOOT, SCREEN_BIG_MD, SCREEN_PREHEADER_BR
 } from './Breakpoints';
 
 export const useResize = () => {
@@ -25,5 +25,6 @@ export const useResize = () => {
     isScreenHEAD: width <= SCREEN_HEAD,
     isScreenFOOT: width <= SCREEN_FOOT,
     isScreenBigMd: width >= SCREEN_BIG_MD,
+    isScreenPreheaderBR: width <= SCREEN_PREHEADER_BR
   };
 };

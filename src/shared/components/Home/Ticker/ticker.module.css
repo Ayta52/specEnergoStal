@@ -20,7 +20,8 @@
 }
 
 .tickerContainer {
-  width: 250%;
+  /* width: 240%; */
+  width: 100vw;
   display: flex;
   align-items: flex-end;
   gap: 50px;
@@ -38,11 +39,17 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(70%);
+    transform: translateX(150%);
   }
   100% {
-    transform: translateX(-120%);
+    transform: translateX(-160%);
   }
+  /* 0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  } */
 }
 
 .tickerImg img{

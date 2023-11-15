@@ -1,16 +1,29 @@
 // import React from 'react';
+import { useResize } from '../../common/UseResize';
 import styles from './preheader.module.css';
 
 export function PreHeader() {
+  const {
+    isScreenPreheaderBR
+  } = useResize();
   return (
     <>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h2 className={styles.title}>
+          {isScreenPreheaderBR ? (
+            <h2 className={styles.title}>
+            Производство <br/> и комплектация{'\n'}{' '}
+            <span className={styles.titleBlue}>трубопроводных систем</span>
+            {'\n'} для промышленности
+          </h2>
+          ) : (
+            <h2 className={styles.title}>
             Производство и комплектация{'\n'}{' '}
             <span className={styles.titleBlue}>трубопроводных систем</span>
             {'\n'} для промышленности
           </h2>
+          )
+          }
         </div>
         
         <div className={styles.rightBlok}>
