@@ -233,7 +233,7 @@
 
 @media all and (max-width: 480px) and (min-width: 360px) {
   .certificate {
-    max-width: 480px;
+    max-width: 99%;
     padding: 20px;
   }
   .certificateTitle {

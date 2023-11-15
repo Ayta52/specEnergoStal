@@ -29,32 +29,30 @@ export function DropDownNavBar() {
 
   return (
     <div className={styles.dropdown} ref={dropdownRef}>
-      <img
-          className={styles.navLink}
-          src={humb}
-          alt="humb"
-          onClick={() => setIsOpen(!isOpen)}
-        />
+      <button className={styles.navLink} onClick={() => setIsOpen(!isOpen)}>
+        <img src={humb} alt="humb" />
+      </button>
+
       {isOpen && (
         <ul className={styles.dropdownMenu}>
           <li className={styles.dropdownItem}>
-              <Link to="/" onClick={handleLinkClick}>
-                Гавная
-              </Link>
-            </li>
-            <li className={styles.dropdownItem}>
-              <DropDown isOpen={isOpen} handleLinkClick={handleLinkClick}/>
-            </li>
-            <li className={styles.dropdownItem}>
-              <Link to="/certificatelist" onClick={handleLinkClick}>
-                Сертификаты
-              </Link>
-            </li>
-            <li className={styles.dropdownItem}>
-              <Link to="/contact" onClick={handleLinkClick}>
-                Контакты
-              </Link>
-            </li>
+            <Link to="/" onClick={handleLinkClick}>
+              Гавная
+            </Link>
+          </li>
+          <li className={styles.dropdownItem}>
+            <DropDown isOpen={isOpen} handleLinkClick={handleLinkClick} />
+          </li>
+          <li className={styles.dropdownItem}>
+            <Link to="/certificatelist" onClick={handleLinkClick}>
+              Сертификаты
+            </Link>
+          </li>
+          <li className={styles.dropdownItem}>
+            <Link to="/contact" onClick={handleLinkClick}>
+              Контакты
+            </Link>
+          </li>
         </ul>
       )}
     </div>

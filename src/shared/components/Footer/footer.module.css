@@ -110,7 +110,7 @@
 }
 @media all and (max-width: 480px) {
     .footerContainer {
-        max-width: 480px;
+        max-width: 99%;
         padding: 20px;
     }
     .logo {

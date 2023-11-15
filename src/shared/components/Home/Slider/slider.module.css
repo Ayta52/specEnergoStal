@@ -71,6 +71,7 @@
 @media all and (max-width: 480px) and (min-width: 360px) {
   .slider {
     height: 300px;
+    width: 99%;
   }
 }
 

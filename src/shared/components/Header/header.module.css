@@ -61,7 +61,7 @@
 }
 @media all and (max-width: 480px) and (min-width: 360px){
   .header {
-    max-width: 480px;
+    max-width: 99%;
     padding: 20px;
     padding-left: 0;
     margin-left: 20px;

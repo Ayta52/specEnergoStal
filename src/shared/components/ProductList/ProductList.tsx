@@ -1,4 +1,4 @@
-// import React from 'react';
+import {useEffect} from 'react';
 import { Link } from "react-router-dom";
 import Otvod from "../../../img/productImg/Otvod.svg";
 import Perehod from "../../../img/productImg/Perehod.svg";
@@ -71,7 +71,9 @@ const productListMass = [
 ];
 
 export function ProductList() {
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <div className={styles.container}>
       <h1>Продукция</h1>

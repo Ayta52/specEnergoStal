@@ -1,8 +1,15 @@
+import { useEffect } from 'react';
 import { useResize } from '../common/UseResize';
 import styles from './contact.module.css';
 
 export function Contact() {
-  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
+  const {
+    isScreenMd,
+    isScreenXl
+  } = useResize();
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <div className={styles.contact_main}>
       <div className={styles.text_width}>

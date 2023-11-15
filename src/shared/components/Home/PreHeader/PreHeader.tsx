@@ -4,7 +4,8 @@ import styles from './preheader.module.css';
 
 export function PreHeader() {
   const {
-    isScreenPreheaderBR
+    isScreenPreheaderBR,
+    isScreenPreheaderBR400
   } = useResize();
   return (
     <>
@@ -12,7 +13,7 @@ export function PreHeader() {
         <div className={styles.title}>
           {isScreenPreheaderBR ? (
             <h2 className={styles.title}>
-            Производство <br/> и комплектация{'\n'}{' '}
+            Производство{isScreenPreheaderBR400 ? '' : <br/>} и комплектация{'\n'}{' '}
             <span className={styles.titleBlue}>трубопроводных систем</span>
             {'\n'} для промышленности
           </h2>

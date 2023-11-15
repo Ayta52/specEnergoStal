@@ -64,6 +64,8 @@
 
 .downloadBtn {
     position: relative;
+    text-align: center;
+    /* margin-right: -10px; */
 }
 .downloadBtnisScreenFOOT {
     width: 100%;
@@ -179,14 +181,19 @@
     }
 }
 @media screen and (max-width: 480px) {
-    .preFooterContainer {
-        max-width: 480px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
     .leftPreFooter {
         display: none;
+    }
+
+    .downloadBtnText {
+        margin-right: 20px;
+        font-size: 12px;
+        font-family: 'Bebas', 'SansPro', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        white-space: nowrap;
+        color: var(--blue);
+        /* letter-spacing: 1px; */
     }
 
     .logo {
@@ -196,7 +203,7 @@
     }
 
     .preFooterContainer {
-        max-width: 440px;
+        max-width: 99%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -205,7 +212,7 @@
     }
 
     .rightPreFooterImg {
-        margin-right: -15px;
+        margin-right: 5px;
     }
 }
 @media screen and (max-width: 360px){

@@ -6,3 +6,4 @@ export const SCREEN_HEAD = 1024;
 export const SCREEN_FOOT = 768;
 export const SCREEN_BIG_MD = 480;
 export const SCREEN_PREHEADER_BR = 670;
+export const SCREEN_PREHEADER_BR_400 = 400;

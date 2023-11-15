@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import DC from '../../../img/certificates/DC.png';
 import ISO from '../../../img/certificates/ISO.png';
 import TCTP1 from '../../../img/certificates/TCTP1.png';
@@ -24,6 +24,9 @@ export function CertificateList() {
     setCertificatePopupOpen(false);
     setSelectedCertificate('');
   };
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   const renderCertificateList = () => {
     return certificateListMass.map((item, index) => (
       <img

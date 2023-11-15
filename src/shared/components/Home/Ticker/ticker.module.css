@@ -21,7 +21,7 @@
 
 .tickerContainer {
   /* width: 240%; */
-  width: 100vw;
+  width: 110vw;
   display: flex;
   align-items: flex-end;
   gap: 50px;
@@ -42,7 +42,7 @@
     transform: translateX(150%);
   }
   100% {
-    transform: translateX(-160%);
+    transform: translateX(-175%);
   }
   /* 0% {
     transform: translateX(50%);
@@ -210,6 +210,9 @@
 }
 
 @media all and (max-width: 480px) and (min-width: 360px) {
+  .container {
+    max-width: 99%;
+  }
   .ticker {
     gap: 50px;
   }
