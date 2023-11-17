@@ -15,13 +15,13 @@ export function PreHeader() {
             <h2 className={styles.title}>
             Производство{isScreenPreheaderBR400 ? '' : <br/>} и комплектация{'\n'}{' '}
             <span className={styles.titleBlue}>трубопроводных систем</span>
-            {'\n'} для промышленности
+            {'\n'} <br/> для промышленности
           </h2>
           ) : (
             <h2 className={styles.title}>
             Производство и комплектация{'\n'}{' '}
             <span className={styles.titleBlue}>трубопроводных систем</span>
-            {'\n'} для промышленности
+            {'\n'} <br/> для промышленности
           </h2>
           )
           }
