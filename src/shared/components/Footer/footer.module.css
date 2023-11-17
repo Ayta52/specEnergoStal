@@ -58,15 +58,13 @@
     padding-right: 30px;
 }
 
+.footerRightLinksProducts a:last-child{
+    padding-right: 0;
+}
 .footerRightLinksProducts a:hover {
     color: var(--blue);
     text-decoration: underline;
 }
-
-.footerRightLinksProductsLast {
-    padding-right: 0;
-}
-
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
     .footerContainer {
@@ -136,7 +134,7 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .footerRightLinksProductsLast {
+    .footerRightLinksProducts a:last-child {
         padding-right: 15px;
     }
 }
