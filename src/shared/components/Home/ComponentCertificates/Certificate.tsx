@@ -12,35 +12,35 @@ import generateRandomIndex from '../../../../utils/js/generateRandomIndex';
 const imgList = [
   {
     id: 1,
-    content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={DC} alt="sert" />,
   },
   {
     id: 2,
-    content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={ISO} alt="sert" />,
   },
   {
     id: 3,
-    content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
     id: 4,
-    content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
   {
     id: 5,
-    content: <img key={generateRandomIndex()} src={DC} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={DC} alt="sert" />,
   },
   {
     id: 6,
-    content: <img key={generateRandomIndex()} src={ISO} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={ISO} alt="sert" />,
   },
   {
     id: 7,
-    content: <img key={generateRandomIndex()} src={TCTP1} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
     id: 8,
-    content: <img key={generateRandomIndex()} src={TCTP2} alt="sert" />,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   }
 ];
 const shuffledPhotos = [...imgList].sort(() => Math.random() - 0.5);
