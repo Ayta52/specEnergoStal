@@ -4,15 +4,17 @@ import { Footer } from './shared/components/Footer';
 import { Header } from './shared/components/Header';
 import { PreFooter } from './shared/components/PreFoot';
 import './main.global.css';
+import { TickerTest } from './shared/components/Home/TickerTest';
 
 function App() {
   return (
     <Layout>
-      <Header />
+      {/* <Header />
       <Router />
       <PreFooter />
       <div className="border_bottom"></div>
-      <Footer />
+      <Footer /> */}
+      <TickerTest />
     </Layout>
   );
 }

@@ -1,0 +1,42 @@
+.container {
+    max-width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    padding: 20px;
+  }
+  
+  .tickerContainer {
+    /* width: 240%; */
+    width: 110vw;
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    margin-bottom: 30px;
+    animation: scroll 7s infinite linear;
+  }
+  
+  .ticker {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(-175%);
+    }
+  }
+  
+  /* @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
