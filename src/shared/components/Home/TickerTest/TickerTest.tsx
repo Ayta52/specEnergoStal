@@ -3,6 +3,7 @@ import transneft from '../../../../icons/transneft.svg';
 import rosatom from '../../../../icons/rosatom.svg';
 import tatneft from '../../../../icons/tatneft.svg';
 import novatek from '../../../../icons/novatek.svg';
+import { HorizontalTicker } from "react-infinite-ticker";
 import mosenergo from '../../../../icons/mosenergo.svg';
 import arctickgaz from '../../../../icons/arctickgaz.svg';
 import mondi from '../../../../icons/mondi.svg';
@@ -19,9 +20,9 @@ import styles from './tickerTest.module.css';
 
 const images = [
   transneft, rosatom, tatneft, novatek,
-  mosenergo, arctickgaz, mondi, rusneft,
-  group, nornikel, rusal, gazprom,
-  lukoil, sibur, rosneft
+  // mosenergo, arctickgaz, mondi, rusneft,
+  // group, nornikel, rusal, gazprom,
+  // lukoil, sibur, rosneft
 ];
 
 export const TickerTest = () => {
@@ -31,12 +32,29 @@ export const TickerTest = () => {
         {images.map((image, index) => (
           <img
             key={index}
-            className={classNames(styles.tickerImg, styles.ticker)}
+            className={classNames(styles.tickerImg, styles.ticker, styles.containerOne)}
             src={image}
             alt={`ticker-img-${index}`}
           />
         ))}
       </div>
+
+      {/* <div className={styles.tickerContainer}>
+        <HorizontalTicker duration={25000}>
+          {images.map((image, index) => (
+            <img
+              key={index}
+              className={classNames(
+                styles.tickerImg,
+                styles.ticker,
+                styles.containerTwo
+              )}
+              src={image}
+              alt={`ticker-img-${index}`}
+            />
+          ))}
+        </HorizontalTicker>
+      </div> */}
     </div>
   );
 };

@@ -20,13 +20,15 @@
 }
 
 .tickerContainer {
-  /* width: 240%; */
-  width: 110vw;
+  /* width: 300%; */
+  width: 540vw;
   display: flex;
   align-items: flex-end;
   gap: 50px;
   margin-bottom: 30px;
-  animation: scroll 20s infinite linear;
+  /* animation: scroll 20s infinite linear; */
+  animation: scroll 15s infinite linear;
+  /* transform: translateX(-50%); */
 }
 
 .ticker {
@@ -39,15 +41,16 @@
 
 @keyframes scroll {
   0% {
-    transform: translateX(150%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-175%);
+    transform: translateX(-50%);
   }
 }
 
-.tickerImg img{
-  width: 10%;
+.tickerImg{
+  /* width: 10%; */
+  /* padding: 0 50px 0 50px; */
 }
 
 .tatneft {

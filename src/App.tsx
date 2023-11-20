@@ -5,6 +5,7 @@ import { Header } from './shared/components/Header';
 import { PreFooter } from './shared/components/PreFoot';
 import './main.global.css';
 import { TickerTest } from './shared/components/Home/TickerTest';
+import { Ticker } from './shared/components/Home/Ticker';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <PreFooter />
       <div className="border_bottom"></div>
       <Footer /> */}
-      <TickerTest />
+      <Ticker />
+      {/* <TickerTest /> */}
     </Layout>
   );
 }
