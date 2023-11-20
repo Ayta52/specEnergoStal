@@ -15,6 +15,10 @@ const imgList = [
     content: <img rel="preload" key={generateRandomIndex()} src={DC} alt="sert" />,
   },
   {
+    id: 8,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
+  },
+  {
     id: 2,
     content: <img rel="preload" key={generateRandomIndex()} src={ISO} alt="sert" />,
   },
@@ -23,12 +27,12 @@ const imgList = [
     content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
-    id: 4,
-    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
-  },
-  {
     id: 5,
     content: <img rel="preload" key={generateRandomIndex()} src={DC} alt="sert" />,
+  },
+  {
+    id: 4,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
   {
     id: 6,
@@ -37,13 +41,9 @@ const imgList = [
   {
     id: 7,
     content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
-  },
-  {
-    id: 8,
-    content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   }
 ];
-const shuffledPhotos = [...imgList].sort(() => Math.random() - 0.5);
+// const shuffledPhotos = [...imgList].sort(() => Math.random() - 0.5);
 
 
 export function Certificate() {
@@ -52,7 +52,7 @@ export function Certificate() {
       <div className={styles.certificateSlider}>
         <div className={styles.certificateSliderElements}>
           <span className={styles.tikerCertificate}>
-            {shuffledPhotos.map((item) => (
+            {imgList.map((item) => (
               <Link to={'/certificatelist'} key={item.id} className={styles.certificateSliderElement}>
                 {item.content}
               </Link>

@@ -28,7 +28,7 @@ export function Ticker() {
       </div>
 
       <div className={styles.tickerContainer}>
-        <span className={styles.ticker}>
+        <div className={styles.ticker}>
           <img className={classNames(styles.gazprom, styles.tickerImg)} src={gazprom} alt="rosneft" />
           <img className={classNames(styles.rosneft, styles.tickerImg)} src={rosneft} alt="rosneft" />
           <img className={classNames(styles.lukoil, styles.tickerImg)} src={lukoil} alt="lukoil" />
@@ -43,8 +43,8 @@ export function Ticker() {
           <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
           <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
           <img className={classNames(styles.rusal, styles.tickerImg)} src={rusal} alt="rusal" />
-        </span>
-        <span className={styles.ticker}>
+        </div>
+        <div className={styles.ticker}>
           <img className={classNames(styles.gazprom, styles.tickerImg)} src={gazprom} alt="rosneft" />
           <img className={classNames(styles.rosneft, styles.tickerImg)} src={rosneft} alt="rosneft" />
           <img className={classNames(styles.lukoil, styles.tickerImg)} src={lukoil} alt="lukoil" />
@@ -59,7 +59,7 @@ export function Ticker() {
           <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
           <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
           <img className={classNames(styles.rusal, styles.tickerImg)} src={rusal} alt="rusal" />
-        </span>
+        </div>
       </div>
 
       <CertificateTitle />
