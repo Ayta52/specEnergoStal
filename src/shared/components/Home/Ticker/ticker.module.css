@@ -20,23 +20,23 @@
 }
 
 .tickerContainer {
-  /* width: 300%; */
-  width: 540vw;
+  width: 560%;
+  /* width: 540vw; */
   display: flex;
   align-items: flex-end;
-  gap: 50px;
   margin-bottom: 30px;
   /* animation: scroll 20s infinite linear; */
-  animation: scroll 15s infinite linear;
+  animation: scroll 5s infinite linear;
   /* transform: translateX(-50%); */
 }
 
 .ticker {
   max-width: 1300px;
+  /* width: 50%; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 84px;
 }
 
 @keyframes scroll {
