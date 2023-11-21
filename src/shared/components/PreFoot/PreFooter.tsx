@@ -1,6 +1,6 @@
 import React from 'react';
 import { useResize } from '../common/UseResize';
-import Logo from "../../../icons/iconLogo.svg";
+import Logo from "../../../img/logo.png";
 import styles from './preFooter.module.css';
 
 export function PreFooter() {
