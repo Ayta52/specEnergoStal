@@ -11,11 +11,11 @@
   gap: 5%;
 }
 
-.navList a {
+.navLink {
   display: inline-block;
   color: var(--white);
   font-family: 'SansPro', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   
 }
