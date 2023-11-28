@@ -28,7 +28,7 @@ export function PreHeader() {
         </div>
         
         <div className={styles.rightBlok}>
-          <button className={styles.downloadBtn}>
+          {/* <button className={styles.downloadBtn}>
             <svg
               className={styles.downloadBtnIcon}
               width="192"
@@ -45,11 +45,11 @@ export function PreHeader() {
               />
             </svg>
             <p className={styles.downloadBtnText}>скачать буклет</p>
-          </button>
-          <p className={styles.rightDescr}>
+          </button> */}
+          <div className={styles.rightDescr}>
             Обеспечиваем потребности{'\n'} предприятий и заводов России{'\n'} и
             стран СНГ с 2006 года
-          </p>
+          </div>
         </div>
       </div>
     </>
