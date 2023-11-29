@@ -22,10 +22,10 @@ export function Header() {
           <IconLogo />
           <div className={styles.phoneSms}>
             <a href="tel:+78312100108">
-              <img src={phone} alt="phone" />
+              <img className={styles.phone} src={phone} alt="phone" />
             </a>
             <a href="mailto:senergostal.ru">
-              <img src={sms} alt="sms" />
+              <img className={styles.sms} src={sms} alt="sms" />
             </a>
           </div>
         </div>

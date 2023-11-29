@@ -58,6 +58,11 @@
     .dropdownList {
         right: -182px;
     }
+    .navLink {
+        font-family: 'SansPro', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 
 @media all and (max-width: 768px) and (min-width: 480px) {

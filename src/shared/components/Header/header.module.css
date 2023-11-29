@@ -93,4 +93,16 @@
   .mainDesctop {
     display: none;
   }
+  .phoneSms {
+    gap: 13px;
+  }
+  .phone {
+    width: 24px;
+    height: 24px;
+  }
+  .sms {
+    width: 34px;
+    height: 24px;
+  }
+  
 }
