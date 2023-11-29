@@ -29,6 +29,7 @@
 }
 
 .rightBlok {
+  max-width: calc(1300px - 855px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
