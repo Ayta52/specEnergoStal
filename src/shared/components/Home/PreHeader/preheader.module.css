@@ -76,7 +76,7 @@
 }
 
 
-@media all and (max-width: 1024px) and (min-width: 768px) {
+/* @media all and (max-width: 1024px) and (min-width: 768px) {
   .container {
     max-width: 1024px;
     padding: 20px;
@@ -96,6 +96,7 @@
     margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (1024 - 1000));
   }
 }
+
 @media all and (max-width: 768px) and (min-width: 480px) {
   .container {
     max-width: 768px;
@@ -123,6 +124,7 @@
     font-size: 12px;
   }
 }
+
 @media all and (max-width: 480px) and (min-width: 360px) {
   .container {
     max-width: 480px;
@@ -189,5 +191,130 @@
   }
   .downloadBtnText {
     font-size: 10px;
+  }
+} */
+
+
+/* ВАРИАНТ БЕЗ КНОПКИ "СКАЧАТЬ БУКЛЕТ" */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  max-height: 255px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 20px 0 20px;
+  margin-bottom: 50px;
+}
+
+.title {
+  max-width: 700px;
+  white-space: normal;
+  color: var(--white);
+  line-height: 73px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-stretch: ultra-condensed;
+}
+
+.titleBlue {
+  color: var(--blue);
+}
+
+.rightDescr {
+  letter-spacing: -2px;
+  margin-top: -14px;
+  max-width: 525px;
+  height: 100%;
+  color: var(--white);
+  font-family: 'SansPro', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  font-size: 41px;
+  line-height: 80px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+@media all and (max-width: 1235px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1235px;
+    max-height: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .rightDescr {
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 55px;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 1024px;
+  }
+  .title {
+    font-size: 45px;
+    line-height: 65px;
+  }
+  .rightDescr {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 400px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    max-width: 768px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .titleBlue {
+    font-size: 35px;
+  }
+  .rightDescr {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 0;
+    max-width: 400px;
+  }
+  .title {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .titleBlue {
+    font-size: 25px;
+  }
+  .rightDescr {
+    font-size: 15px;
+    line-height: 25px;
+    white-space: pre-line;
   }
 }

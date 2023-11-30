@@ -36,7 +36,7 @@
 }
 @media all and (max-width: 768px) and (min-width: 480px){
   .logoLink {
-    margin-left: 10%;
+    margin-left: 9%;
   }
   .logo {
     width: 90%;
@@ -44,9 +44,9 @@
   }
 }
 @media all and (max-width: 768px) {
-  .logoLink {
+  /* .logoLink {
     justify-content: center;
-  }
+  } */
   .logo {
     width: 90%;
     height: 90%;
