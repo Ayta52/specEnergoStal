@@ -63,25 +63,8 @@
   .header {
     max-width: 99%;
     padding: 20px;
-    padding-left: 0;
-    margin-left: 20px;
-    margin-bottom: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  .mainDesctop {
-    display: none;
-  }
-}
-@media all and (max-width: 360px) {
-  .header {
-    max-width: 360px;
-    padding: 20px;
-    padding-left: 0;
-    margin-left: 20px;
+    /* padding-left: 0; */
+    /* margin-left: 20px; */
     margin-bottom: 0;
     display: flex;
     flex-flow: row nowrap;
@@ -93,15 +76,46 @@
     display: none;
   }
   .phoneSms {
-    gap: 13px;
-  }
-  .phone {
+    gap: 15px;
+   }
+   .phone {
     width: 24px;
     height: 24px;
   }
   .sms {
     width: 34px;
     height: 24px;
+  }
+}
+@media all and (max-width: 360px) {
+  .header {
+    max-width: 360px;
+    padding: 20px;
+    /* padding-left: 0;
+    margin-left: 20px; */
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .mainDesctop {
+    display: none;
+  }
+  .mainScreenLG {
+    gap: 5px;
+  }
+  .phoneSms {
+    gap: 10px;
+  }
+  .phone {
+    width: 20px;
+    height: 20px;
+  }
+  .sms {
+    width: 30px;
+    height: 20px;
   }
   
 }

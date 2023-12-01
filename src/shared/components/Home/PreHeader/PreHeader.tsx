@@ -57,22 +57,22 @@ export function PreHeader() {
         <div className={styles.title}>
           {isScreenPreheaderBR ? (
             <h2 className={styles.title}>
-              Производство{isScreenPreheaderBR400 ? "" : <br />} и комплектация
+              Производство{isScreenPreheaderBR400 ? "" : <br className={styles.br}/>} и комплектация
               {"\n"}{" "}
               <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br /> для промышленности
+              {"\n"} <br className={styles.br}/> для промышленности
             </h2>
           ) : (
             <h2 className={styles.title}>
               Производство и комплектация{"\n"}{" "}
               <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br /> для промышленности
+              {"\n"} <br className={styles.br}/> для промышленности
             </h2>
           )}
         </div>
 
         <div className={styles.rightDescr}>
-          Обеспечиваем потребности<br/> предприятий и заводов <br/> России и
+          Обеспечиваем потребности<br className={styles.br}/> предприятий и заводов <br className={styles.br}/> России и
           стран СНГ с 2006 года
         </div>
 
