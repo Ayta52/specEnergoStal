@@ -1,30 +1,60 @@
 
-import React from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Link } from "react-router-dom";
 import { DropDown } from "../DropDown/DropDown";
 import humb from "../../../../icons/humburger.svg";
 import styles from "./dropDownNavBar.module.css";
 
 export function DropDownNavBar() {
+
+  const [isOpen, setIsOpen] = useState(false);
+    const dropdownRef = useRef(null);
+  
+    const handleLinkClick = () => {
+      setIsOpen(false);
+    };
+  
+    const handleOutsideClick = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+  
+    useEffect(() => {
+      document.addEventListener('click', handleOutsideClick);
+      return () => {
+        document.removeEventListener('click', handleOutsideClick);
+      };
+    }, []);
+
   return (
-    <>
-      <div className={styles.dropdown}>
-        <img className={styles.navLink} src={humb} alt="humb" />
-        <ul className={styles.dropdownList}>
+    <div className={styles.dropdown} ref={dropdownRef}>
+      <button className={styles.navLink} onClick={() => setIsOpen(!isOpen)}>
+        <img src={humb} alt="humb" />
+      </button>
+
+      {isOpen && (
+        <ul className={styles.dropdownMenu}>
           <li className={styles.dropdownItem}>
-            <Link to="/">Гавная</Link>
+            <Link to="/" onClick={handleLinkClick}>
+              Гавная
+            </Link>
           </li>
           <li className={styles.dropdownItem}>
-            <DropDown />
+            <DropDown isOpen={isOpen} handleLinkClick={handleLinkClick} />
           </li>
           <li className={styles.dropdownItem}>
-            <Link to="/certificatelist">Сертификаты</Link>
+            <Link to="/certificatelist" onClick={handleLinkClick}>
+              Сертификаты
+            </Link>
           </li>
           <li className={styles.dropdownItem}>
-            <Link to="/contact">Контакты</Link>
+            <Link to="/contact" onClick={handleLinkClick}>
+              Контакты
+            </Link>
           </li>
         </ul>
-      </div>
-    </>
+      )}
+    </div>
   );
 }

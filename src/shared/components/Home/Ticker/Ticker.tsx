@@ -1,4 +1,5 @@
 // import React from 'react';
+import classNames from 'classnames';
 import CertificateTitle from '../CertificateTitle/CertificateTitle';
 import transneft from '../../../../icons/transneft.svg';
 import rosatom from '../../../../icons/rosatom.svg';
@@ -11,10 +12,10 @@ import rusneft from '../../../../icons/russNeft.svg';
 import group from '../../../../icons/group.svg';
 import nornikel from '../../../../icons/nornickel.svg';
 import rusal from '../../../../icons/rusal.svg';
-// import gazprom from '../../../../icons/gazprom.svg';
-// import lukoil from '../../../../icons/lukoil.svg';
-// import sibur from '../../../../icons/sibur.svg';
-// import rosneft from '../../../../icons/rosneft.svg';
+import gazprom from '../../../../icons/gazprom.svg';
+import lukoil from '../../../../icons/lukoil.svg';
+import sibur from '../../../../icons/sibur.svg';
+import rosneft from '../../../../icons/rosneft.svg';
 import styles from './ticker.module.css';
 
 export function Ticker() {
@@ -25,24 +26,40 @@ export function Ticker() {
           Наши партнеры
         </h2>
       </div>
+
       <div className={styles.tickerContainer}>
-        <span className={styles.ticker}>
-          {/* <img className={styles.gazprom} src={gazprom} alt="gazprom" /> */}
-          {/* <img className={styles.sibur} src={sibur} alt="sibur" /> */}
-          {/* <img className={styles.rosneft} src={rosneft} alt="rosneft" /> */}
-          {/* <img className={styles.lukoil} src={lukoil} alt="lukoil" /> */}
-          <img className={styles.tatneft} src={tatneft} alt="tatneft" />
-          <img className={styles.novatek} src={novatek} alt="novatek" />
-          <img className={styles.rosatom} src={rosatom} alt="rosatom" />
-          <img className={styles.transneft} src={transneft} alt="transneft" />
-          <img className={styles.mosenergo} src={mosenergo} alt="mosenergo" />
-          <img className={styles.rusneft} src={rusneft} alt="rusneft" />
-          <img className={styles.group} src={group} alt="group" />
-          <img className={styles.nornikel} src={nornikel} alt="nornikel" />
-          <img className={styles.mondi} src={mondi} alt="mondi" />
-          <img className={styles.arctickgaz} src={arctickgaz} alt="arctickgaz" />
-          <img className={styles.rusal} src={rusal} alt="rusal" />
-        </span>
+        <div className={styles.ticker}>
+          <img className={classNames(styles.gazprom, styles.tickerImg)} src={gazprom} alt="rosneft" />
+          <img className={classNames(styles.rosneft, styles.tickerImg)} src={rosneft} alt="rosneft" />
+          <img className={classNames(styles.lukoil, styles.tickerImg)} src={lukoil} alt="lukoil" />
+          <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
+          <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
+          <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
+          <img className={classNames(styles.group, styles.tickerImg)} src={group} alt="group" />
+          <img className={classNames(styles.rosatom, styles.tickerImg)} src={rosatom} alt="rosatom" />
+          <img className={classNames(styles.mosenergo, styles.tickerImg)} src={mosenergo} alt="mosenergo" />
+          <img className={classNames(styles.rusneft, styles.tickerImg)} src={rusneft} alt="rusneft" />
+          <img className={classNames(styles.nornikel, styles.tickerImg)} src={nornikel} alt="nornikel" />
+          <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
+          <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
+          <img className={classNames(styles.rusal, styles.tickerImg)} src={rusal} alt="rusal" />
+        </div>
+        <div className={styles.ticker}>
+          <img className={classNames(styles.gazprom, styles.tickerImg)} src={gazprom} alt="rosneft" />
+          <img className={classNames(styles.rosneft, styles.tickerImg)} src={rosneft} alt="rosneft" />
+          <img className={classNames(styles.lukoil, styles.tickerImg)} src={lukoil} alt="lukoil" />
+          <img className={classNames(styles.transneft, styles.tickerImg)} src={transneft} alt="transneft" />
+          <img className={classNames(styles.tatneft, styles.tickerImg)} src={tatneft} alt="tatneft" />
+          <img className={classNames(styles.novatek, styles.tickerImg)} src={novatek} alt="novatek" />
+          <img className={classNames(styles.group, styles.tickerImg)} src={group} alt="group" />
+          <img className={classNames(styles.rosatom, styles.tickerImg)} src={rosatom} alt="rosatom" />
+          <img className={classNames(styles.mosenergo, styles.tickerImg)} src={mosenergo} alt="mosenergo" />
+          <img className={classNames(styles.rusneft, styles.tickerImg)} src={rusneft} alt="rusneft" />
+          <img className={classNames(styles.nornikel, styles.tickerImg)} src={nornikel} alt="nornikel" />
+          <img className={classNames(styles.mondi, styles.tickerImg)} src={mondi} alt="mondi" />
+          <img className={classNames(styles.arctickgaz, styles.tickerImg)} src={arctickgaz} alt="arctickgaz" />
+          <img className={classNames(styles.rusal, styles.tickerImg)} src={rusal} alt="rusal" />
+        </div>
       </div>
 
       <CertificateTitle />

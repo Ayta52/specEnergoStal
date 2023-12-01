@@ -1,7 +1,7 @@
 // import React from 'react';
 import { Link } from "react-router-dom";
 import styles from "./iconlogo.module.css";
-import Logo from "../../../../icons/iconLogo.svg";
+import Logo from "../../../../img/logo.png";
 
 export function IconLogo() {
   return (

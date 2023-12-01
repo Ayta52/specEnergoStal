@@ -126,3 +126,8 @@ p {
   border-bottom: 1px solid #FFFFFF4D;
   margin-top: 20px;
 }
+@media screen and (max-width: 480px) {
+  .border_bottom {
+    width: 99%;
+  }
+}

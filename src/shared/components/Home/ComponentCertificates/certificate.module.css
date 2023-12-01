@@ -13,15 +13,6 @@
   text-align: left;
 }
 
-.certificateTitle h2 {
-  font-family: 'Bebas', 'SansPro', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  color: var(--white);
-}
-
 .certificateTitleDescription {
   padding: 30px 0 50px 0;
   width: 746px;
@@ -197,9 +188,7 @@
   .certificateTitle {
     padding: 20px;
   }
-  h2 {
-    font-size: 50px;
-  }
+  
   .certificateTitle {
     max-width: 1024px;
     text-align: left;
@@ -231,9 +220,6 @@
     height: 30%;
     
   }
-  h2 {
-    font-size: 40px;
-  }
   .certificateTitle {
     max-width: 768px;
     text-align: left;
@@ -247,7 +233,7 @@
 
 @media all and (max-width: 480px) and (min-width: 360px) {
   .certificate {
-    max-width: 480px;
+    max-width: 99%;
     padding: 20px;
   }
   .certificateTitle {
@@ -263,9 +249,6 @@
   .certificateSliderElement {
     width: 30%;
     height: 30%;
-  }
-  h2 {
-    font-size: 30px;
   }
   .certificateTitle {
     max-width: 480px;
@@ -297,9 +280,6 @@
     width: 30%;
     height: 30%;
     
-  }
-  h2 {
-    font-size: 20px;
   }
   .certificateTitle {
     max-width: 360px;

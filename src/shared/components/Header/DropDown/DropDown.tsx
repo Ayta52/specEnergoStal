@@ -1,45 +1,112 @@
 import { Link } from "react-router-dom";
 import styles from "./dropDown.module.css";
-import { useResize } from "../../common/UseResize";
-import humb from "../../../../icons/humburger.svg";
 
-export function DropDown() {
-  const { width, isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
+export function DropDown( {handleLinkClick, isOpenNavBar, isOpen}: any) {
   return (
     <>
       <div className={styles.dropdown}>
         <Link to="/productlist" className={styles.navLink}>
           Продукция
         </Link>
-        <ul className={styles.dropdownList}>
-          <li className={styles.dropdownItem}>
-            <Link to="/otvod">Отводы</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/perehod">Переходы</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/troynik">Тройники</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/flanec">Фланцы</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/zaglushka">Заглушки</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/dno">Днища</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/opora">Опоры</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/shtucer">Штуцеры</Link>
-          </li>
-          <li className={styles.dropdownItem}>
-            <Link to="/productinfo">Запорная арматура</Link>
-          </li>
-        </ul>
+        {isOpen && (
+          <ul className={styles.dropdownList}>
+            <li className={styles.dropdownItem}>
+              <Link to="/otvod" onClick={handleLinkClick}>
+                Отводы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/perehod" onClick={handleLinkClick}>
+                Переходы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/troynik" onClick={handleLinkClick}>
+                Тройники
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/flanec" onClick={handleLinkClick}>
+                Фланцы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/zaglushka" onClick={handleLinkClick}>
+                Заглушки
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/dno" onClick={handleLinkClick}>
+                Днища
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/opora" onClick={handleLinkClick}>
+                Опоры
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/shtucer" onClick={handleLinkClick}>
+                Штуцеры
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/productinfo" onClick={handleLinkClick}>
+                Запорная арматура
+              </Link>
+            </li>
+          </ul>
+        )}
+        
+        {isOpenNavBar && (
+          <ul className={styles.dropdownList}>
+            <li className={styles.dropdownItem}>
+              <Link to="/otvod" onClick={handleLinkClick}>
+                Отводы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/perehod" onClick={handleLinkClick}>
+                Переходы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/troynik" onClick={handleLinkClick}>
+                Тройники
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/flanec" onClick={handleLinkClick}>
+                Фланцы
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/zaglushka" onClick={handleLinkClick}>
+                Заглушки
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/dno" onClick={handleLinkClick}>
+                Днища
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/opora" onClick={handleLinkClick}>
+                Опоры
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/shtucer" onClick={handleLinkClick}>
+                Штуцеры
+              </Link>
+            </li>
+            <li className={styles.dropdownItem}>
+              <Link to="/productinfo" onClick={handleLinkClick}>
+                Запорная арматура
+              </Link>
+            </li>
+          </ul>
+        )}
       </div>
     </>
   );

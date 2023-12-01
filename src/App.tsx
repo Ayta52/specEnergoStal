@@ -1,4 +1,3 @@
-
 import Router from './shared/components/Route';
 import { Layout } from './shared/Layout';
 import { Footer } from './shared/components/Footer';

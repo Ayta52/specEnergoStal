@@ -55,7 +55,6 @@
     padding-bottom: 40px;
 }
 
-
 .styleTab {
     font-family: 'SansPro', sans-serif;
     font-style: normal;
@@ -121,23 +120,23 @@
     padding: 30px;
 }
 
-.productInfoContentRight li {
+.listItem {
     padding-bottom: 10px;
 }
 
-.productInfoContentRight li:hover {
+.listItem:hover {
     color: #008FFF;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.productInfoContentRight li:hover::before {
+.listItem:hover::before {
     display: inline-block;
     transform: rotate(180deg);
     transition: 0.3s;
 }
 
-.productInfoContentLeft li {
+.listItem {
     list-style: outside;
 }
 
@@ -145,15 +144,19 @@
     list-style:none;
 }
 
-.productInfoContentRight li {
+.listItem {
     list-style:none;
 }
 
-.productInfoContentRight li:before {
+.listItem:before {
     content: url(../../../icons/productInfoIIcons.svg);
     position: relative;
     left: -5px;
     top: 3px;
+}
+
+.listItem {
+
 }
 
 @media screen and (max-width: 1024px) and (min-width: 480px){

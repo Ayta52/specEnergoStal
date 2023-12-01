@@ -43,9 +43,6 @@
       max-width: 1024px;
       padding-top: 50px;
     }
-    h2 {
-      font-size: 50px;
-    }
     .certificateTitle {
       /* max-width: 100%; */
       /* margin-left: 20px; */
@@ -58,6 +55,7 @@
     .certificateTitleDescription {
       font-size: 20px;
       width: 746px;
+      line-height: 25.14px;
     }
   }
   
@@ -65,9 +63,6 @@
     .certificateContainer {
       max-width: 768px;
       padding-top: 40px;
-    }
-    h2 {
-      font-size: 40px;
     }
     .certificateTitle {
       /* max-width: 100%; */
@@ -81,6 +76,7 @@
     .certificateTitleDescription {
       font-size: 16px;
       width: 473px;
+      line-height: 20.11px;
     }
   }
   
@@ -88,9 +84,6 @@
     .certificateContainer {
       max-width: 480px;
       padding-top: 20px;
-    }
-    h2 {
-      font-size: 30px;
     }
     .certificateTitle {
       /* max-width: 100%; */
@@ -104,6 +97,8 @@
       font-size: 16px;
       width: 100%;
       padding-top: 20px;
+      line-height: 20.11px;
+      padding-bottom: 15px;
     }
   }
   
@@ -124,5 +119,7 @@
       font-size: 14px;
       width: 100%;
       padding-top: 10px;
+      line-height: 17.6px;
+      padding-bottom: 15px;
     }
   }

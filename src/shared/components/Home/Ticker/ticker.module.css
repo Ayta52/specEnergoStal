@@ -20,57 +20,180 @@
 }
 
 .tickerContainer {
-  width: 100%;
+  width: 8000px;
+  /* width: 300vw; */
+  /* width: 560%; */
+  /* width: 540vw; */
   display: flex;
   align-items: flex-end;
-  gap: 50px;
-  /* animation: scroll 15s infinite linear; */
+  margin-bottom: 30px;
+  animation: scroll 25s infinite linear;
 }
 
 .ticker {
-  /* width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; */
-  /* width: 100%; */
   max-width: 1300px;
+  /* max-width: 270vw; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 35px;
+  gap: 84px;
 }
-.ticker img{
-  width: 10%;
-}
-
-.tatneft {
-  padding-bottom: 10px;
-}
-.mosenergo {
-  padding-bottom: 17px;
-}
-.rusneft {
-  padding-bottom: 5px;
-}
-.group {
-  padding-bottom: 26px;
-}
-.mondi {
-  padding-bottom: 7px;
-}
-.rusal {
-  padding-top: 6px;
-}
-
-
+/* .ticker:last-child {
+  transform: translateX(50%);
+} */
 
 @keyframes scroll {
   0% {
-    transform: translate(0, 0);
+    transform: translateX(0);
   }
   100% {
-    transform: translate(-50%, 0);
+    transform: translateX(-50%);
+  }
+}
+
+.tickerImg{
+  /* width: 10%; */
+  /* padding: 0 50px 0 50px; */
+}
+
+.tatneft {
+  /* padding-bottom: 10px; */
+  padding-bottom: 46px;
+}
+
+.mosenergo {
+  /* padding-bottom: 17px; */
+  padding-bottom: 51px;
+}
+
+.rusneft {
+  padding-bottom: 14px;
+}
+
+.rosneft {
+  padding-bottom: 32px;
+  height: 8em;
+}
+
+.group {
+  padding-bottom: 12px;
+}
+
+.mondi {
+  /* padding-bottom: 7px; */
+  padding-bottom: 29px;
+}
+
+.rusal {
+  padding-bottom: 8px;
+}
+
+.sibur {
+  width: 165px;
+  height: 30px;
+
+  /* margin-top: 55px; */
+  margin-top: 53px;
+}
+
+.lukoil {
+  width: 184px;
+  height: 49px;
+  margin-top: 40px;
+}
+
+.gazprom {
+  padding-bottom: 45px;
+}
+
+.nornickel {
+  padding-bottom: 3px;
+}
+
+.arctickgaz {
+  padding-bottom: 25px;
+}
+
+
+@media all and (max-width: 1000px) {
+  .tickerImg{
+    width: 12em;
+  }
+
+  .tickerContainer {
+    width: 100%;   
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+    margin-bottom: 30px;
+    animation: none;
+  }
+  
+  .ticker { 
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .ticker:last-child {
+    display: none;
+  }
+  .tickerImg img{
+    width: 10%;
+  }
+  
+  .tatneft {
+    padding-bottom: 0;
+  }
+  .mosenergo {
+    padding-bottom: 41px;
+  }
+  .novatek {
+    padding-top: 19px;
+  }
+  .rusneft {
+    padding-bottom: 0;
+  }
+  .transneft {
+    padding-top: 27px;
+  }
+  .rosneft {
+    padding-bottom: 32px;
+    height: 8em;
+  }
+  .rosatom {
+    padding-top: 16px;
+  }
+  .group {
+    padding-bottom: 51px;
+  }
+  .mondi {
+    padding-bottom: 23px;
+  }
+  .rusal {
+    padding-bottom: 8px;
+  }
+  .sibur {
+    width: 165px;
+    height: 30px;
+  
+    margin-top: 55px;
+  }
+  .lukoil {
+    width: 184px;
+    height: 49px;
+    margin-top: 40px;
+  }
+  .gazprom {
+    padding-bottom: 27px;
+  }
+  .nornickel {
+    padding-bottom: 3px;
+  }
+  .arctickgaz {
+    padding-bottom: 25px;
   }
 }
 
@@ -90,11 +213,40 @@
 }
 
 @media all and (max-width: 480px) and (min-width: 360px) {
+  .container {
+    max-width: 99%;
+  }
   .ticker {
     gap: 50px;
   }
   .tickerTitleText {
     font-size: 30px;
+  }
+  .tickerImg{
+    width: 40%;
+  }
+  .mosenergo {
+    padding-bottom: 0;
+  }
+  .group {
+    padding-bottom: 0;
+  }
+  .lukoil {
+    margin-top: 0;
+  }
+  .transneft {
+    padding-top: 0;
+  }
+  .gazprom {
+    padding-bottom: 0;
+    padding-top: 35px;
+  }
+  .rosneft {
+    padding-bottom: 0;
+    padding-top: 35px;
+  }
+  .tickerTitle {
+    padding-bottom: 0;
   }
 }
 
@@ -123,7 +275,55 @@
     flex-wrap: wrap;
     gap: 40px;
   }
-  .ticker img{
+  .tickerImg{
     width: 40%;
+    height: 90%;
+  }
+
+  .tatneft {
+    padding-bottom: 0;
+  }
+  .mosenergo {
+    padding-bottom: 0;
+  }
+  .novatek {
+    padding-top: 5px;
+  }
+  .rusneft {
+    padding-bottom: 0;
+  }
+  .transneft {
+    padding-top: 7px;
+  }
+  .rosneft {
+    padding-bottom: 0;
+    height: 4em;
+  }
+  .rosatom {
+    padding-top: 36px;
+  }
+  .group {
+    padding-bottom: 0;
+  }
+  .mondi {
+    padding-bottom: 0;
+  }
+  .rusal {
+    padding-bottom: 8px;
+  }
+  .sibur {
+    margin-top: 55px;
+  }
+  .lukoil {
+    margin-top: 0;
+  }
+  .gazprom {
+    padding-bottom: 27px;
+  }
+  .nornikel {
+    margin-top: 15px;
+  }
+  .arctickgaz {
+    margin-top: 11px;
   }
 }

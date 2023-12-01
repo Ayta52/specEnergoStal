@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Breadcrumbs } from './Breadcrumbs';
 import styles from './productInfo.module.css';
 import classNames from 'classnames';
@@ -285,7 +285,9 @@ export function ProductInfo() {
     isScreenMd,
     isScreenBigMd
   } = useResize();
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <div className={styles.container}>
       <Breadcrumbs paths={paths} />

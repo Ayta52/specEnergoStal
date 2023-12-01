@@ -58,15 +58,13 @@
     padding-right: 30px;
 }
 
+.footerRightLinksProducts a:last-child{
+    padding-right: 0;
+}
 .footerRightLinksProducts a:hover {
     color: var(--blue);
     text-decoration: underline;
 }
-
-.footerRightLinksProducts a:last-child{
-    padding-right: 0;
-}
-
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
     .footerContainer {
@@ -95,7 +93,7 @@
     }
     .footerRightLinksProducts {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 8px;
     }
@@ -110,7 +108,7 @@
 }
 @media all and (max-width: 480px) {
     .footerContainer {
-        max-width: 480px;
+        max-width: 99%;
         padding: 20px;
     }
     .logo {
@@ -124,16 +122,19 @@
     }
     .footerRightLinksProducts {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         flex-wrap: wrap;
         gap: 8px;
     }
     .footerLinks a {
-        font-size: 1em;
+        font-size: 16px;
     }
     .footerRightLinksRouting {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .footerRightLinksProducts a:last-child {
+        padding-right: 15px;
     }
 }

@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from 'react-router-dom';
-import { useResize } from '../common/UseResize';
-import Logo from '../../../icons/iconLogo.svg';
+import Logo from '../../../img/logo.png';
 import styles from './footer.module.css';
 
 export function Footer() {
-  const { width, isScreenHEAD,isScreenSm, isScreenMd, isScreenLg, isScreenXl } = useResize();
   return (
     <div className={styles.footerContainer}>
       <Link to={"/"}>
@@ -29,7 +27,7 @@ export function Footer() {
           <Link to="/dno">Днища</Link>
           <Link to="/opora">Опоры</Link>
           <Link to="/shtucer">Штуцеры</Link>
-          <Link to="/productinfo">Запорная арматура</Link>
+          <Link className={styles.footerRightLinksProductsLast} to="/productinfo">Запорная арматура</Link>
         </div>
       </div>
     </div>
