@@ -3,7 +3,7 @@ import { useResize } from "../../common/UseResize";
 import styles from "./preheader.module.css";
 
 export function PreHeader() {
-  const {width, isScreenPreheaderBR, isScreenPreheaderBR400 } = useResize();
+  const { width, isScreenPreheaderBR, isScreenPreheaderBR400 } = useResize();
   return (
     // <>
     //   <div className={styles.container}>
@@ -51,43 +51,57 @@ export function PreHeader() {
     //   </div>
     // </>
 
+    // <>
+    //   <div className={styles.container}>
+
+    //     <div className={styles.title}>
+    //       {isScreenPreheaderBR ? (
+    //         <h2 className={styles.title}>
+    //           Производство{isScreenPreheaderBR400 ? "" : <br className={styles.br}/>} и комплектация
+    //           {"\n"}{" "}
+    //           <span className={styles.titleBlue}>трубопроводных систем</span>
+    //           {"\n"} <br className={styles.br}/> для промышленности
+    //         </h2>
+    //       ) : (
+    //         <h2 className={styles.title}>
+    //           Производство и комплектация{"\n"}{" "}
+    //           <span className={styles.titleBlue}>трубопроводных систем</span>
+    //           {"\n"} <br className={styles.br}/> для промышленности
+    //         </h2>
+    //       )}
+    //     </div>
+
+    //     <div className={styles.rightDescr}>
+    //       {width <= 400 ?
+    //         <>Обеспечиваем потребности предприятий и заводов России и стран СНГ с 2006 года</>
+    //         :
+    //         <>
+    //           <p>Обеспечиваем потребности</p>
+    //           <p>предприятий и заводов </p>
+    //           <p>России и стран СНГ с 2006 года</p>
+    //         </>
+    //       }
+    //     </div>
+
+    //   </div>
+    // </>
+
+    //  Последний вариант
     <>
       <div className={styles.container}>
-
-        <div className={styles.title}>
-          {isScreenPreheaderBR ? (
-            <h2 className={styles.title}>
-              Производство{isScreenPreheaderBR400 ? "" : <br className={styles.br}/>} и комплектация
-              {"\n"}{" "}
-              <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br className={styles.br}/> для промышленности
-            </h2>
-          ) : (
-            <h2 className={styles.title}>
-              Производство и комплектация{"\n"}{" "}
-              <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br className={styles.br}/> для промышленности
-            </h2>
-          )}
+        <div className={styles.titleDiv}>
+          <h2 className={styles.title}>
+            Производство и комплектация{"\n"}{" "}
+            <span className={styles.titleBlue}>трубопроводных систем</span>
+            {"\n"} для промышленности
+          </h2>
         </div>
 
         <div className={styles.rightDescr}>
-          {/* <p>Обеспечиваем потребности</p>  */}
-          {/* <br className={styles.br}/>  */}
-          {/* <p>предприятий и заводов </p>  */}
-          {/* <br className={styles.br}/>  */}
-          {/* <p>России и стран СНГ с 2006 года</p>  */}
-          {width <= 400 ? 
-            <>Обеспечиваем потребности предприятий и заводов России и стран СНГ с 2006 года</>
-            :
-            <>
-              <p>Обеспечиваем потребности</p> 
-              <p>предприятий и заводов </p> 
-              <p>России и стран СНГ с 2006 года</p> 
-            </>
-          }
+          <p>Обеспечиваем потребности</p>
+          <p>предприятий и заводов </p>
+          <p>России и стран СНГ с 2006 года</p>
         </div>
-
       </div>
     </>
   );

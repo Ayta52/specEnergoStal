@@ -192,7 +192,7 @@
 
 /* ВАРИАНТ БЕЗ КНОПКИ "СКАЧАТЬ БУКЛЕТ" */
 
-.container {
+/* .container {
   display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
@@ -206,7 +206,7 @@
 
 .title {
   max-width: 700px;
-  white-space: normal;
+  white-space: pre-line;
   color: var(--white);
   line-height: 70px;
   font-weight: 700;
@@ -230,10 +230,14 @@
   text-align: right;
   font-size: 25px;
   line-height: 40px;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   text-align: right;
   padding-bottom: 6px;
 }
+
+.br {
+  display: none;
+} */
 
 /* Вариант с переносом */
 
@@ -381,6 +385,7 @@
     white-space: pre-line;
   }
 }
+
 @media all and (max-width: 710px) and (min-width: 400px) {
   .container {
     display: flex;
@@ -425,6 +430,7 @@
     font-size: 12px;
   }
 }
+
 @media all and (max-width: 400px) {
   .container {
     margin-bottom: 10px;
@@ -447,4 +453,80 @@
     line-height: 25px;
     text-align: left;
   }
+}
+
+
+
+
+.container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 50px 20px 0 20px;
+}
+
+.title {
+  max-width: 855px;
+  white-space: normal;
+  color: var(--white);
+  /* font-size: 80px; */
+  font-size: 65px;
+  line-height: 85px;
+  font-weight: 700;
+  text-align: left;
+  /* line-height: 100px; */
+  text-transform: uppercase;
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-stretch: ultra-condensed;
+  /* padding-left: 20px; */
+}
+
+.titleBlue {
+  color: var(--blue);
+}
+
+.rightBlok {
+  max-width: calc(1300px - 855px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.downloadBtn {
+  position: relative;
+}
+
+.downloadBtnText {
+  color: var(--blue);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.downloadBtn:hover {
+  .downloadBtnText {
+    color: var(--white);
+  }
+  .downloadBtnIcon {
+    fill: var(--blue);
+  }
+}
+
+.rightDescr {
+  color: var(--white);
+  white-space: pre-line;
+  font-family: 'SansPro', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  font-size: 30px;
+  line-height: 40px;
 }
