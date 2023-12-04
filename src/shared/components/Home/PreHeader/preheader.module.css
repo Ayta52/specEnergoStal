@@ -208,7 +208,7 @@
   max-width: 700px;
   white-space: normal;
   color: var(--white);
-  line-height: 73px;
+  line-height: 70px;
   font-weight: 700;
   text-align: left;
   text-transform: uppercase;
@@ -219,20 +219,20 @@
 .titleBlue {
   color: var(--blue);
 }
-.br {
-  display: block;
-}
+
 .rightDescr {
+  align-self: flex-end;
   max-width: 550px;
   height: 100%;
   color: var(--white);
   font-family: 'SansPro', sans-serif;
   font-weight: 400;
   text-align: right;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   text-align: right;
+  padding-bottom: 6px;
 }
 
 /* Вариант с переносом */
@@ -323,11 +323,11 @@
   }
   .title {
     max-width: 500px;
-    font-size: 45px;
+    font-size: 55px;
   }
 
   .rightDescr {
-    font-size: 24px;
+    font-size: 25px;
     white-space: pre-line;
   }
 }
@@ -340,16 +340,20 @@
   }
 
   .title {
-    max-width: 395px;
+    max-width: 385px;
     font-size: 35px;
     line-height: 45px;
   }
 
   .rightDescr {
     max-width: 360px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 18px;
     line-height: 24px;
     white-space: pre-line;
+  }
+  .rightDescr p {
+    font-size: 18px;
   }
 }
 
@@ -371,7 +375,8 @@
 
   .rightDescr {
     max-width: 360px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 16px;
     line-height: 24px;
     white-space: pre-line;
   }
@@ -379,20 +384,22 @@
 @media all and (max-width: 710px) and (min-width: 400px) {
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 710px;
     max-height: none;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
+    gap: 3%;
   }
   .titleBlue {
     font-size: 35px;
   }
+
   .title {
-    max-width: 710px;
+    max-width: 450px;
     font-size: 35px;
     line-height: 45px;
     margin-bottom: 10px;
@@ -404,32 +411,39 @@
     font-size: 20px;
     line-height: 25px;
     text-align: left;
-    white-space: pre-wrap;
+    white-space: pre-line;
     letter-spacing: -1px;
+    padding-bottom: 27px;
   }
   .br {
     display: none;
   }
 }
 
+@media all and (max-width: 480px) {
+  .rightDescr {
+    font-size: 12px;
+  }
+}
 @media all and (max-width: 400px) {
   .container {
     margin-bottom: 10px;
     padding-top: 0;
     max-width: 400px;
+    max-height: none;
   }
   .title {
     max-width: 400px;
     font-size: 22px;
     line-height: 32px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
   .titleBlue {
     font-size: 22px;
   }
   .rightDescr {
     max-width: 400px;
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 25px;
     text-align: left;
   }

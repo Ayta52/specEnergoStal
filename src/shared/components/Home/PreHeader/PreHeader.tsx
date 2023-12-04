@@ -3,7 +3,7 @@ import { useResize } from "../../common/UseResize";
 import styles from "./preheader.module.css";
 
 export function PreHeader() {
-  const { isScreenPreheaderBR, isScreenPreheaderBR400 } = useResize();
+  const {width, isScreenPreheaderBR, isScreenPreheaderBR400 } = useResize();
   return (
     // <>
     //   <div className={styles.container}>
@@ -72,8 +72,20 @@ export function PreHeader() {
         </div>
 
         <div className={styles.rightDescr}>
-          Обеспечиваем потребности<br className={styles.br}/> предприятий и заводов <br className={styles.br}/> России и
-          стран СНГ с 2006 года
+          {/* <p>Обеспечиваем потребности</p>  */}
+          {/* <br className={styles.br}/>  */}
+          {/* <p>предприятий и заводов </p>  */}
+          {/* <br className={styles.br}/>  */}
+          {/* <p>России и стран СНГ с 2006 года</p>  */}
+          {width <= 400 ? 
+            <>Обеспечиваем потребности предприятий и заводов России и стран СНГ с 2006 года</>
+            :
+            <>
+              <p>Обеспечиваем потребности</p> 
+              <p>предприятий и заводов </p> 
+              <p>России и стран СНГ с 2006 года</p> 
+            </>
+          }
         </div>
 
       </div>
