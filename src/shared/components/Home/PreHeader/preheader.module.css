@@ -321,7 +321,7 @@
 } */
 
 /* Вариант без переноса */
-@media all and (max-width: 1235px) and (min-width: 768px) {
+/* @media all and (max-width: 1235px) and (min-width: 768px) {
   .container {
     max-height: none;
   }
@@ -351,7 +351,7 @@
 
   .rightDescr {
     max-width: 360px;
-    /* font-size: 20px; */
+    font-size: 20px;
     font-size: 18px;
     line-height: 24px;
     white-space: pre-line;
@@ -379,7 +379,7 @@
 
   .rightDescr {
     max-width: 360px;
-    /* font-size: 20px; */
+    font-size: 20px;
     font-size: 16px;
     line-height: 24px;
     white-space: pre-line;
@@ -431,7 +431,7 @@
   }
 }
 
-/* @media all and (max-width: 400px) {
+@media all and (max-width: 400px) {
   .container {
     margin-bottom: 10px;
     padding-top: 0;
@@ -471,7 +471,7 @@
 }
 .title {
   width: 100%;
-  white-space: pre-line;
+  white-space: normal;
   color: var(--white);
   font-size: 80px;
   line-height: 85px;
@@ -490,7 +490,7 @@
   max-width: 360px;
   align-self: flex-end;
   color: var(--white);
-  white-space: pre-line;
+  white-space: pre-wrap;
   font-family: 'SansPro', sans-serif;
   font-weight: 400;
   text-align: right;
@@ -499,15 +499,24 @@
   padding-bottom: 14px;
 }
 
+@media all and (max-width: 1200px) and (min-width: 1024px) {
+  .titleDiv {
+    max-width: 1190px;
+    min-width: 700px;
+  }
+}
+
 @media all and (max-width: 1024px) and (min-width: 768px) {
   .container {
     margin-bottom: 10px;
     padding-top: 20px;
-    max-width: 1024px;
+    max-width: 99%;
   }
-
-  .title {
+  .titleDiv {
     max-width: 761px;
+    min-width: 440px;
+  }
+  .title {
     font-size: 50px;
     line-height: 56px;
   }
@@ -522,15 +531,16 @@
     font-size: 18px;
   }
 }
-@media all and (max-width: 768px) and (min-width: 480px) {
+@media all and (max-width: 768px) and (min-width: 510px) {
   .container {
     margin-bottom: 10px;
     padding-top: 20px;
-    max-width: 768px;
+    max-width: 99%;
   }
-
-  .title {
+  .titleDiv {
     max-width: 435px;
+  }
+  .title {
     font-size: 40px;
     line-height: 45px;
   }
@@ -544,24 +554,26 @@
     font-size: 16px;
     line-height: 24px;
     white-space: pre-line;
-    padding-bottom: 7px;
+    padding-bottom: 8px;
   }
   .rightDescrP {
     font-size: 16px;
   }
 }
 
-
-
-@media all and (max-width: 480px) and (min-width: 360px) {
+@media all and (max-width: 510px) and (min-width: 360px) {
   .container {
     margin-bottom: 10px;
     padding-top: 20px;
-    max-width: 480px;
+    max-width: 99%;
+  }
+
+  .titleDiv {
+    max-width: 435px;
+    min-width: 250px;
   }
 
   .title {
-    max-width: 435px;
     font-size: 25px;
     line-height: 28px;
   }
@@ -596,13 +608,14 @@
     align-items: flex-start;
     margin-bottom: 10px;
     padding-top: 20px;
-    max-width: 360px;
+    max-width: 99%;
   }
 
   .title {
     max-width: 100%;
     font-size: 25px;
     line-height: 28px;
+    white-space: pre-wrap;
   }
 
   .titleBlue {
