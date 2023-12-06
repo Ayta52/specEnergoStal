@@ -431,7 +431,7 @@
   }
 }
 
-@media all and (max-width: 400px) {
+/* @media all and (max-width: 400px) {
   .container {
     margin-bottom: 10px;
     padding-top: 0;
@@ -442,18 +442,18 @@
     max-width: 400px;
     font-size: 22px;
     line-height: 32px;
-    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
   }
   .titleBlue {
     font-size: 22px;
   }
   .rightDescr {
     max-width: 400px;
-    /* font-size: 16px; */
+    font-size: 16px;
     line-height: 25px;
     text-align: left;
   }
-}
+} */
 
 
 
@@ -466,67 +466,156 @@
   align-items: space-between;
   padding: 50px 20px 0 20px;
 }
-
+.titleDiv {
+  max-width: 1190px;
+}
 .title {
-  max-width: 855px;
-  white-space: normal;
+  width: 100%;
+  white-space: pre-line;
   color: var(--white);
-  /* font-size: 80px; */
-  font-size: 65px;
+  font-size: 80px;
   line-height: 85px;
   font-weight: 700;
   text-align: left;
-  /* line-height: 100px; */
   text-transform: uppercase;
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-stretch: ultra-condensed;
-  /* padding-left: 20px; */
 }
 
 .titleBlue {
   color: var(--blue);
 }
 
-.rightBlok {
-  max-width: calc(1300px - 855px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.downloadBtn {
-  position: relative;
-}
-
-.downloadBtnText {
-  color: var(--blue);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Bebas', 'SansPro', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.downloadBtn:hover {
-  .downloadBtnText {
-    color: var(--white);
-  }
-  .downloadBtnIcon {
-    fill: var(--blue);
-  }
-}
-
 .rightDescr {
+  max-width: 360px;
+  align-self: flex-end;
   color: var(--white);
   white-space: pre-line;
   font-family: 'SansPro', sans-serif;
   font-weight: 400;
   text-align: right;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
+  padding-bottom: 14px;
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 1024px;
+  }
+
+  .title {
+    max-width: 761px;
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .rightDescr {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: pre-line;
+  }
+  .rightDescrP {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 768px) and (min-width: 480px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 768px;
+  }
+
+  .title {
+    max-width: 435px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .titleBlue {
+    font-size: 40px;
+  }
+
+  .rightDescr {
+    max-width: 296px;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre-line;
+    padding-bottom: 7px;
+  }
+  .rightDescrP {
+    font-size: 16px;
+  }
+}
+
+
+
+@media all and (max-width: 480px) and (min-width: 360px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 480px;
+  }
+
+  .title {
+    max-width: 435px;
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .titleBlue {
+    font-size: 25px;
+  }
+
+  .rightDescr {
+    max-width: 296px;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: pre-line;
+    padding-bottom: 5px;
+  }
+  .rightDescrP {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 400px) and (min-width: 360px) {
+  .rightDescr {
+    padding-bottom: 4px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 360px;
+  }
+
+  .title {
+    max-width: 100%;
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .titleBlue {
+    font-size: 25px;
+  }
+
+  .rightDescr {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: pre-line;
+  }
+  .rightDescrP {
+    font-size: 12px;
+  }
 }

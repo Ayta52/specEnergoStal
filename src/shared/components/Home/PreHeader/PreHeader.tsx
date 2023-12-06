@@ -91,16 +91,16 @@ export function PreHeader() {
       <div className={styles.container}>
         <div className={styles.titleDiv}>
           <h2 className={styles.title}>
-            Производство и комплектация{"\n"}{" "}
+            Производство и&nbsp;комплектация{"\n"}{" "}
             <span className={styles.titleBlue}>трубопроводных систем</span>
-            {"\n"} для промышленности
+            {"\n"} для&nbsp;промышленности
           </h2>
         </div>
 
         <div className={styles.rightDescr}>
-          <p>Обеспечиваем потребности</p>
-          <p>предприятий и заводов </p>
-          <p>России и стран СНГ с 2006 года</p>
+          <p className={styles.rightDescrP}>Обеспечиваем потребности {"\n"}
+            предприятий и заводов&nbsp;России {"\n"}
+            и стран СНГ с 2006 года</p>
         </div>
       </div>
     </>
