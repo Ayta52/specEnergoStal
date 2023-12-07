@@ -34,9 +34,9 @@ export function PreFooter() {
 
         {isScreenFOOT ? (
           <div className={styles.rightPreFooterImgColumnReverse}>
-            <span className={styles.downloadBtnTextColumnReverse}>
+            <button className={styles.downloadBtnTextColumnReverse}>
               скачать буклет
-            </span>
+            </button>
           </div>
         ) : (
           <div className={styles.rightPreFooterImg}>

@@ -187,7 +187,7 @@
     }
 
     .downloadBtnTextColumnReverse {
-        width: 100%;
+        /* width: 100%; */
         text-align: right;
         font-size: 16px;
         font-family: 'Bebas', 'SansPro', sans-serif;
@@ -218,12 +218,14 @@
     }
 
     .rightPreFooterImgColumnReverse {
-        margin-right: -13px;
+        width: 100%;
+        margin-right: 10px;
     }
 
     .downloadBtnTextColumnReverse {
         width: 100%;
-        text-align: right;
+        margin-left: -20px;
+        text-align: left;
         font-size: 16px;
         font-family: 'Bebas', 'SansPro', sans-serif;
         font-weight: 700;
