@@ -702,11 +702,21 @@
     max-width: 296px;
     font-size: 12px;
     line-height: 24px;
-    /* white-space: pre-line; */
     padding-bottom: 5px;
   }
   .rightDescrP {
     font-size: 12px;
+  }
+
+  .titleDivIphone .title {
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -1px;
+  }
+
+  .titleDivIphone .titleBlue {
+    font-size: 17px;
+    letter-spacing: -1px;
   }
 }
 

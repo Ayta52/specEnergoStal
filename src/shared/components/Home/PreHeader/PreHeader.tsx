@@ -1,9 +1,8 @@
-// import React from 'react';
-import { useResize } from "../../common/UseResize";
 import styles from "./preheader.module.css";
 
 export function PreHeader() {
-  const { width } = useResize();
+  const isIPhone = /iPhone/.test(navigator.userAgent);
+  const isAndroid = /Android/.test(navigator.userAgent);
   const text = {
     title: <h2 className={styles.title}>
     Производство <br className={styles.br1}/>{" "}и комплектация <br className={styles.br2}/>{" "}
@@ -20,19 +19,14 @@ export function PreHeader() {
   
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.titleDiv}>{text.title}</div>
+      <div className={`${styles.container} ${
+              isIPhone ? styles.containerIphone : ""
+            } ${isAndroid ? styles.containerAndroid : ""}`}>
+        <div className={`${styles.titleDiv} ${
+              isIPhone ? styles.titleDivIphone : ""
+            } ${isAndroid ? styles.titleDivAndroid : ""}`}>{text.title}</div>
 
         <div className={styles.rightDescr}>
-          {/* {width <= 360 ? (
-            <p className={styles.rightDescrP}>
-              Обеспечиваем потребности предприятий и заводов России и стран СНГ
-              с 2006 года
-            </p>
-          ) : (
-            text.description
-          )} */}
-
           {text.description}
         </div>
       </div>

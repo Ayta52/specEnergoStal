@@ -8,6 +8,8 @@ export function PreFooter() {
     isScreenFOOT,
     isScreenMd
   } = useResize();
+  const isIPhone = /iPhone/.test(navigator.userAgent);
+  const isAndroid = /Android/.test(navigator.userAgent);
   return (
     <div className={styles.preFooterContainer}>
       {isScreenMd ? (
@@ -27,22 +29,50 @@ export function PreFooter() {
       )}
 
       {isScreenFOOT ? (
-        <div className={styles.rightPreFooterImgColumnReverse}>
-          <button className={styles.downloadBtnTextColumnReverse}>
+        <div
+          className={`${styles.rightPreFooterImgColumnReverse} ${
+            isIPhone ? styles.rightPreFooterImgColumnReverseIphone : ""
+          } ${isAndroid ? styles.rightPreFooterImgColumnReverseAndroid : ""}`}
+        >
+          <button
+            className={`${styles.downloadBtnTextColumnReverse} ${
+              isIPhone ? styles.downloadBtnTextColumnReverseIphone : ""
+            } ${isAndroid ? styles.downloadBtnTextColumnReverseAndroid : ""}`}
+          >
             скачать буклет
           </button>
           <div className={styles.rightPreFooter}>
             <div className={styles.rightPreFooterLinks}>
-              <a className={styles.rightPreFooterLinksText} href="tel:+78312100108">+7 831 210 01 08 </a>
-              <a className={styles.rightPreFooterLinksText} href="mailto:info@senergostal.ru">info@senergostal.ru</a>
+              <a
+                className={styles.rightPreFooterLinksText}
+                href="tel:+78312100108"
+              >
+                +7 831 210 01 08{" "}
+              </a>
+              <a
+                className={styles.rightPreFooterLinksText}
+                href="mailto:info@senergostal.ru"
+              >
+                info@senergostal.ru
+              </a>
             </div>
           </div>
         </div>
       ) : (
         <div className={styles.rightPreFooter}>
           <div className={styles.rightPreFooterLinks}>
-            <a className={styles.rightPreFooterLinksText} href="tel:+78312100108">+7 831 210 01 08 </a>
-            <a className={styles.rightPreFooterLinksText} href="mailto:info@senergostal.ru">info@senergostal.ru</a>
+            <a
+              className={styles.rightPreFooterLinksText}
+              href="tel:+78312100108"
+            >
+              +7 831 210 01 08{" "}
+            </a>
+            <a
+              className={styles.rightPreFooterLinksText}
+              href="mailto:info@senergostal.ru"
+            >
+              info@senergostal.ru
+            </a>
           </div>
           <div className={styles.rightPreFooterImg}>
             <button className={styles.downloadBtn}>
@@ -67,68 +97,6 @@ export function PreFooter() {
         </div>
       )}
 
-      {/* <div className={styles.rightPreFooter}>
-        <div className={styles.rightPreFooterLinks}>
-          <a href="tel:+78312100108">+7 831 210 01 08 </a>
-          <a href="mailto:info@senergostal.ru">info@senergostal.ru</a>
-        </div>
-
-        {isScreenFOOT ? (
-          <div className={styles.rightPreFooterImgColumnReverse}>
-            <button className={styles.downloadBtnTextColumnReverse}>
-              скачать буклет
-            </button>
-          </div>
-        ) : (
-          <div className={styles.rightPreFooterImg}>
-            <button className={styles.downloadBtn}>
-              <svg
-                className={styles.downloadBtnIcon}
-                width="192"
-                height="58"
-                viewBox="0 0 192 58"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 56L4 29L96 2L188 29L96 56Z"
-                  stroke="#008FFF"
-                  strokeWidth="2"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-              <p className={styles.downloadBtnText}>скачать буклет</p>
-            </button>
-          </div>
-        )}
-
-        {/* <div className={styles.rightPreFooterImg}>
-          {isScreenFOOT ? (
-            <button className={styles.downloadBtnisScreenFOOT}>
-              <span className={styles.downloadBtnText}>скачать буклет</span>
-            </button>
-          ) : (
-            <button className={styles.downloadBtn}>
-              <svg
-                className={styles.downloadBtnIcon}
-                width="192"
-                height="58"
-                viewBox="0 0 192 58"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M96 56L4 29L96 2L188 29L96 56Z"
-                  stroke="#008FFF"
-                  strokeWidth="2"
-                  strokeMiterlimit="10"
-                />
-              </svg>
-              <p className={styles.downloadBtnText}>скачать буклет</p>
-            </button>
-          )}
-        </div>
-      </div> */}
     </div>
   );
 }

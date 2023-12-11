@@ -202,6 +202,15 @@
         white-space: nowrap;
         color: var(--blue);
     }
+    .downloadBtnTextColumnReverseIphone {
+        width: 100%;
+        color: var(--blue);
+        font-size: 16px;
+        font-family: 'Bebas', 'SansPro', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
     .rightPreFooterLinksText {
         font-size: 14px;
     }
@@ -245,6 +254,16 @@
         text-transform: uppercase;
         white-space: nowrap;
         color: var(--blue);
+    }
+     .downloadBtnTextColumnReverseIphone {
+        width: 100%;
+        color: var(--blue);
+        font-size: 14px;
+        font-family: 'Bebas', 'SansPro', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        white-space: nowrap;
+        margin-right: 21px;
     }
     .rightPreFooterLinksText {
         font-size: 14px;
