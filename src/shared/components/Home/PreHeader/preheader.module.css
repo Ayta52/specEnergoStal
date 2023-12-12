@@ -509,7 +509,7 @@
   display: none;
 }
 .br3 {
-  display: none;
+  display: block;
 }
 /* rightBlock  */
 @media all and (max-width: 1105px) and (min-width: 1024px) {
