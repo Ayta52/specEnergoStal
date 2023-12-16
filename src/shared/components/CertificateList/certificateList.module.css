@@ -48,12 +48,12 @@
   gap: 20px;
 }
 
-.certificate_list_upBlock img {
+.certificate_image {
   width: 310px;
   height: 439px;
 }
 
-.certificate_list_upBlock img:hover {
+.certificate_image:hover {
   scale: 1.05;
   cursor: pointer;
   transition: 0.3s;
@@ -81,9 +81,9 @@
   .certificate_list_text p {
     font-size: 18px;
   }
-  .certificate_list_upBlock img {
-    width: 230px;
-    height: 330px;
+  .certificate_image {
+    width: 233px;
+    height: 332px;
   }
 
   .certificate_list_upBlock {
@@ -109,9 +109,9 @@
   .certificate_list_text p {
     font-size: 16px;
   }
-  .certificate_list_upBlock img {
-    width: 170px;
-    height: 245px;
+  .certificate_image {
+    width: 176px;
+    height: 250px;
   }
 
   .certificate_list_upBlock {
@@ -138,9 +138,11 @@
   .certificate_list_text p {
     font-size: 16px;
   }
-  .certificate_list_upBlock img {
-    width: 48%;
-    height: auto;
+  .certificate_image {
+    /* width: 48%; */
+    width: 214px;
+    /* height: auto; */
+    height: 206px;
   }
 
   .certificate_list_upBlock {
@@ -167,9 +169,11 @@
   .certificate_list_text p {
     font-size: 14px;
   }
-  .certificate_list_upBlock img {
-    width: 48%;
-    height: auto;
+  .certificate_image {
+    /* width: 48%;
+    height: auto; */
+    width: 153px;
+    height: 220px;
   }
 
   .certificate_list_upBlock {
