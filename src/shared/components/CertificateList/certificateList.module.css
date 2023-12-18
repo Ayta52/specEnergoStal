@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   gap: 21px;
+  padding: 20px;
+  padding-right: 0;
 }
 
 .certificate_list_img {
@@ -159,9 +161,11 @@
     flex-wrap: wrap;
     padding: 20px;
   }
+
   .certificate_list_text {
     width: 100%;
   }
+
   .certificate_list_text h1 {
     font-size: 20px;
   }
@@ -169,6 +173,7 @@
   .certificate_list_text p {
     font-size: 14px;
   }
+
   .certificate_image {
     /* width: 48%;
     height: auto; */
