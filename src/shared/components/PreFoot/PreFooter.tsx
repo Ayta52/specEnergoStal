@@ -6,13 +6,13 @@ import styles from './preFooter.module.css';
 export function PreFooter() {
   const {
     isScreenFOOT,
-    isScreenMd
+    isScreenMdPreFoot
   } = useResize();
   const isIPhone = /iPhone/.test(navigator.userAgent);
   const isAndroid = /Android/.test(navigator.userAgent);
   return (
     <div className={styles.preFooterContainer}>
-      {isScreenMd ? (
+      {isScreenMdPreFoot ? (
         <img src={Logo} alt="Logo" className={styles.logo} />
       ) : (
         <div className={styles.leftPreFooter}>

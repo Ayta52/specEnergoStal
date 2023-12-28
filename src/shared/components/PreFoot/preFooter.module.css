@@ -216,7 +216,13 @@
         font-size: 14px;
     }
 }
-
+@media screen and (max-width: 580px) {
+    .logo {
+        width: 165px;
+        height: 56px;
+        margin-left: 20px;
+    }
+}
 @media screen and (max-width: 480px) {
     .leftPreFooter {
         display: none;
