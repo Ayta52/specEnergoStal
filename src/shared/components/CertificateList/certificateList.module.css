@@ -39,7 +39,8 @@
 .certificate_list_text {
   display: flex;
   flex-direction: column;
-  width: 49%;
+  /* width: 49%; */
+  width: 532px;
 }
 
 .certificate_list_upBlock {

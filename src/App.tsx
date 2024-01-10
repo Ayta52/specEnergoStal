@@ -8,10 +8,10 @@ import './main.global.css';
 function App() {
   return (
     <Layout>
-      {/* <Header />
+      <Header />
       <Router />
       <PreFooter />
-      <div className="border_bottom"></div> */}
+      <div className="border_bottom"></div>
       <Footer />
     </Layout>
   );
