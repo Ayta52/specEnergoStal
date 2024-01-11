@@ -54,9 +54,11 @@
         font-weight: 400;
     }
 }
+
 @media all and (max-width: 768px) {
     .dropdownList {
-        right: -182px;
+        /* right: -182px; */
+        right: -235px;
     }
     .navLink {
         font-family: 'SansPro', sans-serif;
@@ -76,7 +78,7 @@
     }
 }
 
-@media all and (max-width: 360px) {
+@media all and (max-width: 365px) {
     .dropdownList {
         padding: 11px 0px 16px 15px;
     }

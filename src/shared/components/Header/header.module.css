@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px 0 20px;
 }
 
 .phoneSms {
@@ -31,7 +32,7 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 67px 20px 20px 20px;
+    padding: 67px 20px 100px 20px;
     justify-content: space-between;
   }
   .mainScreenLG {
@@ -47,7 +48,8 @@
 @media all and (max-width: 1023px) {
   .header {
     max-width: 1023px;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 20px 0 0 0;
     margin-bottom: 0;
     margin-top: 20px;
     display: flex;

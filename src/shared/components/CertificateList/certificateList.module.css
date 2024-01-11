@@ -4,8 +4,11 @@
   display: flex;
   flex-direction: column;
   gap: 21px;
-  padding: 20px;
-  padding-right: 0;
+  padding: 0 20px 0 20px;
+
+
+ /* потом удалить!!!!!!!!!!!! */
+  padding-bottom: 200px;
 }
 
 .certificate_list_img {
@@ -188,4 +191,68 @@
     justify-content: flex-start;
     gap: 10px;
   }
+}
+
+/* новый вариант  */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px 100px 20px;
+}
+
+.certificate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificate_image {
+  width: 310px;
+  height: 439px;
+}
+
+.certificate_list_upBlock {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.certificate_list_upBlock_left {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.certificate_list_upBlock_right {
+  width: 49%;
+  display: flex;
+  gap: 20px;
+}
+
+.certificate_list_upBlock_title {
+  font-family: 'Bebas', 'SansPro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 113.2%;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.certificate_list_upBlock_text {
+  font-family: 'SansPro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.certificate_list_upBlock_text_span {
+  color: #008fff;
+}
+
+.certificate_list_downBlock {
+  display: flex;
+  gap: 20px;
 }

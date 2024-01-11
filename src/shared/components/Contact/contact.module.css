@@ -1,4 +1,4 @@
-h1 {
+.contactH1 {
     font-family: 'Bebas', 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -13,6 +13,7 @@ h1 {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 0 20px 0 20px;
 }
 
 .map {
@@ -146,12 +147,12 @@ h1 {
         justify-content: space-between;
         padding-bottom: 30px;
     }
-    h1 {
+    .contactH1 {
         font-family: 'Bebas', 'SansPro', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
-        line-height: 113.2%;
+        line-height: 113%;
         color: #FFFFFF;
         padding-bottom: 30px;
     }
@@ -178,8 +179,10 @@ h1 {
     .map {
         max-width: 440px;
     }
-    h1 {
+    .contactH1 {
         font-size: 30px;
+        line-height: 33px;
+        font-weight: 400;
     }
     .contactInfo_text {
         font-size: 16px;
@@ -232,8 +235,10 @@ h1 {
     .map {
         max-width: 360px;
     }
-    h1 {
+    .contactH1 {
         font-size: 20px;
+        line-height: 22px;
+        font-weight: 400;
     }
     .contactInfo_text {
         font-size: 14px;

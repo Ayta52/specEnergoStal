@@ -7,7 +7,7 @@ export function NotFound() {
   return (
     <div className={styles.container}>
       <div className={styles.notFound_text}>
-        <h1>
+        <h1 className={styles.notFound_title}>
           труба потекла.. <br />
           скоро всё починим!
         </h1>

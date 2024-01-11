@@ -131,6 +131,7 @@
     .footerContainer {
         max-width: 99%;
         padding: 20px;
+        align-items: center;
     }
     .logo {
         display: none;
@@ -186,6 +187,7 @@
         flex-wrap: wrap;
     }
 }
+
 @media all and (max-width: 360px) {
     .footerContainer {
         max-width: 99%;

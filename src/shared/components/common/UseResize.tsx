@@ -1,11 +1,21 @@
 import { useState, useEffect } from 'react';
 import {
-  SCREEN_SM, SCREEN_MD, SCREEN_LG, SCREEN_XL, SCREEN_HEAD, SCREEN_FOOT, SCREEN_BIG_MD, SCREEN_PREHEADER_BR, SCREEN_PREHEADER_BR_400, SCREEN_MD_PREFOOT
-} from './Breakpoints';
+  SCREEN_SM,
+  SCREEN_MD,
+  SCREEN_LG,
+  SCREEN_XL,
+  SCREEN_HEAD,
+  SCREEN_FOOT,
+  SCREEN_BIG_MD,
+  SCREEN_PREHEADER_BR,
+  SCREEN_PREHEADER_BR_400,
+  SCREEN_MD_PREFOOT,
+  SCREEN_XL_CERTIFICATELIST,
+  SCREEN_LG_CERTIFICATELIST
+} from "./Breakpoints";
 
 export const useResize = () => {
   const [width, setWidth] = useState(window.innerWidth);
-
   useEffect(() => {
     const handleResize = (event) => {
       setWidth(event.target.innerWidth);
@@ -27,6 +37,8 @@ export const useResize = () => {
     isScreenFOOT: width <= SCREEN_FOOT,
     isScreenBigMd: width >= SCREEN_BIG_MD,
     isScreenPreheaderBR: width <= SCREEN_PREHEADER_BR,
-    isScreenPreheaderBR400: width <= SCREEN_PREHEADER_BR_400
+    isScreenPreheaderBR400: width <= SCREEN_PREHEADER_BR_400,
+    isScreenXlCertificateList: width >= SCREEN_XL_CERTIFICATELIST,
+    isScreenLgCertificateList: width >= SCREEN_LG_CERTIFICATELIST
   };
 };
