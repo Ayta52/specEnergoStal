@@ -78,6 +78,10 @@
   .mainDesctop {
     display: none;
   }
+  .mainScreenLG {
+    gap: 5px;
+    padding: 0;
+  }
   .phoneSms {
     gap: 15px;
    }
