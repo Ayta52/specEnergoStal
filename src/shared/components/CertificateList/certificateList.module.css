@@ -4,15 +4,10 @@
   display: flex;
   flex-direction: column;
   gap: 21px;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 50px 20px;
 }
 
-.certificate_list_img {
-  width: 210px;
-  height: 297px;
-}
-
-.certificate_list_text h1 {
+.certificate_list_title {
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -21,7 +16,11 @@
   color: #ffffff;
 }
 
-.certificate_list_text p {
+.certificate_img_block_line {
+  display: none;
+}
+
+.certificate_list_description {
   font-family: 'SansPro', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -31,7 +30,7 @@
   text-align: left;
 }
 
-.certificate_list_text span {
+.certificate_list_description_span {
   color: #008fff;
 }
 
@@ -39,19 +38,29 @@
   display: flex;
   flex-direction: column;
   /* width: 49%; */
-  width: 532px;
+  max-width: 532px;
 }
 
 .certificate_list_upBlock {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
 
+.certificate_img_block_one, .certificate_img_block_two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.certificate_img_block_one {
+  /* margin-left: 60px; */
+}
+
 .certificate_image {
-  width: 310px;
+  width: 305px;
+  /* width: 310px; */
   height: 439px;
 }
 
@@ -66,128 +75,195 @@
   gap: 21px;
 }
 
-@media all and (max-width: 1024px) and (min-width: 768px){
+@media all and (max-width: 1225px) and (min-width: 1024px){
   .container {
-    max-width: 1024px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+    max-width: 1225px;
   }
   .certificate_list_text {
-    width: 50%;
+    max-width: 100%;
   }
-  .certificate_list_text h1 {
+  .certificate_img_block_one, .certificate_img_block_two {
+    display: none;
+  }
+  .certificate_img_block_line {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .certificate_image {
+    width: 23%;
+    height: 365px;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .certificate_list_text {
+    max-width: 480px;
+  }
+  .certificate_list_title {
     font-size: 50px;
   }
 
-  .certificate_list_text p {
+  .certificate_list_description {
     font-size: 18px;
   }
+
   .certificate_image {
-    width: 233px;
-    height: 332px;
+    width: 230px;
+    height: 330px;
   }
 
-  .certificate_list_upBlock {
+  .certificate_img_block_line {
+    display: none;
+  }
+
+  .certificate_img_block_one,
+  .certificate_img_block_two {
     display: flex;
-    justify-content: flex-start;
     gap: 15px;
   }
 }
 
-@media all and (max-width: 768px) and (min-width: 480px){
+@media all and (max-width: 1015px) and (min-width: 768px){
   .container {
-    max-width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+    max-width: 1015px;
   }
   .certificate_list_text {
-    width: 100%;
+    max-width: 100%;
   }
-  .certificate_list_text h1 {
-    font-size: 40px;
+  .certificate_img_block_one, .certificate_img_block_two {
+    display: none;
   }
-
-  .certificate_list_text p {
-    font-size: 16px;
+  .certificate_img_block_line {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
   }
   .certificate_image {
-    width: 174px;
-    height: 250px;
-  }
-
-  .certificate_list_upBlock {
-    max-width: 750px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
+    width: 23%;
+    height: 300px;
   }
 }
 
-@media all and (max-width: 480px) and (min-width: 360px){
+@media all and (max-width: 768px) and (min-width: 550px){
   .container {
     max-width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
   }
   .certificate_list_text {
-    width: 100%;
-  }
-  .certificate_list_text h1 {
-    font-size: 30px;
+    max-width: 100%;
   }
 
-  .certificate_list_text p {
+  .certificate_img_block_one, .certificate_img_block_two {
+    display: none;
+  }
+  .certificate_img_block_line {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .certificate_list_title{
+    font-size: 40px;
+  }
+
+  .certificate_list_description {
     font-size: 16px;
   }
   .certificate_image {
-    /* width: 48%; */
-    width: 214px;
-    /* height: auto; */
-    height: 306px;
+    max-width: 23%;
+    height: 100%;
+  }
+
+}
+
+@media all and (max-width: 550px) and (min-width: 480px){
+  .container {
+    max-width: 650px;
+  }
+  .certificate_list_text {
+    max-width: 100%;
+  }
+  .certificate_list_title {
+    font-size: 30px;
+  }
+
+  .certificate_img_block_one, .certificate_img_block_two {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .certificate_img_block_line {
+    display: none;
+  }
+
+  .certificate_list_description {
+    font-size: 16px;
+  }
+  .certificate_image {
+    width: 48%;
+    /* width: 214px; */
+    height: auto;
+    /* height: 306px; */
   }
 
   .certificate_list_upBlock {
     max-width: 750px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media all and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+  .certificate_list_text {
+    max-width: 100%;
+  }
+
+  .certificate_img_block_one, .certificate_img_block_two {
+    display: flex;
+    flex-direction: row;
     gap: 10px;
+  }
+  .certificate_img_block_line {
+    display: none;
+  }
+  .certificate_list_title{
+    font-size: 30px;
+  }
+
+  .certificate_list_description{
+    font-size: 16px;
+  }
+  .certificate_image {
+    width: 48%;
+    /* width: 214px; */
+    height: auto;
+    /* height: 306px; */
+  }
+
+  .certificate_list_upBlock {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
 @media all and (max-width: 360px) {
   .container {
-    max-width: 768px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+    max-width: 360px;
   }
 
-  .certificate_list_text {
-    width: 100%;
-  }
-
-  .certificate_list_text h1 {
+  .certificate_list_title {
     font-size: 20px;
   }
 
-  .certificate_list_text p {
+  .certificate_list_description {
     font-size: 14px;
-  }
-
-  .certificate_image {
-    /* width: 48%;
-    height: auto; */
-    width: 153px;
-    height: 220px;
-  }
-
-  .certificate_list_upBlock {
-    max-width: 750px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
   }
 }

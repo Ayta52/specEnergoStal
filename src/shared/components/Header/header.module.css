@@ -108,6 +108,7 @@
   }
   .mainScreenLG {
     gap: 5px;
+    padding-bottom: 20px;
   }
   .phoneSms {
     gap: 10px;
