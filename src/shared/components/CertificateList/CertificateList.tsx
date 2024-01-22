@@ -89,7 +89,7 @@ export function CertificateList() {
 
         <div className={styles.certificate_img_block_one}>
           {renderCertificateList()}
-          
+
         </div>
 
         <div className={styles.certificate_img_block_two}>
@@ -99,7 +99,7 @@ export function CertificateList() {
         <div className={styles.certificate_img_block_line}>
           {renderCertificateListLine()}
         </div>
-        
+
       </div>
 
       {certificatePopupOpen && (

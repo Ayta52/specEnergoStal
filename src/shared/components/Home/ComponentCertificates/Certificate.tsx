@@ -15,16 +15,16 @@ const imgList = [
     content: <img rel="preload" key={generateRandomIndex()} src={DC} alt="sert" />,
   },
   {
+    id: 3,
+    content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
+  },
+  {
     id: 8,
     content: <img rel="preload" key={generateRandomIndex()} src={TCTP2} alt="sert" />,
   },
   {
     id: 2,
     content: <img rel="preload" key={generateRandomIndex()} src={ISO} alt="sert" />,
-  },
-  {
-    id: 3,
-    content: <img rel="preload" key={generateRandomIndex()} src={TCTP1} alt="sert" />,
   },
   {
     id: 5,
