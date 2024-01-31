@@ -2,7 +2,6 @@ import React from 'react';
 import { useResize } from '../common/UseResize';
 import Logo from "../../../img/logo.png";
 import styles from './preFooter.module.css';
-// import buklet from '../../../../public/buklet.pdf';
 
 export function PreFooter() {
   const {
@@ -13,10 +12,10 @@ export function PreFooter() {
   const isAndroid = /Android/.test(navigator.userAgent);
 
   const handleDownloadBrochure = () => {
-    const filePath = '../../../../public/buklet.pdf';
+    const filePath = "./buklet.pdf";
     const link = document.createElement('a');
     link.href = filePath;
-    // link.download = 'buklet.pdf';
+    link.download = 'buklet.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
