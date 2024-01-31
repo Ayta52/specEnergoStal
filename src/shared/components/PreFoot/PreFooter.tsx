@@ -1,7 +1,7 @@
 import React from 'react';
 import { useResize } from '../common/UseResize';
 import Logo from "../../../img/logo.png";
-import buklet from "../../../assets/pdf/buklet.pdf";
+import pdf  from "../.../../../../types/types.s";
 import styles from './preFooter.module.css';
 
 export function PreFooter() {
@@ -9,18 +9,19 @@ export function PreFooter() {
     isScreenFOOT,
     isScreenMdPreFoot
   } = useResize();
+  // const bukletPDF = 
   const isIPhone = /iPhone/.test(navigator.userAgent);
   const isAndroid = /Android/.test(navigator.userAgent);
 
-  // const handleDownloadBrochure = () => {
-  //   const filePath = "./buklet.pdf";
-  //   const link = document.createElement('a');
-  //   link.href = filePath;
-  //   link.download = 'buklet.pdf';
-  //   document.body.appendChild(link);
-  //   link.click();
-  //   document.body.removeChild(link);
-  // };
+  const handleDownloadBrochure = () => {
+    const filePath = pdf("buklet.pdf");
+    const link = document.createElement('a');
+    link.href = filePath;
+    link.download = 'buklet.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className={styles.preFooterContainer}>
@@ -88,7 +89,9 @@ export function PreFooter() {
             </a>
           </div>
           <div className={styles.rightPreFooterImg}>
-            <button className={styles.downloadBtn} onClick={handleDownloadBrochure}>
+            <button className={styles.downloadBtn}
+             onClick={handleDownloadBrochure}
+             >
               <svg
                 className={styles.downloadBtnIcon}
                 width="192"
@@ -106,7 +109,7 @@ export function PreFooter() {
               </svg>
               <p className={styles.downloadBtnText}>скачать буклет</p>
             </button>
-            <a href="../../../pdf/buklet.pdf" download>скачатьать</a>
+            {/* <a href={bukletPDF} download>скачатьать</a> */}
           </div>
         </div>
       )}
