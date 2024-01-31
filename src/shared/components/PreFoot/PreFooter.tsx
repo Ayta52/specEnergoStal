@@ -2,6 +2,7 @@ import React from 'react';
 import { useResize } from '../common/UseResize';
 import Logo from "../../../img/logo.png";
 import styles from './preFooter.module.css';
+// import buklet from '../../../../public/buklet.pdf';
 
 export function PreFooter() {
   const {
@@ -10,6 +11,17 @@ export function PreFooter() {
   } = useResize();
   const isIPhone = /iPhone/.test(navigator.userAgent);
   const isAndroid = /Android/.test(navigator.userAgent);
+
+  const handleDownloadBrochure = () => {
+    const filePath = '../../../../public/buklet.pdf';
+    const link = document.createElement('a');
+    link.href = filePath;
+    // link.download = 'buklet.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className={styles.preFooterContainer}>
       {isScreenMdPreFoot ? (
@@ -38,6 +50,7 @@ export function PreFooter() {
             className={`${styles.downloadBtnTextColumnReverse} ${
               isIPhone ? styles.downloadBtnTextColumnReverseIphone : ""
             } ${isAndroid ? styles.downloadBtnTextColumnReverseAndroid : ""}`}
+            onClick={handleDownloadBrochure}
           >
             скачать буклет
           </button>
@@ -75,7 +88,7 @@ export function PreFooter() {
             </a>
           </div>
           <div className={styles.rightPreFooterImg}>
-            <button className={styles.downloadBtn}>
+            <button className={styles.downloadBtn} onClick={handleDownloadBrochure}>
               <svg
                 className={styles.downloadBtnIcon}
                 width="192"
