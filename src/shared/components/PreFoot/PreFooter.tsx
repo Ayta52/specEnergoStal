@@ -1,6 +1,7 @@
 import React from 'react';
 import { useResize } from '../common/UseResize';
 import Logo from "../../../img/logo.png";
+import buklet from "../../../assets/pdf/buklet.pdf";
 import styles from './preFooter.module.css';
 
 export function PreFooter() {
@@ -11,15 +12,15 @@ export function PreFooter() {
   const isIPhone = /iPhone/.test(navigator.userAgent);
   const isAndroid = /Android/.test(navigator.userAgent);
 
-  const handleDownloadBrochure = () => {
-    const filePath = "./buklet.pdf";
-    const link = document.createElement('a');
-    link.href = filePath;
-    link.download = 'buklet.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownloadBrochure = () => {
+  //   const filePath = "./buklet.pdf";
+  //   const link = document.createElement('a');
+  //   link.href = filePath;
+  //   link.download = 'buklet.pdf';
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
   return (
     <div className={styles.preFooterContainer}>
@@ -105,6 +106,7 @@ export function PreFooter() {
               </svg>
               <p className={styles.downloadBtnText}>скачать буклет</p>
             </button>
+            <a href="../../../pdf/buklet.pdf" download>скачатьать</a>
           </div>
         </div>
       )}
