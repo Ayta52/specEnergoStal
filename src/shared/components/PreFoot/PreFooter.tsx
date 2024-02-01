@@ -9,7 +9,6 @@ export function PreFooter() {
     isScreenFOOT,
     isScreenMdPreFoot
   } = useResize();
-  // const bukletPDF = 
   const isIPhone = /iPhone/.test(navigator.userAgent);
   const isAndroid = /Android/.test(navigator.userAgent);
 
@@ -109,7 +108,6 @@ export function PreFooter() {
               </svg>
               <p className={styles.downloadBtnText}>скачать буклет</p>
             </button>
-            {/* <a href={bukletPDF} download>скачатьать</a> */}
           </div>
         </div>
       )}
