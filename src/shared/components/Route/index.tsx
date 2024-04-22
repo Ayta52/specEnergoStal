@@ -3,7 +3,7 @@ import { Home } from "../Home";
 import { Contact } from "../Contact";
 import { CertificateList } from "../CertificateList";
 import { ProductList } from "../ProductList";
-import { Otvod } from "../ProductList/Otvod";
+import { OtvodInfo } from "../ProductList/OtvodInfo";
 import { ProductInfo } from "../ProductInfo";
 import { NotFound } from "../NotFound";
 import { Perehod } from "../ProductList/Perehod";
@@ -25,7 +25,7 @@ export default function Router() {
         <Route element={<ProductList />} path="/productlist" />
         <Route element={<ProductInfo />} path="/productinfo" />
         <Route element={<NotFound />} path="*" />
-        <Route element={<Otvod />} path="/otvod" />
+        <Route element={<OtvodInfo />} path="/otvodinfo" />
         <Route element={<Perehod />} path="/perehod" />
         <Route element={<Troynik />} path="/troynik" />
         <Route element={<Flanec />} path="/flanec" />

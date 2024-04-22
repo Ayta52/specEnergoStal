@@ -19,7 +19,7 @@ export function Footer() {
         </div>
 
         <div className={styles.footerRightLinksProducts}>
-          <Link to="/otvod">Отводы</Link>
+          <Link to="/otvodinfo">Отводы</Link>
           <Link to="/perehod">Переходы</Link>
           <Link to="/troynik">Тройники</Link>
           <Link to="/flanec">Фланцы</Link>

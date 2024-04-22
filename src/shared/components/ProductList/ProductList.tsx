@@ -18,7 +18,7 @@ const productListMass = [
     id: 1,
     name: "Отводы",
     image: Otvod,
-    src: "/otvod",
+    src: "/otvodinfo",
   },
   {
     id: 2,
@@ -56,14 +56,14 @@ const productListMass = [
     image: Opora,
     src: "/opora",
   },
+  // {
+  //   id: 8,
+  //   name: "штуцеры",
+  //   image: Shtucer,
+  //   src: "/shtucer",
+  // },
   {
     id: 8,
-    name: "штуцеры",
-    image: Shtucer,
-    src: "/shtucer",
-  },
-  {
-    id: 9,
     name: "запорная арматура",
     image: ZapornayaArmatura,
     src: "/productinfo",

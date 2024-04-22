@@ -11,7 +11,7 @@ export function DropDown( {handleLinkClick, isOpenNavBar, isOpen}: any) {
         {isOpen && (
           <ul className={styles.dropdownList}>
             <li className={styles.dropdownItem}>
-              <Link to="/otvod" onClick={handleLinkClick}>
+              <Link to="/otvodinfo" onClick={handleLinkClick}>
                 Отводы
               </Link>
             </li>
@@ -61,7 +61,7 @@ export function DropDown( {handleLinkClick, isOpenNavBar, isOpen}: any) {
         {isOpenNavBar && (
           <ul className={styles.dropdownList}>
             <li className={styles.dropdownItem}>
-              <Link to="/otvod" onClick={handleLinkClick}>
+              <Link to="/otvodinfo" onClick={handleLinkClick}>
                 Отводы
               </Link>
             </li>
