@@ -6,10 +6,474 @@ import classNames from 'classnames';
 import { useResize } from '../../common/UseResize';
 import { DropDownInfo } from '../../ProductInfo/DropDownInfo/DropDownInfo';
 
+// ПОТОМ ПОДКЛЮЧИТЬ КОГДА БУДУТ ОСТАЛЬНЫЕ ТАБЫ
+// const tabsInfoProductPerehod = [
+//   {
+//     label: "Perehooood",
+//     content: (
+//       <div className={styles.infoTab}>
+//         <div className={styles.productInfoContentLeft}>
+//           <p className={styles.productInfoText}>
+//            Rabotaet perehod!!!!!!!!!!!!
+//           </p>       
+//         </div>
+
+//         <div className={styles.productInfoContentRight}>
+//           <ul>
+//             <li className={styles.listItem}>
+//               Отводы гнутые
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы стальные ГОСТ 17375             
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы крутоизогнутые бесшовные
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы гнутые для трубопроводов ТЭС
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы сварные для трубопроводов АЭС
+//             </li>
+//             <li className={styles.listItem}>
+//               Вставки кривые ГОСТ 24950-81 
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы для магистральных и промысловых газопроводов
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы повышенной коррозионной активности
+//             </li>
+//             <li className={styles.listItem}>
+//               Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+//             </li>
+            
+//           </ul>
+//         </div>
+//       </div>
+//     ),
+//   },
+// ]
+
+const tabsInfoProductOtvod = [
+  {
+    label: "Отводы гнутые",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы стальные ГОСТ 17375",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы крутоизогнутые бесшовные",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы гнутые для трубопроводов ТЭС",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы сварные для трубопроводов АЭС",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Вставки кривые ГОСТ 24950-81",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы для магистральных и промысловых газопроводов",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: "Отводы повышенной коррозионной активности",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+
+  {
+    label: " Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+           Rabotaet!!!!!!!!!!!!
+          </p>       
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Отводы гнутые
+            </li>
+            <li className={styles.listItem}>
+              Отводы стальные ГОСТ 17375             
+            </li>
+            <li className={styles.listItem}>
+              Отводы крутоизогнутые бесшовные
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов ТЭС
+            </li>
+            <li className={styles.listItem}>
+              Отводы сварные для трубопроводов АЭС
+            </li>
+            <li className={styles.listItem}>
+              Вставки кривые ГОСТ 24950-81 
+            </li>
+            <li className={styles.listItem}>
+              Отводы для магистральных и промысловых газопроводов
+            </li>
+            <li className={styles.listItem}>
+              Отводы повышенной коррозионной активности
+            </li>
+            <li className={styles.listItem}>
+              Отводы гнутые для трубопроводов с неагрессивными средами и средами содержащих сероводород
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    ),
+  }
+];
 
 const tabs = [
   {
-    label: "краны шаровые",
+    label: "отводы",
     content: (
       <div className={styles.infoTab}>
         <div className={styles.productInfoContentLeft}>
@@ -52,41 +516,16 @@ const tabs = [
 
         <div className={styles.productInfoContentRight}>
           <ul>
-            <li className={styles.listItem}>
-              Кран шаровой нержавеющий фланцевый
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой нержавеющий (под приварку, муфтовый, штуцерный)
-              запорный с ручным управлением
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой (Компакт) нержавеющий межфланцевый ручной запорный
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой нержавеющий (с патрубками под приварку, муфтовый,
-              штуцерный)
-            </li>
-            <li className={styles.listItem}>
-              Краны шаровые трехходовые фланцевые
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой стальной фланцевый запорный с ручным управлением
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой стальной (с патрубками под приварку, муфтовый,
-              штуцерный)
-            </li>
-            <li className={styles.listItem}>
-              Кран шаровой стальной (с патрубками под приварку, муфтовый,
-              штуцерный)
-            </li>
+           {tabsInfoProductOtvod.map((tab) => (
+             <li className={styles.listItem} key={tab.label}>{tab.label}</li>
+           ))}
           </ul>
         </div>
       </div>
     ),
   },
   {
-    label: "задвижки",
+    label: "переходы",
     content: (
       <div className={styles.infoTab}>
         <div className={styles.productInfoContentLeft}>
@@ -98,17 +537,16 @@ const tabs = [
 
         <div className={styles.productInfoContentRight}>
           <ul>
-            <li className={styles.listItem}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            
-            </li>
+          {/* {tabsInfoProductPerehod.map((tab) => (
+             <li className={styles.listItem} key={tab.label}>{tab.label}</li>
+           ))} */}
           </ul>
         </div>
       </div>
     ),
   },
   {
-    label: "затворы",
+    label: "тройники",
     content: (
       <div className={styles.infoTab}>
         <div className={styles.productInfoContentLeft}>
@@ -130,7 +568,7 @@ const tabs = [
     ),
   },
   {
-    label: "клапаны",
+    label: "фланцы",
     content: (
       <div className={styles.infoTab}>
         <div className={styles.productInfoContentLeft}>
@@ -152,7 +590,7 @@ const tabs = [
     ),
   },
   {
-    label: "электронасосы",
+    label: "днища",
     content: (
       <div className={styles.infoTab}>
         <div className={styles.productInfoContentLeft}>
@@ -166,7 +604,69 @@ const tabs = [
           <ul>
             <li className={styles.listItem}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            
+            </li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    label: "заглушки",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+     
+          </p>
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    label: "опоры",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+     
+          </p>
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    label: "запорная арматура",
+    content: (
+      <div className={styles.infoTab}>
+        <div className={styles.productInfoContentLeft}>
+          <p className={styles.productInfoText}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+     
+          </p>
+        </div>
+
+        <div className={styles.productInfoContentRight}>
+          <ul>
+            <li className={styles.listItem}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </li>
           </ul>
         </div>
@@ -177,6 +677,7 @@ const tabs = [
 export function OtvodInfo() {
   
   const [activeTab, setActiveTab] = useState(0);
+  const [activeTabRightBlock, setActiveTabRightBlock] = useState(0);
   
   const handleTabClick = (index) => {
     setActiveTab(index);
@@ -196,12 +697,13 @@ export function OtvodInfo() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
+
   return (
     <div className={styles.container}>
       <Breadcrumbs paths={paths} />
 
       <div className={styles.productInfoTabs}>
-        <h1>Запорная арматура</h1>
+        <h1>{tabs[activeTab].label}</h1>
         {isScreenMd && (
           <DropDownInfo
             activeTab={activeTab}
