@@ -681,6 +681,11 @@ export function OtvodInfo() {
   
   const handleTabClick = (index) => {
     setActiveTab(index);
+    setActiveTabRightBlock(0);
+  };
+  const handleTabClickRightBlock = (index) => {
+    setActiveTabRightBlock(index);
+    setActiveTab(0);
   };
   
   const paths = [
@@ -730,7 +735,7 @@ export function OtvodInfo() {
         )}
 
         <div className={styles.productInfoContent}>
-          <div className={styles.infoTab}> {tabs[activeTab].content}</div>
+            <div className={styles.infoTab}> {tabs[activeTab].content}</div>
         </div>
       </div>
     </div>
