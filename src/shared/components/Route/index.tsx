@@ -14,6 +14,8 @@ import { Zaglushka } from "../ProductList/Zaglushka";
 import { Opora } from "../ProductList/Opora";
 import { Shtucer } from "../ProductList/Shtucer";
 import { ZapornayaArmatura } from "../ProductList/ZapornayaArmatura";
+import { ProductListTest } from "../ProductListTest";
+import { ProductDescription } from "../ProductListTest/ProductDescription";
 
 export default function Router() {
   return (
@@ -23,6 +25,10 @@ export default function Router() {
         <Route element={<Contact />} path="/contact" />
         <Route element={<CertificateList />} path="/certificatelist" />
         <Route element={<ProductList />} path="/productlist" />
+
+        <Route element={<ProductListTest />} path="/productlisttest" />
+        <Route element={<ProductDescription />} path="/productdescription" />
+
         <Route element={<ProductInfo />} path="/productinfo" />
         <Route element={<NotFound />} path="*" />
         <Route element={<OtvodInfo />} path="/otvodinfo" />
