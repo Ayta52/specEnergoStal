@@ -4,7 +4,7 @@ import arrow from "../../../../icons/productInfoArrow.svg";
 import styles from './dropDownInfo.module.css';
 import classNames from 'classnames';
 
-export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
+export function DropDownInfo({productListMass, handleTabClick, activeTab, setActiveTab}) {
 
   return (
     <div className={styles.container}>
@@ -17,7 +17,7 @@ export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
         
         <ul className={styles.dropdownList}>
           <li className={styles.dropdownItem}>
-            {tabs.map((tab, index) => (
+            {productListMass.map((tab, index) => (
               <button
                 key={index}
                 className={classNames(
@@ -26,7 +26,7 @@ export function DropDownInfo({tabs, handleTabClick, activeTab, setActiveTab}) {
                 )}
                 onClick={() => handleTabClick(index)}
               >
-                {tab.label}
+                {tab.name}
               </button>
             ))}
           </li>
