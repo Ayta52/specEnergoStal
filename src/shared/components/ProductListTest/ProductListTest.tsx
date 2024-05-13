@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+import { productListMass } from "../../utils/productListMass";
 import { Link } from "react-router-dom";
 import Otvod from "../../../img/productImg/Otvod.svg";
 import Perehod from "../../../img/productImg/Perehod.svg";
@@ -11,55 +12,17 @@ import ZapornayaArmatura from "../../../img/productImg/ZapornayaArmatura.svg";
 import backgroundImg from "../../../img/productImg/BackgroundProductList.svg";
 import styles from "./ProductListTest.module.css";
 
-const productListMass = [
+const productListTest = [
   {
     id: 1,
     name: "Отводы",
     image: Otvod,
-    src: "/otvodinfo",
   },
   {
     id: 2,
     name: "переходы",
     image: Perehod,
-    src: "/perehod",
-  },
-  {
-    id: 3,
-    name: "тройники",
-    image: Troynik,
-    src: "/troynik",
-  },
-  {
-    id: 4,
-    name: "фланцы",
-    image: Flanec,
-    src: "/flanec",
-  },
-  {
-    id: 5,
-    name: "днища",
-    image: Dno,
-    src: "/dno",
-  },
-  {
-    id: 6,
-    name: "заглушки",
-    image: Zaglushka,
-    src: "/zaglushka",
-  },
-  {
-    id: 7,
-    name: "опоры",
-    image: Opora,
-    src: "/opora",
-  },
-  {
-    id: 8,
-    name: "запорная арматура",
-    image: ZapornayaArmatura,
-    src: "/productinfo",
-  },
+  }
 ];
 
 export function ProductListTest() {
@@ -79,12 +42,13 @@ export function ProductListTest() {
       <h1>Продукция</h1>
       <div className={styles.productList}>
         <div className={styles.productItem}>
-          {productListMass.map((item, index) => {
+          {productListTest.map((item, index) => {
             return (
               <Link
                 to='/productdescription'
                 className={styles.productItemFlex}
                 key={index}
+                onClick={() => handleTabClick(index)}
               >
                 <img src={item.image} alt={item.name} />
                 <p>{item.name}</p>

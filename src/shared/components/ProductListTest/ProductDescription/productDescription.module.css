@@ -130,8 +130,15 @@
     cursor: pointer;
 }
 
+.listItemActive {
+    color: #008FFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .listItem:hover::before {
     display: inline-block;
+    top: -3px;
     transform: rotate(180deg);
     transition: 0.3s;
 }

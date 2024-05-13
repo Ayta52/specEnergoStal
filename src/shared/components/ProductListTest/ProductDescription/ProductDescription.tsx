@@ -9,16 +9,17 @@ import { useResize } from "../../common/UseResize";
 export function ProductDescription() {
 
   const [activeTab, setActiveTab] = useState(0);
-  
+  const [activeSectionRight, setActiveSectionRight] = useState(0);
+ 
   const handleTabClick = (index) => {
     setActiveTab(index);
+    setActiveSectionRight(0);
   };
   
-  const [activeSectionRight, setActiveSectionRight] = useState(1);
   const handleSectionRightClick = (index) => {
     setActiveSectionRight(index);
   };
-
+ 
   const paths = [
     { name: 'главная', url: '/' },
     { name: 'продукция', url: '/productlist' },
@@ -30,9 +31,10 @@ export function ProductDescription() {
     isScreenMd,
     isScreenBigMd
   } = useResize();
+
   useEffect(() => {
     window.scrollTo(0, 0)
-  }, []);
+  }, [activeSectionRight]);
 
   return (
     <div className={styles.container}>
@@ -70,25 +72,23 @@ export function ProductDescription() {
             <div className={styles.productInfoContentLeft}>
               <p className={styles.productInfoText}>
                 {productListMass[activeTab].content.map((item, index) => (
-                  item.leftContent.map((item, index) => (
-                    <div key={index}>
-                      {item.values[activeSectionRight]}
-                      {console.log(item.values[activeSectionRight])}
-                    </div>
-                  ))
-                ))}
-                
+                  <p key={index}>{item.description[activeSectionRight]}</p>
+                ))
+              }
               </p>
             </div>
 
             <div className={styles.productInfoContentRight}>
               <ul>
                 {productListMass[activeTab].content.map((item, index) =>
-                  item.rightContent.map((item, index) => (
+                  item.buttons.map((item, index) => (
                     <li
-                      className={styles.listItem}
-                      onClick={() => handleSectionRightClick(index)}
+                      className={classNames(
+                        styles.listItem,
+                        index === activeSectionRight ? styles.listItemActive : ""
+                      )}
                       key={index}
+                      onClick={() => handleSectionRightClick(index)}
                     >
                       {item}
                     </li>
