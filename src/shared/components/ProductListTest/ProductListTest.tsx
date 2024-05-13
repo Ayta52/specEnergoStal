@@ -1,5 +1,4 @@
-import {useEffect, useState} from 'react';
-import { productListMass } from "../../utils/productListMass";
+import { useContext, useEffect, useState} from 'react';
 import { Link } from "react-router-dom";
 import Otvod from "../../../img/productImg/Otvod.svg";
 import Perehod from "../../../img/productImg/Perehod.svg";
@@ -11,6 +10,7 @@ import Opora from "../../../img/productImg/Opora.svg";
 import ZapornayaArmatura from "../../../img/productImg/ZapornayaArmatura.svg";
 import backgroundImg from "../../../img/productImg/BackgroundProductList.svg";
 import styles from "./ProductListTest.module.css";
+import { ProductDescriptionContext } from '../../utils/context';
 
 const productListTest = [
   {
@@ -26,40 +26,45 @@ const productListTest = [
 ];
 
 export function ProductListTest() {
-  
-  const [activeTab, setActiveTab] = useState(0);
-  
+  const { setIndex } = useContext(ProductDescriptionContext);
+
   const handleTabClick = (index) => {
-    setActiveTab(index);
+    setIndex(index);
   };
+    // const [activeTab, setActiveTab] = useState(0);
+    // const handleTabClick = (index) => {
+    //   setActiveTab(index);
+    // };
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, []);
-
-  return (
-    <div className={styles.container}>
-      <h1>Продукция</h1>
-      <div className={styles.productList}>
-        <div className={styles.productItem}>
-          {productListTest.map((item, index) => {
-            return (
-              <Link
-                to='/productdescription'
-                className={styles.productItemFlex}
-                key={index}
-                onClick={() => handleTabClick(index)}
-              >
-                <img src={item.image} alt={item.name} />
-                <p>{item.name}</p>
-              </Link>
-            );
-          })}
-          <div className={styles.backgroundImg}>
-            <img src={backgroundImg} alt="backgroundImg" />
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, []);
+  
+  
+    return (
+      <div className={styles.container}>
+        <h1>Продукция</h1>
+        <div className={styles.productList}>
+          <div className={styles.productItem}>
+            {productListTest.map((item, index) => {
+              return (
+                <Link
+                  // to="/productdescription"
+                  to="#"
+                  className={styles.productItemFlex}
+                  key={index}
+                  onClick={() => handleTabClick(index)}
+                >
+                  <img src={item.image} alt={item.name} />
+                  <p>{item.name}</p>
+                </Link>
+              );
+            })}
+            <div className={styles.backgroundImg}>
+              <img src={backgroundImg} alt="backgroundImg" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
 }

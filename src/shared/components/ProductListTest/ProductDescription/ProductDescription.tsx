@@ -1,13 +1,15 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { productListMass } from "../../../utils/productListMass";
 import styles from "./productDescription.module.css";
 import classNames from "classnames";
 import { Breadcrumbs } from "../../ProductInfo/Breadcrumbs";
 import { DropDownInfo } from "../../ProductInfo/DropDownInfo";
 import { useResize } from "../../common/UseResize";
+import { ProductDescriptionContext, ProductDescriptionProvider } from "../../../utils/context";
 
 export function ProductDescription() {
-
+  const { index } = useContext(ProductDescriptionContext);
+  console.log(index);
   const [activeTab, setActiveTab] = useState(0);
   const [activeSectionRight, setActiveSectionRight] = useState(0);
  
@@ -37,68 +39,70 @@ export function ProductDescription() {
   }, [activeSectionRight]);
 
   return (
-    <div className={styles.container}>
-      <Breadcrumbs paths={paths} />
+    <ProductDescriptionProvider>
+      <div className={styles.container}>
+        <Breadcrumbs paths={paths} />
 
-      <div className={styles.productInfoTabs}>
-        <h1>{productListMass[activeTab].name}</h1>
-        {isScreenMd && (
-          <DropDownInfo
-            activeTab={activeTab}
-            setActiveTab={setActiveTab}
-            handleTabClick={handleTabClick}
-            productListMass={productListMass}
-          />
-        )}
-        {isScreenBigMd && (
-          <div className={styles.tabContent}>
-            {productListMass.map((tab, index) => (
-              <button
-                key={index}
-                className={classNames(
-                  styles.styleTab,
-                  index === activeTab ? styles.activeLinks : ""
-                )}
-                onClick={() => handleTabClick(index)}
-              >
-                {tab.name}
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className={styles.productInfoContent}>
-          <div className={styles.infoTab}>
-            <div className={styles.productInfoContentLeft}>
-              <p className={styles.productInfoText}>
-                {productListMass[activeTab].content.map((item, index) => (
-                  <p key={index}>{item.description[activeSectionRight]}</p>
-                ))
-              }
-              </p>
+        <div className={styles.productInfoTabs}>
+          <h1>{productListMass[activeTab].name}</h1>
+          {isScreenMd && (
+            <DropDownInfo
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+              handleTabClick={handleTabClick}
+              productListMass={productListMass}
+            />
+          )}
+          {isScreenBigMd && (
+            <div className={styles.tabContent}>
+              {productListMass.map((tab, index) => (
+                <button
+                  key={index}
+                  className={classNames(
+                    styles.styleTab,
+                    index === activeTab ? styles.activeLinks : ""
+                  )}
+                  onClick={() => handleTabClick(index)}
+                >
+                  {tab.name}
+                </button>
+              ))}
             </div>
+          )}
 
-            <div className={styles.productInfoContentRight}>
-              <ul>
-                {productListMass[activeTab].content.map((item, index) =>
-                  item.buttons.map((item, index) => (
-                    <li
-                      className={classNames(
-                        styles.listItem,
-                        index === activeSectionRight ? styles.listItemActive : ""
-                      )}
-                      key={index}
-                      onClick={() => handleSectionRightClick(index)}
-                    >
-                      {item}
-                    </li>
+          <div className={styles.productInfoContent}>
+            <div className={styles.infoTab}>
+              <div className={styles.productInfoContentLeft}>
+                <p className={styles.productInfoText}>
+                  {productListMass[activeTab].content.map((item, index) => (
+                    <p key={index}>{item.description[activeSectionRight]}</p>
                   ))
-                )}
-              </ul>
+                }
+                </p>
+              </div>
+
+              <div className={styles.productInfoContentRight}>
+                <ul>
+                  {productListMass[activeTab].content.map((item, index) =>
+                    item.buttons.map((item, index) => (
+                      <li
+                        className={classNames(
+                          styles.listItem,
+                          index === activeSectionRight ? styles.listItemActive : ""
+                        )}
+                        key={index}
+                        onClick={() => handleSectionRightClick(index)}
+                      >
+                        {item}
+                      </li>
+                    ))
+                  )}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </ProductDescriptionProvider>
   );
 }
