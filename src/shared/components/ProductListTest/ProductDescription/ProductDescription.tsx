@@ -14,10 +14,9 @@ export function ProductDescription() {
     setActiveTab(index);
   };
   
-  const [activeSection, setActiveSection] = useState(0);
-  
-  const handleSectionClick = (index) => {
-    setActiveTab(index);
+  const [activeSectionRight, setActiveSectionRight] = useState(1);
+  const handleSectionRightClick = (index) => {
+    setActiveSectionRight(index);
   };
 
   const paths = [
@@ -71,18 +70,30 @@ export function ProductDescription() {
             <div className={styles.productInfoContentLeft}>
               <p className={styles.productInfoText}>
                 {productListMass[activeTab].content.map((item, index) => (
-                  <div key={index}>{item.leftContent}</div>
+                  item.leftContent.map((item, index) => (
+                    <div key={index}>
+                      {item.values[activeSectionRight]}
+                      {console.log(item.values[activeSectionRight])}
+                    </div>
+                  ))
                 ))}
+                
               </p>
             </div>
 
             <div className={styles.productInfoContentRight}>
               <ul>
-                {productListMass[activeTab].content.map((item, index) => (
+                {productListMass[activeTab].content.map((item, index) =>
                   item.rightContent.map((item, index) => (
-                    <li className={styles.listItem} key={index}>{item}</li>
+                    <li
+                      className={styles.listItem}
+                      onClick={() => handleSectionRightClick(index)}
+                      key={index}
+                    >
+                      {item}
+                    </li>
                   ))
-                ))}
+                )}
               </ul>
             </div>
           </div>
