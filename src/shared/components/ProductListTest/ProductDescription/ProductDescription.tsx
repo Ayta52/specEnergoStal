@@ -5,12 +5,11 @@ import classNames from "classnames";
 import { Breadcrumbs } from "../../ProductInfo/Breadcrumbs";
 import { DropDownInfo } from "../../ProductInfo/DropDownInfo";
 import { useResize } from "../../common/UseResize";
-import { ProductDescriptionContext, ProductDescriptionProvider } from "../../../utils/context";
+import { MyContext } from "../ProductListTest";
 
 export function ProductDescription() {
-  const { index } = useContext(ProductDescriptionContext);
-  console.log(index);
-  const [activeTab, setActiveTab] = useState(0);
+  const { activeTab, setActiveTab } = useContext(MyContext);
+  // const [activeTab, setActiveTab] = useState(0);
   const [activeSectionRight, setActiveSectionRight] = useState(0);
  
   const handleTabClick = (index) => {
@@ -33,13 +32,11 @@ export function ProductDescription() {
     isScreenMd,
     isScreenBigMd
   } = useResize();
-
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [activeSectionRight]);
 
   return (
-    <ProductDescriptionProvider>
       <div className={styles.container}>
         <Breadcrumbs paths={paths} />
 
@@ -103,6 +100,5 @@ export function ProductDescription() {
           </div>
         </div>
       </div>
-    </ProductDescriptionProvider>
   );
 }
