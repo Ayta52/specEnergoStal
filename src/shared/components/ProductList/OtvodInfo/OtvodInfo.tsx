@@ -11,9 +11,9 @@ const tabsInfoProductOtvod = [
     label: "Отводы гнутые",
     contentLeft: (
       <div className={styles.productInfoContentLeft}>
-        <p className={styles.productInfoText}>
+        <h3 className={styles.productInfoText}>
           Изготавливаем отводы гнутые по следующим нормативам:
-        </p>
+        </h3>
         <br />
         <table className={styles.iksweb}>
           <tbody>
@@ -93,10 +93,46 @@ const tabsInfoProductOtvod = [
           материала.
         </p>
         <br />
-        <p>
-          Подвижным элементом (затвором) таких кранов служит пробка сферической
-          формы — шар, по оси которой выполнено сквозное круглое
-        </p>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>По типу исполнения отводы могут быть:</th>
+            </tr>
+            <tr>
+              <td>I — имеющие неравные прямые участки</td>
+            </tr>
+            <tr>
+              <td>II — с равновеликими прямыми участкам </td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <h3 className={styles.productInfoText}>
+          Нормативно-техническая документация
+        </h3>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>Стандарт</th>
+              <th>Техническая характеристика</th>
+              <th>Область применения</th>
+            </tr>
+            <tr>
+              <td>ОСТ 108.321.11÷25-82</td>
+              <td>Угол гиба θ=15°,30°,45°,60°,90°; P=37,27 МПа; Т=280°С.</td>
+              <td>
+                Для трубопроводов питательной воды тепловых электростанций
+              </td>
+            </tr>
+            <tr>
+              <td>СТО ЦКТИ 321.02-2009</td>
+              <td>
+                Угол гиба θ=15°,30°,45°,60°,90°; P= до 23,54 МПа; Т= до 450°С.
+              </td>
+              <td>Для трубопроводов пара и горячей воды тепловых станций</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     ),
   },
@@ -105,115 +141,184 @@ const tabsInfoProductOtvod = [
     label: "Отводы стальные ГОСТ 17375",
     contentLeft: (
       <div className={styles.productInfoContentLeft}>
-        <p className={styles.productInfoText}>Отводы стальные ГОСТ 17375</p>
+        <p>
+          Изготовление отводов бесшовных в соответствии с ГОСТ 17375-01
+          осуществляется по двум вариантам исполнения:
+        </p>
+        <ul>
+          <li>DN 15 — 1000 мм; D 21,3 – 1016 мм</li>
+          <li>DN 25 — 800 мм; D 32 – 820 мм</li>
+        </ul>
+        <p>
+          Для производства отводов по первому варианту наиболее часто применяют
+          марки стали TS4, TS9, Р5-Р43, Е24-1, Е24-2, по второму — 10, 20,
+          17Г1С, 10Г2С1, 15ГС, 09Г2С, 12Х18н10т и прочие марки углеродистых и
+          низколегированных сталей, в зависимости от особенностей эксплуатации и
+          исходя их технического задания, предоставленного заказчиком.
+        </p>
+        <p>
+          Стальные бесшовные отводы по ГОСТ 17375-2001 изготавливаются при
+          помощи метода штамповки или горячей протяжки. Стандартные углы изгиба
+          — 30˚, 45˚, 60˚, 90˚, 180˚, но в случае необходимости в нашей компании
+          вы можете заказать и купить отводы с любым иным углом изгиба в
+          соответствии с вашими технологическими потребностями.
+        </p>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>Стандарт</th>
+              <th>Техническая характеристика</th>
+              <th>Область применения</th>
+            </tr>
+            <tr>
+              <td>ГОСТ 17375-2001</td>
+              <td>
+                Угол гиба ϕ=45°,60°,90°,180° Ру до 32 МПа( до 320 кгс/см²) Dy от
+                15 мм до 1000 мм; Т= от -70°С до +450°С.
+              </td>
+              <td>
+                Применяют для трубопроводов различного назначения, включая
+                подконтрольные органам надзора
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     ),
   },
 
   {
     label: "Отводы крутоизогнутые бесшовные",
-    content: (
-      <div className={styles.infoTab}>
-        <div className={styles.productInfoContentLeft}>
-          <p className={styles.productInfoText}>Rabotaet!!!!!!!!!!!!</p>
-        </div>
-
-        <div className={styles.productInfoContentRight}>
-          <ul>
-            <li className={styles.listItem}>Отводы гнутые</li>
-            <li className={styles.listItem}>Отводы стальные ГОСТ 17375</li>
-            <li className={styles.listItem}>Отводы крутоизогнутые бесшовные</li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов ТЭС
-            </li>
-            <li className={styles.listItem}>
-              Отводы сварные для трубопроводов АЭС
-            </li>
-            <li className={styles.listItem}>Вставки кривые ГОСТ 24950-81</li>
-            <li className={styles.listItem}>
-              Отводы для магистральных и промысловых газопроводов
-            </li>
-            <li className={styles.listItem}>
-              Отводы повышенной коррозионной активности
-            </li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов с неагрессивными средами и средами
-              содержащих сероводород
-            </li>
-          </ul>
-        </div>
+    contentLeft: (
+      <div className={styles.productInfoContentLeft}>
+        <h3 className={styles.productInfoText}>
+          Технические особенности крутоизогнутых отводов
+        </h3>
+        <br />
+        <p>
+          Крутоизогнутые отводы могут быть изготовлены из низколегированной или
+          углеродистой стали типа 3D по ГОСТ 17375-01 с R ≈ 1,5 DN, либо из
+          стали типа 2D с R ≈ DN по ГОСТ 30753-2001. Помимо этого, для нужд
+          отдельных специфических видов производства мы выпускаем отводы по ТУ
+          1468-001-17192736-01 из легированных и высоколегированных сталей
+          (15Х5М-У и подобных).
+        </p>
+        <br />
+        <h3 className={styles.productInfoText}>
+          Нормативно-техническая документация
+        </h3>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>Стандарт</th>
+              <th>Техническая характеристика</th>
+              <th>Область применения</th>
+            </tr>
+            <tr>
+              <td>ГОСТ 30753-01</td>
+              <td>
+                R гиба ≈ DN; Угол гиба θ = 45°,60°;90°,180°; D от 57 мм до 820
+                мм
+              </td>
+              <td>
+                Для трубопроводов различного назначения, включая подконтрольные
+                органам надзора
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     ),
   },
 
   {
     label: "Отводы гнутые для трубопроводов ТЭС",
-    content: (
-      <div className={styles.infoTab}>
-        <div className={styles.productInfoContentLeft}>
-          <p className={styles.productInfoText}>Rabotaet!!!!!!!!!!!!</p>
-        </div>
-
-        <div className={styles.productInfoContentRight}>
-          <ul>
-            <li className={styles.listItem}>Отводы гнутые</li>
-            <li className={styles.listItem}>Отводы стальные ГОСТ 17375</li>
-            <li className={styles.listItem}>Отводы крутоизогнутые бесшовные</li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов ТЭС
-            </li>
-            <li className={styles.listItem}>
-              Отводы сварные для трубопроводов АЭС
-            </li>
-            <li className={styles.listItem}>Вставки кривые ГОСТ 24950-81</li>
-            <li className={styles.listItem}>
-              Отводы для магистральных и промысловых газопроводов
-            </li>
-            <li className={styles.listItem}>
-              Отводы повышенной коррозионной активности
-            </li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов с неагрессивными средами и средами
-              содержащих сероводород
-            </li>
-          </ul>
-        </div>
+    contentLeft: (
+      <div className={styles.productInfoContentLeft}>
+        <h3 className={styles.productInfoText}>
+          Нормативно-техническая документация
+        </h3>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>Стандарт</th>
+              <th>Техническая характеристика</th>
+              <th>Область применения</th>
+            </tr>
+            <tr>
+              <td>ОСТ 108.321.11÷25-82</td>
+              <td>Угол гиба θ=15°,30°,45°,60°,90°; P=37,27 МПа; Т=280°С</td>
+              <td>
+                Для трубопроводов питательной воды тепловых электростанций
+              </td>
+            </tr>
+            <tr>
+              <td>СТО ЦКТИ 321.02-2009</td>
+              <td>
+                Угол гиба θ=15°,30°,45°,60°,90° P= до 23,54 МПа; Т= до 450°С.
+              </td>
+              <td>Для трубопроводов пара и горячей воды тепловых станций</td>
+            </tr>
+            <tr>
+              <td>ОСТ 108.327.01÷03-82</td>
+              <td>Угол гиба θ=90° P= до 37,27 МПа; Т= до 440°С.</td>
+              <td>
+                Для трубопроводов пара и горячей воды тепловых электростанций
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     ),
   },
 
   {
     label: "Отводы сварные для трубопроводов АЭС",
-    content: (
-      <div className={styles.infoTab}>
-        <div className={styles.productInfoContentLeft}>
-          <p className={styles.productInfoText}>Rabotaet!!!!!!!!!!!!</p>
-        </div>
-
-        <div className={styles.productInfoContentRight}>
-          <ul>
-            <li className={styles.listItem}>Отводы гнутые</li>
-            <li className={styles.listItem}>Отводы стальные ГОСТ 17375</li>
-            <li className={styles.listItem}>Отводы крутоизогнутые бесшовные</li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов ТЭС
-            </li>
-            <li className={styles.listItem}>
-              Отводы сварные для трубопроводов АЭС
-            </li>
-            <li className={styles.listItem}>Вставки кривые ГОСТ 24950-81</li>
-            <li className={styles.listItem}>
-              Отводы для магистральных и промысловых газопроводов
-            </li>
-            <li className={styles.listItem}>
-              Отводы повышенной коррозионной активности
-            </li>
-            <li className={styles.listItem}>
-              Отводы гнутые для трубопроводов с неагрессивными средами и средами
-              содержащих сероводород
-            </li>
-          </ul>
-        </div>
+    contentLeft: (
+      <div className={styles.productInfoContentLeft}>
+        <h3 className={styles.productInfoText}>
+          Нормативно-техническая документация
+        </h3>
+        <table className={styles.iksweb}>
+          <tbody>
+            <tr>
+              <th>Стандарт</th>
+              <th>Техническая характеристика</th>
+              <th>Область применения</th>
+            </tr>
+            <tr>
+              <td>ОСТ 34-42-661-84</td>
+              <td>
+                Угол гиба θ=15°,30°,45°,60°,90°; Рy до 4 МПа; Т= до 350°С; D от
+                10 до 80 мм.
+              </td>
+              <td>
+                Для трубопроводов атомных электростанций. Соответствует
+                требованиям «Правил АЭС».
+              </td>
+            </tr>
+            <tr>
+              <td>ОСТ 34-42-832-86</td>
+              <td>
+                С приварными фланцами, подлежащие внутреннему антикоррозионному
+                покрытию; Угол гиба θ=45°,60°,90°; Ру=0,6 МПа, 1 МПа; Т= до
+                80°С; D от 50 до 600 мм.
+              </td>
+              <td>Для трубопроводов водоподготовки тепловых электростанций.</td>
+            </tr>
+            <tr>
+              <td>ОСТ 34.10.699-97</td>
+              <td>
+                Угол гиба θ=30°,45°,60°,90°; Рраб до 2.2 МПа; Траб до 425°С; D
+                от 40 до 600 мм.
+              </td>
+              <td>
+                Для трубопроводов тепловых и атомных электростанций, включая
+                трубопроводы групп В и С, АС.
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     ),
   },
