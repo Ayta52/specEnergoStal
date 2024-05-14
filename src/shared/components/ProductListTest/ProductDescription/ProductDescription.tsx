@@ -41,14 +41,14 @@ export function ProductDescription() {
 
         <div className={styles.productInfoTabs}>
           <h1>{productListMass[activeTab].name}</h1>
-          {isScreenMd && (
+          {/* {isScreenMd && (
             <DropDownInfo
               activeTab={activeTab}
               setActiveTab={setActiveTab}
               handleTabClick={handleTabClick}
               productListMass={productListMass}
             />
-          )}
+          )} */}
           {isScreenBigMd && (
             <div className={styles.tabContent}>
               {productListMass.map((tab, index) => (
