@@ -5,11 +5,10 @@ import classNames from "classnames";
 import { Breadcrumbs } from "../../ProductInfo/Breadcrumbs";
 import { DropDownInfo } from "../../ProductInfo/DropDownInfo";
 import { useResize } from "../../common/UseResize";
-import { MyContext } from "../ProductListTest";
+import { useLocation } from "react-router-dom";
 
 export function ProductDescription() {
-  const { activeTab, setActiveTab } = useContext(MyContext);
-  // const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(0);
   const [activeSectionRight, setActiveSectionRight] = useState(0);
  
   const handleTabClick = (index) => {
