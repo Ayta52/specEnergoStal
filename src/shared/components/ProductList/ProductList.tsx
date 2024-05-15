@@ -1,5 +1,5 @@
-import {useEffect} from 'react';
-import { Link } from "react-router-dom";
+import {useEffect, useState} from 'react';
+import { Link, Path } from "react-router-dom";
 import Otvod from "../../../img/productImg/Otvod.svg";
 import Perehod from "../../../img/productImg/Perehod.svg";
 import Troynik from "../../../img/productImg/Troynik.svg";
@@ -24,7 +24,8 @@ const productListMass = [
     id: 2,
     name: "переходы",
     image: Perehod,
-    src: "/perehod",
+    src: "/otvodinfo",
+    // src: "/perehod",
   },
   {
     id: 3,
@@ -71,6 +72,7 @@ const productListMass = [
 ];
 
 export function ProductList() {
+  const [activeTab, setActiveTab] = useState(0);
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -82,7 +84,10 @@ export function ProductList() {
           {productListMass.map((item, index) => {
             return (
               <Link
-                to={item.src}
+                // to={item.src}
+                to={{
+                  pathname: "/otvodinfo",
+              }} 
                 className={styles.productItemFlex}
                 key={index}
               >
