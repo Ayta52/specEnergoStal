@@ -7,7 +7,7 @@ import Flanec from "../../../img/productImg/Flanec.svg";
 import Dno from "../../../img/productImg/Dno.svg";
 import Zaglushka from "../../../img/productImg/Zaglushka.svg";
 import Opora from "../../../img/productImg/Opora.svg";
-import Shtucer from "../../../img/productImg/Shtucer.svg";
+import Ugolnik from "../../../img/productImg/Ugolnik.svg";
 import ZapornayaArmatura from "../../../img/productImg/ZapornayaArmatura.svg";
 import backgroundImg from "../../../img/productImg/BackgroundProductList.svg";
 import styles from "./productList.module.css";
@@ -56,12 +56,12 @@ const productListMass = [
     image: Opora,
     src: "/opora",
   },
-  // {
-  //   id: 8,
-  //   name: "штуцеры",
-  //   image: Shtucer,
-  //   src: "/shtucer",
-  // },
+  {
+    id: 8,
+    name: "угольники точёные",
+    image: Ugolnik,
+    src: "/shtucer",
+  },
   {
     id: 8,
     name: "запорная арматура",

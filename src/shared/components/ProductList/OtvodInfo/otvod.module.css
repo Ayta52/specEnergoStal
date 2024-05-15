@@ -111,6 +111,17 @@
     font-size: 28px;
     color: #FFFFFF;
 }
+.productInfoContentLeft .productInfoTextH2{
+    width: 751px;
+    font-family: 'Bebas', 'SansPro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
 
 .productInfoContentLeft ul{
     position: relative;
