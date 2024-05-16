@@ -16,7 +16,6 @@ import { Shtucer } from "../ProductList/Shtucer";
 import { ZapornayaArmatura } from "../ProductList/ZapornayaArmatura";
 import { ProductListTest } from "../ProductListTest";
 import { ProductDescription } from "../ProductListTest/ProductDescription";
-import Context from "../../utils/context";
 
 export default function Router() {
   return (
@@ -25,15 +24,16 @@ export default function Router() {
         <Route element={<Home />} path="/" />
         <Route element={<Contact />} path="/contact" />
         <Route element={<CertificateList />} path="/certificatelist" />
+        
         <Route element={<ProductList />} path="/productlist" />
 
 
         <Route element={<ProductListTest />} path="/productlisttest" />
-        <Route element={<ProductDescription />} path="/productdescription" />
+        {/* <Route element={<ProductDescription />} path="/productdescription" /> */}
 
         <Route element={<ProductInfo />} path="/productinfo" />
         <Route element={<NotFound />} path="*" />
-        <Route element={<OtvodInfo />} path="/otvodinfo" />
+        <Route element={<OtvodInfo />} path="/productdescription" />
         <Route element={<Perehod />} path="/perehod" />
         <Route element={<Troynik />} path="/troynik" />
         <Route element={<Flanec />} path="/flanec" />

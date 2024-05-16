@@ -1,5 +1,6 @@
-import {useEffect, useState} from 'react';
-import { Link, Path } from "react-router-dom";
+import {useEffect} from 'react';
+import { useActiveTab } from '../../utils/context';
+import { Link } from "react-router-dom";
 import Otvod from "../../../img/productImg/Otvod.svg";
 import Perehod from "../../../img/productImg/Perehod.svg";
 import Troynik from "../../../img/productImg/Troynik.svg";
@@ -16,63 +17,69 @@ import { useResize } from "../common/UseResize";
 const productListMass = [
   {
     id: 1,
-    name: "Отводы",
+    name: "отводы",
     image: Otvod,
-    src: "/otvodinfo",
+    src: "/productdescription",
   },
   {
     id: 2,
     name: "переходы",
     image: Perehod,
-    src: "/otvodinfo",
-    // src: "/perehod",
+    src: "/productdescription",
   },
   {
     id: 3,
     name: "тройники",
     image: Troynik,
-    src: "/troynik",
+    src: "/productdescription",
   },
   {
     id: 4,
     name: "фланцы",
     image: Flanec,
-    src: "/flanec",
+    src: "/productdescription",
   },
   {
     id: 5,
-    name: "днища",
-    image: Dno,
-    src: "/dno",
+    name: "заглушки",
+    image: Zaglushka,
+    src: "/productdescription",
   },
   {
     id: 6,
-    name: "заглушки",
-    image: Zaglushka,
-    src: "/zaglushka",
+    name: "угольники точёные",
+    image: Ugolnik,
+    src: "/productdescription",
   },
   {
     id: 7,
+    name: "днища",
+    image: Dno,
+    src: "/productdescription",
+  },
+  {
+    id: 8,
     name: "опоры",
     image: Opora,
-    src: "/opora",
+    src: "/productdescription",
   },
+  
   {
-    id: 8,
-    name: "угольники точёные",
-    image: Ugolnik,
-    src: "/shtucer",
-  },
-  {
-    id: 8,
+    id: 9,
     name: "запорная арматура",
     image: ZapornayaArmatura,
-    src: "/productinfo",
+    src: "/productdescription",
   },
 ];
 
+
+
 export function ProductList() {
-  const [activeTab, setActiveTab] = useState(0);
+  const {setActiveTab} = useActiveTab();
+  const handleTabClick = (index: number) => {
+    setActiveTab(index);
+    console.log(index);
+  };
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -84,12 +91,10 @@ export function ProductList() {
           {productListMass.map((item, index) => {
             return (
               <Link
-                // to={item.src}
-                to={{
-                  pathname: "/otvodinfo",
-              }} 
+                to={item.src}
                 className={styles.productItemFlex}
                 key={index}
+                onClick={() => handleTabClick(index)}
               >
                 <img src={item.image} alt={item.name} />
                 <p>{item.name}</p>
