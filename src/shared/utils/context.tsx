@@ -1,6 +1,4 @@
 import React, { useContext, useState, ReactNode } from "react";
-
-// Create the context for the active tab
 interface ActiveTabContextType {
   activeTab: number;
   setActiveTab: React.Dispatch<React.SetStateAction<number>>;
@@ -8,7 +6,6 @@ interface ActiveTabContextType {
 
 const ActiveTabContext = React.createContext<ActiveTabContextType | undefined>(undefined);
 
-// Create the context provider for the active tab
 export const ActiveTabProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [activeTab, setActiveTab] = useState<number>(0);
 
@@ -18,8 +15,6 @@ export const ActiveTabProvider: React.FC<{ children: ReactNode }> = ({ children 
     </ActiveTabContext.Provider>
   );
 };
-
-// Create the context consumer for the active tab
 export const useActiveTab = () => {
   const context = useContext(ActiveTabContext);
   if (!context) {
