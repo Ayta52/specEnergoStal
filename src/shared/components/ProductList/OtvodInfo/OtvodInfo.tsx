@@ -34,7 +34,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_22793-83.pdf"
+                      href="https://uzdt.org/f/ost_10832113-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -43,7 +43,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_24950-81.pdf"
+                      href="https://uzdt.org/f/ost_10832122-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -54,7 +54,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_22790-89.pdf"
+                      href="https://uzdt.org/f/gost_22793-83.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -63,7 +63,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_2412503-89.pdf"
+                      href="https://uzdt.org/f/ost_10832114-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -72,7 +72,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_2412504-89.pdf"
+                      href="https://uzdt.org/f/ost_10832123-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -83,7 +83,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_34-10-421-90.pdf"
+                      href="https://uzdt.org/f/gost_24950-81.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -92,7 +92,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832112-82.pdf"
+                      href="https://uzdt.org/f/ost_10832115-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -101,7 +101,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832112-82.pdf"
+                      href="https://uzdt.org/f/ost_10832124-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -112,7 +112,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832113-82.pdf"
+                      href="https://uzdt.org/f/gost_22790-89.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -121,7 +121,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832114-82.pdf"
+                      href="https://uzdt.org/f/ost_10832116-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -130,7 +130,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832115-82.pdf"
+                      href="https://uzdt.org/f/ost_10832125-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -141,7 +141,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832116-82.pdf"
+                      href="https://uzdt.org/f/gost_2412503-89.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -159,7 +159,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832118-82.pdf"
+                      href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -170,7 +170,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832119-82.pdf"
+                      href="https://uzdt.org/f/gost_2412504-89.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -179,7 +179,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832120-82.pdf"
+                      href="https://uzdt.org/f/ost_10832118-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -188,7 +188,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_1083212182.pdf"
+                      href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -199,7 +199,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832122-82.pdf"
+                      href="https://uzdt.org/f/ost_34-10-421-90.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -208,7 +208,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832123-82.pdf"
+                      href="https://uzdt.org/f/ost_10832119-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -217,7 +217,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832124-82.pdf"
+                      href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -228,7 +228,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832125-82.pdf"
+                      href="https://uzdt.org/f/ost_10832112-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -237,7 +237,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
+                      href="https://uzdt.org/f/ost_10832120-82.pdf"
                       target="_blank"
                     >
                       {" "}
@@ -249,7 +249,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
+                      href="https://uzdt.org/f/ost_10832112-82.pdf"
                       target="_blank"
                     >
                       Отводы по ОСТ 108.321.12-82
@@ -257,7 +257,7 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
+                      href="https://uzdt.org/f/ost_1083212182.pdf"
                       target="_blank"
                     >
                       Отводы по ОСТ 108.321.21-82
@@ -591,7 +591,7 @@ const tabsInfoProductOtvod = [
               или углеродистой стали типа 3D по ГОСТ 17375-01 с R ≈ 1,5 DN, либо
               из стали типа 2D с R ≈ DN по ГОСТ 30753-2001. Помимо этого, для
               нужд отдельных специфических видов производства мы выпускаем
-              отводы по ТУ 1468-001-17192736-01 из легированных и
+              отводы по ТУ 1400-001-25588891-2015 из легированных и
               высоколегированных сталей (15Х5М-У и подобных).
             </p>
             <br />
@@ -628,7 +628,7 @@ const tabsInfoProductOtvod = [
                   </td>
                 </tr>
                 <tr>
-                  <td>ТУ 1462-203-0147016-2001</td>
+                  <td>ТУ 1400-001-25588891-2015</td>
                   <td>Угол гиба от 45°до 90°; D от 530 мм; Pраб. до 32 МПа.</td>
                   <td>
                     Для промысловых трубопроводов , в системах поддерживания
@@ -638,7 +638,7 @@ const tabsInfoProductOtvod = [
                   </td>
                 </tr>
                 <tr>
-                  <td>ТУ 1469-003-65723488-2011</td>
+                  <td>ТУ 1400-001-25588891-2015</td>
                   <td>
                     Угол гиба от 45°до 90°; D 57 мм - 1440 мм; Pраб. до 32 МПа.
                   </td>
@@ -1653,9 +1653,7 @@ const tabsInfoProductOtvod = [
         label: "днища",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Тут пока ничего нет
-            </h2>
+            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
           </div>
         ),
       },
@@ -1669,9 +1667,7 @@ const tabsInfoProductOtvod = [
         label: "опоры",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Тут пока ничего нет
-            </h2>
+            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
           </div>
         ),
       },
@@ -1685,9 +1681,7 @@ const tabsInfoProductOtvod = [
         label: "запорная арматура",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Тут пока ничего нет
-            </h2>
+            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
           </div>
         ),
       },

@@ -78,7 +78,6 @@ export function ProductList() {
   const {setActiveTab} = useActiveTab();
   const handleTabClick = (index: number) => {
     setActiveTab(index);
-    console.log(index);
   };
   useEffect(() => {
     window.scrollTo(0, 0)

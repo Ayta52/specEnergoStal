@@ -98,7 +98,12 @@
     color: #FFFFFF;
 }
 .productInfoContentLeft li {
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 16px;
+}
+.productInfoContentLeft p {
+    /* font-size: 18px; */
+    font-size: 16px;
 }
 .productInfoContentLeft  {
     line-height: 25px;

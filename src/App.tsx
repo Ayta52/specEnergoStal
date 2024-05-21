@@ -9,15 +9,13 @@ import { ActiveTabProvider } from './shared/utils/context';
 function App() {
   return (
     <Layout>
-      <Header />
-      
       <ActiveTabProvider>
+        <Header />
         <Router />
+        <PreFooter />
+        <div className="border_bottom"></div>
+        <Footer />
       </ActiveTabProvider>
-      
-      <PreFooter />
-      <div className="border_bottom"></div>
-      <Footer />
     </Layout>
   );
 }

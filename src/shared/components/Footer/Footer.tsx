@@ -2,8 +2,14 @@
 import { Link } from 'react-router-dom';
 import Logo from '../../../img/logo.png';
 import styles from './footer.module.css';
+import { useActiveTab } from '../../utils/context';
 
 export function Footer() {
+  const {setActiveTab} = useActiveTab();
+  const handleTabClick = (index: number) => {
+    setActiveTab(index);
+  };
+
   return (
     <div className={styles.footerContainer}>
       <Link to={"/"}>
@@ -19,15 +25,15 @@ export function Footer() {
         </div>
 
         <div className={styles.footerRightLinksProducts}>
-          <Link to="/otvodinfo">Отводы</Link>
-          <Link to="/perehod">Переходы</Link>
-          <Link to="/troynik">Тройники</Link>
-          <Link to="/flanec">Фланцы</Link>
-          <Link to="/zaglushka">Заглушки</Link>
-          <Link to="/dno">Днища</Link>
-          <Link to="/opora">Опоры</Link>
-          <Link to="/shtucer">Штуцеры</Link>
-          <Link className={styles.footerRightLinksProductsLast} to="/productinfo">Запорная арматура</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(0)}>Отводы</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(1)}>Переходы</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(2)}>Тройники</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(3)}>Фланцы</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(4)}>Заглушки</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(5)}>Угольники точёные</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(6)}>Днища</Link>
+          <Link to="/productdescription" onClick={() => handleTabClick(7)}>Опоры</Link>
+          <Link className={styles.footerRightLinksProductsLast} to="/productdescription" onClick={() => handleTabClick(8)}>Запорная арматура</Link>
         </div>
       </div>
     </div>

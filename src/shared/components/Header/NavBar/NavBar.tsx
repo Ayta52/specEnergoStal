@@ -9,7 +9,7 @@ export function NavBar() {
   const [isOpenNavBar, setIsOpen] = useState(true);
     const dropdownRef = useRef(null);
   
-    const handleLinkClick = () => {
+    const handleLinkClick = (index: number) => {
       setIsOpen(false);
     };
 
