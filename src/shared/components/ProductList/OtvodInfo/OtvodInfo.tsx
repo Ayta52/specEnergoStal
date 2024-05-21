@@ -6,6 +6,7 @@ import classNames from 'classnames';
 import { useResize } from '../../common/UseResize';
 import { DropDownInfo } from '../../ProductInfo/DropDownInfo/DropDownInfo';
 import { useActiveTab } from '../../../utils/context';
+// import {ost} from "../../../../../public/OST.pdf";
 
 const tabsInfoProductOtvod = [
   {
@@ -228,7 +229,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832112-82.pdf"
+                      href="https://ohranatruda.ru/upload/iblock/75c/4293854889.pdf"
                       target="_blank"
                     >
                       {" "}
