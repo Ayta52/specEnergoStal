@@ -15,14 +15,14 @@ export function Breadcrumbs({paths}) {
               }`}
             >
               {index === paths.length - 1 ? (
-                <span>{path.name}</span>
+                <a href={path.url}>{path.name}</a>
               ) : (
                 <a href={path.url}>&nbsp;{path.name}&nbsp; /&nbsp;</a>
-              )}
+              )
+              }
             </li>
           ))}
-        </ol>
-        {" "}
+        </ol>{" "}
       </nav>
     </div>
   );

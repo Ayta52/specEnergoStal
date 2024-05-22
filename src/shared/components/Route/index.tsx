@@ -3,7 +3,7 @@ import { Home } from "../Home";
 import { Contact } from "../Contact";
 import { CertificateList } from "../CertificateList";
 import { ProductList } from "../ProductList";
-import { Otvod } from "../ProductList/Otvod";
+import { OtvodInfo } from "../ProductList/OtvodInfo";
 import { ProductInfo } from "../ProductInfo";
 import { NotFound } from "../NotFound";
 import { Perehod } from "../ProductList/Perehod";
@@ -14,7 +14,8 @@ import { Zaglushka } from "../ProductList/Zaglushka";
 import { Opora } from "../ProductList/Opora";
 import { Shtucer } from "../ProductList/Shtucer";
 import { ZapornayaArmatura } from "../ProductList/ZapornayaArmatura";
-import { useState } from "react";
+import { ProductListTest } from "../ProductListTest";
+import { ProductDescription } from "../ProductListTest/ProductDescription";
 
 export default function Router() {
   return (
@@ -23,10 +24,16 @@ export default function Router() {
         <Route element={<Home />} path="/" />
         <Route element={<Contact />} path="/contact" />
         <Route element={<CertificateList />} path="/certificatelist" />
+        
         <Route element={<ProductList />} path="/productlist" />
+
+
+        <Route element={<ProductListTest />} path="/productlisttest" />
+        {/* <Route element={<ProductDescription />} path="/productdescription" /> */}
+
         <Route element={<ProductInfo />} path="/productinfo" />
         <Route element={<NotFound />} path="*" />
-        <Route element={<Otvod />} path="/otvod" />
+        <Route element={<OtvodInfo />} path="/productdescription" />
         <Route element={<Perehod />} path="/perehod" />
         <Route element={<Troynik />} path="/troynik" />
         <Route element={<Flanec />} path="/flanec" />

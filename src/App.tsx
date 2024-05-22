@@ -4,16 +4,18 @@ import { Footer } from './shared/components/Footer';
 import { Header } from './shared/components/Header';
 import { PreFooter } from './shared/components/PreFoot';
 import './main.global.css';
-import { CertificateList } from './shared/components/CertificateList';
+import { ActiveTabProvider } from './shared/utils/context';
 
 function App() {
   return (
     <Layout>
-      <Header />
-      <Router />
-      <PreFooter />
-      <div className="border_bottom"></div>
-      <Footer />
+      <ActiveTabProvider>
+        <Header />
+        <Router />
+        <PreFooter />
+        <div className="border_bottom"></div>
+        <Footer />
+      </ActiveTabProvider>
     </Layout>
   );
 }
