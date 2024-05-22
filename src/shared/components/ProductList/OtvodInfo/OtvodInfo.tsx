@@ -228,7 +228,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://ohranatruda.ru/upload/iblock/75c/4293854889.pdf"
+                      href="/ost.pdf"
                       target="_blank"
                     >
                       {" "}
