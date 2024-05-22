@@ -6,7 +6,6 @@ import classNames from 'classnames';
 import { useResize } from '../../common/UseResize';
 import { DropDownInfo } from '../../ProductInfo/DropDownInfo/DropDownInfo';
 import { useActiveTab } from '../../../utils/context';
-// import {ost} from "../../../../../public/OST.pdf";
 
 const tabsInfoProductOtvod = [
   {
