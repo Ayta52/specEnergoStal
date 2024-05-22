@@ -7,3 +7,6 @@ export const SCREEN_FOOT = 768;
 export const SCREEN_BIG_MD = 480;
 export const SCREEN_PREHEADER_BR = 895;
 export const SCREEN_PREHEADER_BR_400 = 400;
+export const SCREEN_MD_PREFOOT = 580;
+export const SCREEN_XL_CERTIFICATELIST = 1024;
+export const SCREEN_LG_CERTIFICATELIST = 768;

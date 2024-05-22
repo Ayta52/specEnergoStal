@@ -4,444 +4,320 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: space-between;
-  /* padding-top: 50px; */
   padding: 50px 20px 0 20px;
+  gap: 1%;
+}
+
+.titleDiv {
+  max-width: 1190px;
 }
 
 .title {
-  max-width: 855px;
+  width: 100%;
   white-space: normal;
   color: var(--white);
-  /* font-size: 80px; */
-  font-size: 65px;
+  font-size: 80px;
   line-height: 85px;
   font-weight: 700;
   text-align: left;
-  /* line-height: 100px; */
   text-transform: uppercase;
   font-family: 'Bebas', 'SansPro', sans-serif;
   font-stretch: ultra-condensed;
-  /* padding-left: 20px; */
 }
 
 .titleBlue {
   color: var(--blue);
 }
 
-.rightBlok {
-  max-width: calc(1300px - 855px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.downloadBtn {
-  position: relative;
-}
-
-.downloadBtnText {
-  color: var(--blue);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 16px;
-  font-family: 'Bebas', 'SansPro', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.downloadBtn:hover {
-  .downloadBtnText {
-    color: var(--white);
-  }
-  .downloadBtnIcon {
-    fill: var(--blue);
-  }
-}
-
 .rightDescr {
+  max-width: 360px;
+  align-self: flex-end;
   color: var(--white);
-  white-space: pre-line;
+  white-space: nowrap;
   font-family: 'SansPro', sans-serif;
-  /* font-size: 25px; */
   font-weight: 400;
   text-align: right;
-  /* line-height: 30px; */
-  /* margin-top: 100px; */
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 40px;
+  padding-bottom: 14px;
 }
 
-/* @media all and (max-width: 1024px) and (min-width: 768px) {
+.br1 {
+  display: none;
+}
+.br2 {
+  display: none;
+}
+.br3 {
+  display: block;
+}
+/* rightBlock  */
+@media all and (max-width: 1105px) and (min-width: 1024px) {
+  .rightDescr {
+    white-space: pre-wrap;
+  }
+}
+@media all and (max-width: 613px) and (min-width: 510px) {
+  .rightDescr {
+    white-space: pre-wrap;
+  }
+}
+@media all and (max-width: 480px) and (min-width: 360px) {
+  .rightDescr {
+    white-space: pre-wrap;
+  }
+}
+
+/* leftblock  */
+/* @media all and (max-width: 1264px) and (min-width: 1025px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: none;
+  }
+  .br3 {
+    display: block;
+  }
+} */
+/* @media all and (max-width: 1072px) and (min-width: 1025px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: none;
+  }
+  .br3 {
+    display: block;
+  }
+} */
+@media all and (max-width: 848px) and (min-width: 768px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: none;
+  }
+  .br3 {
+    display: block;
+  }
+}
+@media all and (max-width: 711px) and (min-width: 584px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: none;
+  }
+  .br3 {
+    display: block;
+  }
+  /* .br4 {
+    display: block;
+  }
+  .br5 {
+    display: block;
+  } */
+}
+@media all and (max-width: 584px) and (min-width: 510px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: none;
+  }
+  .br3 {
+    display: block;
+  }
+}
+@media all and (max-width: 480px) and (min-width: 361px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: block;
+  }
+  .br3 {
+    display: block;
+  }
+}
+@media all and (max-width: 394px) and (min-width: 361px) {
+  .br1 {
+    display: block;
+  }
+  .br2 {
+    display: block;
+  }
+  .br3 {
+    display: block;
+  }
+}
+
+
+@media all and (max-width: 1200px) and (min-width: 1024px) {
+  .titleDiv {
+    max-width: 1190px;
+    min-width: 700px;
+  }
+}
+
+@media all and (max-width: 1270px) and (min-width: 1024px) {
   .container {
-    max-width: 1024px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 99%;
+  }
+  .titleDiv {
+    max-width: 761px;
+    min-width: 440px;
+  }
+  .title {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  .rightDescr {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .rightDescrP {
+    font-size: 18px;
+  }
+}
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 99%;
+  }
+  .titleDiv {
+    max-width: 761px;
+    min-width: 440px;
   }
   .title {
     font-size: 50px;
     line-height: 56px;
-    padding: 0;
   }
-  .titleBlue {
-    font-size: 50px;
-  }
+
   .rightDescr {
+    max-width: 360px;
     font-size: 18px;
-    line-height: 22.63px;
-    width: calc(300px + (100vw - 930px) * (15 - 30) / (1024 - 1000));
-    margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (1024 - 1000));
+    line-height: 24px;
+  }
+  .rightDescrP {
+    font-size: 18px;
   }
 }
 
-@media all and (max-width: 768px) and (min-width: 480px) {
+@media all and (max-width: 768px) and (min-width: 510px) {
   .container {
-    max-width: 768px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 99%;
+  }
+  .titleDiv {
+    max-width: 435px;
   }
   .title {
-    font-size: 30px;
-    line-height: 45.2px;
-    padding: 0;
+    font-size: 40px;
+    line-height: 45px;
   }
+
   .titleBlue {
-    font-size: 30px;
+    font-size: 40px;
   }
-  .rightBlok {
-    width: 75%;
-    padding: 10px;
-  }
+
   .rightDescr {
+    max-width: 296px;
     font-size: 16px;
-    line-height: 20px;
-    width: calc(230px + (100vw - 768px) * (15 - 30) / (768 - 1000));
-    margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (768 - 1000));
+    line-height: 24px;
+    /* white-space: pre-line; */
+    padding-bottom: 8px;
   }
-  .downloadBtnText {
-    font-size: 12px;
+  .rightDescrP {
+    font-size: 16px;
   }
 }
 
-@media all and (max-width: 480px) and (min-width: 360px) {
+@media all and (max-width: 510px) and (min-width: 360px) {
   .container {
-    max-width: 480px;
-    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    max-width: 99%;
   }
+
+  .titleDiv {
+    max-width: 435px;
+    min-width: 250px;
+  }
+
   .title {
     font-size: 25px;
     line-height: 28px;
-    padding: 0;
   }
+
   .titleBlue {
     font-size: 25px;
   }
-  .rightBlok {
-    width: 50%;
-    padding: 0;
-  }
+
   .rightDescr {
+    max-width: 296px;
     font-size: 12px;
-    line-height: 15px;
-    width: calc(200px + (100vw - 768px) * (15 - 30) / (768 - 1000));
-    margin-top: calc(15px + (100vw - 945px) * (15 - 30) / (768 - 1000));
+    line-height: 24px;
+    padding-bottom: 5px;
   }
-  .downloadBtn svg {
-    width: 136px;
-    height: 40px;
-  }
-  .downloadBtnText {
+  .rightDescrP {
     font-size: 12px;
   }
+
+  .titleDivIphone .title {
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -1px;
+  }
+
+  .titleDivIphone .titleBlue {
+    font-size: 17px;
+    letter-spacing: -1px;
+  }
 }
 
-@media all and (max-width: 400px) {
-  .container {
-    max-width: 360px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-  }
-  .rightBlok {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-  }
+@media all and (max-width: 400px) and (min-width: 360px) {
   .rightDescr {
-    font-size: 12px;
-    line-height: 15px;
-    margin-top: 0;
-  }
-  .downloadBtnIcon {
-    width: 130px;
-  }
-  .title {
-    width: 100%;
-    letter-spacing: 1.5px;
-    padding: 0;
-    font-size: 25px;
-    line-height: 28.3px;
-    align-items: flex-start;
-  }
-  .titleBlue {
-    font-size: 25px;
-  }
-  .downloadBtnText {
-    font-size: 10px;
-  }
-} */
-
-/* ВАРИАНТ БЕЗ КНОПКИ "СКАЧАТЬ БУКЛЕТ" */
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1300px;
-  max-height: 255px;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 50px 20px 0 20px;
-  margin-bottom: 50px;
-}
-
-.title {
-  max-width: 700px;
-  white-space: normal;
-  color: var(--white);
-  line-height: 73px;
-  font-weight: 700;
-  text-align: left;
-  text-transform: uppercase;
-  font-family: 'Bebas', 'SansPro', sans-serif;
-  font-stretch: ultra-condensed;
-}
-
-.titleBlue {
-  color: var(--blue);
-}
-.br {
-  display: block;
-}
-.rightDescr {
-  letter-spacing: -2px;
-  margin-top: -14px;
-  max-width: 525px;
-  height: 100%;
-  color: var(--white);
-  font-family: 'SansPro', sans-serif;
-  font-weight: 400;
-  text-align: right;
-  font-size: 41px;
-  line-height: 80px;
-  white-space: nowrap;
-  text-align: right;
-}
-
-
-/* Вариант с переносом */
-
-/* @media all and (max-width: 1235px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1235px;
-    max-height: none;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .rightDescr {
-    text-align: center;
-    letter-spacing: 0px;
-    line-height: 55px;
+    padding-bottom: 4px;
   }
 }
 
-@media all and (max-width: 1024px) and (min-width: 768px) {
-  .container {
-    margin-bottom: 10px;
-    padding-top: 20px;
-    max-width: 1024px;
-  }
-  .title {
-    font-size: 45px;
-    line-height: 65px;
-  }
-  .rightDescr {
-    font-size: 30px;
-    line-height: 45px;
-  }
-}
-
-@media all and (max-width: 768px) and (min-width: 400px) {
-  .container {
-    margin-bottom: 10px;
-    padding-top: 10px;
-    max-width: 768px;
-  }
-  .title {
-    font-size: 35px;
-    line-height: 50px;
-  }
-  .titleBlue {
-    font-size: 35px;
-  }
-  .rightDescr {
-    font-size: 20px;
-    line-height: 35px;
-  }
-}
-
-@media all and (max-width: 400px) {
-  .container {
-    margin-bottom: 10px;
-    padding-top: 0;
-    max-width: 400px;
-  }
-  .title {
-    font-size: 25px;
-    line-height: 40px;
-    margin-bottom: 10px;
-  }
-  .titleBlue {
-    font-size: 25px;
-  }
-  .rightDescr {
-    font-size: 15px;
-    line-height: 25px;
-    white-space: pre-line;
-  }
-} */
-
-
-/* Вариант без переноса */
-@media all and (max-width: 1235px) and (min-width: 768px) {
-  .container {
-    max-height: none;
-  }
-  .title {
-    max-width: 500px;
-    font-size: 45px;
-  }
-  
-  .rightDescr {
-    max-width: 550px;
-    font-size: 30px;
-    white-space: pre-line;
-  }
-}
-
-@media all and (max-width: 1024px) and (min-width: 768px) {
-  .container {
-    margin-bottom: 10px;
-    padding-top: 20px;
-    max-width: 1024px;
-  }
-
-  .title {
-    max-width: 350px;
-    font-size: 35px;
-    line-height: 45px;
-  }
-  
-  .rightDescr {
-    max-width: 360px;
-    font-size: 28px;
-    line-height: 67px;
-    white-space: pre-line;
-  }
-}
-
-@media all and (max-width: 768px) and (min-width: 710px) {
-  .container {
-    margin-bottom: 10px;
-    padding-top: 10px;
-    max-width: 768px;
-    max-height: none;
-  }
-  .titleBlue {
-    font-size: 35px;
-  }
-  .title {
-    max-width: 350px;
-    font-size: 35px;
-    line-height: 45px;
-  }
-  
-  .rightDescr {
-    max-width: 360px;
-    font-size: 28px;
-    line-height: 67px;
-    white-space: pre-line;
-  }
-}
-@media all and (max-width: 710px) and (min-width: 400px) {
+@media all and (max-width: 360px) {
   .container {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    flex-wrap: wrap;
-    max-width: 710px;
-    max-height: none;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
-  }
-  .titleBlue {
-    font-size: 35px;
-  }
-  .title {
-    max-width: 710px;
-    font-size: 35px;
-    line-height: 45px;
-    margin-bottom: 10px; 
-    text-align: left;
-  }
-  
-  .rightDescr {
-    max-width: 710px;
-    font-size: 28px;
-    line-height: 35px;
-    text-align: left;
-    white-space: pre-wrap;
-    letter-spacing: -1px;
-  }
-  .br {
-    display: none;
-  }
-}
-
-
-@media all and (max-width: 400px) {
-  .container {
     margin-bottom: 10px;
-    padding-top: 0;
-    max-width: 400px;
+    padding-top: 20px;
+    max-width: 99%;
   }
+
   .title {
-    max-width: 400px;
-    font-size: 22px;
-    line-height: 32px;
-    margin-bottom: 5px;
-  }
-  .titleBlue {
-    font-size: 22px;
-  }
-  .rightDescr {
-    max-width: 400px;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: left;
+    max-width: 100%;
+    font-size: 25px;
+    line-height: 28px;
     white-space: pre-wrap;
-    letter-spacing: -1px;
+  }
+
+  .titleBlue {
+    font-size: 25px;
+  }
+
+  .rightDescr {
+    max-width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: pre-wrap;
+  }
+  .rightDescrP {
+    font-size: 12px;
   }
 }

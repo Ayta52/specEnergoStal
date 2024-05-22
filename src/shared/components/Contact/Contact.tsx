@@ -13,8 +13,8 @@ export function Contact() {
   return (
     <div className={styles.contact_main}>
       <div className={styles.text_width}>
-        <div className={styles.contactH1}>
-          <h1>Контакты</h1>
+        <div >
+          <h1 className={styles.contactH1}>Контакты</h1>
         </div>
         <div className={styles.contactInfo}>
           <div className={styles.leftBlock}>

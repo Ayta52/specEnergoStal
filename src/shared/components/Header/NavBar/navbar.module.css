@@ -28,6 +28,12 @@
   border-bottom: solid 3px var(--blue);
 }
 
+@media all and (max-width: 1060px) and (min-width: 1024px) {
+  .navList {
+    margin-left: -20px;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .navbar {
     max-width: 422px;

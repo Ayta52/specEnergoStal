@@ -7,14 +7,14 @@ export function NotFound() {
   return (
     <div className={styles.container}>
       <div className={styles.notFound_text}>
-        <h1>
+        <h1 className={styles.notFound_title}>
           труба потекла.. <br />
           скоро всё починим!
         </h1>
-        <p>
+        <p className={styles.notFound_subtitle}>
           вы можете вернуться на &nbsp;
-          <span>
-            <Link to={'/'}>главную</Link>
+          <span className={styles.notFound_link_span}>
+            <Link className={styles.notFound_link} to={'/'}>главную</Link>
           </span>
             
         </p>

@@ -19,6 +19,7 @@ export function DropDownNavBar() {
         setIsOpen(false);
       }
     };
+    const isIPhone = /iPhone/.test(navigator.userAgent);
   
     useEffect(() => {
       document.addEventListener('click', handleOutsideClick);
@@ -29,9 +30,15 @@ export function DropDownNavBar() {
 
   return (
     <div className={styles.dropdown} ref={dropdownRef}>
-      <button className={styles.navLink} onClick={() => setIsOpen(!isOpen)}>
-        <img src={humb} alt="humb" />
-      </button>
+      {isIPhone ? (
+        <button className={styles.navLink} onTouchStart={() => setIsOpen(!isOpen)}>
+          <img src={humb} alt="humb" />
+        </button>
+      ) : (
+        <button className={styles.navLink} onClick={() => setIsOpen(!isOpen)}>
+          <img src={humb} alt="humb" />
+        </button>
+      )}
 
       {isOpen && (
         <ul className={styles.dropdownMenu}>

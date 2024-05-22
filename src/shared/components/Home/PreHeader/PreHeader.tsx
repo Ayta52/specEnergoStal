@@ -1,82 +1,36 @@
-// import React from 'react';
-import { useResize } from "../../common/UseResize";
 import styles from "./preheader.module.css";
 
 export function PreHeader() {
-  const { isScreenPreheaderBR, isScreenPreheaderBR400 } = useResize();
+  const isIPhone = /iPhone/.test(navigator.userAgent);
+  const isAndroid = /Android/.test(navigator.userAgent);
+  const text = {
+    title: <h2 className={styles.title}>
+    Производство <br className={styles.br1}/>{" "}и комплектация <br className={styles.br2}/>{" "}
+    <span className={styles.titleBlue}>трубопроводных систем</span>
+    <br className={styles.br3}/> для промышленности</h2>,
+
+    description: 
+      <>
+        <p className={styles.rightDescrP}>Обеспечиваем потребности</p>
+        <p className={styles.rightDescrP}>предприятий и заводов России </p>
+        <p className={styles.rightDescrP}>и стран СНГ с 2006 года</p>
+      </>
+    }
+  
   return (
-    // <>
-    //   <div className={styles.container}>
-    //     <div className={styles.title}>
-    //       {isScreenPreheaderBR ? (
-    //         <h2 className={styles.title}>
-    //         Производство{isScreenPreheaderBR400 ? '' : <br/>} и комплектация{'\n'}{' '}
-    //         <span className={styles.titleBlue}>трубопроводных систем</span>
-    //         {'\n'} <br/> для промышленности
-    //       </h2>
-    //       ) : (
-    //         <h2 className={styles.title}>
-    //         Производство и комплектация{'\n'}{' '}
-    //         <span className={styles.titleBlue}>трубопроводных систем</span>
-    //         {'\n'} <br/> для промышленности
-    //       </h2>
-    //       )
-    //       }
-    //     </div>
-
-    //     <div className={styles.rightBlok}>
-    //       <button className={styles.downloadBtn}>
-    //         <svg
-    //           className={styles.downloadBtnIcon}
-    //           width="192"
-    //           height="58"
-    //           viewBox="0 0 192 58"
-    //           fill="none"
-    //           xmlns="http://www.w3.org/2000/svg"
-    //         >
-    //           <path
-    //             d="M96 56L4 29L96 2L188 29L96 56Z"
-    //             stroke="#008FFF"
-    //             strokeWidth="2"
-    //             strokeMiterlimit="10"
-    //           />
-    //         </svg>
-    //         <p className={styles.downloadBtnText}>скачать буклет</p>
-    //       </button>
-    //       <div className={styles.rightDescr}>
-    //         Обеспечиваем потребности{'\n'} предприятий и заводов России{'\n'} и
-    //         стран СНГ с 2006 года
-    //       </div>
-    //     </div>
-    //   </div>
-    // </>
-
     <>
-      <div className={styles.container}>
-
-        <div className={styles.title}>
-          {isScreenPreheaderBR ? (
-            <h2 className={styles.title}>
-              Производство{isScreenPreheaderBR400 ? "" : <br className={styles.br}/>} и комплектация
-              {"\n"}{" "}
-              <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br className={styles.br}/> для промышленности
-            </h2>
-          ) : (
-            <h2 className={styles.title}>
-              Производство и комплектация{"\n"}{" "}
-              <span className={styles.titleBlue}>трубопроводных систем</span>
-              {"\n"} <br className={styles.br}/> для промышленности
-            </h2>
-          )}
-        </div>
+      <div className={`${styles.container} ${
+              isIPhone ? styles.containerIphone : ""
+            } ${isAndroid ? styles.containerAndroid : ""}`}>
+        <div className={`${styles.titleDiv} ${
+              isIPhone ? styles.titleDivIphone : ""
+            } ${isAndroid ? styles.titleDivAndroid : ""}`}>{text.title}</div>
 
         <div className={styles.rightDescr}>
-          Обеспечиваем потребности<br className={styles.br}/> предприятий и заводов <br className={styles.br}/> России и
-          стран СНГ с 2006 года
+          {text.description}
         </div>
-
       </div>
     </>
   );
 }
+

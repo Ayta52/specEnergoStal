@@ -1,6 +1,7 @@
 .container {
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0px 20px 100px 20px;
 }
 
 .container h1 {
@@ -20,7 +21,8 @@
 }
 
 .productItemFlex {
-    width: 200px;
+    /* width: 200px; */
+    width: 193px;
     height: 300px;
     display: flex;
     border: 1px solid #999999;
@@ -48,11 +50,23 @@
     color: #FFFFFF;
     text-align: center;
 }
-.backgroundImg img{
-    width: auto;
-    height: auto;
+.backgroundImg { 
+    width: 619px;
 }
 
+.backgroundImg img{
+    width: 100%;
+    /* width: auto; */
+    height: auto;
+}
+@media screen and (max-width: 1085px) and (min-width: 1024px){
+    .productItem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
 
 @media screen and (max-width: 1024px) and (min-width: 768px){
     .container {

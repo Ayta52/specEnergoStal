@@ -19,15 +19,21 @@ export function Footer() {
         </div>
 
         <div className={styles.footerRightLinksProducts}>
-          <Link to="/otvod">Отводы</Link>
-          <Link to="/perehod">Переходы</Link>
-          <Link to="/troynik">Тройники</Link>
-          <Link to="/flanec">Фланцы</Link>
-          <Link to="/zaglushka">Заглушки</Link>
-          <Link to="/dno">Днища</Link>
-          <Link to="/opora">Опоры</Link>
-          <Link to="/shtucer">Штуцеры</Link>
-          <Link className={styles.footerRightLinksProductsLast} to="/productinfo">Запорная арматура</Link>
+          <div className={styles.footerRightLinksProductsColumn}>
+            <Link to="/otvod" className={styles.footerRightLinksProductsLinks}>Отводы</Link>
+            <Link to="/perehod" className={styles.footerRightLinksProductsLinks}>Переходы</Link>
+            <Link to="/troynik" className={styles.footerRightLinksProductsLinks}>Тройники</Link>
+            <Link to="/flanec" className={styles.footerRightLinksProductsLinks}>Фланцы</Link>
+            <Link to="/zaglushka" className={styles.footerRightLinksProductsLinks}>Заглушки</Link>
+          </div>
+          
+          <div className={styles.footerRightLinksProductsColumn}>
+            <Link to="/dno" className={styles.footerRightLinksProductsLinks}>Днища</Link>
+            <Link to="/opora" className={styles.footerRightLinksProductsLinks}>Опоры</Link>
+            <Link to="/shtucer" className={styles.footerRightLinksProductsLinks}>Штуцеры</Link>
+            <Link className={styles.footerRightLinksProductsLast} to="/productinfo">Запорная арматура</Link>
+          </div>
+          
         </div>
       </div>
     </div>
