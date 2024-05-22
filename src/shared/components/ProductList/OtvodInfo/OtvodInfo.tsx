@@ -28,6 +28,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_36-42-81.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       Отводы по ОСТ 36-42-81
                     </a>
@@ -36,6 +37,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832113-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.13-82
@@ -45,6 +47,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832122-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.22-82
@@ -56,6 +59,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/gost_22793-83.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ГОСТ 22793-83
@@ -65,6 +69,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832114-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.14-82
@@ -74,6 +79,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832123-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.23-82
@@ -85,6 +91,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/gost_24950-81.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ГОСТ 24950-81
@@ -94,6 +101,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832115-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.15-82
@@ -103,6 +111,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832124-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.24-82
@@ -114,6 +123,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/gost_22790-89.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ГОСТ 22790-89
@@ -123,6 +133,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832116-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.16-82
@@ -132,6 +143,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832125-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.25-82
@@ -143,6 +155,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/gost_2412503-89.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 24.125.03-89
@@ -152,6 +165,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832117-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.17-82
@@ -161,6 +175,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.01-2009
@@ -172,6 +187,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/gost_2412504-89.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 24.125.04-89
@@ -181,6 +197,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832118-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.18-82
@@ -190,6 +207,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.02-2009
@@ -201,6 +219,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_34-10-421-90.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 34-10-421-90
@@ -210,6 +229,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832119-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.19-82
@@ -219,6 +239,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.05-2009
@@ -239,6 +260,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832120-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       {" "}
                       Отводы по ОСТ 108.321.20-82
@@ -251,6 +273,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_10832112-82.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       Отводы по ОСТ 108.321.12-82
                     </a>
@@ -259,6 +282,7 @@ const tabsInfoProductOtvod = [
                     <a
                       href="https://uzdt.org/f/ost_1083212182.pdf"
                       target="_blank"
+                      rel='noreferrer'
                     >
                       Отводы по ОСТ 108.321.21-82
                     </a>
