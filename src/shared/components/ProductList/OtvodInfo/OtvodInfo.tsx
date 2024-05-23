@@ -36,7 +36,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832113-82.pdf"
+                      href="pdf/ost_10832113-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832113-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -46,7 +47,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832122-82.pdf"
+                      href="pdf/ost_10832122-82.pdf" 
+                      // href="https://uzdt.org/f/ost_10832122-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -58,7 +60,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_22793-83.pdf"
+                      href="pdf/gost_22793-83.pdf"
+                      // href="https://uzdt.org/f/gost_22793-83.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -68,7 +71,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832114-82.pdf"
+                      href="pdf/ost_10832114-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832114-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -78,7 +82,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832123-82.pdf"
+                      href="pdf/ost_10832123-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832123-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -90,7 +95,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_24950-81.pdf"
+                      href="pdf/gost_24950-81.pdf"
+                      // href="https://uzdt.org/f/gost_24950-81.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -100,7 +106,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832115-82.pdf"
+                      href="pdf/ost_10832115-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832115-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -110,7 +117,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832124-82.pdf"
+                      href="pdf/ost_10832124-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832124-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -122,7 +130,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_22790-89.pdf"
+                      href="pdf/gost_22790-89.pdf"
+                      // href="https://uzdt.org/f/gost_22790-89.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -132,7 +141,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832116-82.pdf"
+                      href="pdf/ost_10832116-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832116-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -142,7 +152,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832125-82.pdf"
+                      href="pdf/ost_10832125-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832125-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -154,7 +165,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_2412503-89.pdf"
+                      href="pdf/gost_2412503-89.pdf"
+                      // href="https://uzdt.org/f/gost_2412503-89.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -164,7 +176,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832117-82.pdf"
+                      href="pdf/ost_10832117-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832117-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -174,7 +187,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
+                      href="pdf/sto_tskti_32101-2009.pdf"
+                      // href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -186,7 +200,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/gost_2412504-89.pdf"
+                      href="pdf/gost_2412504-89.pdf"
+                      // href="https://uzdt.org/f/gost_2412504-89.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -196,7 +211,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832118-82.pdf"
+                      href="pdf/ost_10832118-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832118-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -206,7 +222,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
+                      href="pdf/sto_tskti_32102-2009.pdf"
+                      // href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -218,7 +235,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_34-10-421-90.pdf"
+                      href="pdf/ost_34-10-421-90.pdf"
+                      // href="https://uzdt.org/f/ost_34-10-421-90.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -228,7 +246,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832119-82.pdf"
+                      href="pdf/ost_10832119-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832119-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -238,7 +257,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
+                      href="pdf/sto_tskti_32105-2009.pdf"
+                      // href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -259,7 +279,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832120-82.pdf"
+                      href="pdf/ost_10832120-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832120-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -272,7 +293,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_10832112-82.pdf"
+                      href="pdf/ost_10832112-82.pdf"
+                      // href="https://uzdt.org/f/ost_10832112-82.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -281,7 +303,8 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_1083212182.pdf"
+                      href="pdf/ost_1083212182.pdf"
+                      // href="https://uzdt.org/f/ost_1083212182.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
