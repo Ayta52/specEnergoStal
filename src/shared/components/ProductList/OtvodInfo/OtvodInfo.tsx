@@ -26,7 +26,8 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="https://uzdt.org/f/ost_36-42-81.pdf"
+                      href="pdf/ost_36-42-81.pdf"
+                      // href="https://uzdt.org/f/ost_36-42-81.pdf"
                       target="_blank"
                       rel='noreferrer'
                     >
@@ -249,7 +250,7 @@ const tabsInfoProductOtvod = [
                 <tr>
                   <td>
                     <a
-                      href="/ost.pdf"
+                      href="/pdf/ost.pdf"
                       target="_blank"
                     >
                       {" "}

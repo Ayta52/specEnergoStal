@@ -13,7 +13,7 @@ export function PreFooter() {
   const isAndroid = /Android/.test(navigator.userAgent);
 
   const handleDownloadBrochure = () => {
-    const filePath = pdf("buklet.pdf");
+    const filePath = pdf("pdf/buklet.pdf");
     const link = document.createElement('a');
     link.href = filePath;
     link.download = 'buklet.pdf';
