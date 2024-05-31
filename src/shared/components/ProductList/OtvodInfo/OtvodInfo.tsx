@@ -27,9 +27,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_36-42-81.pdf"
-                      // href="https://uzdt.org/f/ost_36-42-81.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       Отводы по ОСТ 36-42-81
                     </a>
@@ -37,9 +37,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832113-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832113-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.13-82
@@ -47,10 +47,10 @@ const tabsInfoProductOtvod = [
                   </td>
                   <td>
                     <a
-                      href="pdf/ost_10832122-82.pdf" 
-                      // href="https://uzdt.org/f/ost_10832122-82.pdf"
+                      href="pdf/ost_10832122-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.22-82
@@ -61,9 +61,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_22793-83.pdf"
-                      // href="https://uzdt.org/f/gost_22793-83.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ГОСТ 22793-83
@@ -72,9 +72,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832114-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832114-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.14-82
@@ -83,9 +83,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832123-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832123-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.23-82
@@ -96,9 +96,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_24950-81.pdf"
-                      // href="https://uzdt.org/f/gost_24950-81.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ГОСТ 24950-81
@@ -107,9 +107,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832115-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832115-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.15-82
@@ -118,9 +118,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832124-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832124-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.24-82
@@ -131,9 +131,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_22790-89.pdf"
-                      // href="https://uzdt.org/f/gost_22790-89.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ГОСТ 22790-89
@@ -142,9 +142,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832116-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832116-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.16-82
@@ -153,9 +153,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832125-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832125-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.25-82
@@ -166,9 +166,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_2412503-89.pdf"
-                      // href="https://uzdt.org/f/gost_2412503-89.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 24.125.03-89
@@ -177,9 +177,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832117-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832117-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.17-82
@@ -188,9 +188,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32101-2009.pdf"
-                      // href="https://uzdt.org/f/sto_tskti_32101-2009.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.01-2009
@@ -201,9 +201,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_2412504-89.pdf"
-                      // href="https://uzdt.org/f/gost_2412504-89.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 24.125.04-89
@@ -212,9 +212,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832118-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832118-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.18-82
@@ -223,9 +223,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32102-2009.pdf"
-                      // href="https://uzdt.org/f/sto_tskti_32102-2009.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.02-2009
@@ -236,9 +236,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_34-10-421-90.pdf"
-                      // href="https://uzdt.org/f/ost_34-10-421-90.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 34-10-421-90
@@ -247,9 +247,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832119-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832119-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.19-82
@@ -258,9 +258,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32105-2009.pdf"
-                      // href="https://uzdt.org/f/sto_tskti_32105-2009.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по СТО ЦКТИ 321.05-2009
@@ -269,10 +269,7 @@ const tabsInfoProductOtvod = [
                 </tr>
                 <tr>
                   <td>
-                    <a
-                      href="/pdf/ost.pdf"
-                      target="_blank"
-                    >
+                    <a href="/pdf/ost.pdf" target="_blank">
                       {" "}
                       Отводы по ОСТ 108.321.11-82
                     </a>
@@ -280,9 +277,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832120-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832120-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       {" "}
                       Отводы по ОСТ 108.321.20-82
@@ -294,9 +291,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832112-82.pdf"
-                      // href="https://uzdt.org/f/ost_10832112-82.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       Отводы по ОСТ 108.321.12-82
                     </a>
@@ -304,9 +301,9 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_1083212182.pdf"
-                      // href="https://uzdt.org/f/ost_1083212182.pdf"
+                      
                       target="_blank"
-                      rel='noreferrer'
+                      rel="noreferrer"
                     >
                       Отводы по ОСТ 108.321.21-82
                     </a>
@@ -1657,7 +1654,7 @@ const tabsInfoProductOtvod = [
     name: "угольники точёные",
     content: [
       {
-        label: "угольники точёные для трубопроводов",
+        label: "Угольники точёные для трубопроводов",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
             <h2 className={styles.productInfoTextH2}>
@@ -1698,10 +1695,15 @@ const tabsInfoProductOtvod = [
     name: "днища",
     content: [
       {
-        label: "днища",
+        label: "Днища",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
+            <p className={styles.productInfoText}>Днища ГОСТ 17379-2001</p>
+            <br />
+            <p className={styles.productInfoText}>Днища ТУ 102-488-05</p>
+            <br />
+            <p className={styles.productInfoText}>Днища ГОСТ 6533-78</p>
+            <br />
           </div>
         ),
       },
@@ -1712,7 +1714,7 @@ const tabsInfoProductOtvod = [
     name: "опоры",
     content: [
       {
-        label: "опоры",
+        label: "Опоры",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
             <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
@@ -1726,10 +1728,170 @@ const tabsInfoProductOtvod = [
     name: "запорная арматура",
     content: [
       {
-        label: "запорная арматура",
+        label: "Задвижки стальные литые клиновые PN 1,6 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 1,6 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки стальные литые клиновые PN 2,5 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки стальные литые клиновые PN 4,0 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки стальные литые клиновые PN 6,3 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки стальные литые клиновые PN 16 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки стальные клиновые литые с невыдвижным шпинделем PN 2,5 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Задвижки с обрезиненным клином 30ч39р 30ч539р 30ч939р",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 1,6 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 2,5 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 4,0 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 6,3 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 10 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "ЗКС (Задвижки кованые) PN 16 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан запорный PN 1,6 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан запорный PN 2,5 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан запорный PN 4,0 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан запорный PN 6,3 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан обратный поворотный (затвор обратный) PN 1,6 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан обратный поворотный (затвор обратный) PN 2,5 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан обратный поворотный (затвор обратный) PN 4,0 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+          </div>
+        ),
+      },
+      {
+        label: "Клапан обратный поворотный (затвор обратный) PN 6,3 МПа",
+        contentLeft: (
+          <div className={styles.productInfoContentLeft}>
+            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
           </div>
         ),
       },
@@ -1737,10 +1899,10 @@ const tabsInfoProductOtvod = [
   },
 ];
 
-
 export function OtvodInfo() {
   const {activeTab, setActiveTab} = useActiveTab();
   const [activeSectionRight, setActiveSectionRight] = useState(0);
+  const [subspecies, setSubspecies] = useState(0);
   
   const handleTabClick = (index) => {
     setActiveTab(index);

@@ -135,7 +135,7 @@
 
 .productInfoContentRight {
     width: 508px;
-    height: 411px;
+    min-height: 411px;
     font-family: 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
