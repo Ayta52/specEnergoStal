@@ -149,6 +149,13 @@
     border-radius: 5%;
     padding: 30px;
 }
+.productInfoContentRight .listItemSubspeciesUl {
+    position: relative;
+    left: 30px;
+    border: none;
+    padding: 5px;
+    cursor: auto;
+}
 
 .listItem {
     padding-bottom: 10px;
@@ -163,6 +170,12 @@
 .listItemActive {
     color: #008FFF;
     transition: 0.3s;
+    cursor: pointer;
+}
+
+.listItemSubspeciesLi {
+    width: fit-content;
+    list-style-type: disc;
     cursor: pointer;
 }
 

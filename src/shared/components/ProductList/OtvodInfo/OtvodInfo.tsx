@@ -1729,6 +1729,16 @@ const tabsInfoProductOtvod = [
     content: [
       {
         label: "Задвижки стальные литые клиновые PN 1,6 МПа",
+        subspecies: [
+          {
+            subspeciesLabel: "30с41нж",
+            subspeciesContent: 'subspeciesContent 30с41нж'
+          },
+          {
+            subspeciesLabel: "30с541нж",
+            subspeciesContent: 'subspeciesContent 30с541нж'
+          }
+        ],
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
             <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 1,6 МПа</h2>
@@ -1737,6 +1747,16 @@ const tabsInfoProductOtvod = [
       },
       {
         label: "Задвижки стальные литые клиновые PN 2,5 МПа",
+        subspecies: [
+          {
+            subspeciesLabel: "30с64нж",
+            subspeciesContent: 'subspeciesContent 30с64нж'
+          },
+          {
+            subspeciesLabel: "30с564нж",
+            subspeciesContent: 'subspeciesContent 30с564нж'
+          }
+        ],
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
             <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
@@ -1902,7 +1922,8 @@ const tabsInfoProductOtvod = [
 export function OtvodInfo() {
   const {activeTab, setActiveTab} = useActiveTab();
   const [activeSectionRight, setActiveSectionRight] = useState(0);
-  const [subspecies, setSubspecies] = useState(0);
+  const [openAccordion, setOpenAccordion] = useState(null);
+  const [openSubspecies, setSubspecies] = useState(0);
   
   const handleTabClick = (index) => {
     setActiveTab(index);
@@ -1911,7 +1932,20 @@ export function OtvodInfo() {
   const handleSectionRightClick = (index) => {
     setActiveSectionRight(index);
   };
-  
+  const handleSectionsetSubspeciesClick = (index) => {
+    setSubspecies(index);
+  };
+
+
+  const handleAccordionToggle = (index) => {
+    if (openAccordion === index) {
+      setOpenAccordion(null);
+    } else {
+      setOpenAccordion(index);
+    }
+    setActiveSectionRight(index);
+  };
+
   const paths = [
     { name: 'главная', url: '/' },
     { name: 'продукция', url: '/productlist' },
@@ -1960,24 +1994,68 @@ export function OtvodInfo() {
         <div className={styles.productInfoContent}>
           <div className={styles.infoTab}>
             {
+            activeTab <= 7
+              ? 
               tabsInfoProductOtvod[activeTab].content[activeSectionRight]
-                .contentLeft
-            }
+                  .contentLeft
+              : 
+              tabsInfoProductOtvod[activeTab].content[activeSectionRight].subspecies.map((subspecies, index) => (
+                <div
+                  key={index}
+                  className={styles.listItemSubspecies}
+                  onClick={() => handleSectionsetSubspeciesClick(index)}
+                >
+                  {subspecies[openSubspecies].subspeciesContent}
+                </div>
+              ))        
+              }
 
             <div className={styles.productInfoContentRight}>
               <ul>
-                {tabsInfoProductOtvod[activeTab].content.map((tab, index) => (
-                  <li
-                    className={classNames(
-                      styles.listItem,
-                      index === activeSectionRight ? styles.listItemActive : ""
+                {activeTab <= 7
+                  ? tabsInfoProductOtvod[activeTab].content.map(
+                      (tab, index) => (
+                        <li
+                          className={classNames(
+                            styles.listItem,
+                            index === activeSectionRight
+                              ? styles.listItemActive
+                              : ""
+                          )}
+                          onClick={() => handleSectionRightClick(index)}
+                          key={tab.label}
+                        >
+                          {tab.label}
+                        </li>
+                      )
+                    )
+                  : tabsInfoProductOtvod[activeTab].content.map(
+                      (item, index) => (
+                        <li
+                          key={index}
+                          className={classNames(
+                            styles.listItem,
+                            openAccordion === index ? styles.listItemActive : ""
+                          )}
+                          onClick={() => handleAccordionToggle(index)}
+                        >
+                          {item.label}
+                          {openAccordion === index && (
+                            <ul className={styles.listItemSubspeciesUl}>
+                              {item.subspecies.map((subspecies, index) => (
+                                <li
+                                  key={index}
+                                  className={styles.listItemSubspeciesLi}
+                                  onClick={() => handleSectionsetSubspeciesClick(index)}
+                                >
+                                  {subspecies.subspeciesLabel}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      )
                     )}
-                    onClick={() => handleSectionRightClick(index)}
-                    key={tab.label}
-                  >
-                    {tab.label}
-                  </li>
-                ))}
               </ul>
             </div>
           </div>
