@@ -161,6 +161,17 @@
     padding-bottom: 10px;
 }
 
+.listItemDiv {
+   
+    padding-bottom: 0;
+}
+
+.accordeonContainer {
+    border: 1px solid #707070;
+    border-radius: 5%;
+    padding: 30px;
+}
+
 .listItem:hover {
     color: #008FFF;
     transition: 0.3s;

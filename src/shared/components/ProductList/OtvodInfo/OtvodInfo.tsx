@@ -27,7 +27,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_36-42-81.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -37,7 +36,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832113-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -48,7 +46,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832122-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -61,7 +58,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_22793-83.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -72,7 +68,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832114-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -83,7 +78,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832123-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -96,7 +90,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_24950-81.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -107,7 +100,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832115-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -118,7 +110,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832124-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -131,7 +122,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_22790-89.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -142,7 +132,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832116-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -153,7 +142,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832125-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -166,7 +154,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_2412503-89.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -177,7 +164,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832117-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -188,7 +174,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32101-2009.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -201,7 +186,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/gost_2412504-89.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -212,7 +196,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832118-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -223,7 +206,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32102-2009.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -236,7 +218,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_34-10-421-90.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -247,7 +228,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832119-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -258,7 +238,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/sto_tskti_32105-2009.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -277,7 +256,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832120-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -291,7 +269,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_10832112-82.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -301,7 +278,6 @@ const tabsInfoProductOtvod = [
                   <td>
                     <a
                       href="pdf/ost_1083212182.pdf"
-                      
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -1732,16 +1708,186 @@ const tabsInfoProductOtvod = [
         subspecies: [
           {
             subspeciesLabel: "30с41нж",
-            subspeciesContent: 'subspeciesContent 30с41нж'
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>30с41нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 30с41нж
+                </h3>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения задвижек стальных 30с41нж
+                </h3>
+                <br />
+                <p>
+                  <b>Рабочая среда:</b> Вода, пар, масло, нефть, природный газ,
+                  жидкие неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+                <p>
+                  <b>Температура рабочей среды:</b> от −40°С до +450°С
+                </p>
+                <p>
+                  <b>Условия эксплуатации:</b> У1
+                </p>
+                <p>
+                  <b>Минимальная температура окружающего воздуха:</b> −40°С
+                </p>
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение задвижек стальных 30с41нж
+                </h3>
+                <ol>
+                  <li>Корпус: сталь 25Л</li>
+                  <li>Крышка: сталь 25Л</li>
+                  <li>Клин (диски): сталь 25Л</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Гайка шпинделя: сталь 45, латунь ЛС59</li>
+                  <li>Гайка: сталь 25</li>
+                  <li>Шпилька, болт: сталь 35</li>
+                  <li>Болт откидной: сталь 35</li>
+                  <li>
+                    Уплотнение между корпусом и крышкой (прокладка, кольцо):
+                    паронит, ТРГ
+                  </li>
+                  <li>Набивка сальника: АГИ, ТРГ</li>
+                  <li>Маховик: Чугун</li>
+                  <li>Подшипник: по ГОСТ 7872-89</li>
+                  <li>Наплавка на кольце в корпусе: 07Х25Н13</li>
+                  <li>Наплавка на клине: сталь по типу 20Х13</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры задвижек стальных фланцевых 30с41нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>Наименование</th>
+                      <th>DN</th>
+                      <th>D</th>
+                      <th>D0</th>
+                      <th>L</th>
+                      <th>H</th>
+                      <th>H1</th>
+                      <th>Масса, кг</th>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 50 </td>
+                      <td>50</td>
+                      <td>160</td>
+                      <td>160</td>
+                      <td>180</td>
+                      <td>281</td>
+                      <td>346</td>
+                      <td>17</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 80</td>
+                      <td>80</td>
+                      <td>195</td>
+                      <td>160</td>
+                      <td>210</td>
+                      <td>336</td>
+                      <td>428</td>
+                      <td>28,7</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 100</td>
+                      <td>100</td>
+                      <td>215</td>
+                      <td>210</td>
+                      <td>230</td>
+                      <td>385</td>
+                      <td>496</td>
+                      <td>39,2</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 125</td>
+                      <td>125</td>
+                      <td>245</td>
+                      <td>210</td>
+                      <td>255</td>
+                      <td>470</td>
+                      <td>600</td>
+                      <td>61</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 150</td>
+                      <td>150</td>
+                      <td>280</td>
+                      <td>280</td>
+                      <td>280 </td>
+                      <td>576</td>
+                      <td>742</td>
+                      <td>85</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 200</td>
+                      <td>200</td>
+                      <td>335</td>
+                      <td>310</td>
+                      <td>330</td>
+                      <td>686</td>
+                      <td>902</td>
+                      <td>123,9</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 250 </td>
+                      <td>250</td>
+                      <td>405</td>
+                      <td>400</td>
+                      <td>450</td>
+                      <td>854</td>
+                      <td>1118</td>
+                      <td>240,7</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 300</td>
+                      <td>300</td>
+                      <td>460</td>
+                      <td>460</td>
+                      <td>500</td>
+                      <td>998</td>
+                      <td>1315</td>
+                      <td>322,8</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 350 </td>
+                      <td>350</td>
+                      <td>520</td>
+                      <td>460</td>
+                      <td>550</td>
+                      <td>1220</td>
+                      <td>1570</td>
+                      <td>361</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30с41нж DN 400</td>
+                      <td>400</td>
+                      <td>580</td>
+                      <td>480</td>
+                      <td>600</td>
+                      <td>1360</td>
+                      <td>1770</td>
+                      <td>491,7</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>*Присоединительные размеры фланцев по ГОСТ 33259-2015 </p>
+              </div>
+            ),
           },
           {
             subspeciesLabel: "30с541нж",
-            subspeciesContent: 'subspeciesContent 30с541нж'
-          }
+            subspeciesContent: "30с541нж",
+          },
         ],
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 1,6 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 1,6 МПа
+            </h2>
           </div>
         ),
       },
@@ -1750,16 +1896,18 @@ const tabsInfoProductOtvod = [
         subspecies: [
           {
             subspeciesLabel: "30с64нж",
-            subspeciesContent: 'subspeciesContent 30с64нж'
+            subspeciesContent: "30с64нж",
           },
           {
             subspeciesLabel: "30с564нж",
-            subspeciesContent: 'subspeciesContent 30с564нж'
-          }
+            subspeciesContent: "30с564нж",
+          },
         ],
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1767,7 +1915,9 @@ const tabsInfoProductOtvod = [
         label: "Задвижки стальные литые клиновые PN 4,0 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1775,7 +1925,9 @@ const tabsInfoProductOtvod = [
         label: "Задвижки стальные литые клиновые PN 6,3 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1783,15 +1935,20 @@ const tabsInfoProductOtvod = [
         label: "Задвижки стальные литые клиновые PN 16 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
       {
-        label: "Задвижки стальные клиновые литые с невыдвижным шпинделем PN 2,5 МПа",
+        label:
+          "Задвижки стальные клиновые литые с невыдвижным шпинделем PN 2,5 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1799,7 +1956,9 @@ const tabsInfoProductOtvod = [
         label: "Задвижки с обрезиненным клином 30ч39р 30ч539р 30ч939р",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1807,7 +1966,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 1,6 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1815,7 +1976,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 2,5 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1823,7 +1986,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 4,0 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1831,7 +1996,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 6,3 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1839,7 +2006,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 10 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1847,7 +2016,9 @@ const tabsInfoProductOtvod = [
         label: "ЗКС (Задвижки кованые) PN 16 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1855,7 +2026,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан запорный PN 1,6 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1863,7 +2036,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан запорный PN 2,5 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1871,7 +2046,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан запорный PN 4,0 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1879,7 +2056,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан запорный PN 6,3 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1887,7 +2066,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан обратный поворотный (затвор обратный) PN 1,6 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1895,7 +2076,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан обратный поворотный (затвор обратный) PN 2,5 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1903,7 +2086,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан обратный поворотный (затвор обратный) PN 4,0 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1911,7 +2096,9 @@ const tabsInfoProductOtvod = [
         label: "Клапан обратный поворотный (затвор обратный) PN 6,3 МПа",
         contentLeft: (
           <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Задвижки стальные литые клиновые PN 2,5 МПа</h2>
+            <h2 className={styles.productInfoTextH2}>
+              Задвижки стальные литые клиновые PN 2,5 МПа
+            </h2>
           </div>
         ),
       },
@@ -1937,6 +2124,7 @@ export function OtvodInfo() {
   };
   
   const handleAccordionToggle = (index) => {
+    setSubspecies(0);
     setOpenAccordion(index);
     setActiveSectionRight(index);
   };
@@ -1988,40 +2176,42 @@ export function OtvodInfo() {
 
         <div className={styles.productInfoContent}>
           <div className={styles.infoTab}>
-            {
-            activeTab <= 7
-              ? 
-              tabsInfoProductOtvod[activeTab].content[activeSectionRight]
+            {activeTab <= 7
+              ? tabsInfoProductOtvod[activeTab].content[activeSectionRight]
                   .contentLeft
-              : 
-              tabsInfoProductOtvod[activeTab].content[activeSectionRight].subspecies[openSubspecies].subspeciesContent
-              }
+              : tabsInfoProductOtvod[activeTab].content[activeSectionRight]
+                  .subspecies[openSubspecies].subspeciesContent}
 
             <div className={styles.productInfoContentRight}>
-              <ul>
-                {activeTab <= 7
-                  ? tabsInfoProductOtvod[activeTab].content.map(
-                      (tab, index) => (
-                        <li
-                          className={classNames(
-                            styles.listItem,
-                            index === activeSectionRight
-                              ? styles.listItemActive
-                              : ""
-                          )}
-                          onClick={() => handleSectionRightClick(index)}
-                          key={tab.label}
-                        >
-                          {tab.label}
-                        </li>
-                      )
-                    )
-                  : tabsInfoProductOtvod[activeTab].content.map(
-                      (item, index) => (
-                        <li
+              {activeTab <= 7 ? (
+                <ul>
+                {tabsInfoProductOtvod[activeTab].content.map((tab, index) => (
+                  
+                    <li
+                      className={classNames(
+                        styles.listItem,
+                        index === activeSectionRight
+                          ? styles.listItemActive
+                          : ""
+                      )}
+                      onClick={() => handleSectionRightClick(index)}
+                      key={tab.label}
+                    >
+                      {tab.label}
+                    </li>
+                  
+                ))}
+                </ul>
+              ) : (
+                <div className={styles.accordeonContainer}>
+                  {tabsInfoProductOtvod[activeTab].content.map(
+                    (item, index) => (
+                      <>
+                        <div
                           key={index}
                           className={classNames(
                             styles.listItem,
+                            styles.listItemDiv,
                             openAccordion === index ? styles.listItemActive : ""
                           )}
                           onClick={() => {
@@ -2029,25 +2219,34 @@ export function OtvodInfo() {
                           }}
                         >
                           {item.label}
+                        </div>
+                        <div>
                           {openAccordion === index && (
                             <ul className={styles.listItemSubspeciesUl}>
                               {item.subspecies.map((subspecies, index) => (
                                 <li
                                   key={index}
-                                  className={styles.listItemSubspeciesLi}
+                                  className={classNames(
+                                    styles.listItemSubspeciesLi,
+                                    openSubspecies === index
+                                      ? styles.listItemActive
+                                      : ""
+                                  )}
                                   onClick={() => {
-                                    handleSectionsetSubspeciesClick(index)}
-                                  }
+                                    handleSectionsetSubspeciesClick(index);
+                                  }}
                                 >
                                   {subspecies.subspeciesLabel}
                                 </li>
                               ))}
                             </ul>
                           )}
-                        </li>
-                      )
-                    )}
-              </ul>
+                        </div>
+                      </>
+                    )
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
