@@ -1924,7 +1924,7 @@ export function OtvodInfo() {
   const [activeSectionRight, setActiveSectionRight] = useState(0);
   const [openAccordion, setOpenAccordion] = useState(null);
   const [openSubspecies, setSubspecies] = useState(0);
-  
+
   const handleTabClick = (index) => {
     setActiveTab(index);
     setActiveSectionRight(0);
@@ -1935,14 +1935,9 @@ export function OtvodInfo() {
   const handleSectionsetSubspeciesClick = (index) => {
     setSubspecies(index);
   };
-
-
+  
   const handleAccordionToggle = (index) => {
-    if (openAccordion === index) {
-      setOpenAccordion(null);
-    } else {
-      setOpenAccordion(index);
-    }
+    setOpenAccordion(index);
     setActiveSectionRight(index);
   };
 
@@ -1999,15 +1994,7 @@ export function OtvodInfo() {
               tabsInfoProductOtvod[activeTab].content[activeSectionRight]
                   .contentLeft
               : 
-              tabsInfoProductOtvod[activeTab].content[activeSectionRight].subspecies.map((subspecies, index) => (
-                <div
-                  key={index}
-                  className={styles.listItemSubspecies}
-                  onClick={() => handleSectionsetSubspeciesClick(index)}
-                >
-                  {subspecies[openSubspecies].subspeciesContent}
-                </div>
-              ))        
+              tabsInfoProductOtvod[activeTab].content[activeSectionRight].subspecies[openSubspecies].subspeciesContent
               }
 
             <div className={styles.productInfoContentRight}>
@@ -2037,7 +2024,9 @@ export function OtvodInfo() {
                             styles.listItem,
                             openAccordion === index ? styles.listItemActive : ""
                           )}
-                          onClick={() => handleAccordionToggle(index)}
+                          onClick={() => {
+                            handleAccordionToggle(index);
+                          }}
                         >
                           {item.label}
                           {openAccordion === index && (
@@ -2046,7 +2035,9 @@ export function OtvodInfo() {
                                 <li
                                   key={index}
                                   className={styles.listItemSubspeciesLi}
-                                  onClick={() => handleSectionsetSubspeciesClick(index)}
+                                  onClick={() => {
+                                    handleSectionsetSubspeciesClick(index)}
+                                  }
                                 >
                                   {subspecies.subspeciesLabel}
                                 </li>
