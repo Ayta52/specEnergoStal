@@ -1725,6 +1725,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек стальных 30с41нж
                 </h3>
@@ -1890,6 +1891,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с541нж
                 </h3>
@@ -2009,6 +2011,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с941нж
                 </h3>
@@ -2336,6 +2339,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс41нж
                 </h3>
@@ -2490,6 +2494,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс541нж
                 </h3>
@@ -2608,6 +2613,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс941нж
                 </h3>
@@ -2949,6 +2955,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: УХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30нж41нж
                 </h3>
@@ -3115,6 +3122,7 @@ const tabsInfoProductOtvod = [
                 <p>Условия эксплуатации: УХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
                 <br />
+                
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30нж941нж
                 </h3>
@@ -3367,6 +3375,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек стальных 30с64нж
                 </h3>
@@ -3538,6 +3547,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с564нж
                 </h3>
@@ -4978,6 +4988,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек стальных 30с15нж
                 </h3>
@@ -5148,6 +5159,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с515нж
                 </h3>
@@ -6077,6 +6089,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с76нж
                 </h3>
@@ -6241,6 +6254,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с576нж
                 </h3>
@@ -6358,6 +6372,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с976нж
                 </h3>
@@ -6595,6 +6610,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс76нж
                 </h3>
@@ -6761,6 +6777,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс576нж
                 </h3>
@@ -6879,6 +6896,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс976нж
                 </h3>
@@ -7126,6 +7144,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31с45нж
                 </h3>
@@ -7264,6 +7283,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31с545нж
                 </h3>
@@ -7374,6 +7394,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −40°С до +450°С</p>
                 <p>Условия эксплуатации: У1</p>
                 <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31с945нж
                 </h3>
@@ -7588,6 +7609,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31лс45нж
                 </h3>
@@ -7745,6 +7767,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31лс545нж
                 </h3>
@@ -7846,6 +7869,7 @@ const tabsInfoProductOtvod = [
                 <p>Температура рабочей среды: от −60°С до +450°С</p>
                 <p>Условия эксплуатации: ХЛ1</p>
                 <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 31лс945нж
                 </h3>
@@ -8070,6 +8094,7 @@ const tabsInfoProductOtvod = [
                   Температурный диапазон эксплуатации задвижек климатического
                   исполнения У1 ГОСТ 15150-69: от −40°С до +45°С{" "}
                 </p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с527нж
                 </h3>
@@ -8282,6 +8307,7 @@ const tabsInfoProductOtvod = [
                   Температурный диапазон эксплуатации задвижек климатического
                   исполнения У1 ГОСТ 15150-69: от −40°С до +45°С{" "}
                 </p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30с927нж
                 </h3>
@@ -8538,6 +8564,7 @@ const tabsInfoProductOtvod = [
                   Температурный диапазон эксплуатации задвижек климатического
                   исполнения У1 ГОСТ 15150-69: от −60°С до +45°С{" "}
                 </p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс527нж
                 </h3>
@@ -8772,6 +8799,7 @@ const tabsInfoProductOtvod = [
                   Температурный диапазон эксплуатации задвижек климатического
                   исполнения У1 ГОСТ 15150-69: от −60°С до +45°С{" "}
                 </p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30лс927нж
                 </h3>
@@ -8974,40 +9002,523 @@ const tabsInfoProductOtvod = [
                   Показатели назначения задвижек 30ч39р
                 </h3>
                 <br />
+                <p>Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)</p>
                 <p>
-                Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)
+                  Рабочая среда: Вода, пар, неагрессивные жидкие и газообразные
+                  среды, по отношению к которым, материалы применяемые в
+                  задвижке коррозионностойкие
                 </p>
-                <p>
-                Рабочая среда:
-                Вода, пар, неагрессивные жидкие и газообразные среды, по отношению к которым, материалы применяемые в задвижке коррозионностойкие
-                </p>
-                <p>Температура рабочей среды:  от -30 до +130 °С</p>
-                <p>
-                Температура окружающего воздуха: от −30°С до +45°С
-                </p>
-                <p>
-                Класс герметичности по ГОСТ 9544-2005: "А"
-                </p>
+                <p>Температура рабочей среды: от -30 до +130 °С</p>
+                <p>Температура окружающего воздуха: от −30°С до +45°С</p>
+                <p>Класс герметичности по ГОСТ 9544-2005: "А"</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30ч39р
                 </h3>
                 <ol>
                   <li>Корпус: Высокопрочный чугун ВЧ50</li>
-                  <li>Обрезиненный клин: EPDM (основание — высокопрочный чугун ВЧ50)</li>
+                  <li>
+                    Обрезиненный клин: EPDM (основание — высокопрочный чугун
+                    ВЧ50)
+                  </li>
                 </ol>
                 <br />
                 <h3 className={styles.productInfoText}>
                   Габаритные размеры задвижек 30ч39р PN 1,0 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                  <tbody><tr><td><span><strong><span>Наименование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>T</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч39р Ду 50</td><td>150</td><td>165</td><td>125</td><td>102</td><td>4</td><td>18</td><td>3</td><td>19</td><td>205</td></tr><tr><td>Задвижка 30ч39р Ду 65</td><td>170</td><td>185</td><td>145</td><td>122</td><td>4</td><td>18</td><td>3</td><td>19</td><td>228</td></tr><tr><td>Задвижка 30ч39р Ду 80</td><td>180</td><td>200</td><td>160</td><td>133</td><td>4</td><td>18</td><td>3</td><td>19</td><td>265</td></tr><tr><td>Задвижка 30ч39р Ду 100</td><td>190</td><td>220</td><td>180</td><td>158</td><td>8</td><td>18</td><td>3</td><td>19</td><td>300</td></tr><tr><td>Задвижка 30ч39р Ду 125</td><td>200</td><td>250</td><td>210</td><td>184</td><td>8</td><td>18</td><td>3</td><td>19</td><td>355</td></tr><tr><td>Задвижка 30ч39р Ду 150</td><td>210</td><td>285</td><td>240</td><td>212</td><td>8</td><td>22</td><td>3</td><td>19</td><td>400</td></tr><tr><td>Задвижка 30ч39р Ду 200</td><td>230</td><td>340</td><td>295</td><td>268</td><td>8</td><td>22</td><td>3</td><td>20</td><td>490</td></tr><tr><td>Задвижка 30ч39р Ду 250</td><td>250</td><td>405</td><td>350</td><td>320</td><td>12</td><td>22</td><td>3</td><td>22</td><td>585</td></tr><tr><td>Задвижка 30ч39р Ду 300</td><td>270</td><td>460</td><td>400</td><td>370</td><td>12</td><td>22</td><td>4</td><td>24,5</td><td>685</td></tr><tr><td>Задвижка 30ч39р Ду 350</td><td>290</td><td>520</td><td>460</td><td>430</td><td>16</td><td>22</td><td>4</td><td>26,5</td><td>970</td></tr><tr><td>Задвижка 30ч39р Ду 400</td><td>310</td><td>580</td><td>515</td><td>482</td><td>16</td><td>26</td><td>4</td><td>28</td><td>1020</td></tr><tr><td>Задвижка 30ч39р Ду 450</td><td>330</td><td>640</td><td>565</td><td>532</td><td>20</td><td>26</td><td>4</td><td>30</td><td>1120</td></tr><tr><td>Задвижка 30ч39р Ду 500</td><td>350</td><td>715</td><td>620</td><td>585</td><td>20</td><td>26</td><td>4</td><td>31,5</td><td>1220</td></tr><tr><td>Задвижка 30ч39р Ду 600</td><td>390</td><td>840</td><td>725</td><td>685</td><td>20</td><td>30</td><td>5</td><td>36</td><td>1370</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>T</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 50</td>
+                      <td>150</td>
+                      <td>165</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 65</td>
+                      <td>170</td>
+                      <td>185</td>
+                      <td>145</td>
+                      <td>122</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>228</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 80</td>
+                      <td>180</td>
+                      <td>200</td>
+                      <td>160</td>
+                      <td>133</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>265</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 100</td>
+                      <td>190</td>
+                      <td>220</td>
+                      <td>180</td>
+                      <td>158</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>300</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 125</td>
+                      <td>200</td>
+                      <td>250</td>
+                      <td>210</td>
+                      <td>184</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>355</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 150</td>
+                      <td>210</td>
+                      <td>285</td>
+                      <td>240</td>
+                      <td>212</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>400</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 200</td>
+                      <td>230</td>
+                      <td>340</td>
+                      <td>295</td>
+                      <td>268</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>3</td>
+                      <td>20</td>
+                      <td>490</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 250</td>
+                      <td>250</td>
+                      <td>405</td>
+                      <td>350</td>
+                      <td>320</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>3</td>
+                      <td>22</td>
+                      <td>585</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 300</td>
+                      <td>270</td>
+                      <td>460</td>
+                      <td>400</td>
+                      <td>370</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>4</td>
+                      <td>24,5</td>
+                      <td>685</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>460</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>22</td>
+                      <td>4</td>
+                      <td>26,5</td>
+                      <td>970</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>515</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>28</td>
+                      <td>1020</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>565</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>30</td>
+                      <td>1120</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>620</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>31,5</td>
+                      <td>1220</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>725</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>36</td>
+                      <td>1370</td>
+                    </tr>
+                  </tbody>
                 </table>
                 <br />
                 <h3 className={styles.productInfoText}>
-                Габаритные размеры для задвижек 30ч39р PN 1,6 МПа
+                  Габаритные размеры для задвижек 30ч39р PN 1,6 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                  <tbody><tr><td><span><strong><span>Наименование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>T</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч39р Ду 50</td><td>150</td><td>165</td><td>125</td><td>102</td><td>4</td><td>18</td><td>3</td><td>19</td><td>205</td></tr><tr><td>Задвижка 30ч39р Ду 65</td><td>170</td><td>185</td><td>145</td><td>122</td><td>4</td><td>18</td><td>3</td><td><p>19</p></td><td>228</td></tr><tr><td>Задвижка 30ч39р Ду 80</td><td>180</td><td>200</td><td>160</td><td>133</td><td>4</td><td>18</td><td>3</td><td>19</td><td>265</td></tr><tr><td>Задвижка 30ч39р Ду 100</td><td>190</td><td>220</td><td>180</td><td>158</td><td>8</td><td>18</td><td>3</td><td>19</td><td>300</td></tr><tr><td>Задвижка 30ч39р Ду 125</td><td>200</td><td>250</td><td>210</td><td>184</td><td>8</td><td>18</td><td>3</td><td>19</td><td>355</td></tr><tr><td>Задвижка 30ч39р Ду 150</td><td>210</td><td>285</td><td>240</td><td>212</td><td>8</td><td>22</td><td>3</td><td>19</td><td>400</td></tr><tr><td>Задвижка 30ч39р Ду 200</td><td>230</td><td>340</td><td>295</td><td>268</td><td>12</td><td>22</td><td>3</td><td>20</td><td>490</td></tr><tr><td>Задвижка 30ч39р Ду 250</td><td>250</td><td>405</td><td>355</td><td>320</td><td>12</td><td>26</td><td>3</td><td>22</td><td>585</td></tr><tr><td>Задвижка 30ч39р Ду 300</td><td>270</td><td>460</td><td>410</td><td>370</td><td>12</td><td>26</td><td>4</td><td>24,5</td><td>685</td></tr><tr><td>Задвижка 30ч39р Ду 350</td><td>290</td><td>520</td><td>470</td><td>430</td><td>16</td><td>26</td><td>4</td><td>26,5</td><td>970</td></tr><tr><td>Задвижка 30ч39р Ду 400</td><td>310</td><td>580</td><td>525</td><td>482</td><td>16</td><td>30</td><td>4</td><td>28</td><td>1020</td></tr><tr><td>Задвижка 30ч39р Ду 450</td><td>330</td><td>640</td><td>585</td><td>532</td><td>20</td><td>30</td><td>4</td><td>30</td><td>1120</td></tr><tr><td>Задвижка 30ч39р Ду 500</td><td>350</td><td>715</td><td>650</td><td>585</td><td>20</td><td>33</td><td>4</td><td>31,5</td><td>1220</td></tr><tr><td>Задвижка 30ч39р Ду 600</td><td>390</td><td>840</td><td>770</td><td>685</td><td>20</td><td>39</td><td>5</td><td>36</td><td>1370</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>T</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 50</td>
+                      <td>150</td>
+                      <td>165</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 65</td>
+                      <td>170</td>
+                      <td>185</td>
+                      <td>145</td>
+                      <td>122</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>
+                        <p>19</p>
+                      </td>
+                      <td>228</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 80</td>
+                      <td>180</td>
+                      <td>200</td>
+                      <td>160</td>
+                      <td>133</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>265</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 100</td>
+                      <td>190</td>
+                      <td>220</td>
+                      <td>180</td>
+                      <td>158</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>300</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 125</td>
+                      <td>200</td>
+                      <td>250</td>
+                      <td>210</td>
+                      <td>184</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>355</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 150</td>
+                      <td>210</td>
+                      <td>285</td>
+                      <td>240</td>
+                      <td>212</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>3</td>
+                      <td>19</td>
+                      <td>400</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 200</td>
+                      <td>230</td>
+                      <td>340</td>
+                      <td>295</td>
+                      <td>268</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>3</td>
+                      <td>20</td>
+                      <td>490</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 250</td>
+                      <td>250</td>
+                      <td>405</td>
+                      <td>355</td>
+                      <td>320</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>3</td>
+                      <td>22</td>
+                      <td>585</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 300</td>
+                      <td>270</td>
+                      <td>460</td>
+                      <td>410</td>
+                      <td>370</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>24,5</td>
+                      <td>685</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>470</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>26,5</td>
+                      <td>970</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>525</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>28</td>
+                      <td>1020</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>585</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>30</td>
+                      <td>1120</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>650</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>33</td>
+                      <td>4</td>
+                      <td>31,5</td>
+                      <td>1220</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч39р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>770</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>36</td>
+                      <td>1370</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             ),
@@ -9016,7 +9527,9 @@ const tabsInfoProductOtvod = [
             subspeciesLabel: "30ч539р с редуктором",
             subspeciesContent: (
               <div className={styles.productInfoContentLeft}>
-                <h2 className={styles.productInfoTextH2}>30ч539р с редуктором</h2>
+                <h2 className={styles.productInfoTextH2}>
+                  30ч539р с редуктором
+                </h2>
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30ч539р
                 </h3>
@@ -9024,40 +9537,325 @@ const tabsInfoProductOtvod = [
                   Показатели назначения задвижек 30ч539р
                 </h3>
                 <br />
+                <p>Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)</p>
                 <p>
-                Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)
+                  Рабочая среда: Вода, пар, неагрессивные жидкие и газообразные
+                  среды, по отношению к которым, материалы применяемые в
+                  задвижке коррозионностойкие
                 </p>
-                <p>
-                Рабочая среда:
-                Вода, пар, неагрессивные жидкие и газообразные среды, по отношению к которым, материалы применяемые в задвижке коррозионностойкие
-                </p>
-                <p>Температура рабочей среды:  от -30 до +130 °С</p>
-                <p>
-                Температура окружающего воздуха: от −30°С до +45°С
-                </p>
-                <p>
-                Класс герметичности по ГОСТ 9544-2005: "А"
-                </p>
+                <p>Температура рабочей среды: от -30 до +130 °С</p>
+                <p>Температура окружающего воздуха: от −30°С до +45°С</p>
+                <p>Класс герметичности по ГОСТ 9544-2005: "А"</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30ч539р
                 </h3>
                 <ol>
                   <li>Корпус: Высокопрочный чугун ВЧ50</li>
-                  <li>Обрезиненный клин: EPDM (основание — высокопрочный чугун ВЧ50)</li>
+                  <li>
+                    Обрезиненный клин: EPDM (основание — высокопрочный чугун
+                    ВЧ50)
+                  </li>
                 </ol>
                 <br />
                 <h3 className={styles.productInfoText}>
-                Габаритные размеры для задвижек 30ч539р PN 1,0 МПа
+                  Габаритные размеры для задвижек 30ч539р PN 1,0 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                <tbody><tr><td><span><strong><span>Наименование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч539р Ду 350</td><td>290</td><td>520</td><td>460</td><td>430</td><td>16</td><td>22</td><td>4</td><td>980</td></tr><tr><td>Задвижка 30ч539р Ду 400</td><td>310</td><td>580</td><td>515</td><td>482</td><td>16</td><td>26</td><td>4</td><td>1145</td></tr><tr><td>Задвижка 30ч539р Ду 450</td><td>330</td><td>640</td><td>565</td><td>532</td><td>20</td><td>26</td><td>4</td><td>1245</td></tr><tr><td>Задвижка 30ч539р Ду 500</td><td>350</td><td>715</td><td>620</td><td>585</td><td>20</td><td>26</td><td>4</td><td>1342</td></tr><tr><td>Задвижка 30ч539р Ду 600</td><td>390</td><td>840</td><td>725</td><td>685</td><td>20</td><td>30</td><td>5</td><td>1575</td></tr><tr><td>Задвижка 30ч539р Ду 700</td><td>430</td><td>910</td><td>840</td><td>800</td><td>24</td><td>30</td><td>5</td><td>1390</td></tr><tr><td>Задвижка 30ч539р Ду 800</td><td>470</td><td>1025</td><td>950</td><td>905</td><td>24</td><td>33</td><td>5</td><td>1570</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>460</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>22</td>
+                      <td>4</td>
+                      <td>980</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>515</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1145</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>565</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1245</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>620</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1342</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>725</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>1575</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 700</td>
+                      <td>430</td>
+                      <td>910</td>
+                      <td>840</td>
+                      <td>800</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>1390</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 800</td>
+                      <td>470</td>
+                      <td>1025</td>
+                      <td>950</td>
+                      <td>905</td>
+                      <td>24</td>
+                      <td>33</td>
+                      <td>5</td>
+                      <td>1570</td>
+                    </tr>
+                  </tbody>
                 </table>
                 <br />
                 <h3 className={styles.productInfoText}>
-                Габаритные размеры для задвижек 30ч539р PN 1,6 МПа
+                  Габаритные размеры для задвижек 30ч539р PN 1,6 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                <tbody><tr><td><span><strong><span>Наменование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч539р Ду 350</td><td>290</td><td>520</td><td>470</td><td>430</td><td>16</td><td>26</td><td>4</td><td>980</td></tr><tr><td>Задвижка 30ч539р Ду 400</td><td>310</td><td>580</td><td>525</td><td>482</td><td>16</td><td>30</td><td>4</td><td>1145</td></tr><tr><td>Задвижка 30ч539р Ду 450</td><td>330</td><td>640</td><td>585</td><td>532</td><td>20</td><td>30</td><td>4</td><td>1245</td></tr><tr><td>Задвижка 30ч539р Ду 500</td><td>350</td><td>715</td><td>650</td><td>585</td><td>20</td><td>33</td><td>4</td><td>1342</td></tr><tr><td>Задвижка 30ч539р Ду 600</td><td>390</td><td>840</td><td>770</td><td>685</td><td>20</td><td>39</td><td>5</td><td>1575</td></tr><tr><td>Задвижка 30ч539р Ду 700</td><td>430</td><td>910</td><td>840</td><td>800</td><td>24</td><td>39</td><td>5</td><td>1390</td></tr><tr><td>Задвижка 30ч539р Ду 800</td><td>470</td><td>1025</td><td>950</td><td>905</td><td>24</td><td>39</td><td>5</td><td>1570&nbsp;</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наменование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>470</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>980</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>525</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>1145</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>585</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>1245</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>650</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>33</td>
+                      <td>4</td>
+                      <td>1342</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>770</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1575</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 700</td>
+                      <td>430</td>
+                      <td>910</td>
+                      <td>840</td>
+                      <td>800</td>
+                      <td>24</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1390</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 800</td>
+                      <td>470</td>
+                      <td>1025</td>
+                      <td>950</td>
+                      <td>905</td>
+                      <td>24</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1570&nbsp;</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             ),
@@ -9066,7 +9864,9 @@ const tabsInfoProductOtvod = [
             subspeciesLabel: "30ч939р под электропривод",
             subspeciesContent: (
               <div className={styles.productInfoContentLeft}>
-                <h2 className={styles.productInfoTextH2}>30ч939р под электропривод</h2>
+                <h2 className={styles.productInfoTextH2}>
+                  30ч939р под электропривод
+                </h2>
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30ч939р
                 </h3>
@@ -9074,78 +9874,2679 @@ const tabsInfoProductOtvod = [
                   Показатели назначения задвижек 30ч939р
                 </h3>
                 <br />
+                <p>Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)</p>
                 <p>
-                Давление PN: 1,0 и 1,6 МПа (10 и 16 кгс/см2)
+                  Рабочая среда: Вода, пар, неагрессивные жидкие и газообразные
+                  среды, по отношению к которым, материалы применяемые в
+                  задвижке коррозионностойкие
                 </p>
-                <p>
-                Рабочая среда:
-                Вода, пар, неагрессивные жидкие и газообразные среды, по отношению к которым, материалы применяемые в задвижке коррозионностойкие
-                </p>
-                <p>Температура рабочей среды:  от -30 до +130 °С</p>
-                <p>
-                Температура окружающего воздуха: от −30°С до +45°С
-                </p>
-                <p>
-                Класс герметичности по ГОСТ 9544-2005: "А"
-                </p>
+                <p>Температура рабочей среды: от -30 до +130 °С</p>
+                <p>Температура окружающего воздуха: от −30°С до +45°С</p>
+                <p>Класс герметичности по ГОСТ 9544-2005: "А"</p>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Материальное исполнение задвижек 30ч939р
                 </h3>
                 <ol>
                   <li>Корпус: Высокопрочный чугун ВЧ50</li>
-                  <li>Обрезиненный клин: EPDM (основание — высокопрочный чугун ВЧ50)</li>
+                  <li>
+                    Обрезиненный клин: EPDM (основание — высокопрочный чугун
+                    ВЧ50)
+                  </li>
                 </ol>
                 <br />
                 <h3 className={styles.productInfoText}>
-                Габаритные размеры для задвижек 30ч539р PN 1,0 МПа
+                  Габаритные размеры для задвижек 30ч539р PN 1,0 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                  <tbody><tr><td><span><strong><span>Наименование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч539р Ду 350</td><td>290</td><td>520</td><td>460</td><td>430</td><td>16</td><td>22</td><td>4</td><td>980</td></tr><tr><td>Задвижка 30ч539р Ду 400</td><td>310</td><td>580</td><td>515</td><td>482</td><td>16</td><td>26</td><td>4</td><td>1145</td></tr><tr><td>Задвижка 30ч539р Ду 450</td><td>330</td><td>640</td><td>565</td><td>532</td><td>20</td><td>26</td><td>4</td><td>1245</td></tr><tr><td>Задвижка 30ч539р Ду 500</td><td>350</td><td>715</td><td>620</td><td>585</td><td>20</td><td>26</td><td>4</td><td>1342</td></tr><tr><td>Задвижка 30ч539р Ду 600</td><td>390</td><td>840</td><td>725</td><td>685</td><td>20</td><td>30</td><td>5</td><td>1575</td></tr><tr><td>Задвижка 30ч539р Ду 700</td><td>430</td><td>910</td><td>840</td><td>800</td><td>24</td><td>30</td><td>5</td><td>1390</td></tr><tr><td>Задвижка 30ч539р Ду 800</td><td>470</td><td>1025</td><td>950</td><td>905</td><td>24</td><td>33</td><td>5</td><td>1570</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>460</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>22</td>
+                      <td>4</td>
+                      <td>980</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>515</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1145</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>565</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1245</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>620</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>1342</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>725</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>1575</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 700</td>
+                      <td>430</td>
+                      <td>910</td>
+                      <td>840</td>
+                      <td>800</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>5</td>
+                      <td>1390</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 800</td>
+                      <td>470</td>
+                      <td>1025</td>
+                      <td>950</td>
+                      <td>905</td>
+                      <td>24</td>
+                      <td>33</td>
+                      <td>5</td>
+                      <td>1570</td>
+                    </tr>
+                  </tbody>
                 </table>
                 <br />
                 <h3 className={styles.productInfoText}>
-                Габаритные размеры для задвижек 30ч539р PN 1,6 МПа
+                  Габаритные размеры для задвижек 30ч539р PN 1,6 МПа
                 </h3>
                 <table className={styles.iksweb}>
-                  <tbody><tr><td><span><strong><span>Наменование</span></strong></span></td><td><span><strong><span>L</span></strong></span></td><td><span><strong><span>D</span></strong></span></td><td><span><strong><span>D1</span></strong></span></td><td><span><strong><span>D2</span></strong></span></td><td><span><strong><span>n</span></strong></span></td><td><span><strong><span>d</span></strong></span></td><td><span><strong><span>h</span></strong></span></td><td><span><strong><span>H</span></strong></span></td></tr><tr><td>Задвижка 30ч539р Ду 350</td><td>290</td><td>520</td><td>470</td><td>430</td><td>16</td><td>26</td><td>4</td><td>980</td></tr><tr><td>Задвижка 30ч539р Ду 400</td><td>310</td><td>580</td><td>525</td><td>482</td><td>16</td><td>30</td><td>4</td><td>1145</td></tr><tr><td>Задвижка 30ч539р Ду 450</td><td>330</td><td>640</td><td>585</td><td>532</td><td>20</td><td>30</td><td>4</td><td>1245</td></tr><tr><td>Задвижка 30ч539р Ду 500</td><td>350</td><td>715</td><td>650</td><td>585</td><td>20</td><td>33</td><td>4</td><td>1342</td></tr><tr><td>Задвижка 30ч539р Ду 600</td><td>390</td><td>840</td><td>770</td><td>685</td><td>20</td><td>39</td><td>5</td><td>1575</td></tr><tr><td>Задвижка 30ч539р Ду 700</td><td>430</td><td>910</td><td>840</td><td>800</td><td>24</td><td>39</td><td>5</td><td>1390</td></tr><tr><td>Задвижка 30ч539р Ду 800</td><td>470</td><td>1025</td><td>950</td><td>905</td><td>24</td><td>39</td><td>5</td><td>1570&nbsp;</td></tr></tbody>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Наменование</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 350</td>
+                      <td>290</td>
+                      <td>520</td>
+                      <td>470</td>
+                      <td>430</td>
+                      <td>16</td>
+                      <td>26</td>
+                      <td>4</td>
+                      <td>980</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 400</td>
+                      <td>310</td>
+                      <td>580</td>
+                      <td>525</td>
+                      <td>482</td>
+                      <td>16</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>1145</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 450</td>
+                      <td>330</td>
+                      <td>640</td>
+                      <td>585</td>
+                      <td>532</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>4</td>
+                      <td>1245</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 500</td>
+                      <td>350</td>
+                      <td>715</td>
+                      <td>650</td>
+                      <td>585</td>
+                      <td>20</td>
+                      <td>33</td>
+                      <td>4</td>
+                      <td>1342</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 600</td>
+                      <td>390</td>
+                      <td>840</td>
+                      <td>770</td>
+                      <td>685</td>
+                      <td>20</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1575</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 700</td>
+                      <td>430</td>
+                      <td>910</td>
+                      <td>840</td>
+                      <td>800</td>
+                      <td>24</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1390</td>
+                    </tr>
+                    <tr>
+                      <td>Задвижка 30ч539р Ду 800</td>
+                      <td>470</td>
+                      <td>1025</td>
+                      <td>950</td>
+                      <td>905</td>
+                      <td>24</td>
+                      <td>39</td>
+                      <td>5</td>
+                      <td>1570&nbsp;</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             ),
           },
-          
         ],
       },
-      // ОСТАНОВИЛСЯ ТУТ!!!!
       {
         label: "ЗКС (Задвижки кованые) PN 1,6 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "31с41нж (31с77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>31с41нж (31с77нж)</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек кованых ЗКС PN 1,6 МПa
+                  31с41нж (31с77нж)
+                </h3>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения задвижек кованых ЗКС PN 1,6 МПa 31с41нж
+                  (31с77нж)
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение задвижек кованых ЗКС PN 1,6 МПa
+                  31с41нж (31с77нж)
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: сталь 20Задвижки кованные ЗКС 1,6 МПа 31с41ж
+                    (31лс77)
+                  </li>
+                  <li>Седло: 20Х13</li>
+                  <li>Клин: 20Х13</li>
+                  <li>Шток: 20Х13</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 20</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 30</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 1,6 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>DN</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>D0</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>D1</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>L</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>W</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>H (в положении "открыто")</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>Вес, кг</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры задвижек кованых ЗКС PN 1,6 МПa 31с41нж
+                  (31с77нж) с исполнением: муфтовое резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>DN</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>D0</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>D2</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>L</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>W</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>H (в полжении "открыто")</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                      <td>
+                        <p>
+                          <span>
+                            <strong>
+                              <span>Вес, кг</span>
+                            </strong>
+                          </span>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 1,6 МПа с
+                  муфтовым присоединением под приварку{" "}
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс41нж (31лс77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31лс41нж (31лс77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек кованых ЗКС PN 1,6 МПa
+                  31лс41нж (31лс77нж)
+                </h3>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения задвижек кованых ЗКС PN 1,6 МПa 31лс41нж
+                  (31лс77нж)
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение задвижек кованых ЗКС PN 1,6 МПa
+                  31лс41нж (31лс77нж)
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: сталь 20ГЗадвижки кованные ЗКС 1,6 МПа 31с41ж
+                    (31лс77
+                  </li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 20Г</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 20Г</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 40Х</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры задвижек кованых ЗКС PN 1,6 МПa 31лс41нж
+                  (31лс77нж)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>DN</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>W</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H (в положении "открыто")</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Вес, кг</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры задвижек кованых ЗКС PN 1,6 МПa 31лс41нж
+                  (31лс77нж)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>DN</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>W</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>H (в полжении "открыто")</span>
+                          </strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>
+                            <span>Вес, кг</span>
+                          </strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 1,6 МПа с
+                  муфтовым присоединением под приварку{" "}
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс41нжТ (31лс77нжТ)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31лс41нжТ (31лс77нжТ)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 1,6 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +600°С </p>
+                <p>Условия эксплуатации: Т1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 1,6 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: сталь 15ХМ</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 15ХМ</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 15ХМ</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 1,6 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D1</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в положении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 1,6 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D2</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в полжении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 1,6 МПа с
+                  муфтовым присоединением под приварку{" "}
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31нж41нж (31нж77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31нж41нж (31нж77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 1,6 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −196°С до +600°</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 1,6 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: 08Х18Н10Т</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: 08Х18Н10Т</li>
+                  <li>Болт: 08Х18Н10Т</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 08Х18Н10Т</li>
+                  <li>Крышка сальника: 08Х18Н10Т</li>
+                  <li>Болт откидной: 08Х18Н10Т</li>
+                  <li>Гайка: 08Х18Н10Т</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л1. Корпус: 08Х18Н10Т</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: 08Х18Н10Т</li>
+                  <li>Болт: 08Х18Н10Т</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 08Х18Н10Т</li>
+                  <li>Крышка сальника: 08Х18Н10Т</li>
+                  <li>Болт откидной: 08Х18Н10Т</li>
+                  <li>Гайка: 08Х18Н10Т</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 1,6 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D1</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в положении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 1,6 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span>DN</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D0</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>W</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>H (в полжении "открыто")</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>Вес, кг</span>
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 1,6 МПа с
+                  муфтовым присоединением под приварку{" "}
+                </p>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "ЗКС (Задвижки кованые) PN 2,5 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "31с64нж (31с77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>31с64нж (31с77нж)</h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 2,5 МПa
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: сталь 20</li>
+                  <li>Седло: 20Х13</li>
+                  <li>Клин: 20Х13</li>
+                  <li>Шток: 20Х13</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 20</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 30</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D1</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в положении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span>DN</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D0</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>W</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>H (в полжении "открыто")</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>Вес, кг</span>
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 2,5 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс64нж (31лс77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31лс64нж (31лс77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С </p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: сталь 20Г</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 20Г</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 20Г</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 40Х</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <strong>
+                          <span>DN</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D0</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>W</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>H (в положении "открыто")</span>
+                        </strong>
+                      </td>
+                      <td>
+                        <strong>
+                          <span>Вес, кг</span>
+                        </strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D2</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в полжении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 2,5 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс64нжТ (31лс77нжТ)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31лс64нжТ (31лс77нжТ)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +600°С </p>
+                <p>Условия эксплуатации: Т1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: сталь 15ХМ</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: сталь 15ХМ</li>
+                  <li>Болт: сталь 40Х</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 20Х13</li>
+                  <li>Крышка сальника: сталь 15ХМ</li>
+                  <li>Болт откидной: сталь 40Х</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>DN</span>
+                      </th>
+                      <th>
+                        <span>D0</span>
+                      </th>
+                      <th>
+                        <span>D1</span>
+                      </th>
+                      <th>
+                        <span>L</span>
+                      </th>
+                      <th>
+                        <span>W</span>
+                      </th>
+                      <th>
+                        <span>H (в положении "открыто")</span>
+                      </th>
+                      <th>
+                        <span>Вес, кг</span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>D2</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>H (в полжении "открыто")</strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 2,5 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31нж64нж (31нж77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                  31нж64нж (31нж77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −196°С до +600°</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 2,5 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: 08Х18Н10Т</li>
+                  <li>Седло: 08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: 08Х18Н10Т</li>
+                  <li>Болт: 08Х18Н10Т</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 08Х18Н10Т</li>
+                  <li>Крышка сальника: 08Х18Н10Т</li>
+                  <li>Болт откидной: 08Х18Н10Т</li>
+                  <li>Гайка: 08Х18Н10Т</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D1</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в положении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>10,5</td>
+                      <td>12</td>
+                      <td>216</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>5</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>17</td>
+                      <td>229</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>6,4</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>22</td>
+                      <td>254</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>9,2</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>28</td>
+                      <td>280</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>12,4</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>35</td>
+                      <td>240</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>42</td>
+                      <td>292</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>23,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 2,5 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <span>
+                          <strong>DN</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D0</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>D2</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>L</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>W</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>H (в полжении "открыто")</strong>
+                        </span>
+                      </td>
+                      <td>
+                        <span>
+                          <strong>Вес, кг</strong>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>13,5</td>
+                      <td>Rc 1/2</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,225</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>13,5</td>
+                      <td>Rc 3/4</td>
+                      <td>90</td>
+                      <td>100</td>
+                      <td>163</td>
+                      <td>2,3</td>
+                    </tr>
+                    <tr>
+                      <td>25</td>
+                      <td>18</td>
+                      <td>Rc 1</td>
+                      <td>105</td>
+                      <td>125</td>
+                      <td>201</td>
+                      <td>3,65</td>
+                    </tr>
+                    <tr>
+                      <td>32</td>
+                      <td>22</td>
+                      <td>Rc 5/4</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>221</td>
+                      <td>5,05</td>
+                    </tr>
+                    <tr>
+                      <td>40</td>
+                      <td>29</td>
+                      <td>Rc 3/2</td>
+                      <td>124</td>
+                      <td>160</td>
+                      <td>248</td>
+                      <td>5,35</td>
+                    </tr>
+                    <tr>
+                      <td>50</td>
+                      <td>36</td>
+                      <td>Rc 2</td>
+                      <td>130</td>
+                      <td>200</td>
+                      <td>283</td>
+                      <td>8,1</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 2,5 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "ЗКС (Задвижки кованые) PN 4,0 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "31с15нж (31с77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>31с15нж (31с77нж)</h2>
+                <h3 className={styles.productInfoText}>
+                Показатели назначения ЗКС (компактных задвижек) PN 4,0 МПa
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <ol>
+                <li>Корпус: сталь 20</li>
+                <li>Седло: 20Х13</li>
+                <li>Клин: 20Х13</li>
+                <li>Шток: 20Х13</li>
+                <li>Прокладка: ТРГ</li>
+                <li>Крышка: сталь 20</li>
+                <li>Болт: сталь 40Х</li>
+                <li>Уплотнение: ТРГ</li>
+                <li>Сальник: 20Х13</li>
+                <li>Крышка сальника: сталь 30</li>
+                <li>Болт откидной: сталь 40Х</li>
+                <li>Гайка: сталь 45</li>
+                <li>Гайка штока: 20Х13</li>
+                <li>Стопорная гайка: сталь 45</li>
+                <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D1</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в положении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>10,5</td><td>12</td><td>216</td><td>100</td><td>163</td><td>5</td></tr><tr><td>20</td><td>13,5</td><td>17</td><td>229</td><td>100</td><td>163</td><td>6,4</td></tr><tr><td>25</td><td>18</td><td>22</td><td>254</td><td>125</td><td>201</td><td>9,2</td></tr><tr><td>32</td><td>22</td><td>28</td><td>280</td><td>160</td><td>221</td><td>12,4</td></tr><tr><td>40</td><td>29</td><td>35</td><td>240</td><td>160</td><td>248</td><td>15</td></tr><tr><td>50</td><td>36</td><td>42</td><td>292</td><td>200</td><td>283</td><td>23,2</td></tr></tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                Габаритные размеры ЗКС PN 4,0 МПа с исполнением: муфтовое резьбовое 
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D2</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в полжении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>13,5</td><td>Rc 1/2</td><td>90</td><td>100</td><td>163</td><td>2,225</td></tr><tr><td>20</td><td>13,5</td><td>Rc 3/4</td><td>90</td><td>100</td><td>163</td><td>2,3</td></tr><tr><td>25</td><td>18</td><td>Rc 1</td><td>105</td><td>125</td><td>201</td><td>3,65</td></tr><tr><td>32</td><td>22</td><td>Rc 5/4</td><td>124</td><td>160</td><td>221</td><td>5,05</td></tr><tr><td>40</td><td>29</td><td>Rc 3/2</td><td>124</td><td>160</td><td>248</td><td>5,35</td></tr><tr><td>50</td><td>36</td><td>Rc 2</td><td>130</td><td>200</td><td>283</td><td>8,1</td></tr></tbody>
+                </table>
+                <p>
+                *Возможно изготовление задвижек кованых (ЗКС) PN 4,0 МПа с муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс15нж (31лс77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                31лс15нж (31лс77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С </p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>Минимальная температура окружающего воздуха: −60°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <ol>
+                <li>Корпус: сталь 20Г</li>
+                <li>Седло: 08Х18Н10Т</li>
+                <li>Клин: 08Х18Н10Т</li>
+                <li>Шток: 08Х18Н10Т</li>
+                <li>Прокладка: ТРГ</li>
+                <li>Крышка: сталь 20Г</li>
+                <li>Болт: сталь 40Х</li>
+                <li>Уплотнение: ТРГ</li>
+                <li>Сальник: 20Х13</li>
+                <li>Крышка сальника: сталь 20Г</li>
+                <li>Болт откидной: сталь 40Х</li>
+                <li>Гайка: сталь 40Х</li>
+                <li>Гайка штока: 20Х13</li>
+                <li>Стопорная гайка: сталь 45</li>
+                <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D1</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в положении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>10,5</td><td>12</td><td>216</td><td>100</td><td>163</td><td>5</td></tr><tr><td>20</td><td>13,5</td><td>17</td><td>229</td><td>100</td><td>163</td><td>6,4</td></tr><tr><td>25</td><td>18</td><td>22</td><td>254</td><td>125</td><td>201</td><td>9,2</td></tr><tr><td>32</td><td>22</td><td>28</td><td>280</td><td>160</td><td>221</td><td>12,4</td></tr><tr><td>40</td><td>29</td><td>35</td><td>240</td><td>160</td><td>248</td><td>15</td></tr><tr><td>50</td><td>36</td><td>42</td><td>292</td><td>200</td><td>283</td><td>23,2</td></tr></tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D2</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в полжении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>13,5</td><td>Rc 1/2</td><td>90</td><td>100</td><td>163</td><td>2,225</td></tr><tr><td>20</td><td>13,5</td><td>Rc 3/4</td><td>90</td><td>100</td><td>163</td><td>2,3</td></tr><tr><td>25</td><td>18</td><td>Rc 1</td><td>105</td><td>125</td><td>201</td><td>3,65</td></tr><tr><td>32</td><td>22</td><td>Rc 5/4</td><td>124</td><td>160</td><td>221</td><td>5,05</td></tr><tr><td>40</td><td>29</td><td>Rc 3/2</td><td>124</td><td>160</td><td>248</td><td>5,35</td></tr><tr><td>50</td><td>36</td><td>Rc 2</td><td>130</td><td>200</td><td>283</td><td>8,1</td></tr></tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 4,0 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31лс15нжТ (31лс77нжТ)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                31лс15нжТ (31лс77нжТ)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +600°С </p>
+                <p>Условия эксплуатации: Т1</p>
+                <p>Минимальная температура окружающего воздуха: −40°С</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <ol>
+                <li>Корпус: сталь 15ХМ</li>
+                <li>Седло: 08Х18Н10Т</li>
+                <li>Клин: 08Х18Н10Т</li>
+                <li>Шток: 08Х18Н10Т</li>
+                <li>Прокладка: ТРГ</li>
+                <li>Крышка: сталь 15ХМ</li>
+                <li>Болт: сталь 40Х</li>
+                <li>Уплотнение: ТРГ</li>
+                <li>Сальник: 20Х13</li>
+                <li>Крышка сальника: сталь 15ХМ</li>
+                <li>Болт откидной: сталь 40Х</li>
+                <li>Гайка: сталь 45</li>
+                <li>Гайка штока: 20Х13</li>
+                <li>Стопорная гайка: сталь 45</li>
+                <li>Маховик: сталь 25Л</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D1</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в положении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>10,5</td><td>12</td><td>216</td><td>100</td><td>163</td><td>5</td></tr><tr><td>20</td><td>13,5</td><td>17</td><td>229</td><td>100</td><td>163</td><td>6,4</td></tr><tr><td>25</td><td>18</td><td>22</td><td>254</td><td>125</td><td>201</td><td>9,2</td></tr><tr><td>32</td><td>22</td><td>28</td><td>280</td><td>160</td><td>221</td><td>12,4</td></tr><tr><td>40</td><td>29</td><td>35</td><td>240</td><td>160</td><td>248</td><td>15</td></tr><tr><td>50</td><td>36</td><td>42</td><td>292</td><td>200</td><td>283</td><td>23,2</td></tr></tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D2</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в полжении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>13,5</td><td>Rc 1/2</td><td>90</td><td>100</td><td>163</td><td>2,225</td></tr><tr><td>20</td><td>13,5</td><td>Rc 3/4</td><td>90</td><td>100</td><td>163</td><td>2,3</td></tr><tr><td>25</td><td>18</td><td>Rc 1</td><td>105</td><td>125</td><td>201</td><td>3,65</td></tr><tr><td>32</td><td>22</td><td>Rc 5/4</td><td>124</td><td>160</td><td>221</td><td>5,05</td></tr><tr><td>40</td><td>29</td><td>Rc 3/2</td><td>124</td><td>160</td><td>248</td><td>5,35</td></tr><tr><td>50</td><td>36</td><td>Rc 2</td><td>130</td><td>200</td><td>283</td><td>8,1</td></tr></tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 4,0 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "31нж15нж (31нж77нж)",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>
+                31нж15нж (31нж77нж)
+                </h2>
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, природный газ, жидкие
+                  неагрессивные нефтепродукты, неагрессивные жидкие и
+                  газообразные среды, по отношению к которым, материалы
+                  применяемые в задвижке коррозионностойкие
+                </p>
+
+                <p>Температура рабочей среды: от −196°С до +600°</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение ЗКС (компактных задвижек) PN 4,0 МПа
+                </h3>
+                <ol>
+                  <li>Корпус: 08Х18Н10Т</li>
+                  <li>Седло:  08Х18Н10Т</li>
+                  <li>Клин: 08Х18Н10Т</li>
+                  <li>Шток: 08Х18Н10Т</li>
+                  <li>Прокладка: ТРГ</li>
+                  <li>Крышка: 08Х18Н10Т</li>
+                  <li>Болт: 08Х18Н10Т</li>
+                  <li>Уплотнение: ТРГ</li>
+                  <li>Сальник: 08Х18Н10Т</li>
+                  <li>Крышка сальника: 08Х18Н10Т</li>
+                  <li>Болт откидной: 08Х18Н10Т</li>
+                  <li>Гайка: 08Х18Н10Т</li>
+                  <li>Гайка штока: 20Х13</li>
+                  <li>Стопорная гайка: сталь 45</li>
+                  <li>Маховик: сталь 25Л</li>
+                  </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с фланцевым исполнением
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D1</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в положении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>10,5</td><td>12</td><td>216</td><td>100</td><td>163</td><td>5</td></tr><tr><td>20</td><td>13,5</td><td>17</td><td>229</td><td>100</td><td>163</td><td>6,4</td></tr><tr><td>25</td><td>18</td><td>22</td><td>254</td><td>125</td><td>201</td><td>9,2</td></tr><tr><td>32</td><td>22</td><td>28</td><td>280</td><td>160</td><td>221</td><td>12,4</td></tr><tr><td>40</td><td>29</td><td>35</td><td>240</td><td>160</td><td>248</td><td>15</td></tr><tr><td>50</td><td>36</td><td>42</td><td>292</td><td>200</td><td>283</td><td>23,2</td></tr></tbody>
+                </table>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры ЗКС PN 4,0 МПа с исполнением: муфтовое
+                  резьбовое
+                </h3>
+                <table className={styles.iksweb}>
+                <tbody><tr><th><span>DN</span></th><th><span>D0</span></th><th><span>D2</span></th><th><span>L</span></th><th><span>W</span></th><th><span>H (в полжении "открыто")</span></th><th><span>Вес, кг</span></th></tr><tr><td>15</td><td>13,5</td><td>Rc 1/2</td><td>90</td><td>100</td><td>163</td><td>2,225</td></tr><tr><td>20</td><td>13,5</td><td>Rc 3/4</td><td>90</td><td>100</td><td>163</td><td>2,3</td></tr><tr><td>25</td><td>18</td><td>Rc 1</td><td>105</td><td>125</td><td>201</td><td>3,65</td></tr><tr><td>32</td><td>22</td><td>Rc 5/4</td><td>124</td><td>160</td><td>221</td><td>5,05</td></tr><tr><td>40</td><td>29</td><td>Rc 3/2</td><td>124</td><td>160</td><td>248</td><td>5,35</td></tr><tr><td>50</td><td>36</td><td>Rc 2</td><td>130</td><td>200</td><td>283</td><td>8,1</td></tr></tbody>
+                </table>
+                <p>
+                  *Возможно изготовление задвижек кованых (ЗКС) PN 4,0 МПа с
+                  муфтовым присоединением под приварку
+                </p>
+              </div>
+            ),
+          },
+        ],
       },
+      // ОСТАНОВИЛСЯ ТУТ!!!!!!!!!!!!!!!!
       {
         label: "ЗКС (Задвижки кованые) PN 6,3 МПа",
         contentLeft: (
@@ -9259,6 +12660,5 @@ const tabsInfoProductOtvod = [
     ],
   },
 ];
-
 
 export default tabsInfoProductOtvod
