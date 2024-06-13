@@ -1683,21 +1683,6 @@ const tabsInfoProductOtvod = [
 
   {
     id: 8,
-    name: "опоры",
-    content: [
-      {
-        label: "Опоры",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>Тут пока ничего нет</h2>
-          </div>
-        ),
-      },
-    ],
-  },
-
-  {
-    id: 9,
     name: "запорная арматура",
     content: [
       {
@@ -1712,6 +1697,7 @@ const tabsInfoProductOtvod = [
                   Технические характеристики задвижек стальных клиновых
                   фланцевых 30с41нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек стальных 30с41нж
                 </h3>
@@ -1878,6 +1864,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с541нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с541нж
                 </h3>
@@ -1997,6 +1984,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с941нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с941нж
                 </h3>
@@ -2325,6 +2313,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс41нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс41нж
                 </h3>
@@ -2480,6 +2469,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс541нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс541нж
                 </h3>
@@ -2599,6 +2589,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс941нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс941нж
                 </h3>
@@ -2942,6 +2933,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30нж41нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30нж41нж
                 </h3>
@@ -3109,6 +3101,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30нж941нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30нж941нж
                 </h3>
@@ -3362,6 +3355,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с64нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с64нж
                 </h3>
@@ -3534,6 +3528,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с564нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с564нж
                 </h3>
@@ -3656,6 +3651,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с964нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с964нж
                 </h3>
@@ -3980,6 +3976,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс64нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс64нж
                 </h3>
@@ -4142,6 +4139,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс564нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс564нж
                 </h3>
@@ -4263,6 +4261,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс964нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс964нж
                 </h3>
@@ -4587,6 +4586,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30нж64нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30нж64нж
                 </h3>
@@ -4744,6 +4744,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30нж964нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30нж964нж
                 </h3>
@@ -4975,6 +4976,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с15нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с15нж
                 </h3>
@@ -5146,6 +5148,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с515нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с515нж
                 </h3>
@@ -5263,6 +5266,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с915нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с915нж
                 </h3>
@@ -5510,6 +5514,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс15нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс15нж
                 </h3>
@@ -5677,6 +5682,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс515нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс515нж
                 </h3>
@@ -5804,6 +5810,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс915нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс915нж
                 </h3>
@@ -6076,6 +6083,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с76нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с76нж
                 </h3>
@@ -6241,6 +6249,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с576нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с576нж
                 </h3>
@@ -6359,6 +6368,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с976нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с976нж
                 </h3>
@@ -6597,6 +6607,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс76нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс76нж
                 </h3>
@@ -6764,6 +6775,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс576нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс576нж
                 </h3>
@@ -6882,6 +6894,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс976нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс976нж
                 </h3>
@@ -7130,6 +7143,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31с45нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31с45нж
                 </h3>
@@ -7270,6 +7284,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31с545нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31с545нж
                 </h3>
@@ -7381,6 +7396,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31с945нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31с945нж
                 </h3>
@@ -7596,6 +7612,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31лс45нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31лс45нж
                 </h3>
@@ -7754,6 +7771,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31лс545нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31лс545нж
                 </h3>
@@ -7855,6 +7873,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 31лс945нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 31лс945нж
                 </h3>
@@ -8075,6 +8094,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с527нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с527нж
                 </h3>
@@ -8288,6 +8308,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30с927нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30с927нж
                 </h3>
@@ -8545,6 +8566,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс527нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс527нж
                 </h3>
@@ -8780,6 +8802,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30лс927нж
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30лс927нж
                 </h3>
@@ -8998,6 +9021,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30ч39р
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30ч39р
                 </h3>
@@ -9533,6 +9557,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30ч539р
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30ч539р
                 </h3>
@@ -9870,6 +9895,7 @@ const tabsInfoProductOtvod = [
                 <h3 className={styles.productInfoText}>
                   Технические характеристики задвижек 30ч939р
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек 30ч939р
                 </h3>
@@ -10211,6 +10237,7 @@ const tabsInfoProductOtvod = [
                   Технические характеристики задвижек кованых ЗКС PN 1,6 МПa
                   31с41нж (31с77нж)
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек кованых ЗКС PN 1,6 МПa 31с41нж
                   (31с77нж)
@@ -10524,6 +10551,7 @@ const tabsInfoProductOtvod = [
                   Технические характеристики задвижек кованых ЗКС PN 1,6 МПa
                   31лс41нж (31лс77нж)
                 </h3>
+                <br />
                 <h3 className={styles.productInfoText}>
                   Показатели назначения задвижек кованых ЗКС PN 1,6 МПa 31лс41нж
                   (31лс77нж)
@@ -15798,57 +15826,3736 @@ const tabsInfoProductOtvod = [
           },
         ],
       },
-      // ОСТАНОВИЛСЯ ТУТ!!!!!!!!!!
       {
         label: "Клапан запорный PN 1,6 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "15с65нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15с65нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15с65нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15с65нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15с65нж
+                </h3>
+                <ol>
+                  <li>Корпус: 25Л</li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>
+                    Диск: 25Л+сталь по типу 20Х13Клапан (вентиль) запорный
+                    стальной фланцевый 15с65нж
+                  </li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 25</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: Сталь 25</li>
+                  <li>Крышка сальника: 25Л</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15с65нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18,4</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>43</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;320</td>
+                      <td>245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>84</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с65нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>232</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15лс65нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15лс65нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15лс65нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15лс65нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15лс65нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 20ГЛКлапан (вентиль) запорный стальной фланцевый
+                    15лс65нж
+                  </li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 20ГЛ+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 35ХМ</li>
+                  <li>Гайка: Сталь 40Х</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: 35ХМ</li>
+                  <li>Крышка сальника: 20ГЛ</li>
+                  <li>Гайка: 40Х</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15лс65нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D0</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>h</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>n</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>d</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18,4</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>43</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;320</td>
+                      <td>245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>84</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс65нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>232</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15нж65нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15нж65нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15нж65нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15нж65нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15нж65нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 12Х18Н9ТЛКлапан (вентиль) запорный стальной
+                    фланцевый 15нж65нж
+                  </li>
+                  <li>Наплавка седла: Стеллит</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Шпиндель: 12Х18Н10Т</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 08Х18Н10</li>
+                  <li>Втулка нажимная: 08Х18Н10</li>
+                  <li>Откидной болт: 08Х18Н10</li>
+                  <li>Крышка сальника: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15нж65нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18,4</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>43</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;320</td>
+                      <td>245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>84</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>22</td>
+                      <td>145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж65нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>232</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан запорный PN 2,5 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "15с18нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15с18нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15с18нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15с18нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15с18нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 25ЛКлапан (вентиль) запорный стальной фланцевый
+                    15с18нж
+                  </li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 25Л+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 25</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: Сталь 25</li>
+                  <li>Крышка сальника: 25Л</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15с65нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;280</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>45</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;380</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>67</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>90</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>160</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с18нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>245</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15лс18нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15лс18нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15лс18нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15лс18нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15лс18нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 20ГЛКлапан (вентиль) запорный стальной фланцевый
+                    15лс18нж
+                  </li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 20ГЛ+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 35ХМ</li>
+                  <li>Гайка: Сталь 40Х</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: 35ХМ</li>
+                  <li>Крышка сальника: 20ГЛ</li>
+                  <li>Гайка: 40Х</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15лс18нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>45</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;320</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>67</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>90</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>160</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс18нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>245</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15нж18нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15нж18нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15нж18нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15нж18нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение В
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15нж18нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 12Х18Н9ТЛКлапан (вентиль) запорный стальной
+                    фланцевый 15нж18нж
+                  </li>
+                  <li>Наплавка седла: Стеллит</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Шпиндель: 12Х18Н10Т</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 08Х18Н10</li>
+                  <li>Втулка нажимная: 08Х18Н10</li>
+                  <li>Откидной болт: 08Х18Н10</li>
+                  <li>Крышка сальника: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15нж18нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;102</td>
+                      <td>&nbsp;320</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;352</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;390</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;427</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>45</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;320</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;473</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>67</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;570</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>90</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;550</td>
+                      <td>360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;653</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>26</td>
+                      <td>160</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15нж18нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;750</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>245</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан запорный PN 4,0 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "15с22нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15с22нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15с22нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15с22нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение Е
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15с22нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 25ЛКлапан (вентиль) запорный стальной фланцевый
+                    15с22нж
+                  </li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 25Л+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 25</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: Сталь 25</li>
+                  <li>Крышка сальника: 25Л</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15с22нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>&nbsp;320</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;280</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;109</td>
+                      <td>&nbsp;352</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>&nbsp;390</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>&nbsp;427</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>48</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;380</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>&nbsp;473</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>&nbsp;570</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>103</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;500</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>&nbsp;653</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>192</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с22нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>&nbsp;750</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>292</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15лс22нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15лс22нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15лс22нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15лс22нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение Е
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15лс22нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 20ГЛКлапан (вентиль) запорный стальной фланцевый
+                    15лс22нж
+                  </li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 20ГЛ+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 35ХМ</li>
+                  <li>Гайка: Сталь 40Х</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: 35ХМ</li>
+                  <li>Крышка сальника: 20ГЛ</li>
+                  <li>Гайка: 40Х</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15лс22нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D4</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>&nbsp;320</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;109</td>
+                      <td>&nbsp;352</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>&nbsp;390</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>&nbsp;427</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>48</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Клапан (вентиль) 15лс22нж Ду 125</p>
+                      </td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;380</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>&nbsp;473</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>&nbsp;570</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>103</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;500</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>&nbsp;653</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>192</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15лс22нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>&nbsp;750</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>292</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15нж22нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15нж22нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15нж22нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15нж22нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015:
+                  исполнение Е
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15нж22нж
+                </h3>
+                <ol>
+                  <li>
+                    Корпус: 12Х18Н9ТЛКлапан (вентиль) запорный стальной
+                    фланцевый 15нж22нж
+                  </li>
+                  <li>Наплавка седла: Стеллит</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Шпиндель: 12Х18Н10Т</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 08Х18Н10</li>
+                  <li>Втулка нажимная: 08Х18Н10</li>
+                  <li>Откидной болт: 08Х18Н10</li>
+                  <li>Крышка сальника: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15нж22нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль)&nbsp;15нж22нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;220</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>&nbsp;320</td>
+                      <td>4</td>
+                      <td>4</td>
+                      <td>18</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;250</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;109</td>
+                      <td>&nbsp;352</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;280</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>&nbsp;390</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>18</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;320</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>&nbsp;427</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>48</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;380</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>&nbsp;473</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;450</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>&nbsp;570</td>
+                      <td>4</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>103</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 200</td>
+                      <td>&nbsp;600</td>
+                      <td>&nbsp;500</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>&nbsp;653</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>30</td>
+                      <td>192</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (Вентиль) 15нж22нж Ду 250</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;600</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>&nbsp;750</td>
+                      <td>4</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>292</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан запорный PN 6,3 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "15с27нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15с27нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15с27нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15с27нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −40°С до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015: DN 50
+                  - 200мм. — исполнение J
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15с27нж
+                </h3>
+                <ol>
+                  <li>Корпус: 25Л</li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 25Л+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 25</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: Сталь 25</li>
+                  <li>Крышка сальника: 25Л</li>
+                  <li>Гайка: Сталь 35</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15с27нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D0</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D9</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D8</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>h</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>n</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>d</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 50</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;280</td>
+                      <td>175</td>
+                      <td>&nbsp;135</td>
+                      <td>&nbsp;102</td>
+                      <td>85</td>
+                      <td>&nbsp;370</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>22</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 65</td>
+                      <td>&nbsp;340</td>
+                      <td>&nbsp;320</td>
+                      <td>200</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;132</td>
+                      <td>110</td>
+                      <td>&nbsp;415</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>47</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 80</td>
+                      <td>&nbsp;380</td>
+                      <td>&nbsp;320</td>
+                      <td>210</td>
+                      <td>&nbsp;170</td>
+                      <td>&nbsp;133</td>
+                      <td>150</td>
+                      <td>&nbsp;460</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 100</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;450</td>
+                      <td>250</td>
+                      <td>&nbsp;200</td>
+                      <td>&nbsp;170</td>
+                      <td>145</td>
+                      <td>&nbsp;555</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 125</td>
+                      <td>&nbsp;500</td>
+                      <td>&nbsp;450</td>
+                      <td>295</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;205</td>
+                      <td>175</td>
+                      <td>&nbsp;638</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>30</td>
+                      <td>178</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 150</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;500</td>
+                      <td>340</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>205</td>
+                      <td>&nbsp;720</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>33</td>
+                      <td>240</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль) 15с27нж Ду 200</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;345</td>
+                      <td>&nbsp;285</td>
+                      <td>265</td>
+                      <td>&nbsp;875</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>397</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15лс27нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15лс27нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15лс27нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15лс27нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015: DN 50
+                  - 200мм. — исполнение J
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15лс27нж
+                </h3>
+                <ol>
+                  <li>Корпус: 20ГЛ</li>
+                  <li>Наплавка седла: сталь по типу 20Х13</li>
+                  <li>Диск: 20ГЛ+сталь по типу 20Х13</li>
+                  <li>Шпиндель: 20Х13</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: Сталь 35ХМ</li>
+                  <li>Гайка: Сталь 40Х</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 20Х13</li>
+                  <li>Втулка нажимная: 20Х13</li>
+                  <li>Откидной болт: 35ХМ</li>
+                  <li>Крышка сальника: 20ГЛ</li>
+                  <li>Гайка: 40Х</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15лс27нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>Наименование</span>
+                      </th>
+                      <th>
+                        <span>L</span>
+                      </th>
+                      <th>
+                        <span>D0</span>
+                      </th>
+                      <th>
+                        <span>D</span>
+                      </th>
+                      <th>
+                        <span>D1</span>
+                      </th>
+                      <th>
+                        <span>D9</span>
+                      </th>
+                      <th>
+                        <span>D8</span>
+                      </th>
+                      <th>
+                        <span>H</span>
+                      </th>
+                      <th>
+                        <span>h</span>
+                      </th>
+                      <th>
+                        <span>n</span>
+                      </th>
+                      <th>
+                        <span>d</span>
+                      </th>
+                      <th>
+                        <span>Масса, кг</span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 50</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;280</td>
+                      <td>175</td>
+                      <td>&nbsp;135</td>
+                      <td>&nbsp;102</td>
+                      <td>85</td>
+                      <td>&nbsp;370</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>22</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 65</td>
+                      <td>&nbsp;340</td>
+                      <td>&nbsp;320</td>
+                      <td>200</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;132</td>
+                      <td>110</td>
+                      <td>&nbsp;415</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>47</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 80</td>
+                      <td>&nbsp;380</td>
+                      <td>&nbsp;320</td>
+                      <td>210</td>
+                      <td>&nbsp;170</td>
+                      <td>&nbsp;133</td>
+                      <td>115</td>
+                      <td>&nbsp;460</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 100</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;450</td>
+                      <td>250</td>
+                      <td>&nbsp;200</td>
+                      <td>&nbsp;170</td>
+                      <td>145</td>
+                      <td>&nbsp;555</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 125</td>
+                      <td>&nbsp;500</td>
+                      <td>&nbsp;450</td>
+                      <td>295</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;205</td>
+                      <td>175</td>
+                      <td>&nbsp;638</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>30</td>
+                      <td>178</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 150</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;500</td>
+                      <td>340</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>205</td>
+                      <td>&nbsp;720</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>33</td>
+                      <td>240</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15лс27нж Ду 200</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;345</td>
+                      <td>&nbsp;285</td>
+                      <td>265</td>
+                      <td>&nbsp;875</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>397</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "15нж27нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>15нж27нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики задвижек стальных клиновых
+                  фланцевых 15нж27нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов запорных стальных 15нж27нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от −60°С до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <p>
+                  Направление подачи рабочей среды: одностороннее по маркировке
+                  на корпусе
+                </p>
+                <p>
+                  Установочное положение клапана: управляющим органом вверх.
+                  Допускается отклонение от вертикали до 90° в любую сторонуС
+                </p>
+                <p>
+                  Фланцевые присоединительные размеры по ГОСТ 33259-2015: DN 50
+                  - 200мм. — исполнение J
+                </p>
+                <p>Присоединение к трубопроводу: под приварку, фланцевое</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов запорных стальных 15нж27нж
+                </h3>
+                <ol>
+                  <li>Корпус: 12Х18Н9ТЛ</li>
+                  <li>Наплавка седла: Стеллит</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Шпиндель: 12Х18Н10Т</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Набивка сальника: ТРГ</li>
+                  <li>Штифт: 08Х18Н10</li>
+                  <li>Втулка нажимная: 08Х18Н10</li>
+                  <li>Откидной болт: 08Х18Н10</li>
+                  <li>Крышка сальника: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Гайка шпинделя: Латунь ЛС59-1</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                  <li>Маховик: 25Л</li>
+                  <li>Контргайка: Сталь 45</li>
+                  <li>Редуктор: —</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов запорных стальных 15нж27нж
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>Наименование</span>
+                      </th>
+                      <th>
+                        <span>L</span>
+                      </th>
+                      <th>
+                        <span>D0</span>
+                      </th>
+                      <th>
+                        <span>D</span>
+                      </th>
+                      <th>
+                        <span>D1</span>
+                      </th>
+                      <th>
+                        <span>D9</span>
+                      </th>
+                      <th>
+                        <span>D8</span>
+                      </th>
+                      <th>
+                        <span>H</span>
+                      </th>
+                      <th>
+                        <span>h</span>
+                      </th>
+                      <th>
+                        <span>n</span>
+                      </th>
+                      <th>
+                        <span>d</span>
+                      </th>
+                      <th>
+                        <span>Масса, кг</span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 50</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;280</td>
+                      <td>175</td>
+                      <td>&nbsp;135</td>
+                      <td>&nbsp;102</td>
+                      <td>85</td>
+                      <td>&nbsp;370</td>
+                      <td>3</td>
+                      <td>4</td>
+                      <td>22</td>
+                      <td>35</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 65</td>
+                      <td>&nbsp;340</td>
+                      <td>&nbsp;320</td>
+                      <td>200</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;132</td>
+                      <td>110</td>
+                      <td>&nbsp;415</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>47</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 80</td>
+                      <td>&nbsp;380</td>
+                      <td>&nbsp;320</td>
+                      <td>210</td>
+                      <td>&nbsp;170</td>
+                      <td>&nbsp;133</td>
+                      <td>115</td>
+                      <td>&nbsp;460</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>22</td>
+                      <td>60</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 100</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;450</td>
+                      <td>250</td>
+                      <td>&nbsp;200</td>
+                      <td>&nbsp;170</td>
+                      <td>145</td>
+                      <td>&nbsp;555</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>26</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 125</td>
+                      <td>&nbsp;500</td>
+                      <td>&nbsp;450</td>
+                      <td>295</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;205</td>
+                      <td>175</td>
+                      <td>&nbsp;638</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>30</td>
+                      <td>178</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 150</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;500</td>
+                      <td>340</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>205</td>
+                      <td>&nbsp;720</td>
+                      <td>3</td>
+                      <td>8</td>
+                      <td>33</td>
+                      <td>240</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (вентиль)&nbsp;15нж27нж Ду 200</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;600</td>
+                      <td>405</td>
+                      <td>&nbsp;345</td>
+                      <td>&nbsp;285</td>
+                      <td>265</td>
+                      <td>&nbsp;875</td>
+                      <td>3</td>
+                      <td>12</td>
+                      <td>33</td>
+                      <td>397</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан обратный поворотный (затвор обратный) PN 1,6 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "19с76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19с76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19с76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19с76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -40 до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19с76нж
+                </h3>
+                <ol>
+                  <li>Корпус: углеродистая сталь 25Л</li>
+                  <li>Седло: 25Л+20Х13</li>
+                  <li>Диск: 25Л+20Х13</li>
+                  <li>Скоба: 25Л</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 20Х13</li>
+                  <li>Кронштейн: 25Л</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Шпилька: сталь 35</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Рым-болт: сталь 45</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных 19с76нж
+                  (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>&nbsp;14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>&nbsp;23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;55</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>&nbsp;70</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;304</td>
+                      <td>&nbsp;108</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;348</td>
+                      <td>&nbsp;175</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;460</td>
+                      <td>&nbsp;410</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;520</td>
+                      <td>&nbsp;470</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;420</td>
+                      <td>&nbsp;395</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;580</td>
+                      <td>&nbsp;525</td>
+                      <td>&nbsp;482</td>
+                      <td>&nbsp;468</td>
+                      <td>&nbsp;485</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;710</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;850</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;685</td>
+                      <td>&nbsp;620</td>
+                      <td>&nbsp;1190</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;910</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;800</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;1650</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1020</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;905</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;2250</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1255</td>
+                      <td>&nbsp;1170</td>
+                      <td>&nbsp;1110</td>
+                      <td>&nbsp;890</td>
+                      <td>&nbsp;3685</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19лс76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19лс76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19лс76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19лс76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19лс76нж
+                </h3>
+                <ol>
+                  <li>Корпус: Сталь 20ГЛ</li>
+                  <li>Седло: 20ГЛ+08Х18Н10</li>
+                  <li>Диск: 20ГЛ+08Х18Н10</li>
+                  <li>Скоба: 20ГЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: 20ГЛ</li>
+                  <li>Гайка: 25ХМ</li>
+                  <li>Шпилька: 42ХМ</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Рым-болт: 42ХМ</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных 19лс76нж
+                  (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Наименование</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>L</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D1</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>D2</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>H</span>
+                          </strong>
+                        </span>
+                      </th>
+                      <th>
+                        <span>
+                          <strong>
+                            <span>Масса, кг</span>
+                          </strong>
+                        </span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>&nbsp;23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;55</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>&nbsp;70</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;304</td>
+                      <td>&nbsp;108</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;348</td>
+                      <td>&nbsp;175</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;460</td>
+                      <td>&nbsp;410</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;520</td>
+                      <td>&nbsp;470</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;420</td>
+                      <td>&nbsp;395</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;580</td>
+                      <td>&nbsp;525</td>
+                      <td>&nbsp;482</td>
+                      <td>&nbsp;468</td>
+                      <td>&nbsp;485</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;710</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;850</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;685</td>
+                      <td>&nbsp;620</td>
+                      <td>&nbsp;1190</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;910</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;800</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;1650</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1020</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;905</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;2250</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1255</td>
+                      <td>&nbsp;1170</td>
+                      <td>&nbsp;1110</td>
+                      <td>&nbsp;890</td>
+                      <td>&nbsp;3685</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19нж76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19нж76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19нж76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19нж76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19нж76нж
+                </h3>
+                <ol>
+                  <li>Корпус: Сталь 12Х18Н9ТЛ</li>
+                  <li>Седло: 12Х18Н9ТЛ</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Скоба: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: сталь 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Рым-болт: 08Х18Н10</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных 19нж76нж
+                  (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>&nbsp;14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>&nbsp;23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;215</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;245</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>&nbsp;55</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;280</td>
+                      <td>&nbsp;240</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>&nbsp;70</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;295</td>
+                      <td>&nbsp;268</td>
+                      <td>&nbsp;304</td>
+                      <td>&nbsp;108</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;405</td>
+                      <td>&nbsp;355</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;348</td>
+                      <td>&nbsp;175</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;460</td>
+                      <td>&nbsp;410</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;520</td>
+                      <td>&nbsp;470</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;420</td>
+                      <td>&nbsp;395</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;580</td>
+                      <td>&nbsp;525</td>
+                      <td>&nbsp;482</td>
+                      <td>&nbsp;468</td>
+                      <td>&nbsp;485</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;710</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;850</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;685</td>
+                      <td>&nbsp;620</td>
+                      <td>&nbsp;1190</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;910</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;800</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;1650</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1020</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;905</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;2250</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1255</td>
+                      <td>&nbsp;1170</td>
+                      <td>&nbsp;1110</td>
+                      <td>&nbsp;890</td>
+                      <td>&nbsp;3685</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
+      // ОСТАНОВИЛСЯ ТУТ!!!!!
       {
         label: "Клапан обратный поворотный (затвор обратный) PN 2,5 МПа",
         contentLeft: (

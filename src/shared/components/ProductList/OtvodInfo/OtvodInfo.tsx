@@ -8284,14 +8284,14 @@ export function OtvodInfo() {
 
         <div className={styles.productInfoContent}>
           <div className={styles.infoTab}>
-            {activeTab <= 7
+            {activeTab <= 6
               ? tabsInfoProductOtvod[activeTab].content[activeSectionRight]
                   .contentLeft
               : tabsInfoProductOtvod[activeTab].content[activeSectionRight]
                   .subspecies[openSubspecies].subspeciesContent}
 
             <div className={styles.productInfoContentRight}>
-              {activeTab <= 7 ? (
+              {activeTab <= 6 ? (
                 <ul>
                 {tabsInfoProductOtvod[activeTab].content.map((tab, index) => (
                   
