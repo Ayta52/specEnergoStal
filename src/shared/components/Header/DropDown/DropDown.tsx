@@ -53,11 +53,6 @@ export function DropDown( {handleLinkClick, isOpenNavBar, isOpen}: any) {
             </li>
             <li className={styles.dropdownItem}>
               <Link to="/productdescription" onClick={() => handleTabClick(7)}>
-                Опоры
-              </Link>
-            </li>
-            <li className={styles.dropdownItem}>
-              <Link to="/productdescription" onClick={() => handleTabClick(8)}>
                 Запорная арматура
               </Link>
             </li>
@@ -103,11 +98,6 @@ export function DropDown( {handleLinkClick, isOpenNavBar, isOpen}: any) {
             </li>
             <li className={styles.dropdownItem}>
               <Link to="/productdescription" onClick={() => handleTabClick(7)}>
-                Опоры
-              </Link>
-            </li>
-            <li className={styles.dropdownItem}>
-              <Link to="/productdescription" onClick={() => handleTabClick(8)}>
                 Запорная арматура
               </Link>
             </li>

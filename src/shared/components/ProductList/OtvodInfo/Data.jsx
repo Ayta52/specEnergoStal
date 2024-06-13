@@ -19555,36 +19555,1977 @@ const tabsInfoProductOtvod = [
           },
         ],
       },
-      // ОСТАНОВИЛСЯ ТУТ!!!!!
       {
         label: "Клапан обратный поворотный (затвор обратный) PN 2,5 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "19с76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19с76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19с76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19с76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -40 до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19с76нж
+                </h3>
+                <ol>
+                  <li>Корпус: углеродистая сталь 25Л </li>
+                  <li>Седло: 25Л+20Х13</li>
+                  <li>Диск: 25Л+20Х13</li>
+                  <li>Скоба: 25Л</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 20Х13</li>
+                  <li>Кронштейн: 25Л</li>
+                  <li>Гайка: сталь 45</li>
+                  <li>Шпилька: сталь 35</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Рым-болт: сталь 45</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19с76нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>34</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>58</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;304</td>
+                      <td>115</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;348</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;485</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;390</td>
+                      <td>310</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;490</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;420</td>
+                      <td>420</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;610</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;505</td>
+                      <td>&nbsp;468</td>
+                      <td>540</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;660</td>
+                      <td>&nbsp;615</td>
+                      <td>&nbsp;550</td>
+                      <td>905</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;620</td>
+                      <td>1320</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;960</td>
+                      <td>&nbsp;875</td>
+                      <td>&nbsp;820</td>
+                      <td>&nbsp;650</td>
+                      <td>1800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1075</td>
+                      <td>&nbsp;990</td>
+                      <td>&nbsp;930</td>
+                      <td>&nbsp;720</td>
+                      <td>2450</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1315</td>
+                      <td>&nbsp;1210</td>
+                      <td>&nbsp;1140</td>
+                      <td>&nbsp;890</td>
+                      <td>3860</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19лс76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19лс76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19лс76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19лс76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19лс76нж
+                </h3>
+                <ol>
+                  <li>Корпус: Сталь 20ГЛ</li>
+                  <li>Седло: 20ГЛ+08Х18Н10</li>
+                  <li>Диск: 20ГЛ+08Х18Н10</li>
+                  <li>Скоба: 20ГЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: 20ГЛ</li>
+                  <li>Гайка: 25ХМ</li>
+                  <li>Шпилька: 42ХМ</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Рым-болт: 42ХМ</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19лс76нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <span>Наименование</span>
+                      </th>
+                      <th>
+                        <span>L</span>
+                      </th>
+                      <th>
+                        <span>D</span>
+                      </th>
+                      <th>
+                        <span>D1</span>
+                      </th>
+                      <th>
+                        <span>D2</span>
+                      </th>
+                      <th>
+                        <span>H</span>
+                      </th>
+                      <th>
+                        <span>Масса, кг</span>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>34</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>58</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;304</td>
+                      <td>115</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;348</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;485</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;390</td>
+                      <td>310</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;490</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;420</td>
+                      <td>420</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;610</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;505</td>
+                      <td>&nbsp;468</td>
+                      <td>540</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;660</td>
+                      <td>&nbsp;615</td>
+                      <td>&nbsp;550</td>
+                      <td>905</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;620</td>
+                      <td>1320</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;960</td>
+                      <td>&nbsp;875</td>
+                      <td>&nbsp;820</td>
+                      <td>&nbsp;650</td>
+                      <td>1800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1075</td>
+                      <td>&nbsp;990</td>
+                      <td>&nbsp;930</td>
+                      <td>&nbsp;720</td>
+                      <td>2450</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1315</td>
+                      <td>&nbsp;1210</td>
+                      <td>&nbsp;1140</td>
+                      <td>&nbsp;890</td>
+                      <td>3860</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19нж76нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19нж76нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19нж76нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19нж76нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19нж76нж
+                </h3>
+                <ol>
+                  <li>Корпус: Сталь 12Х18Н9ТЛ</li>
+                  <li>Седло: 12Х18Н9ТЛ</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Скоба: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: сталь 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Шпилька 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Рым-болт: 08Х18Н10</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19нж76нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 50</td>
+                      <td>&nbsp;230</td>
+                      <td>160</td>
+                      <td>125</td>
+                      <td>102</td>
+                      <td>135</td>
+                      <td>14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 65</td>
+                      <td>&nbsp;290</td>
+                      <td>&nbsp;180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;122</td>
+                      <td>&nbsp;142</td>
+                      <td>18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 80</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;133</td>
+                      <td>&nbsp;165</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 100</td>
+                      <td>&nbsp;350</td>
+                      <td>&nbsp;230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;158</td>
+                      <td>&nbsp;180</td>
+                      <td>34</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 125</td>
+                      <td>&nbsp;400</td>
+                      <td>&nbsp;270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;184</td>
+                      <td>&nbsp;210</td>
+                      <td>58</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 150</td>
+                      <td>&nbsp;480</td>
+                      <td>&nbsp;300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;212</td>
+                      <td>&nbsp;233</td>
+                      <td>75</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 200</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;360</td>
+                      <td>&nbsp;310</td>
+                      <td>&nbsp;278</td>
+                      <td>&nbsp;304</td>
+                      <td>115</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 250</td>
+                      <td>&nbsp;650</td>
+                      <td>&nbsp;425</td>
+                      <td>&nbsp;370</td>
+                      <td>&nbsp;335</td>
+                      <td>&nbsp;348</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 300</td>
+                      <td>&nbsp;750</td>
+                      <td>&nbsp;485</td>
+                      <td>&nbsp;430</td>
+                      <td>&nbsp;390</td>
+                      <td>&nbsp;390</td>
+                      <td>310</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 350</td>
+                      <td>&nbsp;850</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;490</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;420</td>
+                      <td>420</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 400</td>
+                      <td>&nbsp;950</td>
+                      <td>&nbsp;610</td>
+                      <td>&nbsp;550</td>
+                      <td>&nbsp;505</td>
+                      <td>&nbsp;468</td>
+                      <td>540</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 500</td>
+                      <td>&nbsp;1150</td>
+                      <td>&nbsp;730</td>
+                      <td>&nbsp;660</td>
+                      <td>&nbsp;615</td>
+                      <td>&nbsp;550</td>
+                      <td>905</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 600</td>
+                      <td>&nbsp;1350</td>
+                      <td>&nbsp;840</td>
+                      <td>&nbsp;770</td>
+                      <td>&nbsp;720</td>
+                      <td>&nbsp;620</td>
+                      <td>1320</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 700</td>
+                      <td>&nbsp;1450</td>
+                      <td>&nbsp;960</td>
+                      <td>&nbsp;875</td>
+                      <td>&nbsp;820</td>
+                      <td>&nbsp;650</td>
+                      <td>1800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 800</td>
+                      <td>&nbsp;1650</td>
+                      <td>&nbsp;1075</td>
+                      <td>&nbsp;990</td>
+                      <td>&nbsp;930</td>
+                      <td>&nbsp;720</td>
+                      <td>2450</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж76нж Ду 1000</td>
+                      <td>&nbsp;2050</td>
+                      <td>&nbsp;1315</td>
+                      <td>&nbsp;1210</td>
+                      <td>&nbsp;1140</td>
+                      <td>&nbsp;890</td>
+                      <td>3860</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан обратный поворотный (затвор обратный) PN 4,0 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "19с53нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19с53нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19с53нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19с53нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -40 до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19с53нж
+                </h3>
+                <ol>
+                  <li>Корпус: углеродистая сталь 25Л </li>
+                  <li>Седло: 25Л+20Х13</li>
+                  <li>Диск: 25Л+20Х13</li>
+                  <li>Скоба: 25Л</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 20Х13</li>
+                  <li>Кронштейн: 25Л</li>
+                  <li>Гайка: сталь45</li>
+                  <li>Шпилька: сталь 35</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Рым-болт: сталь 45</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных 19с53нж
+                  (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>135</td>
+                      <td>&nbsp;14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 65</td>
+                      <td>290</td>
+                      <td>180</td>
+                      <td>&nbsp;145</td>
+                      <td>&nbsp;109</td>
+                      <td>142</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 80</td>
+                      <td>310</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>165</td>
+                      <td>&nbsp;24</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 100</td>
+                      <td>350</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>180</td>
+                      <td>&nbsp;36</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 125</td>
+                      <td>400</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>210</td>
+                      <td>&nbsp;63</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 150</td>
+                      <td>480</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>233</td>
+                      <td>&nbsp;80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 200</td>
+                      <td>550</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>304</td>
+                      <td>&nbsp;145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 250</td>
+                      <td>650</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>348</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 300</td>
+                      <td>750</td>
+                      <td>510</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;363</td>
+                      <td>390</td>
+                      <td>&nbsp;390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 350</td>
+                      <td>850</td>
+                      <td>570</td>
+                      <td>&nbsp;510</td>
+                      <td>&nbsp;421</td>
+                      <td>420</td>
+                      <td>&nbsp;530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 400</td>
+                      <td>950</td>
+                      <td>655</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;473</td>
+                      <td>468</td>
+                      <td>&nbsp;635</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 500</td>
+                      <td>1150</td>
+                      <td>755</td>
+                      <td>&nbsp;670</td>
+                      <td>&nbsp;575</td>
+                      <td>550</td>
+                      <td>&nbsp;1150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 600</td>
+                      <td>1350</td>
+                      <td>890</td>
+                      <td>&nbsp;795</td>
+                      <td>&nbsp;677</td>
+                      <td>620</td>
+                      <td>&nbsp;1530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 700</td>
+                      <td>1450</td>
+                      <td>995</td>
+                      <td>&nbsp;900</td>
+                      <td>&nbsp;777</td>
+                      <td>650</td>
+                      <td>&nbsp;2150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с53нж Ду 800</td>
+                      <td>1650</td>
+                      <td>1135</td>
+                      <td>&nbsp;1030</td>
+                      <td>&nbsp;877</td>
+                      <td>720</td>
+                      <td>&nbsp;2880</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19лс53нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19лс53нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19лс53нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19лс53нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19лс53нж
+                </h3>
+                <ol>
+                  <li>Корпус: 20ГЛ</li>
+                  <li>Седло: 20ГЛ+08Х18Н10</li>
+                  <li>Диск: 20ГЛ+08Х18Н10</li>
+                  <li>Скоба: 20ГЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: 20ГЛ</li>
+                  <li>Гайка: 25ХМ</li>
+                  <li>Шпилька: 42ХМ</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Рым-болт: 42ХМ</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19лс53нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>135</td>
+                      <td>&nbsp;14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 65</td>
+                      <td>290</td>
+                      <td>180</td>
+                      <td>&nbsp;142</td>
+                      <td>&nbsp;109</td>
+                      <td>145</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 80</td>
+                      <td>310</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>165</td>
+                      <td>&nbsp;24</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 100</td>
+                      <td>350</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>180</td>
+                      <td>&nbsp;36</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 125</td>
+                      <td>400</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>210</td>
+                      <td>&nbsp;63</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 150</td>
+                      <td>480</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>233</td>
+                      <td>&nbsp;80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 200</td>
+                      <td>550</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>304</td>
+                      <td>&nbsp;145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 250</td>
+                      <td>650</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>348</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 300</td>
+                      <td>750</td>
+                      <td>510</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;363</td>
+                      <td>390</td>
+                      <td>&nbsp;390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 350</td>
+                      <td>850</td>
+                      <td>570</td>
+                      <td>&nbsp;510</td>
+                      <td>&nbsp;421</td>
+                      <td>420</td>
+                      <td>&nbsp;530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 400</td>
+                      <td>950</td>
+                      <td>655</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;473</td>
+                      <td>468</td>
+                      <td>&nbsp;635</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 500</td>
+                      <td>1150</td>
+                      <td>755</td>
+                      <td>&nbsp;670</td>
+                      <td>&nbsp;575</td>
+                      <td>550</td>
+                      <td>&nbsp;1150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 600</td>
+                      <td>1350</td>
+                      <td>890</td>
+                      <td>&nbsp;795</td>
+                      <td>&nbsp;677</td>
+                      <td>620</td>
+                      <td>&nbsp;1530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 700</td>
+                      <td>1450</td>
+                      <td>995</td>
+                      <td>&nbsp;900</td>
+                      <td>&nbsp;777</td>
+                      <td>650</td>
+                      <td>&nbsp;2150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс53нж Ду 800</td>
+                      <td>1850</td>
+                      <td>1135</td>
+                      <td>&nbsp;1030</td>
+                      <td>&nbsp;877</td>
+                      <td>720</td>
+                      <td>&nbsp;2880</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19нж53нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19нж53нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19нж53нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19нж53нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19нж53нж
+                </h3>
+                <ol>
+                  <li>Корпус: 12Х18Н9ТЛ</li>
+                  <li>Седло: 12Х18Н9ТЛ</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Скоба: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: сталь 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Рым-болт: 08Х18Н10</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19нж53нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 50</td>
+                      <td>230</td>
+                      <td>160</td>
+                      <td>&nbsp;125</td>
+                      <td>&nbsp;87</td>
+                      <td>135</td>
+                      <td>&nbsp;14</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 65</td>
+                      <td>290</td>
+                      <td>180</td>
+                      <td>&nbsp;142</td>
+                      <td>&nbsp;109</td>
+                      <td>145</td>
+                      <td>&nbsp;18</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 80</td>
+                      <td>310</td>
+                      <td>195</td>
+                      <td>&nbsp;160</td>
+                      <td>&nbsp;120</td>
+                      <td>165</td>
+                      <td>&nbsp;24</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 100</td>
+                      <td>350</td>
+                      <td>230</td>
+                      <td>&nbsp;190</td>
+                      <td>&nbsp;149</td>
+                      <td>180</td>
+                      <td>&nbsp;36</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 125</td>
+                      <td>400</td>
+                      <td>270</td>
+                      <td>&nbsp;220</td>
+                      <td>&nbsp;175</td>
+                      <td>210</td>
+                      <td>&nbsp;63</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 150</td>
+                      <td>480</td>
+                      <td>300</td>
+                      <td>&nbsp;250</td>
+                      <td>&nbsp;203</td>
+                      <td>233</td>
+                      <td>&nbsp;80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 200</td>
+                      <td>550</td>
+                      <td>375</td>
+                      <td>&nbsp;320</td>
+                      <td>&nbsp;259</td>
+                      <td>304</td>
+                      <td>&nbsp;145</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 250</td>
+                      <td>650</td>
+                      <td>445</td>
+                      <td>&nbsp;385</td>
+                      <td>&nbsp;312</td>
+                      <td>348</td>
+                      <td>&nbsp;280</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 300</td>
+                      <td>750</td>
+                      <td>510</td>
+                      <td>&nbsp;450</td>
+                      <td>&nbsp;363</td>
+                      <td>390</td>
+                      <td>&nbsp;390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 350</td>
+                      <td>850</td>
+                      <td>570</td>
+                      <td>&nbsp;510</td>
+                      <td>&nbsp;421</td>
+                      <td>420</td>
+                      <td>&nbsp;530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 400</td>
+                      <td>950</td>
+                      <td>655</td>
+                      <td>&nbsp;585</td>
+                      <td>&nbsp;473</td>
+                      <td>468</td>
+                      <td>&nbsp;635</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 500</td>
+                      <td>1150</td>
+                      <td>755</td>
+                      <td>&nbsp;670</td>
+                      <td>&nbsp;575</td>
+                      <td>550</td>
+                      <td>&nbsp;1150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 600</td>
+                      <td>1350</td>
+                      <td>890</td>
+                      <td>&nbsp;795</td>
+                      <td>&nbsp;677</td>
+                      <td>620</td>
+                      <td>&nbsp;1530</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 700</td>
+                      <td>1450</td>
+                      <td>995</td>
+                      <td>&nbsp;900</td>
+                      <td>&nbsp;777</td>
+                      <td>650</td>
+                      <td>&nbsp;2150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж53нж Ду 800</td>
+                      <td>1850</td>
+                      <td>1135</td>
+                      <td>&nbsp;1030</td>
+                      <td>&nbsp;877</td>
+                      <td>720</td>
+                      <td>&nbsp;2880</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
       {
         label: "Клапан обратный поворотный (затвор обратный) PN 6,3 МПа",
-        contentLeft: (
-          <div className={styles.productInfoContentLeft}>
-            <h2 className={styles.productInfoTextH2}>
-              Задвижки стальные литые клиновые PN 2,5 МПа
-            </h2>
-          </div>
-        ),
+        subspecies: [
+          {
+            subspeciesLabel: "19c38нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19c38нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19c38нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19c38нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -40 до +450°С</p>
+                <p>Условия эксплуатации: У1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19c38нж
+                </h3>
+                <ol>
+                  <li>Корпус: углеродистая сталь 25Л ГОСТ 977-88</li>
+                  <li>Седло: 25Л+20Х13</li>
+                  <li>Диск: 25Л+20Х13</li>
+                  <li>Скоба: 25Л</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 20Х13</li>
+                  <li>Кронштейн: 25Л</li>
+                  <li>Гайка: сталь45</li>
+                  <li>Шпилька: сталь 35</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 25Л</li>
+                  <li>Рым-болт: сталь 45</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных 19c38нж
+                  (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 50</td>
+                      <td>300</td>
+                      <td>175</td>
+                      <td>135</td>
+                      <td>102</td>
+                      <td>184</td>
+                      <td>32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 65</td>
+                      <td>340</td>
+                      <td>200</td>
+                      <td>160</td>
+                      <td>132</td>
+                      <td>210</td>
+                      <td>41</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 80</td>
+                      <td>380</td>
+                      <td>210</td>
+                      <td>170</td>
+                      <td>133</td>
+                      <td>232</td>
+                      <td>49</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 100</td>
+                      <td>430</td>
+                      <td>250</td>
+                      <td>200</td>
+                      <td>170</td>
+                      <td>263</td>
+                      <td>80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 125</td>
+                      <td>500</td>
+                      <td>295</td>
+                      <td>240</td>
+                      <td>205</td>
+                      <td>295</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 150</td>
+                      <td>550</td>
+                      <td>340</td>
+                      <td>280</td>
+                      <td>240</td>
+                      <td>374</td>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 200</td>
+                      <td>650</td>
+                      <td>405</td>
+                      <td>345</td>
+                      <td>285</td>
+                      <td>426</td>
+                      <td>275</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 250</td>
+                      <td>775</td>
+                      <td>470</td>
+                      <td>400</td>
+                      <td>345</td>
+                      <td>517</td>
+                      <td>390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 300</td>
+                      <td>900</td>
+                      <td>530</td>
+                      <td>460</td>
+                      <td>410</td>
+                      <td>569</td>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 350</td>
+                      <td>1025</td>
+                      <td>595</td>
+                      <td>525</td>
+                      <td>465</td>
+                      <td>622</td>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19с38нж Ду 400</td>
+                      <td>1150</td>
+                      <td>670</td>
+                      <td>585</td>
+                      <td>535</td>
+                      <td>680</td>
+                      <td>990</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19лс38нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19лс38нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19лс38нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19лс38нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +450°С</p>
+                <p>Условия эксплуатации: ХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19лс38нж
+                </h3>
+                <ol>
+                  <li>Корпус: 20ГЛ</li>
+                  <li>Седло: 20ГЛ+08Х18Н10</li>
+                  <li>Диск: 20ГЛ+08Х18Н10</li>
+                  <li>Скоба: 20ГЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: 20ГЛ</li>
+                  <li>Гайка: 25ХМ</li>
+                  <li>Шпилька: 42ХМ</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 20ГЛ</li>
+                  <li>Рым-болт: 42ХМ</li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19лс38нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 50</td>
+                      <td>300</td>
+                      <td>175</td>
+                      <td>135</td>
+                      <td>102</td>
+                      <td>184</td>
+                      <td>32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 65</td>
+                      <td>340</td>
+                      <td>200</td>
+                      <td>160</td>
+                      <td>132</td>
+                      <td>210</td>
+                      <td>41</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 80</td>
+                      <td>380</td>
+                      <td>210</td>
+                      <td>170</td>
+                      <td>133</td>
+                      <td>232</td>
+                      <td>49</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 100</td>
+                      <td>430</td>
+                      <td>250</td>
+                      <td>200</td>
+                      <td>170</td>
+                      <td>263</td>
+                      <td>80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 125</td>
+                      <td>500</td>
+                      <td>295</td>
+                      <td>240</td>
+                      <td>205</td>
+                      <td>295</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 150</td>
+                      <td>550</td>
+                      <td>340</td>
+                      <td>280</td>
+                      <td>240</td>
+                      <td>374</td>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 200</td>
+                      <td>650</td>
+                      <td>405</td>
+                      <td>345</td>
+                      <td>285</td>
+                      <td>426</td>
+                      <td>275</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 250</td>
+                      <td>775</td>
+                      <td>470</td>
+                      <td>400</td>
+                      <td>345</td>
+                      <td>517</td>
+                      <td>390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 300</td>
+                      <td>900</td>
+                      <td>530</td>
+                      <td>460</td>
+                      <td>410</td>
+                      <td>569</td>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 350</td>
+                      <td>1025</td>
+                      <td>595</td>
+                      <td>525</td>
+                      <td>465</td>
+                      <td>622</td>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19лс38нж Ду 400</td>
+                      <td>1150</td>
+                      <td>670</td>
+                      <td>585</td>
+                      <td>535</td>
+                      <td>680</td>
+                      <td>990</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+          {
+            subspeciesLabel: "19нж38нж",
+            subspeciesContent: (
+              <div className={styles.productInfoContentLeft}>
+                <h2 className={styles.productInfoTextH2}>19нж38нж</h2>
+                <h3 className={styles.productInfoText}>
+                  Технические характеристики клапанов обратных поворотных
+                  стальных 19нж38нж
+                </h3>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Показатели назначения клапанов обратных поворотных стальных
+                  19нж38нж
+                </h3>
+                <br />
+                <p>
+                  Рабочая среда: Вода, пар, масло, нефть, неагрессивные жидкие
+                  нефтепродукты, жидкие и газообразные среды, и другие среды по
+                  отношению к которым материалы, применяемые в клапанах,
+                  коррозионостойкие
+                </p>
+
+                <p>Температура рабочей среды: от -60 до +600°С</p>
+                <p>Условия эксплуатации: УХЛ1</p>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Материальное исполнение клапанов обратных поворотных стальных
+                  19нж38нж
+                </h3>
+                <ol>
+                  <li>Корпус: 12Х18Н9ТЛ</li>
+                  <li>Седло: 12Х18Н9ТЛ</li>
+                  <li>Диск: 12Х18Н9ТЛ</li>
+                  <li>Скоба: 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Палец: 08Х18Н10</li>
+                  <li>Кронштейн: сталь 12Х18Н9ТЛ</li>
+                  <li>Гайка: 08Х18Н10</li>
+                  <li>Шпилька: 08Х18Н10</li>
+                  <li>Болт: 08Х18Н10</li>
+                  <li>Прокладка: 08Х18Н10+графит</li>
+                  <li>Крышка: 12Х18Н9ТЛ</li>
+                  <li>Рым-болт: 08Х18Н10 </li>
+                </ol>
+                <br />
+                <h3 className={styles.productInfoText}>
+                  Габаритные размеры клапанов обратных поворотных стальных
+                  19нж38нж (фланец)
+                </h3>
+                <table className={styles.iksweb}>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <strong>
+                          <span>Наименование</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>L</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D1</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>D2</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>H</span>
+                        </strong>
+                      </th>
+                      <th>
+                        <strong>
+                          <span>Масса, кг</span>
+                        </strong>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж Ду 50</td>
+                      <td>300</td>
+                      <td>175</td>
+                      <td>135</td>
+                      <td>102</td>
+                      <td>184</td>
+                      <td>32</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 65</td>
+                      <td>340</td>
+                      <td>200</td>
+                      <td>160</td>
+                      <td>132</td>
+                      <td>210</td>
+                      <td>41</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 80</td>
+                      <td>380</td>
+                      <td>210</td>
+                      <td>170</td>
+                      <td>133</td>
+                      <td>232</td>
+                      <td>49</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 100</td>
+                      <td>430</td>
+                      <td>250</td>
+                      <td>200</td>
+                      <td>170</td>
+                      <td>263</td>
+                      <td>80</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 125</td>
+                      <td>500</td>
+                      <td>295</td>
+                      <td>240</td>
+                      <td>205</td>
+                      <td>295</td>
+                      <td>110</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 150</td>
+                      <td>550</td>
+                      <td>340</td>
+                      <td>280</td>
+                      <td>240</td>
+                      <td>374</td>
+                      <td>150</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 200</td>
+                      <td>650</td>
+                      <td>405</td>
+                      <td>345</td>
+                      <td>285</td>
+                      <td>426</td>
+                      <td>275</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 250</td>
+                      <td>775</td>
+                      <td>470</td>
+                      <td>400</td>
+                      <td>345</td>
+                      <td>517</td>
+                      <td>390</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 300</td>
+                      <td>900</td>
+                      <td>530</td>
+                      <td>460</td>
+                      <td>410</td>
+                      <td>569</td>
+                      <td>600</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 350</td>
+                      <td>1025</td>
+                      <td>595</td>
+                      <td>525</td>
+                      <td>465</td>
+                      <td>622</td>
+                      <td>800</td>
+                    </tr>
+                    <tr>
+                      <td>Клапан (затвор) 19нж38нж&nbsp;Ду 400</td>
+                      <td>1150</td>
+                      <td>670</td>
+                      <td>585</td>
+                      <td>535</td>
+                      <td>680</td>
+                      <td>990</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ),
+          },
+        ],
       },
     ],
   },

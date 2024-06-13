@@ -57,15 +57,9 @@ const productListMass = [
     image: Dno,
     src: "/productdescription",
   },
-  {
-    id: 8,
-    name: "опоры",
-    image: Opora,
-    src: "/productdescription",
-  },
   
   {
-    id: 9,
+    id: 8,
     name: "запорная арматура",
     image: ZapornayaArmatura,
     src: "/productdescription",

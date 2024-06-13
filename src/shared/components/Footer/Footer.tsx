@@ -32,8 +32,7 @@ export function Footer() {
           <Link to="/productdescription" onClick={() => handleTabClick(4)}>Заглушки</Link>
           <Link to="/productdescription" onClick={() => handleTabClick(5)}>Угольники точёные</Link>
           <Link to="/productdescription" onClick={() => handleTabClick(6)}>Днища</Link>
-          <Link to="/productdescription" onClick={() => handleTabClick(7)}>Опоры</Link>
-          <Link className={styles.footerRightLinksProductsLast} to="/productdescription" onClick={() => handleTabClick(8)}>Запорная арматура</Link>
+          <Link className={styles.footerRightLinksProductsLast} to="/productdescription" onClick={() => handleTabClick(7)}>Запорная арматура</Link>
         </div>
       </div>
     </div>
