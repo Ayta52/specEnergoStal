@@ -89,7 +89,7 @@
 }
 
 .productInfoContentLeft {
-    width: 751px;
+    max-width: 751px;
     font-family: 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -109,7 +109,7 @@
     line-height: 25px;
 }
 .productInfoContentLeft .productInfoText{
-    width: 751px;
+    max-width: 751px;
     font-family: 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -117,7 +117,7 @@
     color: #FFFFFF;
 }
 .productInfoContentLeft .productInfoTextH2{
-    width: 751px;
+    max-width: 751px;
     font-family: 'Bebas', 'SansPro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -236,6 +236,8 @@
 	color: #fff;
 	font-weight: normal; }
 
+
+
 @media screen and (max-width: 1024px) and (min-width: 480px){
     .container {
         max-width: 1024px;
@@ -261,6 +263,7 @@
     .container h1{
         padding-bottom: 20px;
     }
+    
 }
 
 @media screen and (max-width: 768px) and (min-width: 480px){
