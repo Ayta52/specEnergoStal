@@ -290,6 +290,14 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px){
+    .iksweb {
+        display: block;
+        overflow-x: scroll;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .container h1{
         font-size: 20px;
